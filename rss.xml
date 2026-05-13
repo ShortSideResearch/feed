@@ -5,13 +5,20 @@
     <link>https://x.com/ShortSideIO</link>
     <description>Daily gapper analysis and short squeeze risk alerts for traders. Independent research on overvalued stocks.</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 13 May 2026 12:01:53 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 13 May 2026 12:02:02 GMT</lastBuildDate>
     <atom:link href="https://shortsideresearch.substack.com/feed" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://pbs.twimg.com/profile_images/ShortSideIO/logo.png</url>
       <title>ShortSide Research</title>
       <link>https://x.com/ShortSideIO</link>
     </image>
+    <item>
+      <title>$OCG +27%</title>
+      <description><![CDATA[📊 $OCG | +27% Pre-Market | Float: 1.90M | Short Float: 9.26% | ⚠️ SQUEEZE RISK: 60%]]></description>
+      <link>https://x.com/ShortSideIO/status/2054532590908940487</link>
+      <guid isPermaLink="true">https://x.com/ShortSideIO/status/2054532590908940487</guid>
+      <pubDate>Wed, 13 May 2026 12:02:02 GMT</pubDate>
+    </item>
     <item>
       <title>$SLS +20%</title>
       <description><![CDATA[📊 $SLS | +20% Pre-Market | Float: 177M | Short Float: 32.23% | ⚠️ SQUEEZE RISK: 60%]]></description>
@@ -354,13 +361,6 @@
       <link>https://x.com/ShortSideIO/status/2052388486267683214</link>
       <guid isPermaLink="true">https://x.com/ShortSideIO/status/2052388486267683214</guid>
       <pubDate>Thu, 07 May 2026 14:02:08 GMT</pubDate>
-    </item>
-    <item>
-      <title>$GLE +66%</title>
-      <description><![CDATA[📊 $GLE +66% | Float: 1.26M (tiny!) | Short Float: 8.05% | Catalyst: Space-to-AI MOU | Squeeze Risk: 75% 🔴]]></description>
-      <link>https://x.com/ShortSideIO/status/2052388448028217493</link>
-      <guid isPermaLink="true">https://x.com/ShortSideIO/status/2052388448028217493</guid>
-      <pubDate>Thu, 07 May 2026 14:01:59 GMT</pubDate>
     </item>
   </channel>
 </rss>
