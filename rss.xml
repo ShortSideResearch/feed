@@ -5,13 +5,20 @@
     <link>https://x.com/ShortSideIO</link>
     <description>Daily gapper analysis and short squeeze risk alerts for traders. Independent research on overvalued stocks.</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 13 May 2026 12:02:02 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 13 May 2026 12:02:07 GMT</lastBuildDate>
     <atom:link href="https://shortsideresearch.substack.com/feed" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://pbs.twimg.com/profile_images/ShortSideIO/logo.png</url>
       <title>ShortSide Research</title>
       <link>https://x.com/ShortSideIO</link>
     </image>
+    <item>
+      <title>$TDIC +30%</title>
+      <description><![CDATA[📊 $TDIC | +30% Pre-Market | Float: 2.95M | Short Float: 5.24% | ⚠️ SQUEEZE RISK: 55%]]></description>
+      <link>https://x.com/ShortSideIO/status/2054532627269406864</link>
+      <guid isPermaLink="true">https://x.com/ShortSideIO/status/2054532627269406864</guid>
+      <pubDate>Wed, 13 May 2026 12:02:07 GMT</pubDate>
+    </item>
     <item>
       <title>$OCG +27%</title>
       <description><![CDATA[📊 $OCG | +27% Pre-Market | Float: 1.90M | Short Float: 9.26% | ⚠️ SQUEEZE RISK: 60%]]></description>
@@ -354,13 +361,6 @@
       <link>https://x.com/ShortSideIO/status/2052388524402278712</link>
       <guid isPermaLink="true">https://x.com/ShortSideIO/status/2052388524402278712</guid>
       <pubDate>Thu, 07 May 2026 14:02:16 GMT</pubDate>
-    </item>
-    <item>
-      <title>$SOBR +83%</title>
-      <description><![CDATA[📊 $SOBR +83% | TOP GAPPER | Float: 1.97M | Short Float: 1.44% | Catalyst: Merger w/ Clean World Ventures | Squeeze Risk: 65% 🟠]]></description>
-      <link>https://x.com/ShortSideIO/status/2052388486267683214</link>
-      <guid isPermaLink="true">https://x.com/ShortSideIO/status/2052388486267683214</guid>
-      <pubDate>Thu, 07 May 2026 14:02:08 GMT</pubDate>
     </item>
   </channel>
 </rss>
