@@ -5,13 +5,20 @@
     <link>https://x.com/ShortSideIO</link>
     <description>Daily gapper analysis and short squeeze risk alerts for traders. Independent research on overvalued stocks.</description>
     <language>en-us</language>
-    <lastBuildDate>Fri, 15 May 2026 14:02:04 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 15 May 2026 14:02:10 GMT</lastBuildDate>
     <atom:link href="https://shortsideresearch.substack.com/feed" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://pbs.twimg.com/profile_images/ShortSideIO/logo.png</url>
       <title>ShortSide Research</title>
       <link>https://x.com/ShortSideIO</link>
     </image>
+    <item>
+      <title>$ORGN +36%</title>
+      <description><![CDATA[📊 $ORGN +36% | Float: 5.07M | SI: 11.48% | Squeeze Risk: 55%]]></description>
+      <link>https://x.com/ShortSideIO/status/2055287612252782801</link>
+      <guid isPermaLink="true">https://x.com/ShortSideIO/status/2055287612252782801</guid>
+      <pubDate>Fri, 15 May 2026 14:02:10 GMT</pubDate>
+    </item>
     <item>
       <title>$PIII +91%</title>
       <description><![CDATA[📊 $PIII +91% | Float: 1.82M | SI: 3.96% | Squeeze Risk: 55%]]></description>
@@ -354,13 +361,6 @@
       <link>https://x.com/ShortSideIO/status/2054170167676936452</link>
       <guid isPermaLink="true">https://x.com/ShortSideIO/status/2054170167676936452</guid>
       <pubDate>Tue, 12 May 2026 12:01:54 GMT</pubDate>
-    </item>
-    <item>
-      <title>$MOBX +35%</title>
-      <description><![CDATA[📊 $MOBX +35% | Mobix Labs 🔴 SHORT FLOAT: 16.12% 📉 Float: 8.66M | MCap: $23.8M ⚡ Catalyst: Defense contracts - F-22, Tomahawk, TSA ⚠️ SQUEEZE RISK: 70%]]></description>
-      <link>https://x.com/ShortSideIO/status/2054170131350028745</link>
-      <guid isPermaLink="true">https://x.com/ShortSideIO/status/2054170131350028745</guid>
-      <pubDate>Tue, 12 May 2026 12:01:45 GMT</pubDate>
     </item>
   </channel>
 </rss>
