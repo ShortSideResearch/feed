@@ -5,13 +5,20 @@
     <link>https://x.com/ShortSideIO</link>
     <description>Daily gapper analysis and short squeeze risk alerts for traders. Independent research on overvalued stocks.</description>
     <language>en-us</language>
-    <lastBuildDate>Fri, 15 May 2026 14:01:56 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 15 May 2026 14:02:04 GMT</lastBuildDate>
     <atom:link href="https://shortsideresearch.substack.com/feed" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://pbs.twimg.com/profile_images/ShortSideIO/logo.png</url>
       <title>ShortSide Research</title>
       <link>https://x.com/ShortSideIO</link>
     </image>
+    <item>
+      <title>$PIII +91%</title>
+      <description><![CDATA[📊 $PIII +91% | Float: 1.82M | SI: 3.96% | Squeeze Risk: 55%]]></description>
+      <link>https://x.com/ShortSideIO/status/2055287578568327483</link>
+      <guid isPermaLink="true">https://x.com/ShortSideIO/status/2055287578568327483</guid>
+      <pubDate>Fri, 15 May 2026 14:02:04 GMT</pubDate>
+    </item>
     <item>
       <title>$TDIC +104%</title>
       <description><![CDATA[📊 $TDIC +104% | Float: 2.95M | SI: 5.24% | Squeeze Risk: 60%]]></description>
@@ -354,13 +361,6 @@
       <link>https://x.com/ShortSideIO/status/2054170131350028745</link>
       <guid isPermaLink="true">https://x.com/ShortSideIO/status/2054170131350028745</guid>
       <pubDate>Tue, 12 May 2026 12:01:45 GMT</pubDate>
-    </item>
-    <item>
-      <title>$QUBT +28%</title>
-      <description><![CDATA[📊 $QUBT +28% | Quantum Computing 🔴 SHORT FLOAT: 30.12% (59.6M shares) 📉 Float: 197.8M | MCap: $2.3B ⚡ Catalyst: Q1 earnings beat, NeuraWave photonic AI platform ⚠️ SQUEEZE RISK: 75%]]></description>
-      <link>https://x.com/ShortSideIO/status/2054170093806842182</link>
-      <guid isPermaLink="true">https://x.com/ShortSideIO/status/2054170093806842182</guid>
-      <pubDate>Tue, 12 May 2026 12:01:36 GMT</pubDate>
     </item>
   </channel>
 </rss>
