@@ -5,13 +5,20 @@
     <link>https://x.com/ShortSideIO</link>
     <description>Daily gapper analysis and short squeeze risk alerts for traders. Independent research on overvalued stocks.</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 18 May 2026 14:02:02 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 18 May 2026 14:02:12 GMT</lastBuildDate>
     <atom:link href="https://shortsideresearch.substack.com/feed" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://pbs.twimg.com/profile_images/ShortSideIO/logo.png</url>
       <title>ShortSide Research</title>
       <link>https://x.com/ShortSideIO</link>
     </image>
+    <item>
+      <title>$NXXT +73%</title>
+      <description><![CDATA[📊 $NXXT +73% | ⚠️ SQUEEZE RISK: 55% | Float: 65.49M | Short Float: 9.84% | SI: 6.44M shares | Catalyst: Q1 rev +29%, gross profit 3x | High SI but larger float provides some buffer]]></description>
+      <link>https://x.com/ShortSideIO/status/2056374768320774177</link>
+      <guid isPermaLink="true">https://x.com/ShortSideIO/status/2056374768320774177</guid>
+      <pubDate>Mon, 18 May 2026 14:02:12 GMT</pubDate>
+    </item>
     <item>
       <title>$GOVX +233%</title>
       <description><![CDATA[📊 $GOVX +233% | ⚠️ SQUEEZE RISK: 70% | Float: 2.89M | Short Float: 8.80% | Catalyst: Ebola outbreak in DRC | Tiny float + meaningful SI + viral catalyst = ELEVATED RISK]]></description>
@@ -354,13 +361,6 @@
       <link>https://x.com/ShortSideIO/status/2054200503458804063</link>
       <guid isPermaLink="true">https://x.com/ShortSideIO/status/2054200503458804063</guid>
       <pubDate>Tue, 12 May 2026 14:02:32 GMT</pubDate>
-    </item>
-    <item>
-      <title>$CNCK +27%</title>
-      <description><![CDATA[📊 $CNCK +27% | Coincheck Group ⚠️ SQUEEZE RISK: 35% SI: 2.06% | Float: 13.8M | MCap: $300M | Catalyst: KDDI $65M investment for 14.9% stake]]></description>
-      <link>https://x.com/ShortSideIO/status/2054200464955085102</link>
-      <guid isPermaLink="true">https://x.com/ShortSideIO/status/2054200464955085102</guid>
-      <pubDate>Tue, 12 May 2026 14:02:17 GMT</pubDate>
     </item>
   </channel>
 </rss>
