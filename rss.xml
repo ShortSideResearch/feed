@@ -5,13 +5,20 @@
     <link>https://x.com/ShortSideIO</link>
     <description>Daily gapper analysis and short squeeze risk alerts for traders. Independent research on overvalued stocks.</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 28 May 2026 12:02:12 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 28 May 2026 12:02:20 GMT</lastBuildDate>
     <atom:link href="https://shortsideresearch.substack.com/feed" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://pbs.twimg.com/profile_images/ShortSideIO/logo.png</url>
       <title>ShortSide Research</title>
       <link>https://x.com/ShortSideIO</link>
     </image>
+    <item>
+      <title>$RKTO +43%</title>
+      <description><![CDATA[📊 $RKTO | +43% PM | Float: 18.57M | SI: 4.33% | Space AI chips pivot | SQUEEZE RISK: 45%]]></description>
+      <link>https://x.com/ShortSideIO/status/2059968486302970298</link>
+      <guid isPermaLink="true">https://x.com/ShortSideIO/status/2059968486302970298</guid>
+      <pubDate>Thu, 28 May 2026 12:02:20 GMT</pubDate>
+    </item>
     <item>
       <title>$ASTC +65%</title>
       <description><![CDATA[📊 $ASTC | +65% PM | Float: 1.38M | SI: 3% | Lunar quantum computing | SQUEEZE RISK: 55%]]></description>
@@ -354,13 +361,6 @@
       <link>https://x.com/ShortSideIO/status/2057824207124222077</link>
       <guid isPermaLink="true">https://x.com/ShortSideIO/status/2057824207124222077</guid>
       <pubDate>Fri, 22 May 2026 14:01:45 GMT</pubDate>
-    </item>
-    <item>
-      <title>$PCLA +156%</title>
-      <description><![CDATA[📊 $PCLA +156% | PicoManager v2 launch ignites rally | Float: 34.14M | SI: 0.02% | Squeeze Risk: 15% | ✅ LOW RISK]]></description>
-      <link>https://x.com/ShortSideIO/status/2057824169895563730</link>
-      <guid isPermaLink="true">https://x.com/ShortSideIO/status/2057824169895563730</guid>
-      <pubDate>Fri, 22 May 2026 14:01:36 GMT</pubDate>
     </item>
   </channel>
 </rss>
