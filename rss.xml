@@ -5,13 +5,20 @@
     <link>https://x.com/ShortSideIO</link>
     <description>Daily gapper analysis and short squeeze risk alerts for traders. Independent research on overvalued stocks.</description>
     <language>en-us</language>
-    <lastBuildDate>Fri, 29 May 2026 12:01:41 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 29 May 2026 12:01:49 GMT</lastBuildDate>
     <atom:link href="https://shortsideresearch.substack.com/feed" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://pbs.twimg.com/profile_images/ShortSideIO/logo.png</url>
       <title>ShortSide Research</title>
       <link>https://x.com/ShortSideIO</link>
     </image>
+    <item>
+      <title>$REPL +45%</title>
+      <description><![CDATA[📊 $REPL | +45% PRE - Strong 3-year IGNYTE survival data for RP1. SI: 31.03% of float (!). Squeeze Risk: 70%]]></description>
+      <link>https://x.com/ShortSideIO/status/2060330734255059275</link>
+      <guid isPermaLink="true">https://x.com/ShortSideIO/status/2060330734255059275</guid>
+      <pubDate>Fri, 29 May 2026 12:01:49 GMT</pubDate>
+    </item>
     <item>
       <title>$PRFX +243%</title>
       <description><![CDATA[📊 $PRFX | +243% PRE - DeepSolar Predict AI launch update. SI: 9.33% of float. Float: 790K. Squeeze Risk: 75%]]></description>
@@ -354,13 +361,6 @@
       <link>https://x.com/ShortSideIO/status/2058881183224643977</link>
       <guid isPermaLink="true">https://x.com/ShortSideIO/status/2058881183224643977</guid>
       <pubDate>Mon, 25 May 2026 12:01:47 GMT</pubDate>
-    </item>
-    <item>
-      <title>$AKTX +93%</title>
-      <description><![CDATA[📊 $AKTX +93% | ⚠️ SQUEEZE RISK: 40% | Float: 1.14M | Short Interest: 1.42% | Catalyst: KRAS cancer data]]></description>
-      <link>https://x.com/ShortSideIO/status/2058881146499260662</link>
-      <guid isPermaLink="true">https://x.com/ShortSideIO/status/2058881146499260662</guid>
-      <pubDate>Mon, 25 May 2026 12:01:39 GMT</pubDate>
     </item>
   </channel>
 </rss>
