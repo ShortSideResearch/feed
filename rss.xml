@@ -5,13 +5,20 @@
     <link>https://x.com/ShortSideIO</link>
     <description>Daily gapper analysis and short squeeze risk alerts for traders. Independent research on overvalued stocks.</description>
     <language>en-us</language>
-    <lastBuildDate>Fri, 29 May 2026 12:01:49 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 29 May 2026 12:01:53 GMT</lastBuildDate>
     <atom:link href="https://shortsideresearch.substack.com/feed" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://pbs.twimg.com/profile_images/ShortSideIO/logo.png</url>
       <title>ShortSide Research</title>
       <link>https://x.com/ShortSideIO</link>
     </image>
+    <item>
+      <title>$STG +114%</title>
+      <description><![CDATA[📊 $STG | +114% PRE - $50M share repurchase + asset disposal. SI: 0.02% (minimal). Squeeze Risk: 25%]]></description>
+      <link>https://x.com/ShortSideIO/status/2060330770644771309</link>
+      <guid isPermaLink="true">https://x.com/ShortSideIO/status/2060330770644771309</guid>
+      <pubDate>Fri, 29 May 2026 12:01:53 GMT</pubDate>
+    </item>
     <item>
       <title>$REPL +45%</title>
       <description><![CDATA[📊 $REPL | +45% PRE - Strong 3-year IGNYTE survival data for RP1. SI: 31.03% of float (!). Squeeze Risk: 70%]]></description>
@@ -354,13 +361,6 @@
       <link>https://x.com/ShortSideIO/status/2058881220201590818</link>
       <guid isPermaLink="true">https://x.com/ShortSideIO/status/2058881220201590818</guid>
       <pubDate>Mon, 25 May 2026 12:01:54 GMT</pubDate>
-    </item>
-    <item>
-      <title>$PCLA +170%</title>
-      <description><![CDATA[📊 $PCLA +170% | TOP GAPPER | Float: 34.14M | Short Interest: 0.02% | Catalyst: PicoManager v2 launch]]></description>
-      <link>https://x.com/ShortSideIO/status/2058881183224643977</link>
-      <guid isPermaLink="true">https://x.com/ShortSideIO/status/2058881183224643977</guid>
-      <pubDate>Mon, 25 May 2026 12:01:47 GMT</pubDate>
     </item>
   </channel>
 </rss>
