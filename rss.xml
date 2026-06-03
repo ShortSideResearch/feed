@@ -5,13 +5,20 @@
     <link>https://x.com/ShortSideIO</link>
     <description>Daily gapper analysis and short squeeze risk alerts for traders. Independent research on overvalued stocks.</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 03 Jun 2026 12:02:11 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 03 Jun 2026 12:02:20 GMT</lastBuildDate>
     <atom:link href="https://shortsideresearch.substack.com/feed" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://pbs.twimg.com/profile_images/ShortSideIO/logo.png</url>
       <title>ShortSide Research</title>
       <link>https://x.com/ShortSideIO</link>
     </image>
+    <item>
+      <title>$SDOT +66%</title>
+      <description><![CDATA[📊 $SDOT +66% | 🟠 MODERATE RISK 40% | SI: 1.12% | Float: 0.69M | Catalyst: $12M Tradewell acquisition]]></description>
+      <link>https://x.com/ShortSideIO/status/2062142811680493661</link>
+      <guid isPermaLink="true">https://x.com/ShortSideIO/status/2062142811680493661</guid>
+      <pubDate>Wed, 03 Jun 2026 12:02:20 GMT</pubDate>
+    </item>
     <item>
       <title>$WCT +104%</title>
       <description><![CDATA[📊 $WCT +104% | 🟠 MODERATE RISK 45% | SI: 0.71% | Float: 0.85M | No clear catalyst - low-float momentum]]></description>
@@ -354,13 +361,6 @@
       <link>https://x.com/ShortSideIO/status/2059998450129776965</link>
       <guid isPermaLink="true">https://x.com/ShortSideIO/status/2059998450129776965</guid>
       <pubDate>Thu, 28 May 2026 14:01:38 GMT</pubDate>
-    </item>
-    <item>
-      <title>$RCAT +29%</title>
-      <description><![CDATA[📊 $RCAT +29% | Red Cat Holdings - SQUEEZE RISK: 90% - Short Float: 26.64%, SI: 28.69M shares - WSJ Pentagon drone funding talks]]></description>
-      <link>https://x.com/ShortSideIO/status/2059998425337180337</link>
-      <guid isPermaLink="true">https://x.com/ShortSideIO/status/2059998425337180337</guid>
-      <pubDate>Thu, 28 May 2026 14:01:37 GMT</pubDate>
     </item>
   </channel>
 </rss>
