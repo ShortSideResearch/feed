@@ -5,13 +5,20 @@
     <link>https://x.com/ShortSideIO</link>
     <description>Daily gapper analysis and short squeeze risk alerts for traders. Independent research on overvalued stocks.</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 03 Jun 2026 14:02:15 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 03 Jun 2026 14:02:25 GMT</lastBuildDate>
     <atom:link href="https://shortsideresearch.substack.com/feed" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://pbs.twimg.com/profile_images/ShortSideIO/logo.png</url>
       <title>ShortSide Research</title>
       <link>https://x.com/ShortSideIO</link>
     </image>
+    <item>
+      <title>$DEVS +39%</title>
+      <description><![CDATA[📊 $DEVS +39% | Squeeze Risk: 30% | Float: 5.9M | Short Interest: 2.69% | Catalyst: 3-party merger confirmed (XCF Global + Southern Energy) | Carbon credits play]]></description>
+      <link>https://x.com/ShortSideIO/status/2062173029229056159</link>
+      <guid isPermaLink="true">https://x.com/ShortSideIO/status/2062173029229056159</guid>
+      <pubDate>Wed, 03 Jun 2026 14:02:25 GMT</pubDate>
+    </item>
     <item>
       <title>$WCT +112%</title>
       <description><![CDATA[📊 $WCT +112% | Squeeze Risk: 20% | Float: 0.85M (TINY) | Short Interest: 0.71% (low) | ⚠️ No clear catalyst | ⚠️ Recent 1:50 R/S March 6]]></description>
@@ -354,13 +361,6 @@
       <link>https://x.com/ShortSideIO/status/2060330770644771309</link>
       <guid isPermaLink="true">https://x.com/ShortSideIO/status/2060330770644771309</guid>
       <pubDate>Fri, 29 May 2026 12:01:53 GMT</pubDate>
-    </item>
-    <item>
-      <title>$REPL +45%</title>
-      <description><![CDATA[📊 $REPL | +45% PRE - Strong 3-year IGNYTE survival data for RP1. SI: 31.03% of float (!). Squeeze Risk: 70%]]></description>
-      <link>https://x.com/ShortSideIO/status/2060330734255059275</link>
-      <guid isPermaLink="true">https://x.com/ShortSideIO/status/2060330734255059275</guid>
-      <pubDate>Fri, 29 May 2026 12:01:49 GMT</pubDate>
     </item>
   </channel>
 </rss>
