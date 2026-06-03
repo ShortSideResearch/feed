@@ -5,13 +5,20 @@
     <link>https://x.com/ShortSideIO</link>
     <description>Daily gapper analysis and short squeeze risk alerts for traders. Independent research on overvalued stocks.</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 03 Jun 2026 12:02:29 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 03 Jun 2026 12:02:37 GMT</lastBuildDate>
     <atom:link href="https://shortsideresearch.substack.com/feed" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://pbs.twimg.com/profile_images/ShortSideIO/logo.png</url>
       <title>ShortSide Research</title>
       <link>https://x.com/ShortSideIO</link>
     </image>
+    <item>
+      <title>$PMI +29%</title>
+      <description><![CDATA[📊 $PMI +29% | 🟢 LOWER RISK 25% | SI: 1.55% | Float: 30.65M | Catalyst: Emperor TAH preclinical success]]></description>
+      <link>https://x.com/ShortSideIO/status/2062142885160464839</link>
+      <guid isPermaLink="true">https://x.com/ShortSideIO/status/2062142885160464839</guid>
+      <pubDate>Wed, 03 Jun 2026 12:02:37 GMT</pubDate>
+    </item>
     <item>
       <title>$NCT +23%</title>
       <description><![CDATA[📊 $NCT +23% | 🟡 LOWER RISK 35% | SI: 0.53% | Float: 0.32M | No news - retail momentum]]></description>
@@ -354,13 +361,6 @@
       <link>https://x.com/ShortSideIO/status/2059998500331434216</link>
       <guid isPermaLink="true">https://x.com/ShortSideIO/status/2059998500331434216</guid>
       <pubDate>Thu, 28 May 2026 14:01:41 GMT</pubDate>
-    </item>
-    <item>
-      <title>$SPRC +208%</title>
-      <description><![CDATA[📊 $SPRC +208% | SciSparc - SQUEEZE RISK: 75% - Float: 570K (TINY) - NeuroThera $9.5M CliniQuantum acquisition]]></description>
-      <link>https://x.com/ShortSideIO/status/2059998477296214427</link>
-      <guid isPermaLink="true">https://x.com/ShortSideIO/status/2059998477296214427</guid>
-      <pubDate>Thu, 28 May 2026 14:01:39 GMT</pubDate>
     </item>
   </channel>
 </rss>
