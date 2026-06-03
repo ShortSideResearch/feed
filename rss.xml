@@ -5,13 +5,20 @@
     <link>https://x.com/ShortSideIO</link>
     <description>Daily gapper analysis and short squeeze risk alerts for traders. Independent research on overvalued stocks.</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 03 Jun 2026 14:01:57 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 03 Jun 2026 14:02:07 GMT</lastBuildDate>
     <atom:link href="https://shortsideresearch.substack.com/feed" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://pbs.twimg.com/profile_images/ShortSideIO/logo.png</url>
       <title>ShortSide Research</title>
       <link>https://x.com/ShortSideIO</link>
     </image>
+    <item>
+      <title>$SDOT +124%</title>
+      <description><![CDATA[📊 $SDOT +124% | Squeeze Risk: 25% | Float: 0.69M (TINY) | Short Interest: 1.12% (low) | Catalyst: $12M acquisition of Tradewell/TradeOS platform | ⚠️ Recent 1:20 R/S May 22]]></description>
+      <link>https://x.com/ShortSideIO/status/2062172953006030888</link>
+      <guid isPermaLink="true">https://x.com/ShortSideIO/status/2062172953006030888</guid>
+      <pubDate>Wed, 03 Jun 2026 14:02:07 GMT</pubDate>
+    </item>
     <item>
       <title>$LASE +78%</title>
       <description><![CDATA[📊 $LASE +78% | ⚠️ SQUEEZE RISK: 55% | Float: 24.6M | Short Interest: 7.23% | Catalyst: Dept of War selected anti-drone system (MEIA Vulcan program) | RSI 92 = overbought]]></description>
@@ -354,13 +361,6 @@
       <link>https://x.com/ShortSideIO/status/2060330698766979569</link>
       <guid isPermaLink="true">https://x.com/ShortSideIO/status/2060330698766979569</guid>
       <pubDate>Fri, 29 May 2026 12:01:41 GMT</pubDate>
-    </item>
-    <item>
-      <title>$OLOX +110%</title>
-      <description><![CDATA[📊 $OLOX | +110% PRE - CS Digital acquisition for crypto/AI data centers. SI: 14.69% of float. Float: 740K. Squeeze Risk: 85%]]></description>
-      <link>https://x.com/ShortSideIO/status/2060330664637907005</link>
-      <guid isPermaLink="true">https://x.com/ShortSideIO/status/2060330664637907005</guid>
-      <pubDate>Fri, 29 May 2026 12:01:32 GMT</pubDate>
     </item>
   </channel>
 </rss>
