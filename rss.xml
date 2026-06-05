@@ -5,13 +5,20 @@
     <link>https://x.com/ShortSideIO</link>
     <description>Daily gapper analysis and short squeeze risk alerts for traders. Independent research on overvalued stocks.</description>
     <language>en-us</language>
-    <lastBuildDate>Fri, 05 Jun 2026 14:02:00 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 05 Jun 2026 14:02:05 GMT</lastBuildDate>
     <atom:link href="https://shortsideresearch.substack.com/feed" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://pbs.twimg.com/profile_images/ShortSideIO/logo.png</url>
       <title>ShortSide Research</title>
       <link>https://x.com/ShortSideIO</link>
     </image>
+    <item>
+      <title>$SMTK +53%</title>
+      <description><![CDATA[📊 $SMTK +53% | Post-Open Alert - Float: 17.39M, Short Interest: 2.66%, No clear catalyst. Squeeze Risk: 30%]]></description>
+      <link>https://x.com/ShortSideIO/status/2062897738887405934</link>
+      <guid isPermaLink="true">https://x.com/ShortSideIO/status/2062897738887405934</guid>
+      <pubDate>Fri, 05 Jun 2026 14:02:05 GMT</pubDate>
+    </item>
     <item>
       <title>$BCDA +72%</title>
       <description><![CDATA[📊 $BCDA +72% | Post-Open Alert - Float: 8.04M, Short Interest: 3.06%, Catalyst: FDA confirms CardiAMP HF II may support PMA. Squeeze Risk: 40%]]></description>
@@ -354,13 +361,6 @@
       <link>https://x.com/ShortSideIO/status/2061780645580320795</link>
       <guid isPermaLink="true">https://x.com/ShortSideIO/status/2061780645580320795</guid>
       <pubDate>Tue, 02 Jun 2026 12:03:18 GMT</pubDate>
-    </item>
-    <item>
-      <title>$SOAR +50%</title>
-      <description><![CDATA[📊 $SOAR | +50% pre-market - Volato Group, Gold tokenization LOI with Aurica, 8.45% SI. Squeeze Risk: 55%]]></description>
-      <link>https://x.com/ShortSideIO/status/2061780610964664659</link>
-      <guid isPermaLink="true">https://x.com/ShortSideIO/status/2061780610964664659</guid>
-      <pubDate>Tue, 02 Jun 2026 12:03:04 GMT</pubDate>
     </item>
   </channel>
 </rss>
