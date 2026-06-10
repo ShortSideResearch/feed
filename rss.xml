@@ -5,13 +5,20 @@
     <link>https://x.com/ShortSideIO</link>
     <description>Daily gapper analysis and short squeeze risk alerts for traders. Independent research on overvalued stocks.</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 10 Jun 2026 14:02:09 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 10 Jun 2026 14:02:10 GMT</lastBuildDate>
     <atom:link href="https://shortsideresearch.substack.com/feed" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://pbs.twimg.com/profile_images/ShortSideIO/logo.png</url>
       <title>ShortSide Research</title>
       <link>https://x.com/ShortSideIO</link>
     </image>
+    <item>
+      <title>$FLD +80%</title>
+      <description><![CDATA[📊 $FLD +80% | Float: 7.37M | SI: 6.46% | SQUEEZE RISK: 55%]]></description>
+      <link>https://x.com/ShortSideIO/status/2064709659739496681</link>
+      <guid isPermaLink="true">https://x.com/ShortSideIO/status/2064709659739496681</guid>
+      <pubDate>Wed, 10 Jun 2026 14:02:10 GMT</pubDate>
+    </item>
     <item>
       <title>$HKIT +82%</title>
       <description><![CDATA[📊 $HKIT +82% | Float: 340K | SI: 8% | SQUEEZE RISK: 70%]]></description>
@@ -354,13 +361,6 @@
       <link>https://x.com/ShortSideIO/status/2062505316059648185</link>
       <guid isPermaLink="true">https://x.com/ShortSideIO/status/2062505316059648185</guid>
       <pubDate>Thu, 04 Jun 2026 12:02:49 GMT</pubDate>
-    </item>
-    <item>
-      <title>$VIVK +77%</title>
-      <description><![CDATA[📊 $VIVK | +77% PM - Oil & Gas Logistics - No clear catalyst, approach with caution]]></description>
-      <link>https://x.com/ShortSideIO/status/2062505274003320994</link>
-      <guid isPermaLink="true">https://x.com/ShortSideIO/status/2062505274003320994</guid>
-      <pubDate>Thu, 04 Jun 2026 12:02:39 GMT</pubDate>
     </item>
   </channel>
 </rss>
