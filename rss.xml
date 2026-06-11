@@ -5,13 +5,20 @@
     <link>https://x.com/ShortSideIO</link>
     <description>Daily gapper analysis and short squeeze risk alerts for traders. Independent research on overvalued stocks.</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 11 Jun 2026 12:01:44 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 11 Jun 2026 12:01:53 GMT</lastBuildDate>
     <atom:link href="https://shortsideresearch.substack.com/feed" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://pbs.twimg.com/profile_images/ShortSideIO/logo.png</url>
       <title>ShortSide Research</title>
       <link>https://x.com/ShortSideIO</link>
     </image>
+    <item>
+      <title>$QH +106%</title>
+      <description><![CDATA[📊 $QH | +106% Pre-Market | Float: Micro | SI: 0.01M | Catalyst: No news - retail momentum | ⚠️ Squeeze Risk: 80%]]></description>
+      <link>https://x.com/ShortSideIO/status/2065041799735808061</link>
+      <guid isPermaLink="true">https://x.com/ShortSideIO/status/2065041799735808061</guid>
+      <pubDate>Thu, 11 Jun 2026 12:01:53 GMT</pubDate>
+    </item>
     <item>
       <title>$CCHH +179%</title>
       <description><![CDATA[📊 $CCHH | +179% Pre-Market | Float: 4.14M | SI: 0.59% | Catalyst: No clear news | ⚠️ Squeeze Risk: 65%]]></description>
@@ -354,13 +361,6 @@
       <link>https://x.com/ShortSideIO/status/2062535265353113974</link>
       <guid isPermaLink="true">https://x.com/ShortSideIO/status/2062535265353113974</guid>
       <pubDate>Thu, 04 Jun 2026 14:01:48 GMT</pubDate>
-    </item>
-    <item>
-      <title>$CXAI +74%</title>
-      <description><![CDATA[📊 $CXAI +74% | AI Acquisition | Float: 60M | SI: 10.87% | Catalyst: Acquired EngineRoom - tripling revenue to $12M ARR | SQUEEZE RISK: 55%]]></description>
-      <link>https://x.com/ShortSideIO/status/2062535230930502049</link>
-      <guid isPermaLink="true">https://x.com/ShortSideIO/status/2062535230930502049</guid>
-      <pubDate>Thu, 04 Jun 2026 14:01:39 GMT</pubDate>
     </item>
   </channel>
 </rss>
