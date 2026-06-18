@@ -474,7 +474,7 @@
         <a href="#sample">Sample</a>
         <a href="#pricing">Pricing</a>
         <a href="https://x.com/ShortSideIO" target="_blank">@ShortSideIO</a>
-        <a href="#signup" class="btn btn-primary">Start Free Trial</a>
+        <a href="https://buy.stripe.com/test_eVq5kwbMO2gJdX8dQFeQM00" class="btn btn-primary">Start Free Trial</a>
       </nav>
     </div>
   </header>
@@ -483,7 +483,7 @@
     <h1>Stop Getting <span>Squeezed</span> on Small-Cap Shorts</h1>
     <p>Pre-market squeeze risk analysis delivered to your inbox at 7:30 AM EST. Know which gappers to avoid before the market opens.</p>
     <div class="hero-cta">
-      <a href="#signup" class="btn btn-primary">Start 30-Day Free Trial</a>
+      <a href="https://buy.stripe.com/test_eVq5kwbMO2gJdX8dQFeQM00" class="btn btn-primary">Start 30-Day Free Trial</a>
       <a href="#sample" class="btn btn-secondary">See Sample Newsletter</a>
     </div>
     <div class="hero-stats">
@@ -628,27 +628,23 @@
         <li>Weekly short thesis reports</li>
         <li>Cancel anytime — no questions asked</li>
       </ul>
-      <a href="#signup" class="btn btn-primary" style="width: 100%; text-align: center;">Start Free Trial →</a>
+      <a href="https://buy.stripe.com/test_eVq5kwbMO2gJdX8dQFeQM00" class="btn btn-primary" style="width: 100%; text-align: center;">Start Free Trial →</a>
     </div>
   </section>
 
   <section class="signup-form" id="signup">
     <div class="form-container">
-      <h2>Start Your Free Trial</h2>
-      <p>Get 30 days of full access. No credit card required to start.</p>
-      <form id="signup-form" action="https://formsubmit.co/shortsideresearch.io@gmail.com" method="POST">
-        <input type="email" name="email" placeholder="Enter your email" required>
-        <input type="text" name="name" placeholder="Your name (optional)">
-        <input type="hidden" name="_subject" value="🎉 New Newsletter Signup">
-        <input type="hidden" name="_next" value="https://shortsideresearch.github.io/feed/landing/thanks.html">
-        <input type="hidden" name="_captcha" value="false">
-        <input type="hidden" name="_template" value="table">
-        <button type="submit" class="btn btn-primary">Start Free Trial →</button>
-      </form>
-      <p class="form-note">We'll send your first newsletter tomorrow morning. Unsubscribe anytime.</p>
-      <div class="success-message" id="success-message">
-        <h3>🎉 You're in!</h3>
-        <p>Check your inbox for a welcome email. Your first newsletter arrives tomorrow at 7:30 AM EST.</p>
+      <h2>Ready to Stop Getting Squeezed?</h2>
+      <p>Start your 30-day free trial. Cancel anytime — no questions asked.</p>
+      <a href="https://buy.stripe.com/test_eVq5kwbMO2gJdX8dQFeQM00" class="btn btn-primary" style="width: 100%; text-align: center; padding: 18px 32px; font-size: 18px; margin-bottom: 16px;">Start Free Trial — $0 for 30 Days</a>
+      <p class="form-note">Then $12.99/month. Cancel anytime before trial ends to avoid charges.</p>
+      <div style="margin-top: 32px; padding-top: 24px; border-top: 1px solid #2a2a3e;">
+        <p style="color: #666; font-size: 14px; margin-bottom: 16px;">🔒 Secure checkout powered by Stripe</p>
+        <div style="display: flex; gap: 16px; justify-content: center; opacity: 0.6;">
+          <span>💳 Visa</span>
+          <span>💳 Mastercard</span>
+          <span>💳 Amex</span>
+        </div>
       </div>
     </div>
   </section>
@@ -663,42 +659,15 @@
   </footer>
 
   <script>
-    const BREVO_API = 'https://api.brevo.com/v3/contacts';
-    
-    document.getElementById('signup-form').addEventListener('submit', async function(e) {
-      e.preventDefault();
-      
-      const email = this.email.value;
-      const name = this.name.value || '';
-      const submitBtn = this.querySelector('button');
-      
-      submitBtn.disabled = true;
-      submitBtn.textContent = 'Signing up...';
-      
-      try {
-        // Add to Brevo trial list
-        const response = await fetch('https://hook.us1.make.com/shortsideresearch-signup', {
-          method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({ 
-            email, 
-            name,
-            trial_start: new Date().toISOString(),
-            trial_end: new Date(Date.now() + 30*24*60*60*1000).toISOString()
-          })
-        });
-      } catch (err) {
-        // Silent fail - form will still show success
-      }
-      
-      // Show success regardless (we'll manually add them)
-      this.style.display = 'none';
-      document.getElementById('success-message').style.display = 'block';
-      
-      // Store locally for backup
-      const signups = JSON.parse(localStorage.getItem('signups') || '[]');
-      signups.push({ email, name, date: new Date().toISOString() });
-      localStorage.setItem('signups', JSON.stringify(signups));
+    // Smooth scroll for anchor links
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        const target = document.querySelector(this.getAttribute('href'));
+        if (target) {
+          target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+      });
     });
   </script>
 </body>
