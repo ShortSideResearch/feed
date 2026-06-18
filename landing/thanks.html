@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welcome to ShortSide Research!</title>
+  <link rel="icon" type="image/png" href="https://shortsideresearch.github.io/feed/logo.png">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'Inter', -apple-system, sans-serif;
+      background: linear-gradient(135deg, #1a1a2e 0%, #0a0a0f 100%);
+      color: #e0e0e0;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 24px;
+    }
+    .container {
+      max-width: 500px;
+      text-align: center;
+    }
+    .logo {
+      width: 80px;
+      margin-bottom: 32px;
+    }
+    h1 {
+      font-size: 36px;
+      color: #fff;
+      margin-bottom: 16px;
+    }
+    h1 span { color: #5B95BE; }
+    p {
+      color: #888;
+      font-size: 18px;
+      margin-bottom: 24px;
+      line-height: 1.6;
+    }
+    .checklist {
+      background: rgba(91, 149, 190, 0.1);
+      border: 1px solid #5B95BE;
+      border-radius: 12px;
+      padding: 24px;
+      margin: 32px 0;
+      text-align: left;
+    }
+    .checklist h3 {
+      color: #5B95BE;
+      margin-bottom: 16px;
+    }
+    .checklist li {
+      list-style: none;
+      padding: 8px 0;
+      color: #ccc;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+    .checklist li::before {
+      content: "✓";
+      color: #28A745;
+      font-weight: bold;
+    }
+    .btn {
+      display: inline-block;
+      padding: 14px 28px;
+      background: #5B95BE;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: 600;
+      margin: 8px;
+      transition: all 0.2s;
+    }
+    .btn:hover {
+      background: #4a84ad;
+      transform: translateY(-2px);
+    }
+    .btn-outline {
+      background: transparent;
+      border: 2px solid #5B95BE;
+      color: #5B95BE;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img src="https://shortsideresearch.github.io/feed/logo.png" alt="ShortSide" class="logo">
+    <h1>You're <span>In!</span> 🎉</h1>
+    <p>Your 30-day free trial starts now. Check your inbox for a welcome email.</p>
+    
+    <div class="checklist">
+      <h3>What happens next:</h3>
+      <ul>
+        <li>Tomorrow 7:30 AM EST — Your first pre-market newsletter</li>
+        <li>Every weekday — Fresh gapper analysis before market open</li>
+        <li>4 PM daily — Recap showing how predictions played out</li>
+        <li>Day 30 — Option to subscribe ($12.99/mo) or cancel</li>
+      </ul>
+    </div>
+    
+    <p>While you wait, follow us for real-time updates:</p>
+    <a href="https://x.com/ShortSideIO" target="_blank" class="btn">Follow @ShortSideIO</a>
+    <a href="https://shortsideresearch.github.io/landing/" class="btn btn-outline">Back to Home</a>
+  </div>
+</body>
+</html>

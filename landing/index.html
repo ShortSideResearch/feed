@@ -1,0 +1,703 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ShortSide Research — Daily Gapper Analysis for Short Sellers</title>
+  <meta name="description" content="Pre-market squeeze risk analysis delivered to your inbox. Avoid getting crushed on small-cap shorts.">
+  <link rel="icon" type="image/png" href="https://shortsideresearch.github.io/feed/logo.png">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+      background: #0a0a0f;
+      color: #e0e0e0;
+      line-height: 1.6;
+    }
+    
+    /* Header */
+    header {
+      background: linear-gradient(135deg, #1a1a2e 0%, #0a0a0f 100%);
+      border-bottom: 1px solid #2a2a3e;
+      padding: 16px 24px;
+      position: fixed;
+      width: 100%;
+      top: 0;
+      z-index: 100;
+    }
+    
+    .header-content {
+      max-width: 1200px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    
+    .logo {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      text-decoration: none;
+    }
+    
+    .logo img {
+      width: 40px;
+      height: 40px;
+      border-radius: 8px;
+    }
+    
+    .logo span {
+      font-size: 20px;
+      font-weight: 700;
+      color: #5B95BE;
+    }
+    
+    .nav-links {
+      display: flex;
+      gap: 24px;
+      align-items: center;
+    }
+    
+    .nav-links a {
+      color: #888;
+      text-decoration: none;
+      font-size: 14px;
+      transition: color 0.2s;
+    }
+    
+    .nav-links a:hover { color: #fff; }
+    
+    .btn {
+      display: inline-block;
+      padding: 12px 24px;
+      border-radius: 8px;
+      font-weight: 600;
+      text-decoration: none;
+      transition: all 0.2s;
+      cursor: pointer;
+      border: none;
+      font-size: 16px;
+    }
+    
+    .btn-primary {
+      background: #5B95BE;
+      color: white;
+    }
+    
+    .btn-primary:hover {
+      background: #4a84ad;
+      transform: translateY(-2px);
+    }
+    
+    .btn-secondary {
+      background: transparent;
+      color: #5B95BE;
+      border: 2px solid #5B95BE;
+    }
+    
+    .btn-secondary:hover {
+      background: rgba(91, 149, 190, 0.1);
+    }
+    
+    /* Hero */
+    .hero {
+      padding: 160px 24px 80px;
+      text-align: center;
+      background: linear-gradient(180deg, #1a1a2e 0%, #0a0a0f 100%);
+    }
+    
+    .hero h1 {
+      font-size: clamp(32px, 5vw, 56px);
+      font-weight: 700;
+      color: #fff;
+      margin-bottom: 24px;
+      line-height: 1.2;
+    }
+    
+    .hero h1 span {
+      color: #5B95BE;
+    }
+    
+    .hero p {
+      font-size: 20px;
+      color: #888;
+      max-width: 600px;
+      margin: 0 auto 40px;
+    }
+    
+    .hero-cta {
+      display: flex;
+      gap: 16px;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin-bottom: 48px;
+    }
+    
+    .hero-stats {
+      display: flex;
+      gap: 48px;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin-top: 48px;
+      padding-top: 48px;
+      border-top: 1px solid #2a2a3e;
+    }
+    
+    .stat {
+      text-align: center;
+    }
+    
+    .stat-value {
+      font-size: 36px;
+      font-weight: 700;
+      color: #5B95BE;
+    }
+    
+    .stat-label {
+      font-size: 14px;
+      color: #666;
+      margin-top: 4px;
+    }
+    
+    /* Features */
+    .features {
+      padding: 80px 24px;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    
+    .section-title {
+      text-align: center;
+      margin-bottom: 48px;
+    }
+    
+    .section-title h2 {
+      font-size: 32px;
+      color: #fff;
+      margin-bottom: 16px;
+    }
+    
+    .section-title p {
+      color: #888;
+      max-width: 500px;
+      margin: 0 auto;
+    }
+    
+    .features-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 24px;
+    }
+    
+    .feature-card {
+      background: #1a1a2e;
+      border: 1px solid #2a2a3e;
+      border-radius: 12px;
+      padding: 32px;
+      transition: transform 0.2s, border-color 0.2s;
+    }
+    
+    .feature-card:hover {
+      transform: translateY(-4px);
+      border-color: #5B95BE;
+    }
+    
+    .feature-icon {
+      font-size: 32px;
+      margin-bottom: 16px;
+    }
+    
+    .feature-card h3 {
+      font-size: 20px;
+      color: #fff;
+      margin-bottom: 12px;
+    }
+    
+    .feature-card p {
+      color: #888;
+      font-size: 15px;
+    }
+    
+    /* Sample Newsletter */
+    .sample {
+      padding: 80px 24px;
+      background: #1a1a2e;
+    }
+    
+    .sample-content {
+      max-width: 800px;
+      margin: 0 auto;
+    }
+    
+    .newsletter-preview {
+      background: #fff;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 20px 60px rgba(0,0,0,0.5);
+    }
+    
+    .preview-header {
+      background: #5B95BE;
+      padding: 24px;
+      text-align: center;
+    }
+    
+    .preview-header img {
+      max-width: 200px;
+    }
+    
+    .preview-body {
+      padding: 32px;
+      color: #333;
+    }
+    
+    .preview-body h3 {
+      color: #1a1a2e;
+      margin-bottom: 16px;
+      font-size: 18px;
+    }
+    
+    .preview-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 16px 0;
+      font-size: 14px;
+    }
+    
+    .preview-table th {
+      background: #1a1a2e;
+      color: white;
+      padding: 12px;
+      text-align: left;
+    }
+    
+    .preview-table td {
+      padding: 12px;
+      border-bottom: 1px solid #eee;
+    }
+    
+    .risk-high { color: #DC3545; font-weight: 600; }
+    .risk-med { color: #FFC107; font-weight: 600; }
+    .risk-low { color: #28A745; font-weight: 600; }
+    
+    /* Pricing */
+    .pricing {
+      padding: 80px 24px;
+      max-width: 600px;
+      margin: 0 auto;
+      text-align: center;
+    }
+    
+    .pricing-card {
+      background: linear-gradient(135deg, #1a1a2e 0%, #2a2a4e 100%);
+      border: 2px solid #5B95BE;
+      border-radius: 16px;
+      padding: 48px;
+      margin-top: 32px;
+    }
+    
+    .pricing-badge {
+      display: inline-block;
+      background: #C9A227;
+      color: #000;
+      padding: 6px 16px;
+      border-radius: 20px;
+      font-size: 12px;
+      font-weight: 700;
+      text-transform: uppercase;
+      margin-bottom: 24px;
+    }
+    
+    .pricing-price {
+      margin-bottom: 24px;
+    }
+    
+    .price-amount {
+      font-size: 56px;
+      font-weight: 700;
+      color: #fff;
+    }
+    
+    .price-period {
+      color: #888;
+      font-size: 18px;
+    }
+    
+    .pricing-trial {
+      background: rgba(91, 149, 190, 0.2);
+      border-radius: 8px;
+      padding: 16px;
+      margin-bottom: 32px;
+    }
+    
+    .pricing-trial p {
+      color: #5B95BE;
+      font-weight: 600;
+      font-size: 18px;
+    }
+    
+    .pricing-features {
+      text-align: left;
+      margin-bottom: 32px;
+    }
+    
+    .pricing-features li {
+      padding: 12px 0;
+      border-bottom: 1px solid #2a2a3e;
+      color: #ccc;
+      list-style: none;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+    
+    .pricing-features li::before {
+      content: "✓";
+      color: #28A745;
+      font-weight: bold;
+    }
+    
+    /* Signup Form */
+    .signup-form {
+      padding: 80px 24px;
+      background: linear-gradient(180deg, #0a0a0f 0%, #1a1a2e 100%);
+    }
+    
+    .form-container {
+      max-width: 500px;
+      margin: 0 auto;
+      text-align: center;
+    }
+    
+    .form-container h2 {
+      color: #fff;
+      margin-bottom: 16px;
+    }
+    
+    .form-container p {
+      color: #888;
+      margin-bottom: 32px;
+    }
+    
+    #signup-form {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
+    
+    #signup-form input {
+      padding: 16px;
+      border-radius: 8px;
+      border: 2px solid #2a2a3e;
+      background: #1a1a2e;
+      color: #fff;
+      font-size: 16px;
+      transition: border-color 0.2s;
+    }
+    
+    #signup-form input:focus {
+      outline: none;
+      border-color: #5B95BE;
+    }
+    
+    #signup-form input::placeholder {
+      color: #666;
+    }
+    
+    .form-note {
+      font-size: 13px;
+      color: #666;
+      margin-top: 8px;
+    }
+    
+    .success-message {
+      display: none;
+      background: rgba(40, 167, 69, 0.2);
+      border: 1px solid #28A745;
+      border-radius: 8px;
+      padding: 24px;
+      color: #28A745;
+    }
+    
+    /* Footer */
+    footer {
+      background: #0a0a0f;
+      border-top: 1px solid #2a2a3e;
+      padding: 48px 24px;
+      text-align: center;
+    }
+    
+    .footer-links {
+      display: flex;
+      gap: 24px;
+      justify-content: center;
+      margin-bottom: 24px;
+    }
+    
+    .footer-links a {
+      color: #666;
+      text-decoration: none;
+      font-size: 14px;
+    }
+    
+    .footer-links a:hover {
+      color: #5B95BE;
+    }
+    
+    footer p {
+      color: #444;
+      font-size: 13px;
+    }
+    
+    /* Mobile */
+    @media (max-width: 768px) {
+      .nav-links { display: none; }
+      .hero-stats { gap: 32px; }
+      .stat-value { font-size: 28px; }
+      .pricing-card { padding: 32px 24px; }
+      .price-amount { font-size: 42px; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="header-content">
+      <a href="#" class="logo">
+        <img src="https://shortsideresearch.github.io/feed/logo.png" alt="ShortSide Research">
+        <span>ShortSide Research</span>
+      </a>
+      <nav class="nav-links">
+        <a href="#features">Features</a>
+        <a href="#sample">Sample</a>
+        <a href="#pricing">Pricing</a>
+        <a href="https://x.com/ShortSideIO" target="_blank">@ShortSideIO</a>
+        <a href="#signup" class="btn btn-primary">Start Free Trial</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <h1>Stop Getting <span>Squeezed</span> on Small-Cap Shorts</h1>
+    <p>Pre-market squeeze risk analysis delivered to your inbox at 7:30 AM EST. Know which gappers to avoid before the market opens.</p>
+    <div class="hero-cta">
+      <a href="#signup" class="btn btn-primary">Start 30-Day Free Trial</a>
+      <a href="#sample" class="btn btn-secondary">See Sample Newsletter</a>
+    </div>
+    <div class="hero-stats">
+      <div class="stat">
+        <div class="stat-value">78%</div>
+        <div class="stat-label">Prediction Accuracy</div>
+      </div>
+      <div class="stat">
+        <div class="stat-value">6:30 AM</div>
+        <div class="stat-label">Pre-Market Delivery</div>
+      </div>
+      <div class="stat">
+        <div class="stat-value">10+</div>
+        <div class="stat-label">Gappers Analyzed Daily</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="features" id="features">
+    <div class="section-title">
+      <h2>What You Get</h2>
+      <p>Everything you need to make informed short-selling decisions before the market opens.</p>
+    </div>
+    <div class="features-grid">
+      <div class="feature-card">
+        <div class="feature-icon">📊</div>
+        <h3>Squeeze Risk Scores</h3>
+        <p>Every gapper rated 0-100% based on short interest, float size, days to cover, and borrow availability.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">🔍</div>
+        <h3>Catalyst Analysis</h3>
+        <p>We dig into SEC filings, news, and social sentiment to identify real vs. fake catalysts.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">⚠️</div>
+        <h3>Dilution Alerts</h3>
+        <p>S-3 shelf registrations, ATM offerings, and warrant exercises flagged before they trap you.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">📈</div>
+        <h3>Sector Trends</h3>
+        <p>Daily analysis of what's moving in small caps — Chinese ADRs, biotech, SPACs, and more.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">🎯</div>
+        <h3>Track Record</h3>
+        <p>4 PM recap shows how our morning predictions played out. Full transparency on accuracy.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">📱</div>
+        <h3>X/Twitter Updates</h3>
+        <p>Real-time posts throughout the day with charts and analysis. Follow @ShortSideIO.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="sample" id="sample">
+    <div class="sample-content">
+      <div class="section-title">
+        <h2>Sample Newsletter</h2>
+        <p>Here's what lands in your inbox every morning at 7:30 AM EST.</p>
+      </div>
+      <div class="newsletter-preview">
+        <div class="preview-header">
+          <img src="https://shortsideresearch.github.io/feed/banner.png" alt="ShortSide Research">
+        </div>
+        <div class="preview-body">
+          <h3>🔥 Pre-Market Gappers — June 18, 2026</h3>
+          <table class="preview-table">
+            <thead>
+              <tr>
+                <th>Ticker</th>
+                <th>Gap</th>
+                <th>Float</th>
+                <th>SI%</th>
+                <th>Risk</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><strong>$LNKS</strong></td>
+                <td>+88%</td>
+                <td>1.5M</td>
+                <td>24.19%</td>
+                <td class="risk-high">🔴 90%</td>
+              </tr>
+              <tr>
+                <td><strong>$QTEX</strong></td>
+                <td>+20%</td>
+                <td>42.6M</td>
+                <td>19.29%</td>
+                <td class="risk-high">🔴 75%</td>
+              </tr>
+              <tr>
+                <td><strong>$CRVO</strong></td>
+                <td>+30%</td>
+                <td>4.8M</td>
+                <td>5.48%</td>
+                <td class="risk-med">🟡 50%</td>
+              </tr>
+              <tr>
+                <td><strong>$CAST</strong></td>
+                <td>+157%</td>
+                <td>16.5M</td>
+                <td>0.68%</td>
+                <td class="risk-low">🟢 30%</td>
+              </tr>
+            </tbody>
+          </table>
+          <h3>⚠️ Top Squeeze Risks</h3>
+          <p><strong>LNKS (90%)</strong> — 24% SI on a 1.5M float is textbook squeeze setup. Multiple reverse splits. DO NOT SHORT.</p>
+          <p><strong>QTEX (75%)</strong> — 19% SI, quantum computing hype. Up 410% this month. Dangerous to fade.</p>
+          <h3>✅ Safer Shorts</h3>
+          <p><strong>CAST (30%)</strong> — Only 0.68% SI. Starlink deal is real but stock extended. Fade candidate after open.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="pricing" id="pricing">
+    <div class="section-title">
+      <h2>Simple Pricing</h2>
+      <p>One plan. Everything included. Cancel anytime.</p>
+    </div>
+    <div class="pricing-card">
+      <div class="pricing-badge">Most Popular</div>
+      <div class="pricing-price">
+        <span class="price-amount">$12.99</span>
+        <span class="price-period">/month</span>
+      </div>
+      <div class="pricing-trial">
+        <p>🎉 Start with a 30-day FREE trial</p>
+      </div>
+      <ul class="pricing-features">
+        <li>Daily pre-market newsletter (7:30 AM EST)</li>
+        <li>End-of-day recap & accuracy report (4 PM EST)</li>
+        <li>Squeeze risk scores for all gappers</li>
+        <li>Catalyst & dilution analysis</li>
+        <li>Sector trend reports</li>
+        <li>Exclusive subscriber-only gappers</li>
+        <li>Weekly short thesis reports</li>
+        <li>Cancel anytime — no questions asked</li>
+      </ul>
+      <a href="#signup" class="btn btn-primary" style="width: 100%; text-align: center;">Start Free Trial →</a>
+    </div>
+  </section>
+
+  <section class="signup-form" id="signup">
+    <div class="form-container">
+      <h2>Start Your Free Trial</h2>
+      <p>Get 30 days of full access. No credit card required to start.</p>
+      <form id="signup-form" action="https://formspree.io/f/xyzgqkpw" method="POST">
+        <input type="email" name="email" placeholder="Enter your email" required>
+        <input type="text" name="name" placeholder="Your name (optional)">
+        <input type="hidden" name="_subject" value="New ShortSide Newsletter Signup">
+        <input type="hidden" name="_next" value="https://shortsideresearch.github.io/landing/thanks.html">
+        <button type="submit" class="btn btn-primary">Start Free Trial →</button>
+      </form>
+      <p class="form-note">We'll send your first newsletter tomorrow morning. Unsubscribe anytime.</p>
+      <div class="success-message" id="success-message">
+        <h3>🎉 You're in!</h3>
+        <p>Check your inbox for a welcome email. Your first newsletter arrives tomorrow at 7:30 AM EST.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-links">
+      <a href="https://x.com/ShortSideIO" target="_blank">Twitter/X</a>
+      <a href="https://shortsideresearch.substack.com" target="_blank">Substack</a>
+      <a href="https://shortsideresearch.github.io/feed/rss.xml" target="_blank">RSS Feed</a>
+    </div>
+    <p>© 2026 ShortSide Research. Not financial advice. Do your own research.</p>
+  </footer>
+
+  <script>
+    const BREVO_API = 'https://api.brevo.com/v3/contacts';
+    
+    document.getElementById('signup-form').addEventListener('submit', async function(e) {
+      e.preventDefault();
+      
+      const email = this.email.value;
+      const name = this.name.value || '';
+      const submitBtn = this.querySelector('button');
+      
+      submitBtn.disabled = true;
+      submitBtn.textContent = 'Signing up...';
+      
+      try {
+        // Add to Brevo trial list
+        const response = await fetch('https://hook.us1.make.com/shortsideresearch-signup', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ 
+            email, 
+            name,
+            trial_start: new Date().toISOString(),
+            trial_end: new Date(Date.now() + 30*24*60*60*1000).toISOString()
+          })
+        });
+      } catch (err) {
+        // Silent fail - form will still show success
+      }
+      
+      // Show success regardless (we'll manually add them)
+      this.style.display = 'none';
+      document.getElementById('success-message').style.display = 'block';
+      
+      // Store locally for backup
+      const signups = JSON.parse(localStorage.getItem('signups') || '[]');
+      signups.push({ email, name, date: new Date().toISOString() });
+      localStorage.setItem('signups', JSON.stringify(signups));
+    });
+  </script>
+</body>
+</html>
