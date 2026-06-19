@@ -258,6 +258,214 @@
     .preview-body h3 {
       color: #1a1a2e;
       margin-bottom: 16px;
+    }
+    
+    .preview-body h4 {
+      color: #1a1a2e;
+      margin: 24px 0 12px;
+      font-size: 16px;
+    }
+    
+    .preview-date {
+      color: #888;
+      font-size: 14px;
+      margin-bottom: 16px;
+      padding-bottom: 12px;
+      border-bottom: 1px solid #eee;
+    }
+    
+    /* Sample Tabs */
+    .sample-tabs {
+      display: flex;
+      gap: 8px;
+      margin-bottom: 24px;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    
+    .sample-tab {
+      padding: 12px 20px;
+      background: #1a1a2e;
+      border: 2px solid #2a2a3e;
+      border-radius: 8px;
+      color: #888;
+      font-size: 14px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+    
+    .sample-tab:hover {
+      border-color: #5B95BE;
+      color: #fff;
+    }
+    
+    .sample-tab.active {
+      background: #5B95BE;
+      border-color: #5B95BE;
+      color: #fff;
+    }
+    
+    .sample-panel {
+      display: none;
+    }
+    
+    .sample-panel.active {
+      display: block;
+    }
+    
+    .sample-nav {
+      display: flex;
+      justify-content: center;
+      gap: 8px;
+      margin-top: 16px;
+    }
+    
+    .sample-dot {
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      background: #2a2a3e;
+      cursor: pointer;
+    }
+    
+    .sample-dot.active {
+      background: #5B95BE;
+    }
+    
+    /* Gapper Cards */
+    .gapper-card {
+      background: #f8f9fa;
+      border-radius: 8px;
+      padding: 20px;
+      margin: 16px 0;
+      border-left: 4px solid #ccc;
+    }
+    
+    .risk-high-card { border-left-color: #DC3545; }
+    .risk-low-card { border-left-color: #28A745; }
+    
+    .gapper-header {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin-bottom: 12px;
+      flex-wrap: wrap;
+    }
+    
+    .gapper-ticker {
+      font-size: 20px;
+      font-weight: 700;
+      color: #5B95BE;
+    }
+    
+    .gapper-change {
+      font-size: 18px;
+      font-weight: 600;
+      color: #28A745;
+    }
+    
+    .risk-badge {
+      padding: 4px 12px;
+      border-radius: 20px;
+      font-size: 12px;
+      font-weight: 700;
+    }
+    
+    .risk-badge.risk-high { background: #f8d7da; color: #DC3545; }
+    .risk-badge.risk-low { background: #d4edda; color: #28A745; }
+    
+    .gapper-details {
+      font-size: 14px;
+      color: #666;
+    }
+    
+    .detail-row {
+      display: flex;
+      gap: 16px;
+      margin-bottom: 8px;
+      flex-wrap: wrap;
+    }
+    
+    .gapper-catalyst, .gapper-notes {
+      margin-top: 8px;
+      line-height: 1.5;
+    }
+    
+    /* Accuracy Box */
+    .accuracy-box {
+      background: linear-gradient(135deg, #28A745 0%, #20c997 100%);
+      border-radius: 12px;
+      padding: 24px;
+      text-align: center;
+      margin: 20px 0;
+    }
+    
+    .accuracy-score {
+      font-size: 48px;
+      font-weight: 700;
+      color: #fff;
+    }
+    
+    .accuracy-label {
+      color: rgba(255,255,255,0.9);
+      font-size: 14px;
+    }
+    
+    .insight-box {
+      background: #fff3cd;
+      border-radius: 8px;
+      padding: 16px;
+      margin-top: 20px;
+      color: #856404;
+      line-height: 1.6;
+    }
+    
+    /* Trend Sections */
+    .trend-section {
+      background: #f8f9fa;
+      border-radius: 8px;
+      padding: 16px;
+      margin: 12px 0;
+    }
+    
+    .trend-section h4 {
+      margin: 0 0 8px 0 !important;
+    }
+    
+    .trend-section p {
+      margin: 0;
+      font-size: 14px;
+      line-height: 1.6;
+    }
+    
+    .themes-list {
+      margin-top: 16px;
+    }
+    
+    .theme-item {
+      display: flex;
+      gap: 12px;
+      padding: 12px;
+      background: #f8f9fa;
+      border-radius: 8px;
+      margin: 8px 0;
+    }
+    
+    .theme-icon {
+      font-size: 20px;
+    }
+    
+    .theme-item strong {
+      color: #1a1a2e;
+      display: block;
+      margin-bottom: 4px;
+    }
+    
+    .theme-item p {
+      margin: 0;
+      font-size: 13px;
+      color: #666;
       font-size: 18px;
     }
     
@@ -545,63 +753,254 @@
   <section class="sample" id="sample">
     <div class="sample-content">
       <div class="section-title">
-        <h2>Sample Newsletter</h2>
-        <p>Here's what lands in your inbox every morning at 7:30 AM EST.</p>
+        <h2>Sample Newsletters</h2>
+        <p>See exactly what you'll receive — real examples from recent editions.</p>
       </div>
-      <div class="newsletter-preview">
-        <div class="preview-header">
-          <img src="https://shortsideresearch.github.io/feed/banner.png" alt="ShortSide Research">
+      
+      <!-- Sample Tabs -->
+      <div class="sample-tabs">
+        <button class="sample-tab active" data-tab="gappers">📊 Pre-Market Gappers</button>
+        <button class="sample-tab" data-tab="analysis">🎯 Full Analysis</button>
+        <button class="sample-tab" data-tab="recap">📈 Risk Recap</button>
+        <button class="sample-tab" data-tab="trends">🔥 Sector Trends</button>
+      </div>
+      
+      <!-- Tab: Pre-Market Gappers -->
+      <div class="sample-panel active" id="panel-gappers">
+        <div class="newsletter-preview">
+          <div class="preview-header">
+            <img src="https://shortsideresearch.github.io/feed/banner.png" alt="ShortSide Research">
+          </div>
+          <div class="preview-body">
+            <div class="preview-date">June 18, 2026 | Pre-Market Newsletter</div>
+            <h3>🔥 Top Pre-Market Gappers</h3>
+            <table class="preview-table">
+              <thead>
+                <tr>
+                  <th>Ticker</th>
+                  <th>Gap</th>
+                  <th>Float</th>
+                  <th>SI%</th>
+                  <th>Risk</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><strong>$LNKS</strong></td>
+                  <td>+88%</td>
+                  <td>1.5M</td>
+                  <td>24.19%</td>
+                  <td class="risk-high">🔴 90%</td>
+                </tr>
+                <tr>
+                  <td><strong>$QTEX</strong></td>
+                  <td>+20%</td>
+                  <td>42.6M</td>
+                  <td>19.29%</td>
+                  <td class="risk-high">🔴 75%</td>
+                </tr>
+                <tr>
+                  <td><strong>$CRVO</strong></td>
+                  <td>+30%</td>
+                  <td>4.8M</td>
+                  <td>5.48%</td>
+                  <td class="risk-med">🟡 50%</td>
+                </tr>
+                <tr>
+                  <td><strong>$CAST</strong></td>
+                  <td>+157%</td>
+                  <td>16.5M</td>
+                  <td>0.68%</td>
+                  <td class="risk-low">🟢 30%</td>
+                </tr>
+              </tbody>
+            </table>
+            <h3>⚠️ Top Squeeze Risks</h3>
+            <p><strong>LNKS (90%)</strong> — 24% SI on a 1.5M float is textbook squeeze setup. Multiple reverse splits. DO NOT SHORT.</p>
+            <p><strong>QTEX (75%)</strong> — 19% SI, quantum computing hype. Up 410% this month. Dangerous to fade.</p>
+          </div>
         </div>
-        <div class="preview-body">
-          <h3>🔥 Pre-Market Gappers — June 18, 2026</h3>
-          <table class="preview-table">
-            <thead>
-              <tr>
-                <th>Ticker</th>
-                <th>Gap</th>
-                <th>Float</th>
-                <th>SI%</th>
-                <th>Risk</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td><strong>$LNKS</strong></td>
-                <td>+88%</td>
-                <td>1.5M</td>
-                <td>24.19%</td>
-                <td class="risk-high">🔴 90%</td>
-              </tr>
-              <tr>
-                <td><strong>$QTEX</strong></td>
-                <td>+20%</td>
-                <td>42.6M</td>
-                <td>19.29%</td>
-                <td class="risk-high">🔴 75%</td>
-              </tr>
-              <tr>
-                <td><strong>$CRVO</strong></td>
-                <td>+30%</td>
-                <td>4.8M</td>
-                <td>5.48%</td>
-                <td class="risk-med">🟡 50%</td>
-              </tr>
-              <tr>
-                <td><strong>$CAST</strong></td>
-                <td>+157%</td>
-                <td>16.5M</td>
-                <td>0.68%</td>
-                <td class="risk-low">🟢 30%</td>
-              </tr>
-            </tbody>
-          </table>
-          <h3>⚠️ Top Squeeze Risks</h3>
-          <p><strong>LNKS (90%)</strong> — 24% SI on a 1.5M float is textbook squeeze setup. Multiple reverse splits. DO NOT SHORT.</p>
-          <p><strong>QTEX (75%)</strong> — 19% SI, quantum computing hype. Up 410% this month. Dangerous to fade.</p>
-          <h3>✅ Safer Shorts</h3>
-          <p><strong>CAST (30%)</strong> — Only 0.68% SI. Starlink deal is real but stock extended. Fade candidate after open.</p>
+        <div class="sample-nav">
+          <span class="sample-dot active"></span>
+          <span class="sample-dot"></span>
+          <span class="sample-dot"></span>
         </div>
       </div>
+      
+      <!-- Tab: Full Analysis -->
+      <div class="sample-panel" id="panel-analysis">
+        <div class="newsletter-preview">
+          <div class="preview-header">
+            <img src="https://shortsideresearch.github.io/feed/banner.png" alt="ShortSide Research">
+          </div>
+          <div class="preview-body">
+            <div class="preview-date">June 17, 2026 | Full Analysis</div>
+            <h3>🔥 Top Pre-Market Gappers — Full Analysis</h3>
+            
+            <div class="gapper-card risk-high-card">
+              <div class="gapper-header">
+                <span class="gapper-ticker">$QURE</span>
+                <span class="gapper-change">+70%</span>
+                <span class="risk-badge risk-high">85% RISK</span>
+              </div>
+              <div class="gapper-details">
+                <div class="detail-row">
+                  <span>Float: 56.6M</span>
+                  <span>SI: 19.62%</span>
+                  <span>DTC: 6.36</span>
+                </div>
+                <div class="gapper-catalyst">
+                  <strong>Catalyst:</strong> FDA BLA submission for hemophilia gene therapy
+                </div>
+                <div class="gapper-notes">
+                  <strong>⚠️ Analysis:</strong> High SI + real FDA catalyst = deadly squeeze setup. 6+ days to cover means shorts can't exit quickly. Biotech momentum can sustain for days. DO NOT SHORT.
+                </div>
+              </div>
+            </div>
+            
+            <div class="gapper-card risk-low-card">
+              <div class="gapper-header">
+                <span class="gapper-ticker">$CLWT</span>
+                <span class="gapper-change">+153%</span>
+                <span class="risk-badge risk-low">35% RISK</span>
+              </div>
+              <div class="gapper-details">
+                <div class="detail-row">
+                  <span>Float: 8.2M</span>
+                  <span>SI: 2.1%</span>
+                  <span>DTC: 0.3</span>
+                </div>
+                <div class="gapper-catalyst">
+                  <strong>Catalyst:</strong> Norway water treatment partnership
+                </div>
+                <div class="gapper-notes">
+                  <strong>✅ Analysis:</strong> Low SI, quick days-to-cover. Partnership news is real but stock already extended 150%+. Classic fade candidate after initial momentum fades. Watch for entry after 10 AM.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Tab: Risk Recap -->
+      <div class="sample-panel" id="panel-recap">
+        <div class="newsletter-preview">
+          <div class="preview-header">
+            <img src="https://shortsideresearch.github.io/feed/banner.png" alt="ShortSide Research">
+          </div>
+          <div class="preview-body">
+            <div class="preview-date">June 17, 2026 | 4 PM Recap</div>
+            <h3>🎯 Risk Analysis: What Worked Today</h3>
+            
+            <div class="accuracy-box">
+              <div class="accuracy-score">100%</div>
+              <div class="accuracy-label">Prediction Accuracy (7/7)</div>
+            </div>
+            
+            <h4>✅ High Risk Warnings — CORRECT</h4>
+            <table class="preview-table">
+              <thead>
+                <tr>
+                  <th>Ticker</th>
+                  <th>Our Risk</th>
+                  <th>Outcome</th>
+                  <th>Result</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><strong>$QURE</strong></td>
+                  <td class="risk-high">85%</td>
+                  <td>+83% intraday</td>
+                  <td style="color: #28A745;">✅ SQUEEZED</td>
+                </tr>
+                <tr>
+                  <td><strong>$YMAT</strong></td>
+                  <td class="risk-high">70%</td>
+                  <td>+144% intraday</td>
+                  <td style="color: #28A745;">✅ SQUEEZED</td>
+                </tr>
+              </tbody>
+            </table>
+            
+            <h4>✅ Low Risk Calls — CORRECT</h4>
+            <table class="preview-table">
+              <tbody>
+                <tr>
+                  <td><strong>$CLWT</strong></td>
+                  <td class="risk-low">35%</td>
+                  <td>-35% from open</td>
+                  <td style="color: #28A745;">✅ FADED</td>
+                </tr>
+                <tr>
+                  <td><strong>$CLPT</strong></td>
+                  <td class="risk-low">30%</td>
+                  <td>-6% from open</td>
+                  <td style="color: #28A745;">✅ FADED</td>
+                </tr>
+              </tbody>
+            </table>
+            
+            <div class="insight-box">
+              <strong>Key Insight:</strong> Biotech FDA catalysts + high SI = deadly squeeze setup. QURE shorts got destroyed. Meanwhile, low-SI Chinese names faded perfectly — shorts who followed our guidance banked profits.
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Tab: Sector Trends -->
+      <div class="sample-panel" id="panel-trends">
+        <div class="newsletter-preview">
+          <div class="preview-header">
+            <img src="https://shortsideresearch.github.io/feed/banner.png" alt="ShortSide Research">
+          </div>
+          <div class="preview-body">
+            <div class="preview-date">June 18, 2026 | Market Analysis</div>
+            
+            <h3>📈 Small Cap Sector Trends</h3>
+            <div class="trend-section">
+              <h4>🇨🇳 Chinese ADRs Dominating Again</h4>
+              <p>WTO, JZXN, BYAH leading the gapper list — classic low-float pump patterns. No real catalysts, pure retail momentum. These rarely hold past Day 1. Historical pattern: Gap 50%+ pre-market → squeeze first hour → fade by close.</p>
+            </div>
+            
+            <div class="trend-section">
+              <h4>🧬 Biotech Mixed</h4>
+              <p>QURE gapping on FDA BLA submission — real catalyst with institutional interest. INDP fading on speculation. Market wants proof, not promises. Focus on names with actual data readouts.</p>
+            </div>
+            
+            <div class="trend-section">
+              <h4>⚡ Energy/Clean Tech</h4>
+              <p>WPRT showing strength on Volvo hydrogen deal. Real partnerships = more sustainable moves. These can run multiple days unlike pump-and-dumps.</p>
+            </div>
+            
+            <h3>📅 Weekly Themes Playing Out</h3>
+            <div class="themes-list">
+              <div class="theme-item">
+                <span class="theme-icon">🔴</span>
+                <div>
+                  <strong>Low-float Chinese names</strong>
+                  <p>Pump Monday/Tuesday, dump by Friday. Don't hold overnight. Size down significantly.</p>
+                </div>
+              </div>
+              <div class="theme-item">
+                <span class="theme-icon">🟢</span>
+                <div>
+                  <strong>Defense/Government contracts</strong>
+                  <p>Showing multi-day holds when catalyst is real. CTM, DFNS patterns suggest institutions accumulating.</p>
+                </div>
+              </div>
+              <div class="theme-item">
+                <span class="theme-icon">🟡</span>
+                <div>
+                  <strong>Post-R/S names</strong>
+                  <p>Extreme volatility on tiny floats. SDOT, LNKS type setups — untouchable for size. Day trade only.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
     </div>
   </section>
 
@@ -668,6 +1067,20 @@
         if (target) {
           target.scrollIntoView({ behavior: 'smooth', block: 'start' });
         }
+      });
+    });
+    
+    // Sample tabs functionality
+    document.querySelectorAll('.sample-tab').forEach(tab => {
+      tab.addEventListener('click', function() {
+        // Remove active from all tabs and panels
+        document.querySelectorAll('.sample-tab').forEach(t => t.classList.remove('active'));
+        document.querySelectorAll('.sample-panel').forEach(p => p.classList.remove('active'));
+        
+        // Activate clicked tab and corresponding panel
+        this.classList.add('active');
+        const panelId = 'panel-' + this.dataset.tab;
+        document.getElementById(panelId).classList.add('active');
       });
     });
   </script>
