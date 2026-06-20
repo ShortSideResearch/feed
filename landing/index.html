@@ -1,0 +1,1199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ShortSide Research — Daily Gapper Analysis for Short Sellers</title>
+  <meta name="description" content="Pre-market squeeze risk analysis delivered to your inbox. Avoid getting crushed on small-cap shorts.">
+  <link rel="icon" type="image/png" href="https://shortsideresearch.github.io/feed/logo.png">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+      background: #0a0a0f;
+      color: #e0e0e0;
+      line-height: 1.6;
+    }
+    
+    /* Header */
+    header {
+      background: linear-gradient(135deg, #1a1a2e 0%, #0a0a0f 100%);
+      border-bottom: 1px solid #2a2a3e;
+      padding: 16px 24px;
+      position: fixed;
+      width: 100%;
+      top: 0;
+      z-index: 100;
+    }
+    
+    .header-content {
+      max-width: 1200px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    
+    .logo {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      text-decoration: none;
+    }
+    
+    .logo img {
+      width: 40px;
+      height: 40px;
+      border-radius: 8px;
+    }
+    
+    .logo span {
+      font-size: 20px;
+      font-weight: 700;
+      color: #5B95BE;
+    }
+    
+    .nav-links {
+      display: flex;
+      gap: 24px;
+      align-items: center;
+    }
+    
+    .nav-links a {
+      color: #888;
+      text-decoration: none;
+      font-size: 14px;
+      transition: color 0.2s;
+    }
+    
+    .nav-links a:hover { color: #fff; }
+    
+    .nav-links .btn-primary {
+      color: #fff !important;
+    }
+    
+    .btn {
+      display: inline-block;
+      padding: 12px 24px;
+      border-radius: 8px;
+      font-weight: 600;
+      text-decoration: none;
+      transition: all 0.2s;
+      cursor: pointer;
+      border: none;
+      font-size: 16px;
+    }
+    
+    .btn-primary {
+      background: #5B95BE;
+      color: white;
+    }
+    
+    .btn-primary:hover {
+      background: #4a84ad;
+      transform: translateY(-2px);
+    }
+    
+    .btn-secondary {
+      background: transparent;
+      color: #5B95BE;
+      border: 2px solid #5B95BE;
+    }
+    
+    .btn-secondary:hover {
+      background: rgba(91, 149, 190, 0.1);
+    }
+    
+    /* Hero */
+    .hero {
+      padding: 160px 24px 80px;
+      text-align: center;
+      background: linear-gradient(180deg, #1a1a2e 0%, #0a0a0f 100%);
+    }
+    
+    .hero h1 {
+      font-size: clamp(32px, 5vw, 56px);
+      font-weight: 700;
+      color: #fff;
+      margin-bottom: 24px;
+      line-height: 1.2;
+    }
+    
+    .hero h1 span {
+      color: #5B95BE;
+    }
+    
+    .hero p {
+      font-size: 20px;
+      color: #888;
+      max-width: 600px;
+      margin: 0 auto 40px;
+    }
+    
+    .hero-cta {
+      display: flex;
+      gap: 16px;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin-bottom: 48px;
+    }
+    
+    .hero-stats {
+      display: flex;
+      gap: 48px;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin-top: 48px;
+      padding-top: 48px;
+      border-top: 1px solid #2a2a3e;
+    }
+    
+    .stat {
+      text-align: center;
+    }
+    
+    .stat-value {
+      font-size: 36px;
+      font-weight: 700;
+      color: #5B95BE;
+    }
+    
+    .stat-label {
+      font-size: 14px;
+      color: #666;
+      margin-top: 4px;
+    }
+    
+    /* Features */
+    .features {
+      padding: 80px 24px;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    
+    .section-title {
+      text-align: center;
+      margin-bottom: 48px;
+    }
+    
+    .section-title h2 {
+      font-size: 32px;
+      color: #fff;
+      margin-bottom: 16px;
+    }
+    
+    .section-title p {
+      color: #888;
+      max-width: 500px;
+      margin: 0 auto;
+    }
+    
+    .features-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 24px;
+    }
+    
+    .feature-card {
+      background: #1a1a2e;
+      border: 1px solid #2a2a3e;
+      border-radius: 12px;
+      padding: 32px;
+      transition: transform 0.2s, border-color 0.2s;
+    }
+    
+    .feature-card:hover {
+      transform: translateY(-4px);
+      border-color: #5B95BE;
+    }
+    
+    .feature-icon {
+      font-size: 32px;
+      margin-bottom: 16px;
+    }
+    
+    .feature-card h3 {
+      font-size: 20px;
+      color: #fff;
+      margin-bottom: 12px;
+    }
+    
+    .feature-card p {
+      color: #888;
+      font-size: 15px;
+    }
+    
+    /* Sample Newsletter */
+    .sample {
+      padding: 80px 24px;
+      background: #1a1a2e;
+    }
+    
+    .sample-content {
+      max-width: 800px;
+      margin: 0 auto;
+    }
+    
+    .newsletter-preview {
+      background: #fff;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 20px 60px rgba(0,0,0,0.5);
+    }
+    
+    .preview-header {
+      background: #5B95BE;
+      padding: 0;
+      text-align: center;
+    }
+    
+    .preview-header img {
+      width: 100%;
+      display: block;
+    }
+    
+    .preview-body {
+      padding: 32px;
+      color: #333;
+    }
+    
+    .preview-body h3 {
+      color: #1a1a2e;
+      margin-bottom: 16px;
+    }
+    
+    .preview-body h4 {
+      color: #1a1a2e;
+      margin: 24px 0 12px;
+      font-size: 16px;
+    }
+    
+    .preview-date {
+      color: #888;
+      font-size: 14px;
+      margin-bottom: 16px;
+      padding-bottom: 12px;
+      border-bottom: 1px solid #eee;
+    }
+    
+    /* Sample Tabs */
+    .sample-tabs {
+      display: flex;
+      gap: 8px;
+      margin-bottom: 24px;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    
+    .sample-tab {
+      padding: 12px 20px;
+      background: #1a1a2e;
+      border: 2px solid #2a2a3e;
+      border-radius: 8px;
+      color: #888;
+      font-size: 14px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+    
+    .sample-tab:hover {
+      border-color: #5B95BE;
+      color: #fff;
+    }
+    
+    .sample-tab.active {
+      background: #5B95BE;
+      border-color: #5B95BE;
+      color: #fff;
+    }
+    
+    .sample-panel {
+      display: none;
+    }
+    
+    .sample-panel.active {
+      display: block;
+    }
+    
+    .sample-container {
+      position: relative;
+      display: flex;
+      align-items: center;
+      gap: 16px;
+    }
+    
+    .sample-arrow {
+      width: 48px;
+      height: 48px;
+      border-radius: 50%;
+      background: #1a1a2e;
+      border: 2px solid #5B95BE;
+      color: #5B95BE;
+      font-size: 24px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: all 0.2s;
+      flex-shrink: 0;
+    }
+    
+    .sample-arrow:hover {
+      background: #5B95BE;
+      color: #fff;
+    }
+    
+    .sample-arrow:disabled {
+      opacity: 0.3;
+      cursor: not-allowed;
+    }
+    
+    .newsletter-preview {
+      flex: 1;
+      min-width: 0;
+    }
+    
+    @media (max-width: 768px) {
+      .sample-arrow {
+        width: 36px;
+        height: 36px;
+        font-size: 18px;
+      }
+    }
+    
+    /* Gapper Cards */
+    .gapper-card {
+      background: #f8f9fa;
+      border-radius: 8px;
+      padding: 20px;
+      margin: 16px 0;
+      border-left: 4px solid #ccc;
+    }
+    
+    .risk-high-card { border-left-color: #DC3545; }
+    .risk-low-card { border-left-color: #28A745; }
+    
+    .gapper-header {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin-bottom: 12px;
+      flex-wrap: wrap;
+    }
+    
+    .gapper-ticker {
+      font-size: 20px;
+      font-weight: 700;
+      color: #5B95BE;
+    }
+    
+    .gapper-change {
+      font-size: 18px;
+      font-weight: 600;
+      color: #28A745;
+    }
+    
+    .risk-badge {
+      padding: 4px 12px;
+      border-radius: 20px;
+      font-size: 12px;
+      font-weight: 700;
+    }
+    
+    .risk-badge.risk-high { background: #f8d7da; color: #DC3545; }
+    .risk-badge.risk-low { background: #d4edda; color: #28A745; }
+    
+    .gapper-details {
+      font-size: 14px;
+      color: #666;
+    }
+    
+    .detail-row {
+      display: flex;
+      gap: 16px;
+      margin-bottom: 8px;
+      flex-wrap: wrap;
+    }
+    
+    .gapper-catalyst, .gapper-notes {
+      margin-top: 8px;
+      line-height: 1.5;
+    }
+    
+    /* Accuracy Box */
+    .accuracy-box {
+      background: linear-gradient(135deg, #28A745 0%, #20c997 100%);
+      border-radius: 12px;
+      padding: 24px;
+      text-align: center;
+      margin: 20px 0;
+    }
+    
+    .accuracy-score {
+      font-size: 48px;
+      font-weight: 700;
+      color: #fff;
+    }
+    
+    .accuracy-label {
+      color: rgba(255,255,255,0.9);
+      font-size: 14px;
+    }
+    
+    .insight-box {
+      background: #fff3cd;
+      border-radius: 8px;
+      padding: 16px;
+      margin-top: 20px;
+      color: #856404;
+      line-height: 1.6;
+    }
+    
+    /* Trend Sections */
+    .trend-section {
+      background: #f8f9fa;
+      border-radius: 8px;
+      padding: 16px;
+      margin: 12px 0;
+    }
+    
+    .trend-section h4 {
+      margin: 0 0 8px 0 !important;
+    }
+    
+    .trend-section p {
+      margin: 0;
+      font-size: 14px;
+      line-height: 1.6;
+    }
+    
+    .themes-list {
+      margin-top: 16px;
+    }
+    
+    .theme-item {
+      display: flex;
+      gap: 12px;
+      padding: 12px;
+      background: #f8f9fa;
+      border-radius: 8px;
+      margin: 8px 0;
+    }
+    
+    .theme-icon {
+      font-size: 20px;
+    }
+    
+    .theme-item strong {
+      color: #1a1a2e;
+      display: block;
+      margin-bottom: 4px;
+    }
+    
+    .theme-item p {
+      margin: 0;
+      font-size: 13px;
+      color: #666;
+      font-size: 18px;
+    }
+    
+    .preview-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 16px 0;
+      font-size: 14px;
+    }
+    
+    .preview-table th {
+      background: #1a1a2e;
+      color: white;
+      padding: 12px;
+      text-align: left;
+    }
+    
+    .preview-table td {
+      padding: 12px;
+      border-bottom: 1px solid #eee;
+    }
+    
+    .risk-high { color: #DC3545; font-weight: 600; }
+    .risk-med { color: #FFC107; font-weight: 600; }
+    .risk-low { color: #28A745; font-weight: 600; }
+    
+    /* Pricing */
+    .pricing {
+      padding: 80px 24px;
+      max-width: 600px;
+      margin: 0 auto;
+      text-align: center;
+    }
+    
+    .pricing-card {
+      background: linear-gradient(135deg, #1a1a2e 0%, #2a2a4e 100%);
+      border: 2px solid #5B95BE;
+      border-radius: 16px;
+      padding: 48px;
+      margin-top: 32px;
+    }
+    
+    .pricing-badge {
+      display: inline-block;
+      background: #C9A227;
+      color: #000;
+      padding: 6px 16px;
+      border-radius: 20px;
+      font-size: 12px;
+      font-weight: 700;
+      text-transform: uppercase;
+      margin-bottom: 24px;
+    }
+    
+    .pricing-price {
+      margin-bottom: 24px;
+    }
+    
+    .price-amount {
+      font-size: 56px;
+      font-weight: 700;
+      color: #fff;
+    }
+    
+    .price-period {
+      color: #888;
+      font-size: 18px;
+    }
+    
+    .pricing-trial {
+      background: rgba(91, 149, 190, 0.2);
+      border-radius: 8px;
+      padding: 16px;
+      margin-bottom: 32px;
+    }
+    
+    .pricing-trial p {
+      color: #5B95BE;
+      font-weight: 600;
+      font-size: 18px;
+    }
+    
+    .pricing-features {
+      text-align: left;
+      margin-bottom: 32px;
+    }
+    
+    .pricing-features li {
+      padding: 12px 0;
+      border-bottom: 1px solid #2a2a3e;
+      color: #ccc;
+      list-style: none;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+    
+    .pricing-features li::before {
+      content: "✓";
+      color: #28A745;
+      font-weight: bold;
+    }
+    
+    /* Signup Form */
+    .signup-form {
+      padding: 80px 24px;
+      background: linear-gradient(180deg, #0a0a0f 0%, #1a1a2e 100%);
+    }
+    
+    .form-container {
+      max-width: 500px;
+      margin: 0 auto;
+      text-align: center;
+    }
+    
+    .form-container h2 {
+      color: #fff;
+      margin-bottom: 16px;
+    }
+    
+    .form-container p {
+      color: #888;
+      margin-bottom: 32px;
+    }
+    
+    #signup-form {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
+    
+    #signup-form input {
+      padding: 16px;
+      border-radius: 8px;
+      border: 2px solid #2a2a3e;
+      background: #1a1a2e;
+      color: #fff;
+      font-size: 16px;
+      transition: border-color 0.2s;
+    }
+    
+    #signup-form input:focus {
+      outline: none;
+      border-color: #5B95BE;
+    }
+    
+    #signup-form input::placeholder {
+      color: #666;
+    }
+    
+    .form-note {
+      font-size: 13px;
+      color: #666;
+      margin-top: 8px;
+    }
+    
+    .success-message {
+      display: none;
+      background: rgba(40, 167, 69, 0.2);
+      border: 1px solid #28A745;
+      border-radius: 8px;
+      padding: 24px;
+      color: #28A745;
+    }
+    
+    /* Footer */
+    footer {
+      background: #0a0a0f;
+      border-top: 1px solid #2a2a3e;
+      padding: 48px 24px;
+      text-align: center;
+    }
+    
+    .footer-links {
+      display: flex;
+      gap: 24px;
+      justify-content: center;
+      margin-bottom: 24px;
+    }
+    
+    .footer-links a {
+      color: #666;
+      text-decoration: none;
+      font-size: 14px;
+    }
+    
+    .footer-links a:hover {
+      color: #5B95BE;
+    }
+    
+    footer p {
+      color: #444;
+      font-size: 13px;
+    }
+    
+    /* Mobile */
+    @media (max-width: 768px) {
+      .nav-links { display: none; }
+      .hero-stats { gap: 32px; }
+      .stat-value { font-size: 28px; }
+      .pricing-card { padding: 32px 24px; }
+      .price-amount { font-size: 42px; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="header-content">
+      <a href="https://shortsideresearch.com" class="logo">
+        <img src="https://shortsideresearch.github.io/feed/logo.png" alt="ShortSide Research">
+        <span>ShortSide Research</span>
+      </a>
+      <nav class="nav-links">
+        <a href="#features">Features</a>
+        <a href="#sample">Sample</a>
+        <a href="#pricing">Pricing</a>
+        <a href="https://x.com/ShortSideIO" target="_blank">@ShortSideIO</a>
+        <a href="https://buy.stripe.com/9B65kE0jjbBxembd5D7Zu01" class="btn btn-primary" style="color: #fff !important;">Start Free Trial</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <h1>Stop Getting <span>Squeezed</span> on Small-Cap Shorts</h1>
+    <p>Pre-market squeeze risk analysis delivered to your inbox at 7:30 AM EST. Know which gappers to avoid before the market opens.</p>
+    <div class="hero-cta">
+      <a href="https://buy.stripe.com/9B65kE0jjbBxembd5D7Zu01" class="btn btn-primary">Start 30-Day Free Trial</a>
+      <a href="#sample" class="btn btn-secondary">See Sample Newsletter</a>
+    </div>
+    <div class="hero-stats">
+      <div class="stat">
+        <div class="stat-value">78%</div>
+        <div class="stat-label">Prediction Accuracy</div>
+      </div>
+      <div class="stat">
+        <div class="stat-value">7:30 AM</div>
+        <div class="stat-label">Pre-Market Delivery</div>
+      </div>
+      <div class="stat">
+        <div class="stat-value">10+</div>
+        <div class="stat-label">Gappers Analyzed Daily</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="features" id="features">
+    <div class="section-title">
+      <h2>What You Get</h2>
+      <p>Everything you need to make informed short-selling decisions before the market opens.</p>
+    </div>
+    <div class="features-grid">
+      <div class="feature-card">
+        <div class="feature-icon">📊</div>
+        <h3>Squeeze Risk Scores</h3>
+        <p>Every gapper rated 0-100% based on short interest, float size, days to cover, and borrow availability.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">🔍</div>
+        <h3>Catalyst Analysis</h3>
+        <p>We dig into SEC filings, news, and social sentiment to identify real vs. fake catalysts.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">⚠️</div>
+        <h3>Dilution Alerts</h3>
+        <p>S-3 shelf registrations, ATM offerings, and warrant exercises flagged before they trap you.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">📈</div>
+        <h3>Sector Trends</h3>
+        <p>Daily analysis of what's moving in small caps — Chinese ADRs, biotech, SPACs, and more.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">🎯</div>
+        <h3>Track Record</h3>
+        <p>4 PM recap shows how our morning predictions played out. Full transparency on accuracy.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">📱</div>
+        <h3>X/Twitter Updates</h3>
+        <p>Real-time posts throughout the day with charts and analysis. Follow @ShortSideIO.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="sample" id="sample">
+    <div class="sample-content">
+      <div class="section-title">
+        <h2>Sample Newsletters</h2>
+        <p>See exactly what you'll receive — real examples from recent editions.</p>
+      </div>
+      
+      <!-- Sample Tabs -->
+      <div class="sample-tabs">
+        <button class="sample-tab active" data-tab="gappers">📊 Pre-Market Gappers</button>
+        <button class="sample-tab" data-tab="analysis">🎯 Full Analysis</button>
+        <button class="sample-tab" data-tab="recap">📈 Risk Recap</button>
+        <button class="sample-tab" data-tab="trends">🔥 Sector Trends</button>
+        <button class="sample-tab" data-tab="shortreport">📉 Short Report</button>
+      </div>
+      
+      <!-- Tab: Pre-Market Gappers -->
+      <div class="sample-panel active" id="panel-gappers">
+        <div class="sample-container">
+          <button class="sample-arrow arrow-left" onclick="navigateSample('gappers', -1)">←</button>
+          <div class="newsletter-preview">
+          <div class="preview-header">
+            <img src="https://shortsideresearch.github.io/feed/banner.png" alt="ShortSide Research">
+          </div>
+          <div class="preview-body">
+            <div class="preview-date">June 18, 2026 | Pre-Market Newsletter</div>
+            <h3>🔥 Top Pre-Market Gappers</h3>
+            <table class="preview-table">
+              <thead>
+                <tr>
+                  <th>Ticker</th>
+                  <th>Gap</th>
+                  <th>Float</th>
+                  <th>SI%</th>
+                  <th>Risk</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><strong>$LNKS</strong></td>
+                  <td>+88%</td>
+                  <td>1.5M</td>
+                  <td>24.19%</td>
+                  <td class="risk-high">🔴 90%</td>
+                </tr>
+                <tr>
+                  <td><strong>$QTEX</strong></td>
+                  <td>+20%</td>
+                  <td>42.6M</td>
+                  <td>19.29%</td>
+                  <td class="risk-high">🔴 75%</td>
+                </tr>
+                <tr>
+                  <td><strong>$CRVO</strong></td>
+                  <td>+30%</td>
+                  <td>4.8M</td>
+                  <td>5.48%</td>
+                  <td class="risk-med">🟡 50%</td>
+                </tr>
+                <tr>
+                  <td><strong>$CAST</strong></td>
+                  <td>+157%</td>
+                  <td>16.5M</td>
+                  <td>0.68%</td>
+                  <td class="risk-low">🟢 30%</td>
+                </tr>
+              </tbody>
+            </table>
+            <h3>⚠️ Top Squeeze Risks</h3>
+            <p><strong>LNKS (90%)</strong> — 24% SI on a 1.5M float is textbook squeeze setup. Multiple reverse splits. DO NOT SHORT.</p>
+            <p><strong>QTEX (75%)</strong> — 19% SI, quantum computing hype. Up 410% this month. Dangerous to fade.</p>
+          </div>
+        </div>
+          <button class="sample-arrow arrow-right" onclick="navigateSample('gappers', 1)">→</button>
+        </div>
+      </div>
+      
+      <!-- Tab: Full Analysis -->
+      <div class="sample-panel" id="panel-analysis">
+        <div class="sample-container">
+          <button class="sample-arrow arrow-left" onclick="navigateSample('analysis', -1)">←</button>
+          <div class="newsletter-preview">
+          <div class="preview-header">
+            <img src="https://shortsideresearch.github.io/feed/banner.png" alt="ShortSide Research">
+          </div>
+          <div class="preview-body">
+            <div class="preview-date">June 17, 2026 | Full Analysis</div>
+            <h3>🔥 Top Pre-Market Gappers — Full Analysis</h3>
+            
+            <div class="gapper-card risk-high-card">
+              <div class="gapper-header">
+                <span class="gapper-ticker">$QURE</span>
+                <span class="gapper-change">+70%</span>
+                <span class="risk-badge risk-high">85% RISK</span>
+              </div>
+              <div class="gapper-details">
+                <div class="detail-row">
+                  <span>Float: 56.6M</span>
+                  <span>SI: 19.62%</span>
+                  <span>DTC: 6.36</span>
+                </div>
+                <div class="gapper-catalyst">
+                  <strong>Catalyst:</strong> FDA BLA submission for hemophilia gene therapy
+                </div>
+                <div class="gapper-notes">
+                  <strong>⚠️ Analysis:</strong> High SI + real FDA catalyst = deadly squeeze setup. 6+ days to cover means shorts can't exit quickly. Biotech momentum can sustain for days. DO NOT SHORT.
+                </div>
+              </div>
+            </div>
+            
+            <div class="gapper-card risk-low-card">
+              <div class="gapper-header">
+                <span class="gapper-ticker">$CLWT</span>
+                <span class="gapper-change">+153%</span>
+                <span class="risk-badge risk-low">35% RISK</span>
+              </div>
+              <div class="gapper-details">
+                <div class="detail-row">
+                  <span>Float: 8.2M</span>
+                  <span>SI: 2.1%</span>
+                  <span>DTC: 0.3</span>
+                </div>
+                <div class="gapper-catalyst">
+                  <strong>Catalyst:</strong> Norway water treatment partnership
+                </div>
+                <div class="gapper-notes">
+                  <strong>✅ Analysis:</strong> Low SI, quick days-to-cover. Partnership news is real but stock already extended 150%+. Classic fade candidate after initial momentum fades. Watch for entry after 10 AM.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+          <button class="sample-arrow arrow-right" onclick="navigateSample('analysis', 1)">→</button>
+        </div>
+      </div>
+      
+      <!-- Tab: Risk Recap -->
+      <div class="sample-panel" id="panel-recap">
+        <div class="sample-container">
+          <button class="sample-arrow arrow-left" onclick="navigateSample('recap', -1)">←</button>
+          <div class="newsletter-preview">
+          <div class="preview-header">
+            <img src="https://shortsideresearch.github.io/feed/banner.png" alt="ShortSide Research">
+          </div>
+          <div class="preview-body">
+            <div class="preview-date">June 17, 2026 | 4 PM Recap</div>
+            <h3>🎯 Risk Analysis: What Worked Today</h3>
+            
+            <div class="accuracy-box">
+              <div class="accuracy-score">100%</div>
+              <div class="accuracy-label">Prediction Accuracy (7/7)</div>
+            </div>
+            
+            <h4>✅ High Risk Warnings — CORRECT</h4>
+            <table class="preview-table">
+              <thead>
+                <tr>
+                  <th>Ticker</th>
+                  <th>Our Risk</th>
+                  <th>Outcome</th>
+                  <th>Result</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><strong>$QURE</strong></td>
+                  <td class="risk-high">85%</td>
+                  <td>+83% intraday</td>
+                  <td style="color: #28A745;">✅ SQUEEZED</td>
+                </tr>
+                <tr>
+                  <td><strong>$YMAT</strong></td>
+                  <td class="risk-high">70%</td>
+                  <td>+144% intraday</td>
+                  <td style="color: #28A745;">✅ SQUEEZED</td>
+                </tr>
+              </tbody>
+            </table>
+            
+            <h4>✅ Low Risk Calls — CORRECT</h4>
+            <table class="preview-table">
+              <tbody>
+                <tr>
+                  <td><strong>$CLWT</strong></td>
+                  <td class="risk-low">35%</td>
+                  <td>-35% from open</td>
+                  <td style="color: #28A745;">✅ FADED</td>
+                </tr>
+                <tr>
+                  <td><strong>$CLPT</strong></td>
+                  <td class="risk-low">30%</td>
+                  <td>-6% from open</td>
+                  <td style="color: #28A745;">✅ FADED</td>
+                </tr>
+              </tbody>
+            </table>
+            
+            <div class="insight-box">
+              <strong>Key Insight:</strong> Biotech FDA catalysts + high SI = deadly squeeze setup. QURE shorts got destroyed. Meanwhile, low-SI Chinese names faded perfectly — shorts who followed our guidance banked profits.
+            </div>
+          </div>
+        </div>
+          <button class="sample-arrow arrow-right" onclick="navigateSample('recap', 1)">→</button>
+        </div>
+      </div>
+      
+      <!-- Tab: Sector Trends -->
+      <div class="sample-panel" id="panel-trends">
+        <div class="sample-container">
+          <button class="sample-arrow arrow-left" onclick="navigateSample('trends', -1)">←</button>
+          <div class="newsletter-preview">
+          <div class="preview-header">
+            <img src="https://shortsideresearch.github.io/feed/banner.png" alt="ShortSide Research">
+          </div>
+          <div class="preview-body">
+            <div class="preview-date">June 18, 2026 | Market Analysis</div>
+            
+            <h3>📈 Small Cap Sector Trends</h3>
+            <div class="trend-section">
+              <h4>🇨🇳 Chinese ADRs Dominating Again</h4>
+              <p>WTO, JZXN, BYAH leading the gapper list — classic low-float pump patterns. No real catalysts, pure retail momentum. These rarely hold past Day 1. Historical pattern: Gap 50%+ pre-market → squeeze first hour → fade by close.</p>
+            </div>
+            
+            <div class="trend-section">
+              <h4>🧬 Biotech Mixed</h4>
+              <p>QURE gapping on FDA BLA submission — real catalyst with institutional interest. INDP fading on speculation. Market wants proof, not promises. Focus on names with actual data readouts.</p>
+            </div>
+            
+            <div class="trend-section">
+              <h4>⚡ Energy/Clean Tech</h4>
+              <p>WPRT showing strength on Volvo hydrogen deal. Real partnerships = more sustainable moves. These can run multiple days unlike pump-and-dumps.</p>
+            </div>
+            
+            <h3>📅 Weekly Themes Playing Out</h3>
+            <div class="themes-list">
+              <div class="theme-item">
+                <span class="theme-icon">🔴</span>
+                <div>
+                  <strong>Low-float Chinese names</strong>
+                  <p>Pump Monday/Tuesday, dump by Friday. Don't hold overnight. Size down significantly.</p>
+                </div>
+              </div>
+              <div class="theme-item">
+                <span class="theme-icon">🟢</span>
+                <div>
+                  <strong>Defense/Government contracts</strong>
+                  <p>Showing multi-day holds when catalyst is real. CTM, DFNS patterns suggest institutions accumulating.</p>
+                </div>
+              </div>
+              <div class="theme-item">
+                <span class="theme-icon">🟡</span>
+                <div>
+                  <strong>Post-R/S names</strong>
+                  <p>Extreme volatility on tiny floats. SDOT, LNKS type setups — untouchable for size. Day trade only.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+          <button class="sample-arrow arrow-right" onclick="navigateSample('trends', 1)">→</button>
+        </div>
+      </div>
+      
+      <!-- Tab: Short Report -->
+      <div class="sample-panel" id="panel-shortreport">
+        <div class="sample-container">
+          <button class="sample-arrow arrow-left" onclick="navigateSample('shortreport', -1)">←</button>
+          <div class="newsletter-preview">
+          <div class="preview-header">
+            <img src="https://shortsideresearch.github.io/feed/banner.png" alt="ShortSide Research">
+          </div>
+          <div class="preview-body">
+            <div class="preview-date">June 20, 2026 | Weekly Short Report</div>
+            <h3>📉 ARM Holdings: 519x P/E Screams Irrational Exuberance</h3>
+            
+            <div class="gapper-card risk-high-card">
+              <div class="gapper-header">
+                <span class="gapper-ticker">$ARM</span>
+                <span class="gapper-change">+302% YTD</span>
+                <span class="risk-badge risk-high">OVERVALUED</span>
+              </div>
+              <div class="gapper-details">
+                <div class="detail-row">
+                  <span><strong>P/E:</strong> 519x</span>
+                  <span><strong>P/S:</strong> 95x</span>
+                  <span><strong>Float:</strong> 13%</span>
+                </div>
+              </div>
+            </div>
+            
+            <h4>🎯 Key Findings</h4>
+            <ul style="padding-left: 20px; color: #333; line-height: 1.8;">
+              <li><strong>519x P/E</strong> vs sector average of 25x</li>
+              <li>SoftBank owns 90% — artificial scarcity</li>
+              <li>Insiders sold <strong>$25.6M</strong> before rally</li>
+              <li>Goldman Sachs downgraded to <strong>SELL</strong></li>
+              <li>Average analyst target: $275 (<strong>-37%</strong> from current)</li>
+            </ul>
+            
+            <h4>📊 The Math Doesn't Work</h4>
+            <p style="color: #555; line-height: 1.7;">For ARM to trade at a normal 25x P/E, net income would need to reach <strong>$18.8 billion</strong>. At current margins, that's $100B+ in revenue. ARM currently does $4.9B. Even 10 years of 23% growth only gets to $32B.</p>
+            
+            <div class="accuracy-box" style="background: linear-gradient(135deg, #DC3545 0%, #c82333 100%);">
+              <div class="accuracy-score">-66%</div>
+              <div class="accuracy-label">Downside to Fair Value ($150 PT)</div>
+            </div>
+            
+            <div class="insight-box" style="background: #f8d7da; color: #721c24;">
+              <strong>⚠️ Bottom Line:</strong> Great technology ≠ great investment at any price. At 519x earnings, ARM prices in perfection for 20 years. When momentum fades, it has a very long way to fall.
+            </div>
+            
+            <p style="font-size: 12px; color: #888; margin-top: 16px; font-style: italic;">Full 15+ page report available to subscribers with SEC filings analysis, comparable valuations, and risk factors.</p>
+          </div>
+        </div>
+          <button class="sample-arrow arrow-right" onclick="navigateSample('shortreport', 1)">→</button>
+        </div>
+      </div>
+      
+    </div>
+  </section>
+
+  <section class="pricing" id="pricing">
+    <div class="section-title">
+      <h2>Simple Pricing</h2>
+      <p>One plan. Everything included. Cancel anytime.</p>
+    </div>
+    <div class="pricing-card">
+      <div class="pricing-price">
+        <span class="price-amount">$12.99</span>
+        <span class="price-period">/month</span>
+      </div>
+      <div class="pricing-trial">
+        <p>🎉 Start with a 30-day FREE trial</p>
+      </div>
+      <ul class="pricing-features">
+        <li>Daily pre-market newsletter (7:30 AM EST)</li>
+        <li>End-of-day recap & accuracy report (4 PM EST)</li>
+        <li>Squeeze risk scores for all gappers</li>
+        <li>Catalyst & dilution analysis</li>
+        <li>Sector trend reports</li>
+        <li>Exclusive subscriber-only gappers</li>
+        <li>Weekly short thesis reports</li>
+        <li>Cancel anytime — no questions asked</li>
+      </ul>
+      <a href="https://buy.stripe.com/9B65kE0jjbBxembd5D7Zu01" class="btn btn-primary" style="width: 100%; text-align: center;">Start Free Trial →</a>
+    </div>
+  </section>
+
+  <section class="signup-form" id="signup">
+    <div class="form-container">
+      <h2>Ready to Stop Getting Squeezed?</h2>
+      <p>Start your 30-day free trial. Cancel anytime — no questions asked.</p>
+      <a href="https://buy.stripe.com/9B65kE0jjbBxembd5D7Zu01" class="btn btn-primary" style="width: 100%; text-align: center; padding: 18px 32px; font-size: 18px; margin-bottom: 16px;">Start Free Trial — $0 for 30 Days</a>
+      <p class="form-note">Then $12.99/month. Cancel anytime before trial ends to avoid charges.</p>
+      <div style="margin-top: 32px; padding-top: 24px; border-top: 1px solid #2a2a3e;">
+        <p style="color: #666; font-size: 14px; margin-bottom: 16px;">🔒 Secure checkout powered by Stripe</p>
+        <div style="display: flex; gap: 16px; justify-content: center; opacity: 0.6;">
+          <span>💳 Visa</span>
+          <span>💳 Mastercard</span>
+          <span>💳 Amex</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-links">
+      <a href="https://shortsideresearch.com" target="_blank">Website</a>
+      <a href="https://x.com/ShortSideIO" target="_blank">Twitter/X</a>
+      <a href="https://shortsideresearch.substack.com" target="_blank">Substack</a>
+    </div>
+    <p>© 2026 ShortSide Research. Not financial advice. Do your own research.</p>
+  </footer>
+
+  <script>
+    // Smooth scroll for anchor links
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        const target = document.querySelector(this.getAttribute('href'));
+        if (target) {
+          target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+      });
+    });
+    
+    // Sample tabs functionality
+    const tabOrder = ['gappers', 'analysis', 'recap', 'trends', 'shortreport'];
+    
+    document.querySelectorAll('.sample-tab').forEach(tab => {
+      tab.addEventListener('click', function() {
+        switchToTab(this.dataset.tab);
+      });
+    });
+    
+    function switchToTab(tabName) {
+      document.querySelectorAll('.sample-tab').forEach(t => t.classList.remove('active'));
+      document.querySelectorAll('.sample-panel').forEach(p => p.classList.remove('active'));
+      
+      document.querySelector(`[data-tab="${tabName}"]`).classList.add('active');
+      document.getElementById('panel-' + tabName).classList.add('active');
+    }
+    
+    function navigateSample(currentTab, direction) {
+      const currentIndex = tabOrder.indexOf(currentTab);
+      let newIndex = currentIndex + direction;
+      
+      // Wrap around
+      if (newIndex < 0) newIndex = tabOrder.length - 1;
+      if (newIndex >= tabOrder.length) newIndex = 0;
+      
+      switchToTab(tabOrder[newIndex]);
+    }
+  </script>
+</body>
+</html>
