@@ -704,10 +704,34 @@
     
     .track-record-stats {
       display: flex;
-      gap: 48px;
+      gap: 24px;
       justify-content: center;
       flex-wrap: wrap;
       margin-bottom: 24px;
+      max-width: 900px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    
+    .track-record-stats .stat {
+      flex: 1;
+      min-width: 200px;
+      max-width: 400px;
+      background: linear-gradient(135deg, #1a1a2e 0%, #2a2a4e 100%);
+      border: 1px solid #3a3a5e;
+      border-radius: 12px;
+      padding: 24px 32px;
+      text-align: center;
+      transition: transform 0.2s, border-color 0.2s;
+    }
+    
+    .track-record-stats .stat:hover {
+      transform: translateY(-2px);
+      border-color: #5B95BE;
+    }
+    
+    .track-record-stats .stat-value {
+      font-size: 48px;
     }
     
     .calendar-container {
@@ -981,11 +1005,11 @@
     </div>
     <div class="track-record-stats">
       <div class="stat">
-        <div class="stat-value">83.3%</div>
+        <div class="stat-value" id="animAccuracy">0%</div>
         <div class="stat-label">Prediction Accuracy</div>
       </div>
       <div class="stat">
-        <div class="stat-value">72</div>
+        <div class="stat-value" id="animGappers">0</div>
         <div class="stat-label">Gappers Analyzed</div>
       </div>
     </div>
@@ -1624,6 +1648,49 @@
     
     // Initialize calendar
     renderCalendar();
+    
+    // Animate counting numbers
+    function animateCount(element, target, duration, isPercent = false) {
+      const start = 0;
+      const startTime = performance.now();
+      
+      function update(currentTime) {
+        const elapsed = currentTime - startTime;
+        const progress = Math.min(elapsed / duration, 1);
+        
+        // Ease out cubic for smooth deceleration
+        const easeOut = 1 - Math.pow(1 - progress, 3);
+        const current = start + (target - start) * easeOut;
+        
+        if (isPercent) {
+          element.textContent = current.toFixed(1) + '%';
+        } else {
+          element.textContent = Math.round(current);
+        }
+        
+        if (progress < 1) {
+          requestAnimationFrame(update);
+        }
+      }
+      
+      requestAnimationFrame(update);
+    }
+    
+    // Trigger animation when track record section is visible
+    const trackRecordSection = document.getElementById('track-record');
+    let animated = false;
+    
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting && !animated) {
+          animated = true;
+          animateCount(document.getElementById('animAccuracy'), 83.3, 1500, true);
+          animateCount(document.getElementById('animGappers'), 72, 1500, false);
+        }
+      });
+    }, { threshold: 0.3 });
+    
+    observer.observe(trackRecordSection);
   </script>
 </body>
 </html>
