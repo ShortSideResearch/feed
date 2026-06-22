@@ -5,13 +5,20 @@
     <link>https://x.com/ShortSideIO</link>
     <description>Daily gapper analysis and short squeeze risk alerts for traders. Independent research on overvalued stocks.</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 22 Jun 2026 12:01:52 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 22 Jun 2026 12:01:53 GMT</lastBuildDate>
     <atom:link href="https://shortsideresearch.substack.com/feed" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://pbs.twimg.com/profile_images/ShortSideIO/logo.png</url>
       <title>ShortSide Research</title>
       <link>https://x.com/ShortSideIO</link>
     </image>
+    <item>
+      <title>$SAGT +59%</title>
+      <description><![CDATA[📊 $SAGT | +59% PM | SQUEEZE RISK: 35% | Short Float: 3.76% | Catalyst: CEO bought 1.5M shares]]></description>
+      <link>https://x.com/ShortSideIO/status/2069028035118891507</link>
+      <guid isPermaLink="true">https://x.com/ShortSideIO/status/2069028035118891507</guid>
+      <pubDate>Mon, 22 Jun 2026 12:01:53 GMT</pubDate>
+    </item>
     <item>
       <title>$GETY +123%</title>
       <description><![CDATA[📊 $GETY | +123% PM | SQUEEZE RISK: 75% | Short Float: 18.87% | Days to Cover: 8.51 | Catalyst: OpenAI partnership]]></description>
@@ -354,13 +361,6 @@
       <link>https://x.com/ShortSideIO/status/2065041907965722977</link>
       <guid isPermaLink="true">https://x.com/ShortSideIO/status/2065041907965722977</guid>
       <pubDate>Thu, 11 Jun 2026 12:02:18 GMT</pubDate>
-    </item>
-    <item>
-      <title>$WTO +48%</title>
-      <description><![CDATA[📊 $WTO | +48% Pre-Market | Float: 0.97M | SI: 5.04% | Catalyst: Crypto/Web3 acquisition news | ⚠️ Squeeze Risk: 75%]]></description>
-      <link>https://x.com/ShortSideIO/status/2065041872863580525</link>
-      <guid isPermaLink="true">https://x.com/ShortSideIO/status/2065041872863580525</guid>
-      <pubDate>Thu, 11 Jun 2026 12:02:10 GMT</pubDate>
     </item>
   </channel>
 </rss>
