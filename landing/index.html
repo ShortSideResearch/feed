@@ -699,7 +699,7 @@
     
     /* Track Record Calendar */
     .track-record {
-      padding: 40px 24px 80px;
+      padding: 24px 24px 40px;
       background: linear-gradient(180deg, #0a0a0f 0%, #1a1a2e 100%);
     }
     
@@ -744,9 +744,9 @@
     
     .calendar-grid {
       display: grid;
-      grid-template-columns: repeat(7, 1fr);
+      grid-template-columns: repeat(5, 1fr);
       gap: 8px;
-      margin-bottom: 24px;
+      margin-bottom: 16px;
     }
     
     .cal-header {
@@ -826,7 +826,7 @@
       display: flex;
       justify-content: center;
       gap: 24px;
-      margin-bottom: 32px;
+      margin-bottom: 16px;
       flex-wrap: wrap;
     }
     
@@ -947,6 +947,7 @@
       </a>
       <nav class="nav-links">
         <a href="#features">Features</a>
+        <a href="#track-record">Track Record</a>
         <a href="#sample">Sample</a>
         <a href="#pricing">Pricing</a>
         <a href="https://x.com/ShortSideIO" target="_blank">@ShortSideIO</a>
@@ -965,7 +966,7 @@
     </div>
     <div class="hero-stats">
       <div class="stat">
-        <div class="stat-value">83%</div>
+        <div class="stat-value">83.3%</div>
         <div class="stat-label">Prediction Accuracy</div>
       </div>
       <div class="stat">
@@ -973,8 +974,8 @@
         <div class="stat-label">Pre-Market Delivery</div>
       </div>
       <div class="stat">
-        <div class="stat-value">7+</div>
-        <div class="stat-label">Gappers Analyzed Daily</div>
+        <div class="stat-value">72</div>
+        <div class="stat-label">Gappers Analyzed</div>
       </div>
     </div>
   </section>
@@ -1002,15 +1003,11 @@
       </div>
       <div class="calendar-summary" id="calendarSummary">
         <div class="summary-stat">
-          <span class="summary-value" id="summaryDays">82</span>
-          <span class="summary-label">Trading Days</span>
-        </div>
-        <div class="summary-stat">
-          <span class="summary-value" id="summaryGappers">812</span>
+          <span class="summary-value" id="summaryGappers">72</span>
           <span class="summary-label">Gappers Analyzed</span>
         </div>
         <div class="summary-stat">
-          <span class="summary-value" id="summaryAccuracy">79.7%</span>
+          <span class="summary-value" id="summaryAccuracy">83.3%</span>
           <span class="summary-label">Overall Accuracy</span>
         </div>
       </div>
@@ -1495,8 +1492,8 @@
     let currentMonth = new Date(2026, 5, 1); // June 2026
     
     const monthNames = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
-    // Trading week: Monday to Friday (then weekend)
-    const dayNames = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"];
+    // Trading week: Monday to Friday only (no weekends)
+    const dayNames = ["Mon", "Tue", "Wed", "Thu", "Fri"];
     
     function changeMonth(delta) {
       currentMonth.setMonth(currentMonth.getMonth() + delta);
@@ -1518,6 +1515,13 @@
       return dayOfWeek === 0 || dayOfWeek === 6; // Sunday = 0, Saturday = 6
     }
     
+    function getDayOfWeekMondayStart(year, month, day) {
+      const d = new Date(year, month, day);
+      const dayOfWeek = d.getDay();
+      // Convert: Sunday=0 to 6, Monday=1 to 0, Tue=2 to 1, etc.
+      return dayOfWeek === 0 ? 6 : dayOfWeek - 1;
+    }
+    
     function renderCalendar() {
       const grid = document.getElementById('calendarGrid');
       const label = document.getElementById('calMonthLabel');
@@ -1527,37 +1531,43 @@
       // Clear grid
       grid.innerHTML = '';
       
-      // Add day headers (Mon-Sun for Monday start)
+      // Add day headers (Mon-Fri only, 5 columns)
       dayNames.forEach(day => {
         grid.innerHTML += `<div class="cal-header">${day}</div>`;
       });
       
-      // Get first day of month (adjusted for Monday start: 0=Mon, 6=Sun)
-      const firstDayOfMonth = new Date(currentMonth.getFullYear(), currentMonth.getMonth(), 1).getDay();
-      // Convert Sunday=0 to 6, Monday=1 to 0, etc.
-      const firstDay = firstDayOfMonth === 0 ? 6 : firstDayOfMonth - 1;
       const daysInMonth = new Date(currentMonth.getFullYear(), currentMonth.getMonth() + 1, 0).getDate();
       
-      // Add empty cells for days before first day
-      for (let i = 0; i < firstDay; i++) {
+      // Find the first weekday (Mon-Fri) of the month
+      let firstWeekdayDate = 1;
+      while (isWeekend(currentMonth.getFullYear(), currentMonth.getMonth(), firstWeekdayDate) && firstWeekdayDate <= daysInMonth) {
+        firstWeekdayDate++;
+      }
+      
+      // Get which column (0=Mon, 4=Fri) the first weekday falls on
+      const firstWeekdayColumn = getDayOfWeekMondayStart(currentMonth.getFullYear(), currentMonth.getMonth(), firstWeekdayDate);
+      
+      // Add empty cells for days before first weekday in that week
+      for (let i = 0; i < firstWeekdayColumn; i++) {
         grid.innerHTML += `<div class="cal-day empty"><span class="day-num"></span></div>`;
       }
       
-      // Add days
+      // Add only weekdays (skip weekends entirely)
       for (let day = 1; day <= daysInMonth; day++) {
+        // Skip weekends
+        if (isWeekend(currentMonth.getFullYear(), currentMonth.getMonth(), day)) {
+          continue;
+        }
+        
         const dateStr = `${currentMonth.getFullYear()}-${String(currentMonth.getMonth() + 1).padStart(2, '0')}-${String(day).padStart(2, '0')}`;
         const currentDate = new Date(currentMonth.getFullYear(), currentMonth.getMonth(), day);
         const data = getDataForDate(dateStr);
-        const weekend = isWeekend(currentMonth.getFullYear(), currentMonth.getMonth(), day);
         const beforeDataStart = currentDate < dataStartDate;
         
         let colorClass = 'gray';
         let pctText = '';
         
-        if (weekend) {
-          // Weekend - show as empty/dim
-          colorClass = 'empty weekend';
-        } else if (data) {
+        if (data) {
           const pct = Math.round((data.correct / data.gappers) * 100);
           pctText = `${pct}%`;
           if (pct >= 75) colorClass = 'green';
@@ -1586,13 +1596,11 @@
     
     function updateSummaryStats() {
       // Calculate from actual data
-      let totalDays = 0;
       let totalGappers = 0;
       let totalCorrect = 0;
       
       Object.values(trackRecord).forEach(monthData => {
         monthData.forEach(day => {
-          totalDays++;
           totalGappers += day.gappers;
           totalCorrect += day.correct;
         });
@@ -1600,7 +1608,6 @@
       
       const accuracy = totalGappers > 0 ? ((totalCorrect / totalGappers) * 100).toFixed(1) : 0;
       
-      document.getElementById('summaryDays').textContent = totalDays;
       document.getElementById('summaryGappers').textContent = totalGappers;
       document.getElementById('summaryAccuracy').textContent = accuracy + '%';
     }
