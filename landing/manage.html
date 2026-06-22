@@ -150,25 +150,7 @@
       margin-bottom: 24px;
     }
     
-    .success-message {
-      display: none;
-      background: rgba(40, 167, 69, 0.2);
-      border: 1px solid #28A745;
-      border-radius: 8px;
-      padding: 20px;
-      color: #28A745;
-      margin-bottom: 24px;
-    }
-    
-    .error-message {
-      display: none;
-      background: rgba(220, 53, 69, 0.2);
-      border: 1px solid #DC3545;
-      border-radius: 8px;
-      padding: 20px;
-      color: #DC3545;
-      margin-bottom: 24px;
-    }
+    /* Errors shown on server page */
 
     .back-link {
       margin-top: 32px;
@@ -194,17 +176,9 @@
     </div>
     
     <h1>Manage Your Subscription</h1>
-    <p>Enter your email address to receive a secure link to manage your subscription, update payment details, or cancel.</p>
+    <p>Enter your email address to manage your subscription, update payment details, or cancel.</p>
     
-    <div class="success-message" id="success">
-      ✅ Redirecting you to Stripe...
-    </div>
-    
-    <div class="error-message" id="error">
-      ❌ <span id="error-text">Something went wrong. Please try again.</span>
-    </div>
-    
-    <form id="manage-form">
+    <form id="manage-form" method="POST" action="http://149.56.134.137:3456/manage">
       <div class="form-group">
         <label for="email">Email Address</label>
         <input type="email" id="email" name="email" placeholder="you@example.com" required>
@@ -218,68 +192,6 @@
     </div>
   </div>
   
-  <script>
-    document.getElementById('manage-form').addEventListener('submit', async function(e) {
-      e.preventDefault();
-      
-      const email = document.getElementById('email').value.trim();
-      const form = document.getElementById('manage-form');
-      const success = document.getElementById('success');
-      const error = document.getElementById('error');
-      const errorText = document.getElementById('error-text');
-      const submitBtn = form.querySelector('button[type="submit"]');
-      
-      // Hide messages
-      success.style.display = 'none';
-      error.style.display = 'none';
-      
-      // Validate email format
-      if (!email || !email.includes('@') || !email.includes('.')) {
-        errorText.textContent = 'Please enter a valid email address.';
-        error.style.display = 'block';
-        return;
-      }
-      
-      // Show loading state
-      submitBtn.disabled = true;
-      submitBtn.textContent = 'Loading...';
-      
-      try {
-        const response = await fetch('http://149.56.134.137:3456/manage', {
-          method: 'POST',
-          headers: {
-            'Content-Type': 'application/json'
-          },
-          body: JSON.stringify({ email })
-        });
-        
-        const data = await response.json();
-        
-        if (response.ok && data.url) {
-          // Success - redirect to Stripe
-          form.style.display = 'none';
-          success.style.display = 'block';
-          window.location.href = data.url;
-        } else {
-          // Error from server
-          if (response.status === 404) {
-            errorText.textContent = 'No subscription found for this email address. Please check and try again.';
-          } else {
-            errorText.textContent = data.error || 'Something went wrong. Please try again.';
-          }
-          error.style.display = 'block';
-          submitBtn.disabled = false;
-          submitBtn.textContent = 'Submit';
-        }
-        
-      } catch (err) {
-        console.error('Error:', err);
-        errorText.textContent = 'Unable to connect. Please try again later.';
-        error.style.display = 'block';
-        submitBtn.disabled = false;
-        submitBtn.textContent = 'Submit';
-      }
-    });
-  </script>
+  <!-- Form submits directly to server -->
 </body>
 </html>
