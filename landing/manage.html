@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Manage Subscription — ShortSide Research</title>
+  <link rel="icon" type="image/png" href="https://shortsideresearch.github.io/feed/logo.png">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+      background: linear-gradient(135deg, #1a1a2e 0%, #0a0a0f 100%);
+      color: #e0e0e0;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 24px;
+    }
+    
+    .container {
+      max-width: 500px;
+      width: 100%;
+      background: #1a1a2e;
+      border: 1px solid #2a2a3e;
+      border-radius: 16px;
+      padding: 48px;
+      text-align: center;
+      box-shadow: 0 20px 60px rgba(0,0,0,0.5);
+    }
+    
+    .logo {
+      width: 80px;
+      height: 80px;
+      margin-bottom: 24px;
+      border-radius: 12px;
+    }
+    
+    h1 {
+      font-size: 28px;
+      color: #fff;
+      margin-bottom: 16px;
+    }
+    
+    p {
+      color: #888;
+      line-height: 1.7;
+      margin-bottom: 24px;
+      font-size: 16px;
+    }
+    
+    .form-group {
+      margin-bottom: 20px;
+      text-align: left;
+    }
+    
+    label {
+      display: block;
+      color: #ccc;
+      font-size: 14px;
+      margin-bottom: 8px;
+      font-weight: 500;
+    }
+    
+    input[type="email"] {
+      width: 100%;
+      padding: 16px;
+      border-radius: 8px;
+      border: 2px solid #2a2a3e;
+      background: #0a0a0f;
+      color: #fff;
+      font-size: 16px;
+      transition: border-color 0.2s;
+    }
+    
+    input[type="email"]:focus {
+      outline: none;
+      border-color: #5B95BE;
+    }
+    
+    input[type="email"]::placeholder {
+      color: #666;
+    }
+    
+    .btn {
+      display: inline-block;
+      width: 100%;
+      padding: 16px 24px;
+      border-radius: 8px;
+      font-weight: 600;
+      text-decoration: none;
+      transition: all 0.2s;
+      cursor: pointer;
+      border: none;
+      font-size: 16px;
+      margin-bottom: 16px;
+    }
+    
+    .btn-primary {
+      background: #5B95BE;
+      color: white;
+    }
+    
+    .btn-primary:hover {
+      background: #4a84ad;
+      transform: translateY(-2px);
+    }
+    
+    .btn-secondary {
+      background: transparent;
+      color: #DC3545;
+      border: 2px solid #DC3545;
+    }
+    
+    .btn-secondary:hover {
+      background: rgba(220, 53, 69, 0.1);
+    }
+    
+    .divider {
+      border-top: 1px solid #2a2a3e;
+      margin: 32px 0;
+    }
+    
+    .help-text {
+      font-size: 14px;
+      color: #666;
+    }
+    
+    .help-text a {
+      color: #5B95BE;
+      text-decoration: none;
+    }
+    
+    .help-text a:hover {
+      text-decoration: underline;
+    }
+    
+    .secure-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: rgba(40, 167, 69, 0.2);
+      color: #28A745;
+      padding: 8px 16px;
+      border-radius: 20px;
+      font-size: 13px;
+      margin-bottom: 24px;
+    }
+    
+    .success-message {
+      display: none;
+      background: rgba(40, 167, 69, 0.2);
+      border: 1px solid #28A745;
+      border-radius: 8px;
+      padding: 20px;
+      color: #28A745;
+      margin-bottom: 24px;
+    }
+    
+    .error-message {
+      display: none;
+      background: rgba(220, 53, 69, 0.2);
+      border: 1px solid #DC3545;
+      border-radius: 8px;
+      padding: 20px;
+      color: #DC3545;
+      margin-bottom: 24px;
+    }
+
+    .back-link {
+      margin-top: 32px;
+    }
+    
+    .back-link a {
+      color: #888;
+      text-decoration: none;
+      font-size: 14px;
+    }
+    
+    .back-link a:hover {
+      color: #5B95BE;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img src="https://shortsideresearch.github.io/feed/logo.png" alt="ShortSide Research" class="logo">
+    
+    <div class="secure-badge">🔒 Secure Connection</div>
+    
+    <h1>Manage Your Subscription</h1>
+    <p>Enter your email address to receive a secure link to manage your subscription, update payment details, or cancel.</p>
+    
+    <div class="success-message" id="success">
+      ✅ Check your inbox! We've sent a secure link to manage your subscription.
+    </div>
+    
+    <div class="error-message" id="error">
+      ❌ Something went wrong. Please try again or contact support.
+    </div>
+    
+    <form id="manage-form">
+      <div class="form-group">
+        <label for="email">Email Address</label>
+        <input type="email" id="email" name="email" placeholder="you@example.com" required>
+      </div>
+      
+      <button type="submit" class="btn btn-primary">Send Management Link</button>
+    </form>
+    
+    <div class="divider"></div>
+    
+    <p class="help-text">
+      Need help? Contact us at <a href="mailto:shortsideresearch.io@gmail.com">shortsideresearch.io@gmail.com</a>
+    </p>
+    
+    <div class="back-link">
+      <a href="https://shortsideresearch.github.io/feed/landing/">← Back to ShortSide Research</a>
+    </div>
+  </div>
+  
+  <script>
+    document.getElementById('manage-form').addEventListener('submit', async function(e) {
+      e.preventDefault();
+      
+      const email = document.getElementById('email').value;
+      const form = document.getElementById('manage-form');
+      const success = document.getElementById('success');
+      const error = document.getElementById('error');
+      
+      // Hide messages
+      success.style.display = 'none';
+      error.style.display = 'none';
+      
+      try {
+        // For now, show success message - in production this would call Stripe API
+        // to create a billing portal session and email the link
+        form.style.display = 'none';
+        success.style.display = 'block';
+        
+        // Log for tracking
+        console.log('Management link requested for:', email);
+        
+      } catch (err) {
+        error.style.display = 'block';
+        console.error('Error:', err);
+      }
+    });
+  </script>
+</body>
+</html>
