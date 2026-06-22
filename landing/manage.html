@@ -197,11 +197,11 @@
     <p>Enter your email address to receive a secure link to manage your subscription, update payment details, or cancel.</p>
     
     <div class="success-message" id="success">
-      ✅ Check your inbox! We've sent a secure link to manage your subscription.
+      ✅ Redirecting you to Stripe...
     </div>
     
     <div class="error-message" id="error">
-      ❌ Something went wrong. Please try again or contact support.
+      ❌ <span id="error-text">Something went wrong. Please try again.</span>
     </div>
     
     <form id="manage-form">
@@ -222,27 +222,62 @@
     document.getElementById('manage-form').addEventListener('submit', async function(e) {
       e.preventDefault();
       
-      const email = document.getElementById('email').value;
+      const email = document.getElementById('email').value.trim();
       const form = document.getElementById('manage-form');
       const success = document.getElementById('success');
       const error = document.getElementById('error');
+      const errorText = document.getElementById('error-text');
+      const submitBtn = form.querySelector('button[type="submit"]');
       
       // Hide messages
       success.style.display = 'none';
       error.style.display = 'none';
       
+      // Validate email format
+      if (!email || !email.includes('@') || !email.includes('.')) {
+        errorText.textContent = 'Please enter a valid email address.';
+        error.style.display = 'block';
+        return;
+      }
+      
+      // Show loading state
+      submitBtn.disabled = true;
+      submitBtn.textContent = 'Loading...';
+      
       try {
-        // For now, show success message - in production this would call Stripe API
-        // to create a billing portal session and email the link
-        form.style.display = 'none';
-        success.style.display = 'block';
+        const response = await fetch('http://149.56.134.137:3456/manage', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json'
+          },
+          body: JSON.stringify({ email })
+        });
         
-        // Log for tracking
-        console.log('Management link requested for:', email);
+        const data = await response.json();
+        
+        if (response.ok && data.url) {
+          // Success - redirect to Stripe
+          form.style.display = 'none';
+          success.style.display = 'block';
+          window.location.href = data.url;
+        } else {
+          // Error from server
+          if (response.status === 404) {
+            errorText.textContent = 'No subscription found for this email address. Please check and try again.';
+          } else {
+            errorText.textContent = data.error || 'Something went wrong. Please try again.';
+          }
+          error.style.display = 'block';
+          submitBtn.disabled = false;
+          submitBtn.textContent = 'Submit';
+        }
         
       } catch (err) {
-        error.style.display = 'block';
         console.error('Error:', err);
+        errorText.textContent = 'Unable to connect. Please try again later.';
+        error.style.display = 'block';
+        submitBtn.disabled = false;
+        submitBtn.textContent = 'Submit';
       }
     });
   </script>
