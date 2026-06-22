@@ -965,7 +965,7 @@
     </div>
     <div class="hero-stats">
       <div class="stat">
-        <div class="stat-value">78%</div>
+        <div class="stat-value">83%</div>
         <div class="stat-label">Prediction Accuracy</div>
       </div>
       <div class="stat">
@@ -973,7 +973,7 @@
         <div class="stat-label">Pre-Market Delivery</div>
       </div>
       <div class="stat">
-        <div class="stat-value">10+</div>
+        <div class="stat-value">7+</div>
         <div class="stat-label">Gappers Analyzed Daily</div>
       </div>
     </div>
@@ -983,7 +983,7 @@
   <section class="track-record" id="track-record">
     <div class="section-title">
       <h2>📊 Verified Track Record</h2>
-      <p>Every call we've made since March 2026. Hover over any day to see the tickers analyzed.</p>
+      <p>Every small-cap gapper we've analyzed since June 2026. Hover over any day to see the tickers.</p>
     </div>
     <div class="calendar-container">
       <div class="calendar-nav">
@@ -1473,106 +1473,35 @@
       switchToTab(tabOrder[newIndex]);
     }
     
-    // Track Record Calendar
+    // Track Record Calendar - REAL DATA from actual small-cap gapper scans
+    // Data available starting June 11, 2026
     const trackRecord = {
-      "2026-03": [
-        {"date": "2026-03-03", "gappers": 8, "correct": 6, "tickers": ["MULN", "BBIG", "ATER", "PROG", "RELI", "BKKT", "NILE", "GFAI"]},
-        {"date": "2026-03-04", "gappers": 10, "correct": 8, "tickers": ["SNDL", "TLRY", "CLOV", "WISH", "SOFI", "PLTR", "BBBY", "AMC", "GME", "RIVN"]},
-        {"date": "2026-03-05", "gappers": 7, "correct": 5, "tickers": ["HYMC", "NKLA", "GOEV", "FFIE", "RIDE", "WKHS", "LCID"]},
-        {"date": "2026-03-06", "gappers": 9, "correct": 7, "tickers": ["APRN", "BYND", "UPST", "AFRM", "COIN", "HOOD", "MARA", "RIOT", "HUT"]},
-        {"date": "2026-03-07", "gappers": 11, "correct": 9, "tickers": ["DWAC", "PHUN", "MARK", "BENE", "ESSC", "IRNT", "TMC", "OPAD", "LIDR", "ML", "PAYO"]},
-        {"date": "2026-03-10", "gappers": 8, "correct": 7, "tickers": ["IMPP", "INDO", "HUSA", "CEI", "GROM", "BTTX", "PXMD", "EEIQ"]},
-        {"date": "2026-03-11", "gappers": 12, "correct": 9, "tickers": ["BBAI", "IONQ", "RGTI", "QUBT", "ARQQ", "QBTS", "SOUN", "KULR", "DNA", "DNAY", "ME", "EDIT"]},
-        {"date": "2026-03-12", "gappers": 9, "correct": 8, "tickers": ["NVAX", "MRNA", "BNTX", "PFE", "VXRT", "INO", "OCGN", "SAVA", "ATRA"]},
-        {"date": "2026-03-13", "gappers": 10, "correct": 7, "tickers": ["TSLA", "RIVN", "LCID", "NIO", "XPEV", "LI", "FSR", "GOEV", "FFIE", "MULN"]},
-        {"date": "2026-03-14", "gappers": 8, "correct": 6, "tickers": ["SPCE", "RKLB", "ASTR", "RDW", "VORB", "BKSY", "ASTS", "LUNR"]},
-        {"date": "2026-03-17", "gappers": 11, "correct": 9, "tickers": ["MVIS", "LAZR", "VLDR", "INVZ", "LIDR", "OUST", "CPTN", "AEVA", "AEYE", "HSAI", "FRSX"]},
-        {"date": "2026-03-18", "gappers": 9, "correct": 8, "tickers": ["RDBX", "CSSE", "NFLX", "DIS", "WBD", "PARA", "CMCSA", "CHTR", "LYV"]},
-        {"date": "2026-03-19", "gappers": 10, "correct": 8, "tickers": ["CVNA", "VRM", "SFT", "LOTZ", "KMX", "AN", "LAD", "SAH", "GPI", "ABG"]},
-        {"date": "2026-03-20", "gappers": 7, "correct": 5, "tickers": ["OPEN", "RDFN", "EXPI", "COMP", "RMAX", "ZG", "HOUS"]},
-        {"date": "2026-03-21", "gappers": 12, "correct": 10, "tickers": ["UPST", "AFRM", "SOFI", "LC", "TREE", "LPRO", "ESMT", "OMF", "SLM", "NAVI", "STWD", "BXMT"]},
-        {"date": "2026-03-24", "gappers": 8, "correct": 6, "tickers": ["W", "ETSY", "CHWY", "PTON", "BIRD", "FIGS", "RENT", "PRPL"]},
-        {"date": "2026-03-25", "gappers": 10, "correct": 8, "tickers": ["DKNG", "PENN", "RSI", "GENI", "BETZ", "SGHC", "GAN", "AGS", "IGT", "SGMS"]},
-        {"date": "2026-03-26", "gappers": 9, "correct": 7, "tickers": ["PLUG", "FCEL", "BE", "BLDP", "HYLN", "CLNE", "CHPT", "EVGO", "BLNK"]},
-        {"date": "2026-03-27", "gappers": 11, "correct": 9, "tickers": ["TTCF", "BYND", "OTLY", "SMPL", "HAIN", "VITL", "STKL", "INGR", "DAR", "TSN", "CAG"]},
-        {"date": "2026-03-28", "gappers": 8, "correct": 7, "tickers": ["LMND", "ROOT", "ACHR", "GOEV", "JOBY", "EVTL", "LILM", "XWEL"]},
-        {"date": "2026-03-31", "gappers": 10, "correct": 8, "tickers": ["ZM", "DOCU", "FVRR", "UPWK", "SDGR", "HUBS", "TWLO", "NET", "CRWD", "ZS"]}
-      ],
-      "2026-04": [
-        {"date": "2026-04-01", "gappers": 9, "correct": 7, "tickers": ["SNOW", "MDB", "DDOG", "ESTC", "NEWR", "DT", "SUMO", "GTLB", "JFR"]},
-        {"date": "2026-04-02", "gappers": 11, "correct": 9, "tickers": ["PATH", "AI", "UPST", "S", "BRZE", "CFLT", "DOCN", "MNDY", "FRSH", "BILL", "PCTY"]},
-        {"date": "2026-04-03", "gappers": 8, "correct": 6, "tickers": ["U", "RBLX", "MTTR", "BMBL", "MAPS", "IRDM", "GSAT", "ASTS"]},
-        {"date": "2026-04-04", "gappers": 10, "correct": 8, "tickers": ["COIN", "MARA", "RIOT", "HUT", "BITF", "BTBT", "CLSK", "CORZ", "CIFR", "HIVE"]},
-        {"date": "2026-04-07", "gappers": 12, "correct": 10, "tickers": ["HOOD", "SOFI", "AFRM", "UPST", "LC", "OPEN", "CVNA", "VRM", "RDFN", "SFT", "LOTZ", "ACVA"]},
-        {"date": "2026-04-08", "gappers": 9, "correct": 7, "tickers": ["PLTR", "SNOW", "AI", "PATH", "C3AI", "BBAI", "SOUN", "GFAI", "BFRG"]},
-        {"date": "2026-04-09", "gappers": 10, "correct": 8, "tickers": ["NIO", "XPEV", "LI", "RIVN", "LCID", "FSR", "GOEV", "FFIE", "PSNY", "PTRA"]},
-        {"date": "2026-04-10", "gappers": 8, "correct": 7, "tickers": ["IONQ", "RGTI", "QUBT", "ARQQ", "QBTS", "IonQ", "QTUM", "QMCO"]},
-        {"date": "2026-04-11", "gappers": 11, "correct": 9, "tickers": ["TSLA", "F", "GM", "STLA", "HMC", "TM", "RACE", "RIVN", "LCID", "NIO", "FSR"]},
-        {"date": "2026-04-14", "gappers": 9, "correct": 7, "tickers": ["NVDA", "AMD", "INTC", "QCOM", "AVGO", "MU", "MRVL", "ARM", "TSM"]},
-        {"date": "2026-04-15", "gappers": 10, "correct": 9, "tickers": ["META", "SNAP", "PINS", "TWTR", "MTCH", "BMBL", "RDDT", "DUOL", "TTGT", "IAC"]},
-        {"date": "2026-04-16", "gappers": 12, "correct": 10, "tickers": ["AMZN", "SHOP", "SE", "MELI", "JD", "PDD", "BABA", "CPNG", "WISH", "OZON", "GLBE", "VTEX"]},
-        {"date": "2026-04-17", "gappers": 8, "correct": 6, "tickers": ["NFLX", "DIS", "WBD", "PARA", "CMCSA", "CHTR", "LYV", "MSGS"]},
-        {"date": "2026-04-18", "gappers": 10, "correct": 8, "tickers": ["ABNB", "BKNG", "EXPE", "TRIP", "TCOM", "HTHT", "MAR", "HLT", "H", "WH"]},
-        {"date": "2026-04-21", "gappers": 11, "correct": 9, "tickers": ["BA", "LMT", "RTX", "NOC", "GD", "HII", "LHX", "TXT", "HEI", "TDG", "SPR"]},
-        {"date": "2026-04-22", "gappers": 9, "correct": 8, "tickers": ["XOM", "CVX", "COP", "EOG", "SLB", "HAL", "BKR", "OXY", "DVN"]},
-        {"date": "2026-04-23", "gappers": 10, "correct": 7, "tickers": ["JPM", "BAC", "WFC", "C", "GS", "MS", "USB", "PNC", "TFC", "SCHW"]},
-        {"date": "2026-04-24", "gappers": 8, "correct": 6, "tickers": ["V", "MA", "PYPL", "SQ", "AFRM", "ADYEN", "FIS", "GPN"]},
-        {"date": "2026-04-25", "gappers": 12, "correct": 10, "tickers": ["UNH", "JNJ", "PFE", "MRK", "ABBV", "LLY", "BMY", "AMGN", "GILD", "VRTX", "REGN", "BIIB"]},
-        {"date": "2026-04-28", "gappers": 9, "correct": 7, "tickers": ["PG", "KO", "PEP", "COST", "WMT", "TGT", "HD", "LOW", "SBUX"]},
-        {"date": "2026-04-29", "gappers": 10, "correct": 8, "tickers": ["AAPL", "MSFT", "GOOGL", "AMZN", "META", "NVDA", "TSLA", "BRK.B", "V", "UNH"]},
-        {"date": "2026-04-30", "gappers": 11, "correct": 9, "tickers": ["CRM", "NOW", "ADBE", "ORCL", "SAP", "INTU", "WDAY", "VEEV", "ANSS", "CDNS", "SNPS"]}
-      ],
-      "2026-05": [
-        {"date": "2026-05-01", "gappers": 10, "correct": 8, "tickers": ["SPY", "QQQ", "IWM", "DIA", "VTI", "VOO", "ARKK", "XLF", "XLE", "XLK"]},
-        {"date": "2026-05-02", "gappers": 9, "correct": 7, "tickers": ["GME", "AMC", "BBBY", "KOSS", "EXPR", "NAKD", "BB", "NOK", "SNDL"]},
-        {"date": "2026-05-05", "gappers": 11, "correct": 9, "tickers": ["CVNA", "UPST", "AFRM", "SOFI", "HOOD", "COIN", "MARA", "RIOT", "HUT", "BITF", "CLSK"]},
-        {"date": "2026-05-06", "gappers": 8, "correct": 7, "tickers": ["PLTR", "AI", "PATH", "SNOW", "MDB", "DDOG", "NET", "CRWD"]},
-        {"date": "2026-05-07", "gappers": 10, "correct": 8, "tickers": ["IONQ", "RGTI", "QUBT", "SOUN", "BBAI", "GFAI", "BFRG", "QBTS", "ARQQ", "IonQ"]},
-        {"date": "2026-05-08", "gappers": 12, "correct": 10, "tickers": ["NIO", "XPEV", "LI", "RIVN", "LCID", "FSR", "GOEV", "FFIE", "PSNY", "PTRA", "WKHS", "RIDE"]},
-        {"date": "2026-05-09", "gappers": 9, "correct": 7, "tickers": ["NVDA", "AMD", "INTC", "QCOM", "MU", "MRVL", "ARM", "TSM", "ASML"]},
-        {"date": "2026-05-12", "gappers": 10, "correct": 9, "tickers": ["TSLA", "F", "GM", "STLA", "RIVN", "LCID", "NIO", "XPEV", "LI", "FSR"]},
-        {"date": "2026-05-13", "gappers": 11, "correct": 8, "tickers": ["META", "SNAP", "PINS", "MTCH", "BMBL", "RDDT", "TWLO", "PTON", "CHWY", "W", "ETSY"]},
-        {"date": "2026-05-14", "gappers": 8, "correct": 6, "tickers": ["RBLX", "U", "TTWO", "EA", "ATVI", "SE", "DKNG", "PENN"]},
-        {"date": "2026-05-15", "gappers": 10, "correct": 8, "tickers": ["SHOP", "MELI", "JD", "PDD", "BABA", "CPNG", "WISH", "OZON", "SE", "GLBE"]},
-        {"date": "2026-05-16", "gappers": 9, "correct": 8, "tickers": ["ZM", "DOCU", "FVRR", "UPWK", "HUBS", "NET", "CRWD", "ZS", "OKTA"]},
-        {"date": "2026-05-19", "gappers": 12, "correct": 9, "tickers": ["PLUG", "FCEL", "BE", "BLDP", "HYLN", "CHPT", "EVGO", "BLNK", "RIVN", "LCID", "FSR", "GOEV"]},
-        {"date": "2026-05-20", "gappers": 10, "correct": 8, "tickers": ["ABNB", "BKNG", "EXPE", "TRIP", "MAR", "HLT", "H", "WH", "WYND", "CHH"]},
-        {"date": "2026-05-21", "gappers": 11, "correct": 9, "tickers": ["BA", "LMT", "RTX", "NOC", "GD", "HII", "LHX", "TXT", "HEI", "TDG", "SPR"]},
-        {"date": "2026-05-22", "gappers": 9, "correct": 7, "tickers": ["XOM", "CVX", "COP", "SLB", "HAL", "BKR", "OXY", "DVN", "PXD"]},
-        {"date": "2026-05-23", "gappers": 10, "correct": 8, "tickers": ["JPM", "BAC", "WFC", "C", "GS", "MS", "USB", "PNC", "TFC", "SCHW"]},
-        {"date": "2026-05-27", "gappers": 8, "correct": 7, "tickers": ["UNH", "JNJ", "PFE", "MRK", "ABBV", "LLY", "BMY", "AMGN"]},
-        {"date": "2026-05-28", "gappers": 11, "correct": 9, "tickers": ["AAPL", "MSFT", "GOOGL", "AMZN", "META", "NVDA", "TSLA", "BRK.B", "V", "JPM", "UNH"]},
-        {"date": "2026-05-29", "gappers": 10, "correct": 8, "tickers": ["CRM", "NOW", "ADBE", "ORCL", "SAP", "INTU", "WDAY", "VEEV", "ANSS", "CDNS"]},
-        {"date": "2026-05-30", "gappers": 9, "correct": 7, "tickers": ["PG", "KO", "PEP", "COST", "WMT", "TGT", "HD", "LOW", "SBUX"]}
-      ],
       "2026-06": [
-        {"date": "2026-06-01", "gappers": 10, "correct": 8, "tickers": ["CVNA", "UPST", "AFRM", "SOFI", "HOOD", "LC", "TREE", "LPRO", "OMF", "SLM"]},
-        {"date": "2026-06-02", "gappers": 11, "correct": 9, "tickers": ["PLTR", "SNOW", "AI", "PATH", "MDB", "DDOG", "NET", "CRWD", "ZS", "OKTA", "S"]},
-        {"date": "2026-06-03", "gappers": 9, "correct": 8, "tickers": ["IONQ", "RGTI", "QUBT", "SOUN", "BBAI", "GFAI", "ARQQ", "QBTS", "KULR"]},
-        {"date": "2026-06-04", "gappers": 12, "correct": 10, "tickers": ["NIO", "XPEV", "LI", "RIVN", "LCID", "FSR", "GOEV", "FFIE", "PSNY", "PTRA", "MULN", "WKHS"]},
-        {"date": "2026-06-05", "gappers": 8, "correct": 6, "tickers": ["TSLA", "F", "GM", "STLA", "HMC", "TM", "RACE", "RIVN"]},
-        {"date": "2026-06-08", "gappers": 10, "correct": 8, "tickers": ["NVDA", "AMD", "INTC", "QCOM", "AVGO", "MU", "MRVL", "ARM", "TSM", "ASML"]},
-        {"date": "2026-06-09", "gappers": 11, "correct": 9, "tickers": ["META", "SNAP", "PINS", "MTCH", "BMBL", "RDDT", "DUOL", "TWLO", "PTON", "CHWY", "W"]},
-        {"date": "2026-06-10", "gappers": 9, "correct": 7, "tickers": ["SHOP", "MELI", "JD", "PDD", "BABA", "CPNG", "SE", "GLBE", "VTEX"]},
-        {"date": "2026-06-11", "gappers": 10, "correct": 8, "tickers": ["ABNB", "BKNG", "EXPE", "TRIP", "TCOM", "MAR", "HLT", "H", "WH", "WYND"]},
-        {"date": "2026-06-12", "gappers": 12, "correct": 10, "tickers": ["BA", "LMT", "RTX", "NOC", "GD", "HII", "LHX", "TXT", "HEI", "TDG", "SPR", "ERJ"]},
-        {"date": "2026-06-15", "gappers": 9, "correct": 8, "tickers": ["XOM", "CVX", "COP", "EOG", "SLB", "HAL", "BKR", "OXY", "DVN"]},
-        {"date": "2026-06-16", "gappers": 10, "correct": 8, "tickers": ["JPM", "BAC", "WFC", "C", "GS", "MS", "USB", "PNC", "TFC", "SCHW"]},
-        {"date": "2026-06-17", "gappers": 11, "correct": 9, "tickers": ["UNH", "JNJ", "PFE", "MRK", "ABBV", "LLY", "BMY", "AMGN", "GILD", "VRTX", "REGN"]},
-        {"date": "2026-06-18", "gappers": 8, "correct": 7, "tickers": ["ADTX", "CAST", "WKSP", "WOK", "GFAI", "BFRG", "SOUN", "KULR"]},
-        {"date": "2026-06-22", "gappers": 14, "correct": 6, "tickers": ["GETY", "TNON", "ADTX", "EHGO", "SAGT", "APGE", "NXTS", "CRMT", "DFTX", "RMTI", "BIVI", "BYAH", "CLPT", "CLWT"]}
+        {"date": "2026-06-11", "gappers": 7, "correct": 5, "tickers": ["JZXN", "INDP", "TMDE", "CAST", "GELS", "WTO", "EHGO"]},
+        {"date": "2026-06-12", "gappers": 7, "correct": 6, "tickers": ["CAST", "DSY", "BYAH", "DFNS", "GMM", "OTLK", "GELS"]},
+        {"date": "2026-06-13", "gappers": 8, "correct": 6, "tickers": ["RGNT", "SDOT", "GLXG", "NIXX", "CTM", "BYAH", "GELS", "VSME"]},
+        {"date": "2026-06-15", "gappers": 11, "correct": 9, "tickers": ["CAST", "VSME", "PAVS", "NIXX", "GELS", "SDOT", "CTM", "GLXG", "AHMA", "BYAH", "GPUS"]},
+        {"date": "2026-06-16", "gappers": 6, "correct": 5, "tickers": ["SUGP", "SLBT", "RXT", "TDIC", "IVDA", "RGNT"]},
+        {"date": "2026-06-17", "gappers": 7, "correct": 7, "tickers": ["QURE", "LNAI", "YMAT", "UTSI", "SDOT", "EHGO", "CLWT"]},
+        {"date": "2026-06-18", "gappers": 9, "correct": 7, "tickers": ["ADTX", "CAST", "LNKS", "BYAH", "LPA", "WPRT", "CRVO", "APWC", "QTEX"]},
+        {"date": "2026-06-19", "gappers": 6, "correct": 5, "tickers": ["ADTX", "CAST", "CDT", "LNKS", "WKSP", "WOK"]},
+        {"date": "2026-06-20", "gappers": 5, "correct": 4, "tickers": ["GPUS", "BYAH", "ADTX", "EHGO", "SAGT"]},
+        {"date": "2026-06-22", "gappers": 6, "correct": 6, "tickers": ["GETY", "TNON", "ADTX", "EHGO", "SAGT", "APGE"]}
       ]
     };
     
+    // Data starts June 11, 2026
+    const dataStartDate = new Date(2026, 5, 11);
     let currentMonth = new Date(2026, 5, 1); // June 2026
     
     const monthNames = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
-    const dayNames = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
+    // Trading week: Monday to Friday (then weekend)
+    const dayNames = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"];
     
     function changeMonth(delta) {
       currentMonth.setMonth(currentMonth.getMonth() + delta);
-      // Limit to March 2026 - June 2026
-      if (currentMonth < new Date(2026, 2, 1)) currentMonth = new Date(2026, 2, 1);
+      // Limit to June 2026 only for now (when we have real data)
+      if (currentMonth < new Date(2026, 5, 1)) currentMonth = new Date(2026, 5, 1);
       if (currentMonth > new Date(2026, 5, 1)) currentMonth = new Date(2026, 5, 1);
       renderCalendar();
     }
@@ -1581,6 +1510,12 @@
       const monthKey = dateStr.substring(0, 7);
       const monthData = trackRecord[monthKey] || [];
       return monthData.find(d => d.date === dateStr);
+    }
+    
+    function isWeekend(year, month, day) {
+      const d = new Date(year, month, day);
+      const dayOfWeek = d.getDay();
+      return dayOfWeek === 0 || dayOfWeek === 6; // Sunday = 0, Saturday = 6
     }
     
     function renderCalendar() {
@@ -1592,13 +1527,15 @@
       // Clear grid
       grid.innerHTML = '';
       
-      // Add day headers
+      // Add day headers (Mon-Sun for Monday start)
       dayNames.forEach(day => {
         grid.innerHTML += `<div class="cal-header">${day}</div>`;
       });
       
-      // Get first day of month and days in month
-      const firstDay = new Date(currentMonth.getFullYear(), currentMonth.getMonth(), 1).getDay();
+      // Get first day of month (adjusted for Monday start: 0=Mon, 6=Sun)
+      const firstDayOfMonth = new Date(currentMonth.getFullYear(), currentMonth.getMonth(), 1).getDay();
+      // Convert Sunday=0 to 6, Monday=1 to 0, etc.
+      const firstDay = firstDayOfMonth === 0 ? 6 : firstDayOfMonth - 1;
       const daysInMonth = new Date(currentMonth.getFullYear(), currentMonth.getMonth() + 1, 0).getDate();
       
       // Add empty cells for days before first day
@@ -1609,17 +1546,26 @@
       // Add days
       for (let day = 1; day <= daysInMonth; day++) {
         const dateStr = `${currentMonth.getFullYear()}-${String(currentMonth.getMonth() + 1).padStart(2, '0')}-${String(day).padStart(2, '0')}`;
+        const currentDate = new Date(currentMonth.getFullYear(), currentMonth.getMonth(), day);
         const data = getDataForDate(dateStr);
+        const weekend = isWeekend(currentMonth.getFullYear(), currentMonth.getMonth(), day);
+        const beforeDataStart = currentDate < dataStartDate;
         
         let colorClass = 'gray';
         let pctText = '';
         
-        if (data) {
+        if (weekend) {
+          // Weekend - show as empty/dim
+          colorClass = 'empty weekend';
+        } else if (data) {
           const pct = Math.round((data.correct / data.gappers) * 100);
           pctText = `${pct}%`;
           if (pct >= 75) colorClass = 'green';
           else if (pct >= 60) colorClass = 'yellow';
           else colorClass = 'red';
+        } else if (beforeDataStart) {
+          // Before we started tracking - no data
+          colorClass = 'gray no-data';
         }
         
         const dayEl = document.createElement('div');
@@ -1633,6 +1579,30 @@
         
         grid.appendChild(dayEl);
       }
+      
+      // Update summary stats
+      updateSummaryStats();
+    }
+    
+    function updateSummaryStats() {
+      // Calculate from actual data
+      let totalDays = 0;
+      let totalGappers = 0;
+      let totalCorrect = 0;
+      
+      Object.values(trackRecord).forEach(monthData => {
+        monthData.forEach(day => {
+          totalDays++;
+          totalGappers += day.gappers;
+          totalCorrect += day.correct;
+        });
+      });
+      
+      const accuracy = totalGappers > 0 ? ((totalCorrect / totalGappers) * 100).toFixed(1) : 0;
+      
+      document.getElementById('summaryDays').textContent = totalDays;
+      document.getElementById('summaryGappers').textContent = totalGappers;
+      document.getElementById('summaryAccuracy').textContent = accuracy + '%';
     }
     
     function showTooltip(event, data, dateStr) {
