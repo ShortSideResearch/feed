@@ -113,7 +113,7 @@
     
     /* Hero */
     .hero {
-      padding: 160px 24px 80px;
+      padding: 160px 24px 40px;
       text-align: center;
       background: linear-gradient(180deg, #1a1a2e 0%, #0a0a0f 100%);
     }
@@ -142,7 +142,6 @@
       gap: 16px;
       justify-content: center;
       flex-wrap: wrap;
-      margin-bottom: 48px;
     }
     
     .hero-stats {
@@ -703,6 +702,16 @@
       background: linear-gradient(180deg, #0a0a0f 0%, #1a1a2e 100%);
     }
     
+    .track-record-stats {
+      display: flex;
+      gap: 48px;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin-bottom: 24px;
+      padding-bottom: 24px;
+      border-bottom: 1px solid #2a2a3e;
+    }
+    
     .calendar-container {
       max-width: 900px;
       margin: 0 auto;
@@ -946,8 +955,8 @@
         <span>ShortSide<span class="logo-research">Research</span></span>
       </a>
       <nav class="nav-links">
-        <a href="#features">Features</a>
         <a href="#track-record">Track Record</a>
+        <a href="#features">Features</a>
         <a href="#sample">Sample</a>
         <a href="#pricing">Pricing</a>
         <a href="https://x.com/ShortSideIO" target="_blank">@ShortSideIO</a>
@@ -964,7 +973,15 @@
       <a href="https://buy.stripe.com/9B65kE0jjbBxembd5D7Zu01" class="btn btn-primary">Start 30-Day Free Trial</a>
       <a href="#sample" class="btn btn-secondary">See Sample Newsletter</a>
     </div>
-    <div class="hero-stats">
+  </section>
+
+  <!-- Track Record Calendar -->
+  <section class="track-record" id="track-record">
+    <div class="section-title">
+      <h2>📊 Verified Track Record</h2>
+      <p>Every small-cap gapper we've analyzed since June 2026. Hover over any day to see the tickers.</p>
+    </div>
+    <div class="track-record-stats">
       <div class="stat">
         <div class="stat-value">83.3%</div>
         <div class="stat-label">Prediction Accuracy</div>
@@ -977,14 +994,6 @@
         <div class="stat-value">72</div>
         <div class="stat-label">Gappers Analyzed</div>
       </div>
-    </div>
-  </section>
-
-  <!-- Track Record Calendar -->
-  <section class="track-record" id="track-record">
-    <div class="section-title">
-      <h2>📊 Verified Track Record</h2>
-      <p>Every small-cap gapper we've analyzed since June 2026. Hover over any day to see the tickers.</p>
     </div>
     <div class="calendar-container">
       <div class="calendar-nav">
@@ -1000,16 +1009,6 @@
         <span class="legend-item"><span class="legend-color yellow"></span> 60-74% Accuracy</span>
         <span class="legend-item"><span class="legend-color red"></span> &lt;60% Accuracy</span>
         <span class="legend-item"><span class="legend-color gray"></span> No Data</span>
-      </div>
-      <div class="calendar-summary" id="calendarSummary">
-        <div class="summary-stat">
-          <span class="summary-value" id="summaryGappers">72</span>
-          <span class="summary-label">Gappers Analyzed</span>
-        </div>
-        <div class="summary-stat">
-          <span class="summary-value" id="summaryAccuracy">83.3%</span>
-          <span class="summary-label">Overall Accuracy</span>
-        </div>
       </div>
     </div>
     <div class="ticker-tooltip" id="tickerTooltip"></div>
@@ -1589,27 +1588,6 @@
         
         grid.appendChild(dayEl);
       }
-      
-      // Update summary stats
-      updateSummaryStats();
-    }
-    
-    function updateSummaryStats() {
-      // Calculate from actual data
-      let totalGappers = 0;
-      let totalCorrect = 0;
-      
-      Object.values(trackRecord).forEach(monthData => {
-        monthData.forEach(day => {
-          totalGappers += day.gappers;
-          totalCorrect += day.correct;
-        });
-      });
-      
-      const accuracy = totalGappers > 0 ? ((totalCorrect / totalGappers) * 100).toFixed(1) : 0;
-      
-      document.getElementById('summaryGappers').textContent = totalGappers;
-      document.getElementById('summaryAccuracy').textContent = accuracy + '%';
     }
     
     function showTooltip(event, data, dateStr) {
