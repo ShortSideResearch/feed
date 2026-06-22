@@ -699,13 +699,14 @@
     
     /* Track Record Calendar */
     .track-record {
-      padding: 80px 24px;
+      padding: 40px 24px 80px;
       background: linear-gradient(180deg, #0a0a0f 0%, #1a1a2e 100%);
     }
     
     .calendar-container {
       max-width: 900px;
       margin: 0 auto;
+      position: relative;
     }
     
     .calendar-nav {
@@ -873,18 +874,23 @@
     
     .ticker-tooltip {
       display: none;
-      position: fixed;
+      position: absolute;
       background: #1a1a2e;
-      border: 1px solid #5B95BE;
+      border: 2px solid #5B95BE;
       border-radius: 8px;
       padding: 16px;
-      max-width: 300px;
-      z-index: 1000;
-      box-shadow: 0 10px 40px rgba(0,0,0,0.5);
+      max-width: 320px;
+      z-index: 9999;
+      box-shadow: 0 10px 40px rgba(0,0,0,0.8);
+      pointer-events: none;
     }
     
     .ticker-tooltip.visible {
       display: block;
+    }
+    
+    .cal-day {
+      position: relative;
     }
     
     .tooltip-date {
@@ -1646,9 +1652,21 @@
         <div class="tooltip-tickers">${tickerLinks}</div>
       `;
       
-      const rect = event.target.getBoundingClientRect();
-      tooltip.style.left = `${rect.left + window.scrollX}px`;
-      tooltip.style.top = `${rect.bottom + window.scrollY + 10}px`;
+      // Position tooltip near the calendar day
+      const rect = event.currentTarget.getBoundingClientRect();
+      const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+      const scrollLeft = window.pageXOffset || document.documentElement.scrollLeft;
+      
+      // Position below the day cell
+      let left = rect.left + scrollLeft - 50;
+      let top = rect.bottom + scrollTop + 10;
+      
+      // Keep within viewport
+      if (left < 10) left = 10;
+      if (left + 320 > window.innerWidth) left = window.innerWidth - 330;
+      
+      tooltip.style.left = left + 'px';
+      tooltip.style.top = top + 'px';
       tooltip.classList.add('visible');
     }
     
