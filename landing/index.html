@@ -913,11 +913,34 @@
       max-width: 320px;
       z-index: 9999;
       box-shadow: 0 10px 40px rgba(0,0,0,0.8);
-      pointer-events: none;
+      pointer-events: auto;
     }
     
     .ticker-tooltip.visible {
       display: block;
+    }
+    
+    .tooltip-close {
+      position: absolute;
+      top: 8px;
+      right: 8px;
+      background: none;
+      border: none;
+      color: #888;
+      font-size: 24px;
+      cursor: pointer;
+      padding: 0;
+      width: 28px;
+      height: 28px;
+      line-height: 28px;
+      text-align: center;
+      border-radius: 4px;
+      transition: all 0.2s;
+    }
+    
+    .tooltip-close:hover {
+      color: #fff;
+      background: rgba(255,255,255,0.1);
     }
     
     .cal-day {
@@ -1600,13 +1623,26 @@
         dayEl.innerHTML = `<span class="day-num">${day}</span>${pctText ? `<span class="day-pct">${pctText}</span>` : ''}`;
         
         if (data) {
+          // Click to show tooltip (works on mobile and desktop)
+          dayEl.addEventListener('click', (e) => {
+            e.stopPropagation();
+            showTooltip(e, data, dateStr);
+          });
+          // Hover for desktop
           dayEl.addEventListener('mouseenter', (e) => showTooltip(e, data, dateStr));
-          dayEl.addEventListener('mouseleave', hideTooltip);
+          dayEl.addEventListener('mouseleave', (e) => {
+            // Only hide on mouseleave if not clicked (tooltip not pinned)
+            if (!document.getElementById('tickerTooltip').classList.contains('pinned')) {
+              hideTooltip();
+            }
+          });
         }
         
         grid.appendChild(dayEl);
       }
     }
+    
+    let tooltipPinned = false;
     
     function showTooltip(event, data, dateStr) {
       const tooltip = document.getElementById('tickerTooltip');
@@ -1619,6 +1655,7 @@
       ).join('');
       
       tooltip.innerHTML = `
+        <button class="tooltip-close" onclick="hideTooltip()">&times;</button>
         <div class="tooltip-date">${dateFormatted}</div>
         <div class="tooltip-stats">${data.gappers} gappers analyzed · ${data.correct}/${data.gappers} correct (${pct}%)</div>
         <div class="tooltip-tickers">${tickerLinks}</div>
@@ -1640,11 +1677,26 @@
       tooltip.style.left = left + 'px';
       tooltip.style.top = top + 'px';
       tooltip.classList.add('visible');
+      
+      // If clicked (not just hover), pin the tooltip
+      if (event.type === 'click') {
+        tooltip.classList.add('pinned');
+      }
     }
     
     function hideTooltip() {
-      document.getElementById('tickerTooltip').classList.remove('visible');
+      const tooltip = document.getElementById('tickerTooltip');
+      tooltip.classList.remove('visible');
+      tooltip.classList.remove('pinned');
     }
+    
+    // Close tooltip when clicking outside
+    document.addEventListener('click', (e) => {
+      const tooltip = document.getElementById('tickerTooltip');
+      if (!e.target.closest('.cal-day') && !e.target.closest('.ticker-tooltip')) {
+        hideTooltip();
+      }
+    });
     
     // Initialize calendar
     renderCalendar();
