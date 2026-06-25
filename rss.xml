@@ -5,13 +5,20 @@
     <link>https://x.com/ShortSideIO</link>
     <description>Daily gapper analysis and short squeeze risk alerts for traders. Independent research on overvalued stocks.</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 25 Jun 2026 12:01:58 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 25 Jun 2026 12:02:04 GMT</lastBuildDate>
     <atom:link href="https://shortsideresearch.substack.com/feed" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://pbs.twimg.com/profile_images/ShortSideIO/logo.png</url>
       <title>ShortSide Research</title>
       <link>https://x.com/ShortSideIO</link>
     </image>
+    <item>
+      <title>$EHGO +27.02%</title>
+      <description><![CDATA[📊 $EHGO +27.02% | Pre-Market Gapper - Float: 1.26M, Short %: 1.16%, DTC: 0.00, Squeeze Risk: 40% MODERATE]]></description>
+      <link>https://x.com/ShortSideIO/status/2070115290726187438</link>
+      <guid isPermaLink="true">https://x.com/ShortSideIO/status/2070115290726187438</guid>
+      <pubDate>Thu, 25 Jun 2026 12:02:04 GMT</pubDate>
+    </item>
     <item>
       <title>$NEXR +34.40%</title>
       <description><![CDATA[📊 $NEXR +34.40% | Pre-Market Gapper - Float: 6.07M, Short %: 14.30% HIGH, DTC: 0.19, Squeeze Risk: 55% MODERATE-HIGH]]></description>
@@ -354,13 +361,6 @@
       <link>https://x.com/ShortSideIO/status/2066611974469820425</link>
       <guid isPermaLink="true">https://x.com/ShortSideIO/status/2066611974469820425</guid>
       <pubDate>Mon, 15 Jun 2026 20:01:09 GMT</pubDate>
-    </item>
-    <item>
-      <title>🚨 Pre-Market Gappers Jun 15: CAST +224%, VSME +69%, PAVS...</title>
-      <description><![CDATA[🚨 Pre-Market Gappers Jun 15: CAST +224%, VSME +69%, PAVS +65%, NIXX +59%, GELS +52%, SDOT +43%, CTM +37%, GLXG +35%, AHMA +31%, BYAH +25%, GPUS +22%]]></description>
-      <link>https://x.com/ShortSideIO/status/2066491471448903811</link>
-      <guid isPermaLink="true">https://x.com/ShortSideIO/status/2066491471448903811</guid>
-      <pubDate>Mon, 15 Jun 2026 12:02:18 GMT</pubDate>
     </item>
   </channel>
 </rss>
