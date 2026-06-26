@@ -5,13 +5,20 @@
     <link>https://x.com/ShortSideIO</link>
     <description>Daily gapper analysis and short squeeze risk alerts for traders. Independent research on overvalued stocks.</description>
     <language>en-us</language>
-    <lastBuildDate>Fri, 26 Jun 2026 12:01:57 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 26 Jun 2026 12:02:05 GMT</lastBuildDate>
     <atom:link href="https://shortsideresearch.substack.com/feed" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://pbs.twimg.com/profile_images/ShortSideIO/logo.png</url>
       <title>ShortSide Research</title>
       <link>https://x.com/ShortSideIO</link>
     </image>
+    <item>
+      <title>$IVF +50.81%</title>
+      <description><![CDATA[📊 $IVF +50.81% Pre-Market | Float: 1.78M | Short: 7.60% | Squeeze Risk: 55%]]></description>
+      <link>https://x.com/ShortSideIO/status/2070477663702069280</link>
+      <guid isPermaLink="true">https://x.com/ShortSideIO/status/2070477663702069280</guid>
+      <pubDate>Fri, 26 Jun 2026 12:02:05 GMT</pubDate>
+    </item>
     <item>
       <title>$ILLR +61.97%</title>
       <description><![CDATA[📊 $ILLR +61.97% Pre-Market | Float: 177.51M | Short: 0.08% | Squeeze Risk: 15%]]></description>
@@ -354,13 +361,6 @@
       <link>https://x.com/ShortSideIO/status/2066853776665821530</link>
       <guid isPermaLink="true">https://x.com/ShortSideIO/status/2066853776665821530</guid>
       <pubDate>Tue, 16 Jun 2026 12:02:01 GMT</pubDate>
-    </item>
-    <item>
-      <title>$RXT +27.7%</title>
-      <description><![CDATA[📊 $RXT | +27.7% pre-market ⚠️ SQUEEZE RISK: 55% Float: 96.35M Short Float: 15.93% Short Interest: 15.35M shares Catalyst: AMD AI compute deal (30 MW)]]></description>
-      <link>https://x.com/ShortSideIO/status/2066853724442575171</link>
-      <guid isPermaLink="true">https://x.com/ShortSideIO/status/2066853724442575171</guid>
-      <pubDate>Tue, 16 Jun 2026 12:01:53 GMT</pubDate>
     </item>
   </channel>
 </rss>
