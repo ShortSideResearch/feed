@@ -5,13 +5,20 @@
     <link>https://x.com/ShortSideIO</link>
     <description>Daily gapper analysis and short squeeze risk alerts for traders. Independent research on overvalued stocks.</description>
     <language>en-us</language>
-    <lastBuildDate>Fri, 26 Jun 2026 12:02:13 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 26 Jun 2026 12:02:18 GMT</lastBuildDate>
     <atom:link href="https://shortsideresearch.substack.com/feed" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://pbs.twimg.com/profile_images/ShortSideIO/logo.png</url>
       <title>ShortSide Research</title>
       <link>https://x.com/ShortSideIO</link>
     </image>
+    <item>
+      <title>$TII +31.39%</title>
+      <description><![CDATA[📊 $TII +31.39% Pre-Market | Float: 28.51M | Short: 2.03% | Squeeze Risk: 25%]]></description>
+      <link>https://x.com/ShortSideIO/status/2070477731800744137</link>
+      <guid isPermaLink="true">https://x.com/ShortSideIO/status/2070477731800744137</guid>
+      <pubDate>Fri, 26 Jun 2026 12:02:18 GMT</pubDate>
+    </item>
     <item>
       <title>$SDOT +47.41%</title>
       <description><![CDATA[📊 $SDOT +47.41% Pre-Market | Float: 740K | Short: 13.18% | ⚠️ Squeeze Risk: 75%]]></description>
@@ -354,13 +361,6 @@
       <link>https://x.com/ShortSideIO/status/2066974264675197268</link>
       <guid isPermaLink="true">https://x.com/ShortSideIO/status/2066974264675197268</guid>
       <pubDate>Tue, 16 Jun 2026 20:00:46 GMT</pubDate>
-    </item>
-    <item>
-      <title>$IVDA +32.8%</title>
-      <description><![CDATA[📊 $IVDA | +32.8% pre-market ⚠️ SQUEEZE RISK: 25% (LOW) Float: 10.63M Short Float: 1.58% Catalyst: IvedaRTLS 10cm accuracy upgrade]]></description>
-      <link>https://x.com/ShortSideIO/status/2066853812497695044</link>
-      <guid isPermaLink="true">https://x.com/ShortSideIO/status/2066853812497695044</guid>
-      <pubDate>Tue, 16 Jun 2026 12:02:07 GMT</pubDate>
     </item>
   </channel>
 </rss>
