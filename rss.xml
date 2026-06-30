@@ -5,13 +5,20 @@
     <link>https://x.com/ShortSideIO</link>
     <description>Daily gapper analysis and short squeeze risk alerts for traders. Independent research on overvalued stocks.</description>
     <language>en-us</language>
-    <lastBuildDate>Tue, 30 Jun 2026 12:01:41 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 30 Jun 2026 12:01:50 GMT</lastBuildDate>
     <atom:link href="https://shortsideresearch.substack.com/feed" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://pbs.twimg.com/profile_images/ShortSideIO/logo.png</url>
       <title>ShortSide Research</title>
       <link>https://x.com/ShortSideIO</link>
     </image>
+    <item>
+      <title>$EDBL +114.08%</title>
+      <description><![CDATA[📊 $EDBL | +114.08% Pre-Market | Float: 5.43M | Short %: 3.64% | Market Cap: $0.89M | ⚠️ SQUEEZE RISK: 75% (HIGH)]]></description>
+      <link>https://x.com/ShortSideIO/status/2071927156859441473</link>
+      <guid isPermaLink="true">https://x.com/ShortSideIO/status/2071927156859441473</guid>
+      <pubDate>Tue, 30 Jun 2026 12:01:50 GMT</pubDate>
+    </item>
     <item>
       <title>$JEM +212.87%</title>
       <description><![CDATA[📊 $JEM | +212.87% Pre-Market | Float: Unknown | Short Interest: 0.23M | Market Cap: $1.95M | ⚠️ SQUEEZE RISK: 85% (EXTREME)]]></description>
@@ -354,13 +361,6 @@
       <link>https://x.com/ShortSideIO/status/2067216329858310271</link>
       <guid isPermaLink="true">https://x.com/ShortSideIO/status/2067216329858310271</guid>
       <pubDate>Wed, 17 Jun 2026 12:02:41 GMT</pubDate>
-    </item>
-    <item>
-      <title>$UTSI +199%</title>
-      <description><![CDATA[📊 $UTSI +199% | TOP GAPPER 🚀 Biggest mover of the day 💰 Mcap: $28.1M | Price: $8.84]]></description>
-      <link>https://x.com/ShortSideIO/status/2067216295083270350</link>
-      <guid isPermaLink="true">https://x.com/ShortSideIO/status/2067216295083270350</guid>
-      <pubDate>Wed, 17 Jun 2026 12:02:32 GMT</pubDate>
     </item>
   </channel>
 </rss>
