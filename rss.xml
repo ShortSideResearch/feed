@@ -5,13 +5,20 @@
     <link>https://x.com/ShortSideIO</link>
     <description>Daily gapper analysis and short squeeze risk alerts for traders. Independent research on overvalued stocks.</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 01 Jul 2026 13:46:11 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 01 Jul 2026 13:46:17 GMT</lastBuildDate>
     <atom:link href="https://shortsideresearch.substack.com/feed" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://pbs.twimg.com/profile_images/ShortSideIO/logo.png</url>
       <title>ShortSide Research</title>
       <link>https://x.com/ShortSideIO</link>
     </image>
+    <item>
+      <title>$SOC +25%</title>
+      <description><![CDATA[📊 $SOC +25% | Sable Offshore | Float: 132.32M | Short Interest: 19.70% | DTC: 4.91 | Squeeze Risk: 55%]]></description>
+      <link>https://x.com/ShortSideIO/status/2072315843556364619</link>
+      <guid isPermaLink="true">https://x.com/ShortSideIO/status/2072315843556364619</guid>
+      <pubDate>Wed, 01 Jul 2026 13:46:17 GMT</pubDate>
+    </item>
     <item>
       <title>$SDOT +27%</title>
       <description><![CDATA[📊 $SDOT +27% | Sadot Group | Float: 0.74M | Short Interest: 13.18% | Squeeze Risk: 70%]]></description>
@@ -354,13 +361,6 @@
       <link>https://x.com/ShortSideIO/status/2067940764663890073</link>
       <guid isPermaLink="true">https://x.com/ShortSideIO/status/2067940764663890073</guid>
       <pubDate>Fri, 19 Jun 2026 12:01:37 GMT</pubDate>
-    </item>
-    <item>
-      <title>$ADTX +273%</title>
-      <description><![CDATA[📊 $ADTX | +273% Pre-Market - Float: 670K, Short: 13.9%, Catalyst: Ignite merger. SQUEEZE RISK: 85%]]></description>
-      <link>https://x.com/ShortSideIO/status/2067940738474618993</link>
-      <guid isPermaLink="true">https://x.com/ShortSideIO/status/2067940738474618993</guid>
-      <pubDate>Fri, 19 Jun 2026 12:01:36 GMT</pubDate>
     </item>
   </channel>
 </rss>
