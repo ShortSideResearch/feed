@@ -5,13 +5,20 @@
     <link>https://x.com/ShortSideIO</link>
     <description>Daily gapper analysis and short squeeze risk alerts for traders. Independent research on overvalued stocks.</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 02 Jul 2026 12:02:15 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 02 Jul 2026 12:02:16 GMT</lastBuildDate>
     <atom:link href="https://shortsideresearch.substack.com/feed" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://pbs.twimg.com/profile_images/ShortSideIO/logo.png</url>
       <title>ShortSide Research</title>
       <link>https://x.com/ShortSideIO</link>
     </image>
+    <item>
+      <title>$CWD +64%</title>
+      <description><![CDATA[📊 $CWD +64% | Float: 8.28M | Short: 2.31% | Squeeze Risk: 35%]]></description>
+      <link>https://x.com/ShortSideIO/status/2072651950969979378</link>
+      <guid isPermaLink="true">https://x.com/ShortSideIO/status/2072651950969979378</guid>
+      <pubDate>Thu, 02 Jul 2026 12:02:16 GMT</pubDate>
+    </item>
     <item>
       <title>$USDE +124%</title>
       <description><![CDATA[📊 $USDE +124% | Float: 5.54M | Short: N/A | Squeeze Risk: 75%]]></description>
@@ -354,13 +361,6 @@
       <link>https://x.com/ShortSideIO/status/2067940828308279735</link>
       <guid isPermaLink="true">https://x.com/ShortSideIO/status/2067940828308279735</guid>
       <pubDate>Fri, 19 Jun 2026 12:01:38 GMT</pubDate>
-    </item>
-    <item>
-      <title>$WOK +33%</title>
-      <description><![CDATA[📊 $WOK | +33% Pre-Market - Float: 10K (MICRO!), Short: 13.9%, Catalyst: 1-for-100 R/S. SQUEEZE RISK: 75%]]></description>
-      <link>https://x.com/ShortSideIO/status/2067940823560343561</link>
-      <guid isPermaLink="true">https://x.com/ShortSideIO/status/2067940823560343561</guid>
-      <pubDate>Fri, 19 Jun 2026 12:01:37 GMT</pubDate>
     </item>
   </channel>
 </rss>
