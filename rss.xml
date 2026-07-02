@@ -5,13 +5,20 @@
     <link>https://x.com/ShortSideIO</link>
     <description>Daily gapper analysis and short squeeze risk alerts for traders. Independent research on overvalued stocks.</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 02 Jul 2026 12:02:17 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 02 Jul 2026 12:02:18 GMT</lastBuildDate>
     <atom:link href="https://shortsideresearch.substack.com/feed" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://pbs.twimg.com/profile_images/ShortSideIO/logo.png</url>
       <title>ShortSide Research</title>
       <link>https://x.com/ShortSideIO</link>
     </image>
+    <item>
+      <title>$MIDDV +52%</title>
+      <description><![CDATA[📊 $MIDDV +52% | MCap: $7.77B | Squeeze Risk: 15% (Large cap, safe)]]></description>
+      <link>https://x.com/ShortSideIO/status/2072652000227975647</link>
+      <guid isPermaLink="true">https://x.com/ShortSideIO/status/2072652000227975647</guid>
+      <pubDate>Thu, 02 Jul 2026 12:02:18 GMT</pubDate>
+    </item>
     <item>
       <title>$WHLR +64%</title>
       <description><![CDATA[📊 $WHLR +64% | Float: 550K | Short: 7.98% | Squeeze Risk: 80%]]></description>
@@ -354,13 +361,6 @@
       <link>https://x.com/ShortSideIO/status/2069027984057438297</link>
       <guid isPermaLink="true">https://x.com/ShortSideIO/status/2069027984057438297</guid>
       <pubDate>Mon, 22 Jun 2026 12:01:52 GMT</pubDate>
-    </item>
-    <item>
-      <title>$ADTX +87%</title>
-      <description><![CDATA[📊 $ADTX | +87% PM | SQUEEZE RISK: 85% | Short Float: 11.67% | Float: 800K | Catalyst: Ignite merger $150M]]></description>
-      <link>https://x.com/ShortSideIO/status/2069027957360783767</link>
-      <guid isPermaLink="true">https://x.com/ShortSideIO/status/2069027957360783767</guid>
-      <pubDate>Mon, 22 Jun 2026 12:01:50 GMT</pubDate>
     </item>
   </channel>
 </rss>
