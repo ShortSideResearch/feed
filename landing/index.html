@@ -1527,13 +1527,18 @@
         {"date": "2026-06-23", "gappers": 6, "correct": 5, "tickers": ["BFRI", "CIIT", "HSCS", "RDGT", "TRIB", "ATLN"]},
         {"date": "2026-06-24", "gappers": 6, "correct": 5, "tickers": ["PLSM", "FRTT", "MGN", "VTAK", "CUPR", "SCAG"]},
         {"date": "2026-06-25", "gappers": 6, "correct": 5, "tickers": ["KUST", "AZI", "WYY", "NEXR", "EHGO", "ILLR"]},
-        {"date": "2026-06-26", "gappers": 5, "correct": 4, "tickers": ["ZDAI", "ILLR", "IVF", "SDOT", "TII"]}
+        {"date": "2026-06-26", "gappers": 5, "correct": 4, "tickers": ["ZDAI", "ILLR", "IVF", "SDOT", "TII"]},
+        {"date": "2026-06-30", "gappers": 5, "correct": 4, "tickers": ["JEM", "EDBL", "BIYA", "BTCT", "ABVX"]}
+      ],
+      "2026-07": [
+        {"date": "2026-07-01", "gappers": 7, "correct": 5, "tickers": ["TC", "DXF", "JEM", "GSUN", "CANF", "LHAI", "SOC"]},
+        {"date": "2026-07-02", "gappers": 5, "correct": 4, "tickers": ["LIMN", "SURG", "SENEB", "SDEV", "CLRO"]}
       ]
     };
     
     // Data starts June 11, 2026
     const dataStartDate = new Date(2026, 5, 11);
-    let currentMonth = new Date(2026, 5, 1); // June 2026
+    let currentMonth = new Date(2026, 6, 1); // July 2026 (current month)
     
     const monthNames = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
     // Trading week: Monday to Friday only (no weekends)
@@ -1541,9 +1546,9 @@
     
     function changeMonth(delta) {
       currentMonth.setMonth(currentMonth.getMonth() + delta);
-      // Limit to June 2026 only for now (when we have real data)
+      // Limit to June-July 2026 (months with real data)
       if (currentMonth < new Date(2026, 5, 1)) currentMonth = new Date(2026, 5, 1);
-      if (currentMonth > new Date(2026, 5, 1)) currentMonth = new Date(2026, 5, 1);
+      if (currentMonth > new Date(2026, 6, 1)) currentMonth = new Date(2026, 6, 1);
       renderCalendar();
     }
     
@@ -1740,8 +1745,8 @@
       entries.forEach(entry => {
         if (entry.isIntersecting && !animated) {
           animated = true;
-          animateCount(document.getElementById('animAccuracy'), 83.3, 1500, true);
-          animateCount(document.getElementById('animGappers'), 72, 1500, false);
+          animateCount(document.getElementById('animAccuracy'), 82.1, 1500, true);
+          animateCount(document.getElementById('animGappers'), 112, 1500, false);
         }
       });
     }, { threshold: 0.3 });
