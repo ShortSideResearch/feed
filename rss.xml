@@ -5,13 +5,20 @@
     <link>https://x.com/ShortSideIO</link>
     <description>Daily gapper analysis and short squeeze risk alerts for traders. Independent research on overvalued stocks.</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 06 Jul 2026 13:46:15 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 06 Jul 2026 13:46:24 GMT</lastBuildDate>
     <atom:link href="https://shortsideresearch.substack.com/feed" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://pbs.twimg.com/profile_images/ShortSideIO/logo.png</url>
       <title>ShortSide Research</title>
       <link>https://x.com/ShortSideIO</link>
     </image>
+    <item>
+      <title>$FXHO +81%</title>
+      <description><![CDATA[📊 $FXHO +81% | Float: 0.10M (NANO), Short Interest: 97.43%, Market Cap: $2.6M | ⚠️ Squeeze Risk: 95% (EXTREME)]]></description>
+      <link>https://x.com/ShortSideIO/status/2074127797145002034</link>
+      <guid isPermaLink="true">https://x.com/ShortSideIO/status/2074127797145002034</guid>
+      <pubDate>Mon, 06 Jul 2026 13:46:24 GMT</pubDate>
+    </item>
     <item>
       <title>$ZCMD +125%</title>
       <description><![CDATA[📊 $ZCMD +125% | Float: N/A, Short Ratio: 0.01, Market Cap: $2.9M | ⚠️ Squeeze Risk: 50% (MODERATE)]]></description>
@@ -354,13 +361,6 @@
       <link>https://x.com/ShortSideIO/status/2069752842848457022</link>
       <guid isPermaLink="true">https://x.com/ShortSideIO/status/2069752842848457022</guid>
       <pubDate>Wed, 24 Jun 2026 12:01:49 GMT</pubDate>
-    </item>
-    <item>
-      <title>$VTAK +47%</title>
-      <description><![CDATA[📊 $VTAK | +47% Pre-Market - Catheter Precision | MC: $2.5M - Sub-$3M cap, very illiquid - Squeeze Risk: 60%]]></description>
-      <link>https://x.com/ShortSideIO/status/2069752811831611723</link>
-      <guid isPermaLink="true">https://x.com/ShortSideIO/status/2069752811831611723</guid>
-      <pubDate>Wed, 24 Jun 2026 12:01:44 GMT</pubDate>
     </item>
   </channel>
 </rss>
