@@ -5,13 +5,20 @@
     <link>https://x.com/ShortSideIO</link>
     <description>Daily gapper analysis and short squeeze risk alerts for traders. Independent research on overvalued stocks.</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 06 Jul 2026 12:02:24 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 06 Jul 2026 13:46:06 GMT</lastBuildDate>
     <atom:link href="https://shortsideresearch.substack.com/feed" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://pbs.twimg.com/profile_images/ShortSideIO/logo.png</url>
       <title>ShortSide Research</title>
       <link>https://x.com/ShortSideIO</link>
     </image>
+    <item>
+      <title>$LHSW +265%</title>
+      <description><![CDATA[📊 $LHSW +265% | Float: 0.15M (TINY), Short Interest: 14.13%, Market Cap: $22.4M | ⚠️ Squeeze Risk: 85% (VERY HIGH)]]></description>
+      <link>https://x.com/ShortSideIO/status/2074127722255724862</link>
+      <guid isPermaLink="true">https://x.com/ShortSideIO/status/2074127722255724862</guid>
+      <pubDate>Mon, 06 Jul 2026 13:46:06 GMT</pubDate>
+    </item>
     <item>
       <title>$SPHL +40.63%</title>
       <description><![CDATA[📊 $SPHL | +40.63% Pre-Market | Float: 1.24M | Short: 3.48% | Squeeze Risk: 55% | Lower risk - potential short]]></description>
@@ -354,13 +361,6 @@
       <link>https://x.com/ShortSideIO/status/2069752780986712506</link>
       <guid isPermaLink="true">https://x.com/ShortSideIO/status/2069752780986712506</guid>
       <pubDate>Wed, 24 Jun 2026 12:01:37 GMT</pubDate>
-    </item>
-    <item>
-      <title>$FRTT +69%</title>
-      <description><![CDATA[📊 $FRTT | +69% Pre-Market - Fort Technology Inc - No MC data - likely tiny float - Squeeze Risk: 65%]]></description>
-      <link>https://x.com/ShortSideIO/status/2069752740796936493</link>
-      <guid isPermaLink="true">https://x.com/ShortSideIO/status/2069752740796936493</guid>
-      <pubDate>Wed, 24 Jun 2026 12:01:29 GMT</pubDate>
     </item>
   </channel>
 </rss>
