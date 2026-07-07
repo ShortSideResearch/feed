@@ -5,13 +5,20 @@
     <link>https://x.com/ShortSideIO</link>
     <description>Daily gapper analysis and short squeeze risk alerts for traders. Independent research on overvalued stocks.</description>
     <language>en-us</language>
-    <lastBuildDate>Tue, 07 Jul 2026 12:01:48 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 07 Jul 2026 12:01:56 GMT</lastBuildDate>
     <atom:link href="https://shortsideresearch.substack.com/feed" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://pbs.twimg.com/profile_images/ShortSideIO/logo.png</url>
       <title>ShortSide Research</title>
       <link>https://x.com/ShortSideIO</link>
     </image>
+    <item>
+      <title>$SUGP +43%</title>
+      <description><![CDATA[📊 $SUGP +43% | SU Group Holdings | Cap: $3.68M | Float: 2.97M | Short: 3.74% | DTC: 0.02 | Squeeze Risk: 30%]]></description>
+      <link>https://x.com/ShortSideIO/status/2074463902188872015</link>
+      <guid isPermaLink="true">https://x.com/ShortSideIO/status/2074463902188872015</guid>
+      <pubDate>Tue, 07 Jul 2026 12:01:56 GMT</pubDate>
+    </item>
     <item>
       <title>$TDTH +56%</title>
       <description><![CDATA[📊 $TDTH +56% | Trident Digital Tech | Cap: $6.50M | Short: Minimal | DTC: 0.04 | Squeeze Risk: 25%]]></description>
@@ -354,13 +361,6 @@
       <link>https://x.com/ShortSideIO/status/2070115290726187438</link>
       <guid isPermaLink="true">https://x.com/ShortSideIO/status/2070115290726187438</guid>
       <pubDate>Thu, 25 Jun 2026 12:02:04 GMT</pubDate>
-    </item>
-    <item>
-      <title>$NEXR +34.40%</title>
-      <description><![CDATA[📊 $NEXR +34.40% | Pre-Market Gapper - Float: 6.07M, Short %: 14.30% HIGH, DTC: 0.19, Squeeze Risk: 55% MODERATE-HIGH]]></description>
-      <link>https://x.com/ShortSideIO/status/2070115256085463151</link>
-      <guid isPermaLink="true">https://x.com/ShortSideIO/status/2070115256085463151</guid>
-      <pubDate>Thu, 25 Jun 2026 12:01:58 GMT</pubDate>
     </item>
   </channel>
 </rss>
