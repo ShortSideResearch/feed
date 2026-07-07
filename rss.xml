@@ -5,13 +5,20 @@
     <link>https://x.com/ShortSideIO</link>
     <description>Daily gapper analysis and short squeeze risk alerts for traders. Independent research on overvalued stocks.</description>
     <language>en-us</language>
-    <lastBuildDate>Tue, 07 Jul 2026 13:46:14 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 07 Jul 2026 13:46:23 GMT</lastBuildDate>
     <atom:link href="https://shortsideresearch.substack.com/feed" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://pbs.twimg.com/profile_images/ShortSideIO/logo.png</url>
       <title>ShortSide Research</title>
       <link>https://x.com/ShortSideIO</link>
     </image>
+    <item>
+      <title>$TDTH +65%</title>
+      <description><![CDATA[📊 $TDTH +65% | MCap $6.5M | Float N/A | SI N/A | DTC 0.04 - Trident Digital Tech - micro-cap with unknown float. Low DTC (0.04) suggests minimal short interest. ⚠️ Squeeze Risk: 30%]]></description>
+      <link>https://x.com/ShortSideIO/status/2074490184473649281</link>
+      <guid isPermaLink="true">https://x.com/ShortSideIO/status/2074490184473649281</guid>
+      <pubDate>Tue, 07 Jul 2026 13:46:23 GMT</pubDate>
+    </item>
     <item>
       <title>$CRNX +99%</title>
       <description><![CDATA[📊 $CRNX +99% | MCap $4.4B | Float 99M | SI 13% | DTC 9.88 - Biotech with MASSIVE days-to-cover. At 9.88 DTC shorts need 10 days to exit. 13% SI on large float = 12.8M shares short. ⚠️ Squeeze Risk: 55% High DTC is the wildcard here.]]></description>
@@ -354,13 +361,6 @@
       <link>https://x.com/ShortSideIO/status/2070477663702069280</link>
       <guid isPermaLink="true">https://x.com/ShortSideIO/status/2070477663702069280</guid>
       <pubDate>Fri, 26 Jun 2026 12:02:05 GMT</pubDate>
-    </item>
-    <item>
-      <title>$ILLR +61.97%</title>
-      <description><![CDATA[📊 $ILLR +61.97% Pre-Market | Float: 177.51M | Short: 0.08% | Squeeze Risk: 15%]]></description>
-      <link>https://x.com/ShortSideIO/status/2070477630424457680</link>
-      <guid isPermaLink="true">https://x.com/ShortSideIO/status/2070477630424457680</guid>
-      <pubDate>Fri, 26 Jun 2026 12:01:57 GMT</pubDate>
     </item>
   </channel>
 </rss>
