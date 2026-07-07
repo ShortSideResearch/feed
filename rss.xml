@@ -5,13 +5,20 @@
     <link>https://x.com/ShortSideIO</link>
     <description>Daily gapper analysis and short squeeze risk alerts for traders. Independent research on overvalued stocks.</description>
     <language>en-us</language>
-    <lastBuildDate>Tue, 07 Jul 2026 12:02:05 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 07 Jul 2026 12:02:11 GMT</lastBuildDate>
     <atom:link href="https://shortsideresearch.substack.com/feed" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://pbs.twimg.com/profile_images/ShortSideIO/logo.png</url>
       <title>ShortSide Research</title>
       <link>https://x.com/ShortSideIO</link>
     </image>
+    <item>
+      <title>$BJDX +26%</title>
+      <description><![CDATA[📊 $BJDX +26% | Bluejay Diagnostics | Cap: $1.20M | Float: 0.94M TINY | Short: 18.85% | DTC: 0.10 | Squeeze Risk: 50%]]></description>
+      <link>https://x.com/ShortSideIO/status/2074463972070199366</link>
+      <guid isPermaLink="true">https://x.com/ShortSideIO/status/2074463972070199366</guid>
+      <pubDate>Tue, 07 Jul 2026 12:02:11 GMT</pubDate>
+    </item>
     <item>
       <title>$CPOP +38%</title>
       <description><![CDATA[📊 $CPOP +38% | Pop Culture Group | Cap: $9.73M | Float: 27.05M | Short: 8.56% | DTC: 0.16 | Squeeze Risk: 35%]]></description>
@@ -354,13 +361,6 @@
       <link>https://x.com/ShortSideIO/status/2070477599223021949</link>
       <guid isPermaLink="true">https://x.com/ShortSideIO/status/2070477599223021949</guid>
       <pubDate>Fri, 26 Jun 2026 12:01:49 GMT</pubDate>
-    </item>
-    <item>
-      <title>$ILLR +297%</title>
-      <description><![CDATA[📊 $ILLR +297% | Triller Group<br/><br/>🔴 Float: 177.51M (large)<br/>🟢 Short Interest: 0.10%<br/>🟢 Days to Cover: 0.50<br/><br/>Overnight Risk: 🟢 LOW<br/><br/>Large float + minimal short interest = no squeeze fuel. Watch for profit-taking after a near 4x move.]]></description>
-      <link>https://x.com/ShortSideIO/status/2070235828538822968</link>
-      <guid isPermaLink="true">https://x.com/ShortSideIO/status/2070235828538822968</guid>
-      <pubDate>Thu, 25 Jun 2026 20:01:03 GMT</pubDate>
     </item>
   </channel>
 </rss>
