@@ -5,13 +5,20 @@
     <link>https://x.com/ShortSideIO</link>
     <description>Daily gapper analysis and short squeeze risk alerts for traders. Independent research on overvalued stocks.</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 08 Jul 2026 13:46:23 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 08 Jul 2026 13:46:30 GMT</lastBuildDate>
     <atom:link href="https://shortsideresearch.substack.com/feed" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://pbs.twimg.com/profile_images/ShortSideIO/logo.png</url>
       <title>ShortSide Research</title>
       <link>https://x.com/ShortSideIO</link>
     </image>
+    <item>
+      <title>$BATL +31%</title>
+      <description><![CDATA[📊 $BATL +31% | Battalion Oil Corp | Float: 17.97M | SI: 25.61% HIGH | Squeeze Risk: 70%]]></description>
+      <link>https://x.com/ShortSideIO/status/2074852609429537237</link>
+      <guid isPermaLink="true">https://x.com/ShortSideIO/status/2074852609429537237</guid>
+      <pubDate>Wed, 08 Jul 2026 13:46:30 GMT</pubDate>
+    </item>
     <item>
       <title>$LUCY +35%</title>
       <description><![CDATA[📊 $LUCY +35% | Lucyd Inc | Float: 5.76M | SI: 0.32% | Squeeze Risk: 25%]]></description>
@@ -354,13 +361,6 @@
       <link>https://x.com/ShortSideIO/status/2072289452643209526</link>
       <guid isPermaLink="true">https://x.com/ShortSideIO/status/2072289452643209526</guid>
       <pubDate>Wed, 01 Jul 2026 12:01:27 GMT</pubDate>
-    </item>
-    <item>
-      <title>$TC +239%</title>
-      <description><![CDATA[📊 $TC +239% | Hong Kong shell Token Cat | Float: 1.38M | SI: 0.41% | ⚠️ Squeeze Risk: 75% | Sub-2M float, no catalyst. DO NOT SHORT.]]></description>
-      <link>https://x.com/ShortSideIO/status/2072289415636955356</link>
-      <guid isPermaLink="true">https://x.com/ShortSideIO/status/2072289415636955356</guid>
-      <pubDate>Wed, 01 Jul 2026 12:01:19 GMT</pubDate>
     </item>
   </channel>
 </rss>
