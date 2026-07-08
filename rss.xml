@@ -5,13 +5,20 @@
     <link>https://x.com/ShortSideIO</link>
     <description>Daily gapper analysis and short squeeze risk alerts for traders. Independent research on overvalued stocks.</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 08 Jul 2026 12:01:57 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 08 Jul 2026 12:01:58 GMT</lastBuildDate>
     <atom:link href="https://shortsideresearch.substack.com/feed" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://pbs.twimg.com/profile_images/ShortSideIO/logo.png</url>
       <title>ShortSide Research</title>
       <link>https://x.com/ShortSideIO</link>
     </image>
+    <item>
+      <title>$BATL +22%</title>
+      <description><![CDATA[📊 $BATL +22% PM | Float: 17.97M | Short: 25.61% | Squeeze Risk: 70% 🚨 HIGH short interest - squeeze candidate]]></description>
+      <link>https://x.com/ShortSideIO/status/2074826269334589447</link>
+      <guid isPermaLink="true">https://x.com/ShortSideIO/status/2074826269334589447</guid>
+      <pubDate>Wed, 08 Jul 2026 12:01:58 GMT</pubDate>
+    </item>
     <item>
       <title>$LUCY +24%</title>
       <description><![CDATA[📊 $LUCY +24% PM | Float: 5.76M | Short: 0.32% | Squeeze Risk: 40% ✅ Low short interest, less squeeze pressure]]></description>
@@ -354,13 +361,6 @@
       <link>https://x.com/ShortSideIO/status/2071927195031818321</link>
       <guid isPermaLink="true">https://x.com/ShortSideIO/status/2071927195031818321</guid>
       <pubDate>Tue, 30 Jun 2026 12:01:58 GMT</pubDate>
-    </item>
-    <item>
-      <title>$EDBL +114.08%</title>
-      <description><![CDATA[📊 $EDBL | +114.08% Pre-Market | Float: 5.43M | Short %: 3.64% | Market Cap: $0.89M | ⚠️ SQUEEZE RISK: 75% (HIGH)]]></description>
-      <link>https://x.com/ShortSideIO/status/2071927156859441473</link>
-      <guid isPermaLink="true">https://x.com/ShortSideIO/status/2071927156859441473</guid>
-      <pubDate>Tue, 30 Jun 2026 12:01:50 GMT</pubDate>
     </item>
   </channel>
 </rss>
