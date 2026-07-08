@@ -5,13 +5,20 @@
     <link>https://x.com/ShortSideIO</link>
     <description>Daily gapper analysis and short squeeze risk alerts for traders. Independent research on overvalued stocks.</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 08 Jul 2026 12:01:56 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 08 Jul 2026 12:01:57 GMT</lastBuildDate>
     <atom:link href="https://shortsideresearch.substack.com/feed" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://pbs.twimg.com/profile_images/ShortSideIO/logo.png</url>
       <title>ShortSide Research</title>
       <link>https://x.com/ShortSideIO</link>
     </image>
+    <item>
+      <title>$LUCY +24%</title>
+      <description><![CDATA[📊 $LUCY +24% PM | Float: 5.76M | Short: 0.32% | Squeeze Risk: 40% ✅ Low short interest, less squeeze pressure]]></description>
+      <link>https://x.com/ShortSideIO/status/2074826248358887600</link>
+      <guid isPermaLink="true">https://x.com/ShortSideIO/status/2074826248358887600</guid>
+      <pubDate>Wed, 08 Jul 2026 12:01:57 GMT</pubDate>
+    </item>
     <item>
       <title>$IOTR +38%</title>
       <description><![CDATA[📊 $IOTR +38% PM | Float: 640K | Short: 2.74% | Squeeze Risk: 75% 🚨 EXTREMELY thin float - very dangerous]]></description>
@@ -354,13 +361,6 @@
       <link>https://x.com/ShortSideIO/status/2071927156859441473</link>
       <guid isPermaLink="true">https://x.com/ShortSideIO/status/2071927156859441473</guid>
       <pubDate>Tue, 30 Jun 2026 12:01:50 GMT</pubDate>
-    </item>
-    <item>
-      <title>$JEM +212.87%</title>
-      <description><![CDATA[📊 $JEM | +212.87% Pre-Market | Float: Unknown | Short Interest: 0.23M | Market Cap: $1.95M | ⚠️ SQUEEZE RISK: 85% (EXTREME)]]></description>
-      <link>https://x.com/ShortSideIO/status/2071927120192774402</link>
-      <guid isPermaLink="true">https://x.com/ShortSideIO/status/2071927120192774402</guid>
-      <pubDate>Tue, 30 Jun 2026 12:01:41 GMT</pubDate>
     </item>
   </channel>
 </rss>
