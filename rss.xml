@@ -5,13 +5,20 @@
     <link>https://x.com/ShortSideIO</link>
     <description>Daily gapper analysis and short squeeze risk alerts for traders. Independent research on overvalued stocks.</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 08 Jul 2026 13:46:00 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 08 Jul 2026 13:46:08 GMT</lastBuildDate>
     <atom:link href="https://shortsideresearch.substack.com/feed" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://pbs.twimg.com/profile_images/ShortSideIO/logo.png</url>
       <title>ShortSide Research</title>
       <link>https://x.com/ShortSideIO</link>
     </image>
+    <item>
+      <title>$EDBL +51%</title>
+      <description><![CDATA[📊 $EDBL +51% | Edible Garden AG | Float: 5.43M | SI: 3.64% | Squeeze Risk: 35%]]></description>
+      <link>https://x.com/ShortSideIO/status/2074852513736503324</link>
+      <guid isPermaLink="true">https://x.com/ShortSideIO/status/2074852513736503324</guid>
+      <pubDate>Wed, 08 Jul 2026 13:46:08 GMT</pubDate>
+    </item>
     <item>
       <title>$VTAK +68%</title>
       <description><![CDATA[📊 $VTAK +68% | Catheter Precision | Float: 1.97M | SI: 2.08% | Squeeze Risk: 45%]]></description>
@@ -354,13 +361,6 @@
       <link>https://x.com/ShortSideIO/status/2071927282118054265</link>
       <guid isPermaLink="true">https://x.com/ShortSideIO/status/2071927282118054265</guid>
       <pubDate>Tue, 30 Jun 2026 12:02:16 GMT</pubDate>
-    </item>
-    <item>
-      <title>$BTCT +69.89%</title>
-      <description><![CDATA[📊 $BTCT | +69.89% Pre-Market | Float: 9.50M | Short %: 3.84% | DTC: 0.67 | Market Cap: $6.50M | ⚠️ SQUEEZE RISK: 50% (MODERATE)]]></description>
-      <link>https://x.com/ShortSideIO/status/2071927227575337396</link>
-      <guid isPermaLink="true">https://x.com/ShortSideIO/status/2071927227575337396</guid>
-      <pubDate>Tue, 30 Jun 2026 12:02:11 GMT</pubDate>
     </item>
   </channel>
 </rss>
