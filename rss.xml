@@ -5,13 +5,20 @@
     <link>https://x.com/ShortSideIO</link>
     <description>Daily gapper analysis and short squeeze risk alerts for traders. Independent research on overvalued stocks.</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 09 Jul 2026 13:46:38 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 09 Jul 2026 13:46:45 GMT</lastBuildDate>
     <atom:link href="https://shortsideresearch.substack.com/feed" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://pbs.twimg.com/profile_images/ShortSideIO/logo.png</url>
       <title>ShortSide Research</title>
       <link>https://x.com/ShortSideIO</link>
     </image>
+    <item>
+      <title>$PMA +39%</title>
+      <description><![CDATA[📊 $PMA | +39% | Ming Shing Group - Float: 4.56M, Short Interest: 9.90% - ⚠️ Squeeze Risk: 58%]]></description>
+      <link>https://x.com/ShortSideIO/status/2075215057449803895</link>
+      <guid isPermaLink="true">https://x.com/ShortSideIO/status/2075215057449803895</guid>
+      <pubDate>Thu, 09 Jul 2026 13:46:45 GMT</pubDate>
+    </item>
     <item>
       <title>$RPGL +35%</title>
       <description><![CDATA[📊 $RPGL | +35% | Republic Power Group - Float: 1.06M, Short Interest: 3.78% - ⚠️ Squeeze Risk: 65%]]></description>
@@ -354,13 +361,6 @@
       <link>https://x.com/ShortSideIO/status/2072651976299442239</link>
       <guid isPermaLink="true">https://x.com/ShortSideIO/status/2072651976299442239</guid>
       <pubDate>Thu, 02 Jul 2026 12:02:17 GMT</pubDate>
-    </item>
-    <item>
-      <title>$CWD +64%</title>
-      <description><![CDATA[📊 $CWD +64% | Float: 8.28M | Short: 2.31% | Squeeze Risk: 35%]]></description>
-      <link>https://x.com/ShortSideIO/status/2072651950969979378</link>
-      <guid isPermaLink="true">https://x.com/ShortSideIO/status/2072651950969979378</guid>
-      <pubDate>Thu, 02 Jul 2026 12:02:16 GMT</pubDate>
     </item>
   </channel>
 </rss>
