@@ -5,13 +5,20 @@
     <link>https://x.com/ShortSideIO</link>
     <description>Daily gapper analysis and short squeeze risk alerts for traders. Independent research on overvalued stocks.</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 09 Jul 2026 12:01:59 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 09 Jul 2026 12:02:05 GMT</lastBuildDate>
     <atom:link href="https://shortsideresearch.substack.com/feed" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://pbs.twimg.com/profile_images/ShortSideIO/logo.png</url>
       <title>ShortSide Research</title>
       <link>https://x.com/ShortSideIO</link>
     </image>
+    <item>
+      <title>$SDOT +24%</title>
+      <description><![CDATA[📊 $SDOT +24% Pre-Market | Float: 0.74M (TINY) | Short %: 13.18% (HIGH) | MCap: $15.12M | ⚠️ Squeeze Risk: 70% | DANGEROUS combo: micro-float + high short interest. Prime squeeze candidate.]]></description>
+      <link>https://x.com/ShortSideIO/status/2075188724443299952</link>
+      <guid isPermaLink="true">https://x.com/ShortSideIO/status/2075188724443299952</guid>
+      <pubDate>Thu, 09 Jul 2026 12:02:05 GMT</pubDate>
+    </item>
     <item>
       <title>$RPGL +29%</title>
       <description><![CDATA[📊 $RPGL +29% Pre-Market | Float: 1.06M (LOW) | Short %: 3.78% | MCap: $1.93M | ⚠️ Squeeze Risk: 50% | Power company. Small float but low short interest.]]></description>
@@ -354,13 +361,6 @@
       <link>https://x.com/ShortSideIO/status/2072315843556364619</link>
       <guid isPermaLink="true">https://x.com/ShortSideIO/status/2072315843556364619</guid>
       <pubDate>Wed, 01 Jul 2026 13:46:17 GMT</pubDate>
-    </item>
-    <item>
-      <title>$SDOT +27%</title>
-      <description><![CDATA[📊 $SDOT +27% | Sadot Group | Float: 0.74M | Short Interest: 13.18% | Squeeze Risk: 70%]]></description>
-      <link>https://x.com/ShortSideIO/status/2072315811272745443</link>
-      <guid isPermaLink="true">https://x.com/ShortSideIO/status/2072315811272745443</guid>
-      <pubDate>Wed, 01 Jul 2026 13:46:11 GMT</pubDate>
     </item>
   </channel>
 </rss>
