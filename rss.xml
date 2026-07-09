@@ -5,13 +5,20 @@
     <link>https://x.com/ShortSideIO</link>
     <description>Daily gapper analysis and short squeeze risk alerts for traders. Independent research on overvalued stocks.</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 09 Jul 2026 12:01:48 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 09 Jul 2026 12:01:59 GMT</lastBuildDate>
     <atom:link href="https://shortsideresearch.substack.com/feed" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://pbs.twimg.com/profile_images/ShortSideIO/logo.png</url>
       <title>ShortSide Research</title>
       <link>https://x.com/ShortSideIO</link>
     </image>
+    <item>
+      <title>$RPGL +29%</title>
+      <description><![CDATA[📊 $RPGL +29% Pre-Market | Float: 1.06M (LOW) | Short %: 3.78% | MCap: $1.93M | ⚠️ Squeeze Risk: 50% | Power company. Small float but low short interest.]]></description>
+      <link>https://x.com/ShortSideIO/status/2075188677714509835</link>
+      <guid isPermaLink="true">https://x.com/ShortSideIO/status/2075188677714509835</guid>
+      <pubDate>Thu, 09 Jul 2026 12:01:59 GMT</pubDate>
+    </item>
     <item>
       <title>$LGHL +32%</title>
       <description><![CDATA[📊 $LGHL +32% Pre-Market | Float: 3.49M | Short %: 2.70% | MCap: $1.46M | ⚠️ Squeeze Risk: 40% | Fintech/crypto play. Lower short interest reduces squeeze risk.]]></description>
@@ -354,13 +361,6 @@
       <link>https://x.com/ShortSideIO/status/2072315811272745443</link>
       <guid isPermaLink="true">https://x.com/ShortSideIO/status/2072315811272745443</guid>
       <pubDate>Wed, 01 Jul 2026 13:46:11 GMT</pubDate>
-    </item>
-    <item>
-      <title>$LHAI +175%</title>
-      <description><![CDATA[📊 $LHAI +175% | Linkhome Holdings | Float: 8.13M | Short Interest: 0.62% | Squeeze Risk: 40%]]></description>
-      <link>https://x.com/ShortSideIO/status/2072315770428625041</link>
-      <guid isPermaLink="true">https://x.com/ShortSideIO/status/2072315770428625041</guid>
-      <pubDate>Wed, 01 Jul 2026 13:46:03 GMT</pubDate>
     </item>
   </channel>
 </rss>
