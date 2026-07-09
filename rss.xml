@@ -5,13 +5,20 @@
     <link>https://x.com/ShortSideIO</link>
     <description>Daily gapper analysis and short squeeze risk alerts for traders. Independent research on overvalued stocks.</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 09 Jul 2026 13:46:45 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 09 Jul 2026 13:46:51 GMT</lastBuildDate>
     <atom:link href="https://shortsideresearch.substack.com/feed" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://pbs.twimg.com/profile_images/ShortSideIO/logo.png</url>
       <title>ShortSide Research</title>
       <link>https://x.com/ShortSideIO</link>
     </image>
+    <item>
+      <title>$LGHL +30%</title>
+      <description><![CDATA[📊 $LGHL | +30% | Lion Group Holding - Float: 3.49M, Short Interest: 2.70% - ⚠️ Squeeze Risk: 52%]]></description>
+      <link>https://x.com/ShortSideIO/status/2075215090232524946</link>
+      <guid isPermaLink="true">https://x.com/ShortSideIO/status/2075215090232524946</guid>
+      <pubDate>Thu, 09 Jul 2026 13:46:51 GMT</pubDate>
+    </item>
     <item>
       <title>$PMA +39%</title>
       <description><![CDATA[📊 $PMA | +39% | Ming Shing Group - Float: 4.56M, Short Interest: 9.90% - ⚠️ Squeeze Risk: 58%]]></description>
@@ -354,13 +361,6 @@
       <link>https://x.com/ShortSideIO/status/2072652000227975647</link>
       <guid isPermaLink="true">https://x.com/ShortSideIO/status/2072652000227975647</guid>
       <pubDate>Thu, 02 Jul 2026 12:02:18 GMT</pubDate>
-    </item>
-    <item>
-      <title>$WHLR +64%</title>
-      <description><![CDATA[📊 $WHLR +64% | Float: 550K | Short: 7.98% | Squeeze Risk: 80%]]></description>
-      <link>https://x.com/ShortSideIO/status/2072651976299442239</link>
-      <guid isPermaLink="true">https://x.com/ShortSideIO/status/2072651976299442239</guid>
-      <pubDate>Thu, 02 Jul 2026 12:02:17 GMT</pubDate>
     </item>
   </channel>
 </rss>
