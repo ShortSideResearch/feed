@@ -5,13 +5,20 @@
     <link>https://x.com/ShortSideIO</link>
     <description>Daily gapper analysis and short squeeze risk alerts for traders. Independent research on overvalued stocks.</description>
     <language>en-us</language>
-    <lastBuildDate>Fri, 10 Jul 2026 12:02:02 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 10 Jul 2026 12:02:10 GMT</lastBuildDate>
     <atom:link href="https://shortsideresearch.substack.com/feed" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://pbs.twimg.com/profile_images/ShortSideIO/logo.png</url>
       <title>ShortSide Research</title>
       <link>https://x.com/ShortSideIO</link>
     </image>
+    <item>
+      <title>$JLHL +50%</title>
+      <description><![CDATA[📊 $JLHL +50% Pre-Market | Float: 1.28M (MICRO) | SI: 1.90% | DTC: 0.02 | ⚠️ Squeeze Risk: 75% | Low liquidity = wild swings]]></description>
+      <link>https://x.com/ShortSideIO/status/2075551123709010241</link>
+      <guid isPermaLink="true">https://x.com/ShortSideIO/status/2075551123709010241</guid>
+      <pubDate>Fri, 10 Jul 2026 12:02:10 GMT</pubDate>
+    </item>
     <item>
       <title>$ZBAO +107%</title>
       <description><![CDATA[📊 $ZBAO +107% Pre-Market | Float: 8.69M | SI: 5.81% | DTC: 0.39 | ⚠️ Squeeze Risk: 70% | Chinese insurtech 100%+ gap]]></description>
@@ -354,13 +361,6 @@
       <link>https://x.com/ShortSideIO/status/2072678286686052611</link>
       <guid isPermaLink="true">https://x.com/ShortSideIO/status/2072678286686052611</guid>
       <pubDate>Thu, 02 Jul 2026 13:46:33 GMT</pubDate>
-    </item>
-    <item>
-      <title>$USDE +87%</title>
-      <description><![CDATA[📊 $USDE +87% | Float: 5.54M | Stablecoin sector leader. Riding crypto momentum hard - no short data available makes this unpredictable. Caution: unknown SI = unknown squeeze risk.]]></description>
-      <link>https://x.com/ShortSideIO/status/2072678255669235802</link>
-      <guid isPermaLink="true">https://x.com/ShortSideIO/status/2072678255669235802</guid>
-      <pubDate>Thu, 02 Jul 2026 13:46:25 GMT</pubDate>
     </item>
   </channel>
 </rss>
