@@ -1516,7 +1516,12 @@
       ],
       "2026-07": [
         {"date": "2026-07-01", "gappers": 7, "correct": 5, "tickers": ["TC", "DXF", "JEM", "GSUN", "CANF", "LHAI", "SOC"]},
-        {"date": "2026-07-02", "gappers": 5, "correct": 4, "tickers": ["LIMN", "SURG", "SENEB", "SDEV", "CLRO"]}
+        {"date": "2026-07-02", "gappers": 5, "correct": 4, "tickers": ["LIMN", "SURG", "SENEB", "SDEV", "CLRO"]},
+        {"date": "2026-07-06", "gappers": 6, "correct": 5, "tickers": ["LHSW", "FXHO", "ZCMD", "KIDZ", "SPHL", "SEER"]},
+        {"date": "2026-07-07", "gappers": 5, "correct": 4, "tickers": ["CRNX", "TDTH", "CPOP", "SUGP", "BJDX"]},
+        {"date": "2026-07-08", "gappers": 5, "correct": 4, "tickers": ["VTAK", "IOTR", "EDBL", "BATL", "LUCY"]},
+        {"date": "2026-07-09", "gappers": 6, "correct": 5, "tickers": ["VRAX", "SDOT", "JLHL", "RPGL", "PMA", "LGHL"]},
+        {"date": "2026-07-10", "gappers": 9, "correct": 7, "tickers": ["GMM", "ZBAO", "JLHL", "HAO", "ELPW", "ELAB", "DFNS", "CHSN", "JZXN"]}
       ]
     };
     
@@ -1729,13 +1734,19 @@
       entries.forEach(entry => {
         if (entry.isIntersecting && !animated) {
           animated = true;
-          animateCount(document.getElementById('animAccuracy'), 82.1, 1500, true);
-          animateCount(document.getElementById('animGappers'), 112, 1500, false);
+          animateCount(document.getElementById('animAccuracy'), 81.8, 1500, true);
+          animateCount(document.getElementById('animGappers'), 143, 1500, false);
         }
       });
     }, { threshold: 0.3 });
     
     observer.observe(trackRecordSection);
+    
+    // Update stats based on actual data
+    const allData = Object.values(trackRecord).flat();
+    const totalGappers = allData.reduce((sum, d) => sum + d.gappers, 0);
+    const totalCorrect = allData.reduce((sum, d) => sum + d.correct, 0);
+    const accuracy = ((totalCorrect / totalGappers) * 100).toFixed(1);
   </script>
 </body>
 </html>
