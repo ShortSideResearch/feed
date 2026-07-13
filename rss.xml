@@ -5,13 +5,20 @@
     <link>https://x.com/ShortSideIO</link>
     <description>Daily gapper analysis and short squeeze risk alerts for traders. Independent research on overvalued stocks.</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 13 Jul 2026 13:46:27 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 13 Jul 2026 13:46:36 GMT</lastBuildDate>
     <atom:link href="https://shortsideresearch.substack.com/feed" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://pbs.twimg.com/profile_images/ShortSideIO/logo.png</url>
       <title>ShortSide Research</title>
       <link>https://x.com/ShortSideIO</link>
     </image>
+    <item>
+      <title>$PLSM +32%</title>
+      <description><![CDATA[📊 $PLSM +32% | Pulsenmore | Float: 3.9M | Short Interest: 1.63% | Days to Cover: 0.06 | Squeeze Risk: 25%]]></description>
+      <link>https://x.com/ShortSideIO/status/2076664565283143951</link>
+      <guid isPermaLink="true">https://x.com/ShortSideIO/status/2076664565283143951</guid>
+      <pubDate>Mon, 13 Jul 2026 13:46:36 GMT</pubDate>
+    </item>
     <item>
       <title>$FTRK +35%</title>
       <description><![CDATA[📊 $FTRK +35% | Fast Track Group | Float: 8.5M | Short Interest: 0.09% | Days to Cover: 0.01 | Squeeze Risk: 10%]]></description>
@@ -354,13 +361,6 @@
       <link>https://x.com/ShortSideIO/status/2074127835686375833</link>
       <guid isPermaLink="true">https://x.com/ShortSideIO/status/2074127835686375833</guid>
       <pubDate>Mon, 06 Jul 2026 13:46:34 GMT</pubDate>
-    </item>
-    <item>
-      <title>$FXHO +81%</title>
-      <description><![CDATA[📊 $FXHO +81% | Float: 0.10M (NANO), Short Interest: 97.43%, Market Cap: $2.6M | ⚠️ Squeeze Risk: 95% (EXTREME)]]></description>
-      <link>https://x.com/ShortSideIO/status/2074127797145002034</link>
-      <guid isPermaLink="true">https://x.com/ShortSideIO/status/2074127797145002034</guid>
-      <pubDate>Mon, 06 Jul 2026 13:46:24 GMT</pubDate>
     </item>
   </channel>
 </rss>
