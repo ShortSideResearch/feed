@@ -5,13 +5,20 @@
     <link>https://x.com/ShortSideIO</link>
     <description>Daily gapper analysis and short squeeze risk alerts for traders. Independent research on overvalued stocks.</description>
     <language>en-us</language>
-    <lastBuildDate>Tue, 14 Jul 2026 12:01:36 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 14 Jul 2026 12:01:44 GMT</lastBuildDate>
     <atom:link href="https://shortsideresearch.substack.com/feed" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://pbs.twimg.com/profile_images/ShortSideIO/logo.png</url>
       <title>ShortSide Research</title>
       <link>https://x.com/ShortSideIO</link>
     </image>
+    <item>
+      <title>$VMAR +46%</title>
+      <description><![CDATA[📊 $VMAR +46% Pre-Market | Float: 670K (tiny) | Short: 4.42% | DTC: 0.03 | Cap: $1.50M | ⚠️ Squeeze Risk: 65%]]></description>
+      <link>https://x.com/ShortSideIO/status/2077000567121993915</link>
+      <guid isPermaLink="true">https://x.com/ShortSideIO/status/2077000567121993915</guid>
+      <pubDate>Tue, 14 Jul 2026 12:01:44 GMT</pubDate>
+    </item>
     <item>
       <title>$SHPH +59%</title>
       <description><![CDATA[📊 $SHPH +59% Pre-Market | Float: 600K (ultra-low!) | Short: 22.88% (HIGH) | Cap: $2.97M | ⚠️ Squeeze Risk: 85%]]></description>
@@ -354,13 +361,6 @@
       <link>https://x.com/ShortSideIO/status/2074463902188872015</link>
       <guid isPermaLink="true">https://x.com/ShortSideIO/status/2074463902188872015</guid>
       <pubDate>Tue, 07 Jul 2026 12:01:56 GMT</pubDate>
-    </item>
-    <item>
-      <title>$TDTH +56%</title>
-      <description><![CDATA[📊 $TDTH +56% | Trident Digital Tech | Cap: $6.50M | Short: Minimal | DTC: 0.04 | Squeeze Risk: 25%]]></description>
-      <link>https://x.com/ShortSideIO/status/2074463870144368972</link>
-      <guid isPermaLink="true">https://x.com/ShortSideIO/status/2074463870144368972</guid>
-      <pubDate>Tue, 07 Jul 2026 12:01:48 GMT</pubDate>
     </item>
   </channel>
 </rss>
