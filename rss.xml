@@ -5,13 +5,20 @@
     <link>https://x.com/ShortSideIO</link>
     <description>Daily gapper analysis and short squeeze risk alerts for traders. Independent research on overvalued stocks.</description>
     <language>en-us</language>
-    <lastBuildDate>Tue, 14 Jul 2026 12:01:28 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 14 Jul 2026 12:01:36 GMT</lastBuildDate>
     <atom:link href="https://shortsideresearch.substack.com/feed" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://pbs.twimg.com/profile_images/ShortSideIO/logo.png</url>
       <title>ShortSide Research</title>
       <link>https://x.com/ShortSideIO</link>
     </image>
+    <item>
+      <title>$SHPH +59%</title>
+      <description><![CDATA[📊 $SHPH +59% Pre-Market | Float: 600K (ultra-low!) | Short: 22.88% (HIGH) | Cap: $2.97M | ⚠️ Squeeze Risk: 85%]]></description>
+      <link>https://x.com/ShortSideIO/status/2077000532401553581</link>
+      <guid isPermaLink="true">https://x.com/ShortSideIO/status/2077000532401553581</guid>
+      <pubDate>Tue, 14 Jul 2026 12:01:36 GMT</pubDate>
+    </item>
     <item>
       <title>$NXTC +331%</title>
       <description><![CDATA[📊 $NXTC +331% Pre-Market | Float: 2.37M (micro) | Short: 6.69% | DTC: 1.54 | Cap: $33.97M | ⚠️ Squeeze Risk: 90%]]></description>
@@ -354,13 +361,6 @@
       <link>https://x.com/ShortSideIO/status/2074463870144368972</link>
       <guid isPermaLink="true">https://x.com/ShortSideIO/status/2074463870144368972</guid>
       <pubDate>Tue, 07 Jul 2026 12:01:48 GMT</pubDate>
-    </item>
-    <item>
-      <title>$CRNX +99%</title>
-      <description><![CDATA[📊 $CRNX +99% | Crinetics Pharma | Cap: $4.43B | Float: 98.91M | Short: 13% | DTC: 9.88 | Squeeze Risk: 45%]]></description>
-      <link>https://x.com/ShortSideIO/status/2074463835285496300</link>
-      <guid isPermaLink="true">https://x.com/ShortSideIO/status/2074463835285496300</guid>
-      <pubDate>Tue, 07 Jul 2026 12:01:40 GMT</pubDate>
     </item>
   </channel>
 </rss>
