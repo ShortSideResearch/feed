@@ -5,13 +5,20 @@
     <link>https://x.com/ShortSideIO</link>
     <description>Daily gapper analysis and short squeeze risk alerts for traders. Independent research on overvalued stocks.</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 15 Jul 2026 13:46:29 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 15 Jul 2026 13:46:37 GMT</lastBuildDate>
     <atom:link href="https://shortsideresearch.substack.com/feed" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://pbs.twimg.com/profile_images/ShortSideIO/logo.png</url>
       <title>ShortSide Research</title>
       <link>https://x.com/ShortSideIO</link>
     </image>
+    <item>
+      <title>$ERNA +39%</title>
+      <description><![CDATA[📊 $ERNA +39% | Float: 680K | SI: 4.32% ⚠️ MODERATE squeeze risk (45%) Tiny float creates volatility but low SI and near-zero DTC. Easier to fade on exhaustion.]]></description>
+      <link>https://x.com/ShortSideIO/status/2077389349339967613</link>
+      <guid isPermaLink="true">https://x.com/ShortSideIO/status/2077389349339967613</guid>
+      <pubDate>Wed, 15 Jul 2026 13:46:37 GMT</pubDate>
+    </item>
     <item>
       <title>$KUST +47%</title>
       <description><![CDATA[📊 $KUST +47% | Float: 580K | SI: 54.73% 🚨 MAXIMUM squeeze risk (95%) Over HALF the float is short on a 580K float micro cap. Death trap for shorts.]]></description>
@@ -354,13 +361,6 @@
       <link>https://x.com/ShortSideIO/status/2074852513736503324</link>
       <guid isPermaLink="true">https://x.com/ShortSideIO/status/2074852513736503324</guid>
       <pubDate>Wed, 08 Jul 2026 13:46:08 GMT</pubDate>
-    </item>
-    <item>
-      <title>$VTAK +68%</title>
-      <description><![CDATA[📊 $VTAK +68% | Catheter Precision | Float: 1.97M | SI: 2.08% | Squeeze Risk: 45%]]></description>
-      <link>https://x.com/ShortSideIO/status/2074852478122627498</link>
-      <guid isPermaLink="true">https://x.com/ShortSideIO/status/2074852478122627498</guid>
-      <pubDate>Wed, 08 Jul 2026 13:46:00 GMT</pubDate>
     </item>
   </channel>
 </rss>
