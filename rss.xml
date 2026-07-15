@@ -5,13 +5,20 @@
     <link>https://x.com/ShortSideIO</link>
     <description>Daily gapper analysis and short squeeze risk alerts for traders. Independent research on overvalued stocks.</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 15 Jul 2026 12:01:48 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 15 Jul 2026 12:01:49 GMT</lastBuildDate>
     <atom:link href="https://shortsideresearch.substack.com/feed" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://pbs.twimg.com/profile_images/ShortSideIO/logo.png</url>
       <title>ShortSide Research</title>
       <link>https://x.com/ShortSideIO</link>
     </image>
+    <item>
+      <title>$AEHR +31%</title>
+      <description><![CDATA[📊 $AEHR +31% Pre-Market | Float: 29.69M | Short Interest: 14.03% | ⚠️ SQUEEZE RISK: 55%]]></description>
+      <link>https://x.com/ShortSideIO/status/2077362972423303223</link>
+      <guid isPermaLink="true">https://x.com/ShortSideIO/status/2077362972423303223</guid>
+      <pubDate>Wed, 15 Jul 2026 12:01:49 GMT</pubDate>
+    </item>
     <item>
       <title>$TGHL +31%</title>
       <description><![CDATA[📊 $TGHL +31% Pre-Market | Float: 12.72M | Short Interest: 3.32% | ⚠️ SQUEEZE RISK: 45%]]></description>
@@ -354,13 +361,6 @@
       <link>https://x.com/ShortSideIO/status/2074826248358887600</link>
       <guid isPermaLink="true">https://x.com/ShortSideIO/status/2074826248358887600</guid>
       <pubDate>Wed, 08 Jul 2026 12:01:57 GMT</pubDate>
-    </item>
-    <item>
-      <title>$IOTR +38%</title>
-      <description><![CDATA[📊 $IOTR +38% PM | Float: 640K | Short: 2.74% | Squeeze Risk: 75% 🚨 EXTREMELY thin float - very dangerous]]></description>
-      <link>https://x.com/ShortSideIO/status/2074826228305899533</link>
-      <guid isPermaLink="true">https://x.com/ShortSideIO/status/2074826228305899533</guid>
-      <pubDate>Wed, 08 Jul 2026 12:01:56 GMT</pubDate>
     </item>
   </channel>
 </rss>
