@@ -5,13 +5,20 @@
     <link>https://x.com/ShortSideIO</link>
     <description>Daily gapper analysis and short squeeze risk alerts for traders. Independent research on overvalued stocks.</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 15 Jul 2026 13:46:45 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 15 Jul 2026 13:46:51 GMT</lastBuildDate>
     <atom:link href="https://shortsideresearch.substack.com/feed" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://pbs.twimg.com/profile_images/ShortSideIO/logo.png</url>
       <title>ShortSide Research</title>
       <link>https://x.com/ShortSideIO</link>
     </image>
+    <item>
+      <title>$TGHL +27%</title>
+      <description><![CDATA[📊 $TGHL +27% | Float: 12.7M | SI: 3.32% ✅ LOW squeeze risk (25%) Decent float with minimal SI and 0.14 DTC. Lower risk entry for shorts.]]></description>
+      <link>https://x.com/ShortSideIO/status/2077389417291899066</link>
+      <guid isPermaLink="true">https://x.com/ShortSideIO/status/2077389417291899066</guid>
+      <pubDate>Wed, 15 Jul 2026 13:46:51 GMT</pubDate>
+    </item>
     <item>
       <title>$AEHR +36%</title>
       <description><![CDATA[📊 $AEHR +36% | Float: 29.7M | SI: 14.03% ⚠️ MODERATE squeeze risk (55%) Larger cap ($3.18B) with real liquidity. 14% SI elevated but 1.65 DTC manageable.]]></description>
@@ -354,13 +361,6 @@
       <link>https://x.com/ShortSideIO/status/2074852576814616746</link>
       <guid isPermaLink="true">https://x.com/ShortSideIO/status/2074852576814616746</guid>
       <pubDate>Wed, 08 Jul 2026 13:46:23 GMT</pubDate>
-    </item>
-    <item>
-      <title>$IOTR +41%</title>
-      <description><![CDATA[📊 $IOTR +41% | IOTHREE LTD | Float: 0.64M (TINY) | SI: 2.74% | Squeeze Risk: 55%]]></description>
-      <link>https://x.com/ShortSideIO/status/2074852544799535205</link>
-      <guid isPermaLink="true">https://x.com/ShortSideIO/status/2074852544799535205</guid>
-      <pubDate>Wed, 08 Jul 2026 13:46:15 GMT</pubDate>
     </item>
   </channel>
 </rss>
