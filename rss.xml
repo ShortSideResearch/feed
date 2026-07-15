@@ -5,13 +5,20 @@
     <link>https://x.com/ShortSideIO</link>
     <description>Daily gapper analysis and short squeeze risk alerts for traders. Independent research on overvalued stocks.</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 15 Jul 2026 12:01:43 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 15 Jul 2026 12:01:48 GMT</lastBuildDate>
     <atom:link href="https://shortsideresearch.substack.com/feed" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://pbs.twimg.com/profile_images/ShortSideIO/logo.png</url>
       <title>ShortSide Research</title>
       <link>https://x.com/ShortSideIO</link>
     </image>
+    <item>
+      <title>$TGHL +31%</title>
+      <description><![CDATA[📊 $TGHL +31% Pre-Market | Float: 12.72M | Short Interest: 3.32% | ⚠️ SQUEEZE RISK: 45%]]></description>
+      <link>https://x.com/ShortSideIO/status/2077362967864123842</link>
+      <guid isPermaLink="true">https://x.com/ShortSideIO/status/2077362967864123842</guid>
+      <pubDate>Wed, 15 Jul 2026 12:01:48 GMT</pubDate>
+    </item>
     <item>
       <title>$KUST +51%</title>
       <description><![CDATA[📊 $KUST +51% Pre-Market | Float: 0.58M | Short Interest: 54.73% 🔥 | 🚨 SQUEEZE RISK: 95%]]></description>
@@ -354,13 +361,6 @@
       <link>https://x.com/ShortSideIO/status/2074826228305899533</link>
       <guid isPermaLink="true">https://x.com/ShortSideIO/status/2074826228305899533</guid>
       <pubDate>Wed, 08 Jul 2026 12:01:56 GMT</pubDate>
-    </item>
-    <item>
-      <title>$VTAK +61%</title>
-      <description><![CDATA[📊 $VTAK +61% PM | Float: 1.97M | Short: 2.08% | Squeeze Risk: 60% ⚠️ Sub-2M float medical device play]]></description>
-      <link>https://x.com/ShortSideIO/status/2074826205161750565</link>
-      <guid isPermaLink="true">https://x.com/ShortSideIO/status/2074826205161750565</guid>
-      <pubDate>Wed, 08 Jul 2026 12:01:55 GMT</pubDate>
     </item>
   </channel>
 </rss>
