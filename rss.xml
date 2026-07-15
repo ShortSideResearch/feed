@@ -5,13 +5,20 @@
     <link>https://x.com/ShortSideIO</link>
     <description>Daily gapper analysis and short squeeze risk alerts for traders. Independent research on overvalued stocks.</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 15 Jul 2026 13:46:37 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 15 Jul 2026 13:46:45 GMT</lastBuildDate>
     <atom:link href="https://shortsideresearch.substack.com/feed" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://pbs.twimg.com/profile_images/ShortSideIO/logo.png</url>
       <title>ShortSide Research</title>
       <link>https://x.com/ShortSideIO</link>
     </image>
+    <item>
+      <title>$AEHR +36%</title>
+      <description><![CDATA[📊 $AEHR +36% | Float: 29.7M | SI: 14.03% ⚠️ MODERATE squeeze risk (55%) Larger cap ($3.18B) with real liquidity. 14% SI elevated but 1.65 DTC manageable.]]></description>
+      <link>https://x.com/ShortSideIO/status/2077389383125147713</link>
+      <guid isPermaLink="true">https://x.com/ShortSideIO/status/2077389383125147713</guid>
+      <pubDate>Wed, 15 Jul 2026 13:46:45 GMT</pubDate>
+    </item>
     <item>
       <title>$ERNA +39%</title>
       <description><![CDATA[📊 $ERNA +39% | Float: 680K | SI: 4.32% ⚠️ MODERATE squeeze risk (45%) Tiny float creates volatility but low SI and near-zero DTC. Easier to fade on exhaustion.]]></description>
@@ -354,13 +361,6 @@
       <link>https://x.com/ShortSideIO/status/2074852544799535205</link>
       <guid isPermaLink="true">https://x.com/ShortSideIO/status/2074852544799535205</guid>
       <pubDate>Wed, 08 Jul 2026 13:46:15 GMT</pubDate>
-    </item>
-    <item>
-      <title>$EDBL +51%</title>
-      <description><![CDATA[📊 $EDBL +51% | Edible Garden AG | Float: 5.43M | SI: 3.64% | Squeeze Risk: 35%]]></description>
-      <link>https://x.com/ShortSideIO/status/2074852513736503324</link>
-      <guid isPermaLink="true">https://x.com/ShortSideIO/status/2074852513736503324</guid>
-      <pubDate>Wed, 08 Jul 2026 13:46:08 GMT</pubDate>
     </item>
   </channel>
 </rss>
