@@ -5,13 +5,20 @@
     <link>https://x.com/ShortSideIO</link>
     <description>Daily gapper analysis and short squeeze risk alerts for traders. Independent research on overvalued stocks.</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 15 Jul 2026 12:01:23 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 15 Jul 2026 12:01:32 GMT</lastBuildDate>
     <atom:link href="https://shortsideresearch.substack.com/feed" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://pbs.twimg.com/profile_images/ShortSideIO/logo.png</url>
       <title>ShortSide Research</title>
       <link>https://x.com/ShortSideIO</link>
     </image>
+    <item>
+      <title>$ERNA +97%</title>
+      <description><![CDATA[📊 $ERNA +97% Pre-Market | Float: 0.68M | Short Interest: 4.32% | ⚠️ SQUEEZE RISK: 78%]]></description>
+      <link>https://x.com/ShortSideIO/status/2077362892756668555</link>
+      <guid isPermaLink="true">https://x.com/ShortSideIO/status/2077362892756668555</guid>
+      <pubDate>Wed, 15 Jul 2026 12:01:32 GMT</pubDate>
+    </item>
     <item>
       <title>$JTAI +859%</title>
       <description><![CDATA[📊 $JTAI +859% Pre-Market | Float: 1.22M | Short Interest: 8.58% | DTC: 0.36 | ⚠️ SQUEEZE RISK: 92%]]></description>
@@ -354,13 +361,6 @@
       <link>https://x.com/ShortSideIO/status/2074826181967319234</link>
       <guid isPermaLink="true">https://x.com/ShortSideIO/status/2074826181967319234</guid>
       <pubDate>Wed, 08 Jul 2026 12:01:54 GMT</pubDate>
-    </item>
-    <item>
-      <title>$CRNX +99%</title>
-      <description><![CDATA[📊 $CRNX +99% | Vertex acquiring Crinetics at $85/share (~$10B deal). 13% short interest with 9.88 DTC. Shorts rushing to cover with acquisition ceiling in place. Trading at $83.53 vs $85 deal price = 1.7% spread to capture.]]></description>
-      <link>https://x.com/ShortSideIO/status/2074584643114848672</link>
-      <guid isPermaLink="true">https://x.com/ShortSideIO/status/2074584643114848672</guid>
-      <pubDate>Tue, 07 Jul 2026 20:01:41 GMT</pubDate>
     </item>
   </channel>
 </rss>
