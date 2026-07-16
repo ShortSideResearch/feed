@@ -5,13 +5,20 @@
     <link>https://x.com/ShortSideIO</link>
     <description>Daily gapper analysis and short squeeze risk alerts for traders. Independent research on overvalued stocks.</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 16 Jul 2026 13:49:24 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 16 Jul 2026 13:49:37 GMT</lastBuildDate>
     <atom:link href="https://shortsideresearch.substack.com/feed" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://pbs.twimg.com/profile_images/ShortSideIO/logo.png</url>
       <title>ShortSide Research</title>
       <link>https://x.com/ShortSideIO</link>
     </image>
+    <item>
+      <title>$ATPC +36%</title>
+      <description><![CDATA[📊 $ATPC +36% | Jane Street takes 5% stake | Float: 0.47M | SI: 3.38% | DTC: 0.00 | 🟢 Squeeze Risk: 20%]]></description>
+      <link>https://x.com/ShortSideIO/status/2077752472496439344</link>
+      <guid isPermaLink="true">https://x.com/ShortSideIO/status/2077752472496439344</guid>
+      <pubDate>Thu, 16 Jul 2026 13:49:37 GMT</pubDate>
+    </item>
     <item>
       <title>$VEEE +32%</title>
       <description><![CDATA[📊 $VEEE +32% | USFM minerals merger - boats to Greenland mining | Float: 0.44M | SI: 1.60% | DTC: 0.00 | 🟢 Squeeze Risk: 15%]]></description>
@@ -354,13 +361,6 @@
       <link>https://x.com/ShortSideIO/status/2075188677714509835</link>
       <guid isPermaLink="true">https://x.com/ShortSideIO/status/2075188677714509835</guid>
       <pubDate>Thu, 09 Jul 2026 12:01:59 GMT</pubDate>
-    </item>
-    <item>
-      <title>$LGHL +32%</title>
-      <description><![CDATA[📊 $LGHL +32% Pre-Market | Float: 3.49M | Short %: 2.70% | MCap: $1.46M | ⚠️ Squeeze Risk: 40% | Fintech/crypto play. Lower short interest reduces squeeze risk.]]></description>
-      <link>https://x.com/ShortSideIO/status/2075188637642174739</link>
-      <guid isPermaLink="true">https://x.com/ShortSideIO/status/2075188637642174739</guid>
-      <pubDate>Thu, 09 Jul 2026 12:01:48 GMT</pubDate>
     </item>
   </channel>
 </rss>
