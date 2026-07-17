@@ -5,13 +5,20 @@
     <link>https://x.com/ShortSideIO</link>
     <description>Daily gapper analysis and short squeeze risk alerts for traders. Independent research on overvalued stocks.</description>
     <language>en-us</language>
-    <lastBuildDate>Fri, 17 Jul 2026 13:46:27 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 17 Jul 2026 20:01:15 GMT</lastBuildDate>
     <atom:link href="https://shortsideresearch.substack.com/feed" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://pbs.twimg.com/profile_images/ShortSideIO/logo.png</url>
       <title>ShortSide Research</title>
       <link>https://x.com/ShortSideIO</link>
     </image>
+    <item>
+      <title>$SDOT +78%</title>
+      <description><![CDATA[📊 $SDOT +78% | 740K float + 13.5% short interest = textbook squeeze setup. Tiny float trapped shorts as volume poured in. We called this ticker in our premarket newsletter. Get daily alerts (first month FREE): https://shortsideresearch.github.io/feed/subscribe #daytrading]]></description>
+      <link>https://x.com/ShortSideIO/status/2078208416560939383</link>
+      <guid isPermaLink="true">https://x.com/ShortSideIO/status/2078208416560939383</guid>
+      <pubDate>Fri, 17 Jul 2026 20:01:15 GMT</pubDate>
+    </item>
     <item>
       <title>$BIYA +38%</title>
       <description><![CDATA[📊 $BIYA +38% | Float: 2.67M | SI: 0.42% | DTC: 0.01 - Minimal short interest (<0.5%) and near-zero DTC. Shorts can exit in minutes. Small float but very little to squeeze here. Squeeze Risk: 15% 🟢]]></description>
@@ -354,13 +361,6 @@
       <link>https://x.com/ShortSideIO/status/2075551193456116180</link>
       <guid isPermaLink="true">https://x.com/ShortSideIO/status/2075551193456116180</guid>
       <pubDate>Fri, 10 Jul 2026 12:02:25 GMT</pubDate>
-    </item>
-    <item>
-      <title>$HAO +49%</title>
-      <description><![CDATA[📊 $HAO +49% Pre-Market | Float: 1.89M (MICRO) | SI: 8.01% | DTC: 0.18 | ⚠️ Squeeze Risk: 80% | Sub-$3M mcap Chinese healthcare]]></description>
-      <link>https://x.com/ShortSideIO/status/2075551157510975959</link>
-      <guid isPermaLink="true">https://x.com/ShortSideIO/status/2075551157510975959</guid>
-      <pubDate>Fri, 10 Jul 2026 12:02:19 GMT</pubDate>
     </item>
   </channel>
 </rss>
