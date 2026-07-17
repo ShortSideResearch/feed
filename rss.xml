@@ -5,13 +5,20 @@
     <link>https://x.com/ShortSideIO</link>
     <description>Daily gapper analysis and short squeeze risk alerts for traders. Independent research on overvalued stocks.</description>
     <language>en-us</language>
-    <lastBuildDate>Fri, 17 Jul 2026 12:02:25 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 17 Jul 2026 12:02:26 GMT</lastBuildDate>
     <atom:link href="https://shortsideresearch.substack.com/feed" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://pbs.twimg.com/profile_images/ShortSideIO/logo.png</url>
       <title>ShortSide Research</title>
       <link>https://x.com/ShortSideIO</link>
     </image>
+    <item>
+      <title>$CJMB +44.0%</title>
+      <description><![CDATA[📊 $CJMB +44.0% | Callan JMB | MCap: $4.86M (micro) | Squeeze Risk: 60%]]></description>
+      <link>https://x.com/ShortSideIO/status/2078087807331922158</link>
+      <guid isPermaLink="true">https://x.com/ShortSideIO/status/2078087807331922158</guid>
+      <pubDate>Fri, 17 Jul 2026 12:02:26 GMT</pubDate>
+    </item>
     <item>
       <title>$SDOT +62.8%</title>
       <description><![CDATA[📊 $SDOT +62.8% | Sadot Group | Float: 0.74M (nano) | Short: 13.51% | Squeeze Risk: 75%]]></description>
@@ -354,13 +361,6 @@
       <link>https://x.com/ShortSideIO/status/2075215025199796307</link>
       <guid isPermaLink="true">https://x.com/ShortSideIO/status/2075215025199796307</guid>
       <pubDate>Thu, 09 Jul 2026 13:46:38 GMT</pubDate>
-    </item>
-    <item>
-      <title>$SDOT +24%</title>
-      <description><![CDATA[📊 $SDOT | +24% | Sadot Group - Float: 0.74M (TINY), Short Interest: 13.18% - ⚠️ Squeeze Risk: 75%]]></description>
-      <link>https://x.com/ShortSideIO/status/2075214990772944969</link>
-      <guid isPermaLink="true">https://x.com/ShortSideIO/status/2075214990772944969</guid>
-      <pubDate>Thu, 09 Jul 2026 13:46:30 GMT</pubDate>
     </item>
   </channel>
 </rss>
