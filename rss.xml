@@ -5,13 +5,20 @@
     <link>https://x.com/ShortSideIO</link>
     <description>Daily gapper analysis and short squeeze risk alerts for traders. Independent research on overvalued stocks.</description>
     <language>en-us</language>
-    <lastBuildDate>Fri, 17 Jul 2026 12:02:27 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 17 Jul 2026 12:02:28 GMT</lastBuildDate>
     <atom:link href="https://shortsideresearch.substack.com/feed" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://pbs.twimg.com/profile_images/ShortSideIO/logo.png</url>
       <title>ShortSide Research</title>
       <link>https://x.com/ShortSideIO</link>
     </image>
+    <item>
+      <title>$SLND +28.2%</title>
+      <description><![CDATA[📊 $SLND +28.2% | Southland Holdings | Float: 14.24M | Short: 2.50% | Squeeze Risk: 40%]]></description>
+      <link>https://x.com/ShortSideIO/status/2078087856061370374</link>
+      <guid isPermaLink="true">https://x.com/ShortSideIO/status/2078087856061370374</guid>
+      <pubDate>Fri, 17 Jul 2026 12:02:28 GMT</pubDate>
+    </item>
     <item>
       <title>$BIYA +32.9%</title>
       <description><![CDATA[📊 $BIYA +32.9% | Baiya International | Float: 2.67M | Short: 0.42% | Squeeze Risk: 45%]]></description>
@@ -354,13 +361,6 @@
       <link>https://x.com/ShortSideIO/status/2075215090232524946</link>
       <guid isPermaLink="true">https://x.com/ShortSideIO/status/2075215090232524946</guid>
       <pubDate>Thu, 09 Jul 2026 13:46:51 GMT</pubDate>
-    </item>
-    <item>
-      <title>$PMA +39%</title>
-      <description><![CDATA[📊 $PMA | +39% | Ming Shing Group - Float: 4.56M, Short Interest: 9.90% - ⚠️ Squeeze Risk: 58%]]></description>
-      <link>https://x.com/ShortSideIO/status/2075215057449803895</link>
-      <guid isPermaLink="true">https://x.com/ShortSideIO/status/2075215057449803895</guid>
-      <pubDate>Thu, 09 Jul 2026 13:46:45 GMT</pubDate>
     </item>
   </channel>
 </rss>
