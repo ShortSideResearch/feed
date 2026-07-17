@@ -5,13 +5,20 @@
     <link>https://x.com/ShortSideIO</link>
     <description>Daily gapper analysis and short squeeze risk alerts for traders. Independent research on overvalued stocks.</description>
     <language>en-us</language>
-    <lastBuildDate>Fri, 17 Jul 2026 13:46:10 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 17 Jul 2026 13:46:21 GMT</lastBuildDate>
     <atom:link href="https://shortsideresearch.substack.com/feed" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://pbs.twimg.com/profile_images/ShortSideIO/logo.png</url>
       <title>ShortSide Research</title>
       <link>https://x.com/ShortSideIO</link>
     </image>
+    <item>
+      <title>$CJMB +46%</title>
+      <description><![CDATA[📊 $CJMB +46% | DTC: 0.17 - Limited data available on this micro-cap. Very low DTC (0.17 days) means shorts have quick exit options. Without float/SI data, approach with caution. Squeeze Risk: 25% 🟢]]></description>
+      <link>https://x.com/ShortSideIO/status/2078114045710770299</link>
+      <guid isPermaLink="true">https://x.com/ShortSideIO/status/2078114045710770299</guid>
+      <pubDate>Fri, 17 Jul 2026 13:46:21 GMT</pubDate>
+    </item>
     <item>
       <title>$SDOT +54%</title>
       <description><![CDATA[📊 $SDOT +54% | Float: 740K | SI: 13.5% | DTC: 0.03 - ⚠️ TINY FLOAT ALERT! Under 1M shares available. High short interest (13.5%) but extremely low DTC means shorts can cover in minutes. Violent moves possible. Squeeze Risk: 55% 🟡]]></description>
@@ -354,13 +361,6 @@
       <link>https://x.com/ShortSideIO/status/2075551123709010241</link>
       <guid isPermaLink="true">https://x.com/ShortSideIO/status/2075551123709010241</guid>
       <pubDate>Fri, 10 Jul 2026 12:02:10 GMT</pubDate>
-    </item>
-    <item>
-      <title>$ZBAO +107%</title>
-      <description><![CDATA[📊 $ZBAO +107% Pre-Market | Float: 8.69M | SI: 5.81% | DTC: 0.39 | ⚠️ Squeeze Risk: 70% | Chinese insurtech 100%+ gap]]></description>
-      <link>https://x.com/ShortSideIO/status/2075551084379046099</link>
-      <guid isPermaLink="true">https://x.com/ShortSideIO/status/2075551084379046099</guid>
-      <pubDate>Fri, 10 Jul 2026 12:02:02 GMT</pubDate>
     </item>
   </channel>
 </rss>
