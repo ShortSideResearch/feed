@@ -5,13 +5,20 @@
     <link>https://x.com/ShortSideIO</link>
     <description>Daily gapper analysis and short squeeze risk alerts for traders. Independent research on overvalued stocks.</description>
     <language>en-us</language>
-    <lastBuildDate>Fri, 17 Jul 2026 13:46:21 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 17 Jul 2026 13:46:27 GMT</lastBuildDate>
     <atom:link href="https://shortsideresearch.substack.com/feed" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://pbs.twimg.com/profile_images/ShortSideIO/logo.png</url>
       <title>ShortSide Research</title>
       <link>https://x.com/ShortSideIO</link>
     </image>
+    <item>
+      <title>$BIYA +38%</title>
+      <description><![CDATA[📊 $BIYA +38% | Float: 2.67M | SI: 0.42% | DTC: 0.01 - Minimal short interest (<0.5%) and near-zero DTC. Shorts can exit in minutes. Small float but very little to squeeze here. Squeeze Risk: 15% 🟢]]></description>
+      <link>https://x.com/ShortSideIO/status/2078114091550327198</link>
+      <guid isPermaLink="true">https://x.com/ShortSideIO/status/2078114091550327198</guid>
+      <pubDate>Fri, 17 Jul 2026 13:46:27 GMT</pubDate>
+    </item>
     <item>
       <title>$CJMB +46%</title>
       <description><![CDATA[📊 $CJMB +46% | DTC: 0.17 - Limited data available on this micro-cap. Very low DTC (0.17 days) means shorts have quick exit options. Without float/SI data, approach with caution. Squeeze Risk: 25% 🟢]]></description>
@@ -354,13 +361,6 @@
       <link>https://x.com/ShortSideIO/status/2075551157510975959</link>
       <guid isPermaLink="true">https://x.com/ShortSideIO/status/2075551157510975959</guid>
       <pubDate>Fri, 10 Jul 2026 12:02:19 GMT</pubDate>
-    </item>
-    <item>
-      <title>$JLHL +50%</title>
-      <description><![CDATA[📊 $JLHL +50% Pre-Market | Float: 1.28M (MICRO) | SI: 1.90% | DTC: 0.02 | ⚠️ Squeeze Risk: 75% | Low liquidity = wild swings]]></description>
-      <link>https://x.com/ShortSideIO/status/2075551123709010241</link>
-      <guid isPermaLink="true">https://x.com/ShortSideIO/status/2075551123709010241</guid>
-      <pubDate>Fri, 10 Jul 2026 12:02:10 GMT</pubDate>
     </item>
   </channel>
 </rss>
