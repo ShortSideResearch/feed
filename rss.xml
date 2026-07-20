@@ -5,13 +5,20 @@
     <link>https://x.com/ShortSideIO</link>
     <description>Daily gapper analysis and short squeeze risk alerts for traders. Independent research on overvalued stocks.</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 20 Jul 2026 13:46:28 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 20 Jul 2026 13:46:33 GMT</lastBuildDate>
     <atom:link href="https://shortsideresearch.substack.com/feed" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://pbs.twimg.com/profile_images/ShortSideIO/logo.png</url>
       <title>ShortSide Research</title>
       <link>https://x.com/ShortSideIO</link>
     </image>
+    <item>
+      <title>$SDOT +28%</title>
+      <description><![CDATA[📊 $SDOT +28% | Sadot Group agriculture. Float: 0.74M | Short Interest: 13.51% | DTC: 0.03 | 🟠 SQUEEZE RISK: 60% (MODERATE-HIGH)]]></description>
+      <link>https://x.com/ShortSideIO/status/2079201283462873327</link>
+      <guid isPermaLink="true">https://x.com/ShortSideIO/status/2079201283462873327</guid>
+      <pubDate>Mon, 20 Jul 2026 13:46:33 GMT</pubDate>
+    </item>
     <item>
       <title>$ADVB +33%</title>
       <description><![CDATA[📊 $ADVB +33% | Advanced Biomed biotech. Float: 0.56M | Short Interest: 2.75% | DTC: 0.09 | 🟡 SQUEEZE RISK: 40% (MODERATE) - micro float volatility]]></description>
@@ -354,13 +361,6 @@
       <link>https://x.com/ShortSideIO/status/2076664498824310852</link>
       <guid isPermaLink="true">https://x.com/ShortSideIO/status/2076664498824310852</guid>
       <pubDate>Mon, 13 Jul 2026 13:46:19 GMT</pubDate>
-    </item>
-    <item>
-      <title>$QTTB +63%</title>
-      <description><![CDATA[📊 $QTTB +63% | Q32 Bio | Float: 9.5M | Short Interest: 7.13% | Days to Cover: 0.84 | ⚠️ Squeeze Risk: 45%]]></description>
-      <link>https://x.com/ShortSideIO/status/2076664463982297313</link>
-      <guid isPermaLink="true">https://x.com/ShortSideIO/status/2076664463982297313</guid>
-      <pubDate>Mon, 13 Jul 2026 13:46:11 GMT</pubDate>
     </item>
   </channel>
 </rss>
