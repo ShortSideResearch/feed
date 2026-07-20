@@ -5,13 +5,20 @@
     <link>https://x.com/ShortSideIO</link>
     <description>Daily gapper analysis and short squeeze risk alerts for traders. Independent research on overvalued stocks.</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 20 Jul 2026 13:46:19 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 20 Jul 2026 13:46:28 GMT</lastBuildDate>
     <atom:link href="https://shortsideresearch.substack.com/feed" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://pbs.twimg.com/profile_images/ShortSideIO/logo.png</url>
       <title>ShortSide Research</title>
       <link>https://x.com/ShortSideIO</link>
     </image>
+    <item>
+      <title>$ADVB +33%</title>
+      <description><![CDATA[📊 $ADVB +33% | Advanced Biomed biotech. Float: 0.56M | Short Interest: 2.75% | DTC: 0.09 | 🟡 SQUEEZE RISK: 40% (MODERATE) - micro float volatility]]></description>
+      <link>https://x.com/ShortSideIO/status/2079201246607548570</link>
+      <guid isPermaLink="true">https://x.com/ShortSideIO/status/2079201246607548570</guid>
+      <pubDate>Mon, 20 Jul 2026 13:46:28 GMT</pubDate>
+    </item>
     <item>
       <title>$BXBL +37%</title>
       <description><![CDATA[📊 $BXBL +37% | Boxabl modular housing. Float: 0.96M | Short Interest: 28.60% | DTC: 1.38 | 🔴 SQUEEZE RISK: 80% (HIGH) - DANGER ZONE]]></description>
@@ -354,13 +361,6 @@
       <link>https://x.com/ShortSideIO/status/2076664463982297313</link>
       <guid isPermaLink="true">https://x.com/ShortSideIO/status/2076664463982297313</guid>
       <pubDate>Mon, 13 Jul 2026 13:46:11 GMT</pubDate>
-    </item>
-    <item>
-      <title>$AGEN +45%</title>
-      <description><![CDATA[📊 $AGEN +45% Pre-Market | Float: 37.78M | Short: 15.87% | DTC: 6.83 | Squeeze Risk: 70% 🚨 HIGHEST]]></description>
-      <link>https://x.com/ShortSideIO/status/2076638337494810831</link>
-      <guid isPermaLink="true">https://x.com/ShortSideIO/status/2076638337494810831</guid>
-      <pubDate>Mon, 13 Jul 2026 12:02:29 GMT</pubDate>
     </item>
   </channel>
 </rss>
