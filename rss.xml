@@ -5,13 +5,20 @@
     <link>https://x.com/ShortSideIO</link>
     <description>Daily gapper analysis and short squeeze risk alerts for traders. Independent research on overvalued stocks.</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 20 Jul 2026 12:01:58 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 20 Jul 2026 12:01:59 GMT</lastBuildDate>
     <atom:link href="https://shortsideresearch.substack.com/feed" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://pbs.twimg.com/profile_images/ShortSideIO/logo.png</url>
       <title>ShortSide Research</title>
       <link>https://x.com/ShortSideIO</link>
     </image>
+    <item>
+      <title>$SDOT +31.54%</title>
+      <description><![CDATA[📊 $SDOT +31.54% | Float: 740K | Short: 13.51% | DTC: 0.03 | Squeeze Risk: MODERATE 55%]]></description>
+      <link>https://x.com/ShortSideIO/status/2079174892457455779</link>
+      <guid isPermaLink="true">https://x.com/ShortSideIO/status/2079174892457455779</guid>
+      <pubDate>Mon, 20 Jul 2026 12:01:59 GMT</pubDate>
+    </item>
     <item>
       <title>$BIYA +76.32%</title>
       <description><![CDATA[📊 $BIYA +76.32% | Float: 2.67M | Short: 0.42% | Squeeze Risk: LOW 25%]]></description>
@@ -354,13 +361,6 @@
       <link>https://x.com/ShortSideIO/status/2076638225725067457</link>
       <guid isPermaLink="true">https://x.com/ShortSideIO/status/2076638225725067457</guid>
       <pubDate>Mon, 13 Jul 2026 12:02:25 GMT</pubDate>
-    </item>
-    <item>
-      <title>$GMM +148%</title>
-      <description><![CDATA[📊 $GMM +148% | Tiny 1.68M float + 24% SI held all day. Our 85% squeeze risk score proved accurate. We called this ticker in our premarket newsletter.]]></description>
-      <link>https://x.com/ShortSideIO/status/2075671648296972727</link>
-      <guid isPermaLink="true">https://x.com/ShortSideIO/status/2075671648296972727</guid>
-      <pubDate>Fri, 10 Jul 2026 20:01:03 GMT</pubDate>
     </item>
   </channel>
 </rss>
