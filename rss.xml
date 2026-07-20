@@ -5,13 +5,20 @@
     <link>https://x.com/ShortSideIO</link>
     <description>Daily gapper analysis and short squeeze risk alerts for traders. Independent research on overvalued stocks.</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 20 Jul 2026 12:02:00 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 20 Jul 2026 12:02:01 GMT</lastBuildDate>
     <atom:link href="https://shortsideresearch.substack.com/feed" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://pbs.twimg.com/profile_images/ShortSideIO/logo.png</url>
       <title>ShortSide Research</title>
       <link>https://x.com/ShortSideIO</link>
     </image>
+    <item>
+      <title>$ADVB +22.86%</title>
+      <description><![CDATA[📊 $ADVB +22.86% | Float: 560K | Short: 2.75% | DTC: 0.09 | Squeeze Risk: MODERATE 40%]]></description>
+      <link>https://x.com/ShortSideIO/status/2079174942482898991</link>
+      <guid isPermaLink="true">https://x.com/ShortSideIO/status/2079174942482898991</guid>
+      <pubDate>Mon, 20 Jul 2026 12:02:01 GMT</pubDate>
+    </item>
     <item>
       <title>$BXBL +27.11%</title>
       <description><![CDATA[📊 $BXBL +27.11% | Float: 960K | Short: 28.60% | DTC: 1.38 | Squeeze Risk: HIGH 75%]]></description>
@@ -354,13 +361,6 @@
       <link>https://x.com/ShortSideIO/status/2076638285116441039</link>
       <guid isPermaLink="true">https://x.com/ShortSideIO/status/2076638285116441039</guid>
       <pubDate>Mon, 13 Jul 2026 12:02:27 GMT</pubDate>
-    </item>
-    <item>
-      <title>$QTTB +72%</title>
-      <description><![CDATA[📊 $QTTB +72% Pre-Market | Float: 9.50M | Short: 7.13% | Squeeze Risk: 65%]]></description>
-      <link>https://x.com/ShortSideIO/status/2076638259392790915</link>
-      <guid isPermaLink="true">https://x.com/ShortSideIO/status/2076638259392790915</guid>
-      <pubDate>Mon, 13 Jul 2026 12:02:26 GMT</pubDate>
     </item>
   </channel>
 </rss>
