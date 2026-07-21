@@ -5,13 +5,20 @@
     <link>https://x.com/ShortSideIO</link>
     <description>Daily gapper analysis and short squeeze risk alerts for traders. Independent research on overvalued stocks.</description>
     <language>en-us</language>
-    <lastBuildDate>Tue, 21 Jul 2026 12:02:07 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 21 Jul 2026 12:02:08 GMT</lastBuildDate>
     <atom:link href="https://shortsideresearch.substack.com/feed" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://pbs.twimg.com/profile_images/ShortSideIO/logo.png</url>
       <title>ShortSide Research</title>
       <link>https://x.com/ShortSideIO</link>
     </image>
+    <item>
+      <title>$JUNS +56%</title>
+      <description><![CDATA[📊 $JUNS +56% | Float: 30.39M | SI: 3.1% | DTC: 0.13 | SQUEEZE RISK: 55% (MODERATE)]]></description>
+      <link>https://x.com/ShortSideIO/status/2079537319166529961</link>
+      <guid isPermaLink="true">https://x.com/ShortSideIO/status/2079537319166529961</guid>
+      <pubDate>Tue, 21 Jul 2026 12:02:08 GMT</pubDate>
+    </item>
     <item>
       <title>$SLGB +94%</title>
       <description><![CDATA[📊 $SLGB +94% | Float: 3.00M | SI: 3.9% | DTC: 0.06 | SQUEEZE RISK: 75% (HIGH)]]></description>
@@ -354,13 +361,6 @@
       <link>https://x.com/ShortSideIO/status/2076758836728217705</link>
       <guid isPermaLink="true">https://x.com/ShortSideIO/status/2076758836728217705</guid>
       <pubDate>Mon, 13 Jul 2026 20:01:14 GMT</pubDate>
-    </item>
-    <item>
-      <title>$SOBR +22%</title>
-      <description><![CDATA[📊 $SOBR +22% | Sobr Safe | Float: 2.3M | Short Interest: 1.54% | Days to Cover: 0.01 | Squeeze Risk: 20%]]></description>
-      <link>https://x.com/ShortSideIO/status/2076664602939596978</link>
-      <guid isPermaLink="true">https://x.com/ShortSideIO/status/2076664602939596978</guid>
-      <pubDate>Mon, 13 Jul 2026 13:46:41 GMT</pubDate>
     </item>
   </channel>
 </rss>
