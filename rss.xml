@@ -5,13 +5,20 @@
     <link>https://x.com/ShortSideIO</link>
     <description>Daily gapper analysis and short squeeze risk alerts for traders. Independent research on overvalued stocks.</description>
     <language>en-us</language>
-    <lastBuildDate>Tue, 21 Jul 2026 12:02:06 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 21 Jul 2026 12:02:07 GMT</lastBuildDate>
     <atom:link href="https://shortsideresearch.substack.com/feed" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://pbs.twimg.com/profile_images/ShortSideIO/logo.png</url>
       <title>ShortSide Research</title>
       <link>https://x.com/ShortSideIO</link>
     </image>
+    <item>
+      <title>$SLGB +94%</title>
+      <description><![CDATA[📊 $SLGB +94% | Float: 3.00M | SI: 3.9% | DTC: 0.06 | SQUEEZE RISK: 75% (HIGH)]]></description>
+      <link>https://x.com/ShortSideIO/status/2079537297356161235</link>
+      <guid isPermaLink="true">https://x.com/ShortSideIO/status/2079537297356161235</guid>
+      <pubDate>Tue, 21 Jul 2026 12:02:07 GMT</pubDate>
+    </item>
     <item>
       <title>$KIDZ +150%</title>
       <description><![CDATA[📊 $KIDZ +150% | Float: 2.05M | SI: 4.4% | DTC: 0.02 | SQUEEZE RISK: 85% (EXTREME)]]></description>
@@ -354,13 +361,6 @@
       <link>https://x.com/ShortSideIO/status/2076664602939596978</link>
       <guid isPermaLink="true">https://x.com/ShortSideIO/status/2076664602939596978</guid>
       <pubDate>Mon, 13 Jul 2026 13:46:41 GMT</pubDate>
-    </item>
-    <item>
-      <title>$PLSM +32%</title>
-      <description><![CDATA[📊 $PLSM +32% | Pulsenmore | Float: 3.9M | Short Interest: 1.63% | Days to Cover: 0.06 | Squeeze Risk: 25%]]></description>
-      <link>https://x.com/ShortSideIO/status/2076664565283143951</link>
-      <guid isPermaLink="true">https://x.com/ShortSideIO/status/2076664565283143951</guid>
-      <pubDate>Mon, 13 Jul 2026 13:46:36 GMT</pubDate>
     </item>
   </channel>
 </rss>
