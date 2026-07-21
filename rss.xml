@@ -5,13 +5,20 @@
     <link>https://x.com/ShortSideIO</link>
     <description>Daily gapper analysis and short squeeze risk alerts for traders. Independent research on overvalued stocks.</description>
     <language>en-us</language>
-    <lastBuildDate>Tue, 21 Jul 2026 12:02:08 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 21 Jul 2026 12:02:09 GMT</lastBuildDate>
     <atom:link href="https://shortsideresearch.substack.com/feed" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://pbs.twimg.com/profile_images/ShortSideIO/logo.png</url>
       <title>ShortSide Research</title>
       <link>https://x.com/ShortSideIO</link>
     </image>
+    <item>
+      <title>$HIHO +38%</title>
+      <description><![CDATA[📊 $HIHO +38% | Float: 3.23M | SI: 1.5% | DTC: 0.07 | SQUEEZE RISK: 50% (MODERATE)]]></description>
+      <link>https://x.com/ShortSideIO/status/2079537342491054167</link>
+      <guid isPermaLink="true">https://x.com/ShortSideIO/status/2079537342491054167</guid>
+      <pubDate>Tue, 21 Jul 2026 12:02:09 GMT</pubDate>
+    </item>
     <item>
       <title>$JUNS +56%</title>
       <description><![CDATA[📊 $JUNS +56% | Float: 30.39M | SI: 3.1% | DTC: 0.13 | SQUEEZE RISK: 55% (MODERATE)]]></description>
@@ -354,13 +361,6 @@
       <link>https://x.com/ShortSideIO/status/2077000493864296640</link>
       <guid isPermaLink="true">https://x.com/ShortSideIO/status/2077000493864296640</guid>
       <pubDate>Tue, 14 Jul 2026 12:01:28 GMT</pubDate>
-    </item>
-    <item>
-      <title>$VEEE +417%</title>
-      <description><![CDATA[📊 $VEEE +417% | 440K float monster - ripped from +100% premarket to +417% close. We called this in our premarket newsletter.]]></description>
-      <link>https://x.com/ShortSideIO/status/2076758836728217705</link>
-      <guid isPermaLink="true">https://x.com/ShortSideIO/status/2076758836728217705</guid>
-      <pubDate>Mon, 13 Jul 2026 20:01:14 GMT</pubDate>
     </item>
   </channel>
 </rss>
