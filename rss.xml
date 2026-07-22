@@ -5,13 +5,20 @@
     <link>https://x.com/ShortSideIO</link>
     <description>Daily gapper analysis and short squeeze risk alerts for traders. Independent research on overvalued stocks.</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 22 Jul 2026 13:46:13 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 22 Jul 2026 13:46:23 GMT</lastBuildDate>
     <atom:link href="https://shortsideresearch.substack.com/feed" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://pbs.twimg.com/profile_images/ShortSideIO/logo.png</url>
       <title>ShortSide Research</title>
       <link>https://x.com/ShortSideIO</link>
     </image>
+    <item>
+      <title>$INLF +46%</title>
+      <description><![CDATA[📊 $INLF +46% | INLIF Inc<br/><br/>Float: 1.05M | Short: 0.20%<br/>Cap: $3.85M | DTC: 0.00<br/><br/>Ultra-micro cap with tiny float. Low short interest but the float alone makes this dangerous to short.<br/><br/>Squeeze Risk: 45% ⚠️]]></description>
+      <link>https://x.com/ShortSideIO/status/2079925996472439264</link>
+      <guid isPermaLink="true">https://x.com/ShortSideIO/status/2079925996472439264</guid>
+      <pubDate>Wed, 22 Jul 2026 13:46:23 GMT</pubDate>
+    </item>
     <item>
       <title>$CHAI +57%</title>
       <description><![CDATA[📊 $CHAI +57% | Core AI Holdings<br/><br/>Float: 8.96M | Short: 4.23%<br/>Cap: $12.38M | DTC: 0.07<br/><br/>AI play getting momentum. Moderate float keeps this manageable but watch for retail pileup.<br/><br/>Squeeze Risk: 50% ⚠️]]></description>
@@ -354,13 +361,6 @@
       <link>https://x.com/ShortSideIO/status/2077362892756668555</link>
       <guid isPermaLink="true">https://x.com/ShortSideIO/status/2077362892756668555</guid>
       <pubDate>Wed, 15 Jul 2026 12:01:32 GMT</pubDate>
-    </item>
-    <item>
-      <title>$JTAI +859%</title>
-      <description><![CDATA[📊 $JTAI +859% Pre-Market | Float: 1.22M | Short Interest: 8.58% | DTC: 0.36 | ⚠️ SQUEEZE RISK: 92%]]></description>
-      <link>https://x.com/ShortSideIO/status/2077362867876089864</link>
-      <guid isPermaLink="true">https://x.com/ShortSideIO/status/2077362867876089864</guid>
-      <pubDate>Wed, 15 Jul 2026 12:01:23 GMT</pubDate>
     </item>
   </channel>
 </rss>
