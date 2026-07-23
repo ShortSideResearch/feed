@@ -5,13 +5,20 @@
     <link>https://x.com/ShortSideIO</link>
     <description>Daily gapper analysis and short squeeze risk alerts for traders. Independent research on overvalued stocks.</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 23 Jul 2026 13:46:35 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 23 Jul 2026 13:46:46 GMT</lastBuildDate>
     <atom:link href="https://shortsideresearch.substack.com/feed" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://pbs.twimg.com/profile_images/ShortSideIO/logo.png</url>
       <title>ShortSide Research</title>
       <link>https://x.com/ShortSideIO</link>
     </image>
+    <item>
+      <title>📊 DOMO | +36% | 37M Float | 8.75% SI | DTC 2.04 - Squeez...</title>
+      <description><![CDATA[📊 DOMO | +36% | 37M Float | 8.75% SI | DTC 2.04 - Squeeze Risk: 40%]]></description>
+      <link>https://x.com/ShortSideIO/status/2080288478005285018</link>
+      <guid isPermaLink="true">https://x.com/ShortSideIO/status/2080288478005285018</guid>
+      <pubDate>Thu, 23 Jul 2026 13:46:46 GMT</pubDate>
+    </item>
     <item>
       <title>📊 JEM | +47% | 3.1M MCap | Squeeze Risk: 50% - Micro-cap...</title>
       <description><![CDATA[📊 JEM | +47% | 3.1M MCap | Squeeze Risk: 50% - Micro-cap volatility]]></description>
@@ -354,13 +361,6 @@
       <link>https://x.com/ShortSideIO/status/2077389383125147713</link>
       <guid isPermaLink="true">https://x.com/ShortSideIO/status/2077389383125147713</guid>
       <pubDate>Wed, 15 Jul 2026 13:46:45 GMT</pubDate>
-    </item>
-    <item>
-      <title>$ERNA +39%</title>
-      <description><![CDATA[📊 $ERNA +39% | Float: 680K | SI: 4.32% ⚠️ MODERATE squeeze risk (45%) Tiny float creates volatility but low SI and near-zero DTC. Easier to fade on exhaustion.]]></description>
-      <link>https://x.com/ShortSideIO/status/2077389349339967613</link>
-      <guid isPermaLink="true">https://x.com/ShortSideIO/status/2077389349339967613</guid>
-      <pubDate>Wed, 15 Jul 2026 13:46:37 GMT</pubDate>
     </item>
   </channel>
 </rss>
