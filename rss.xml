@@ -5,13 +5,20 @@
     <link>https://x.com/ShortSideIO</link>
     <description>Daily gapper analysis and short squeeze risk alerts for traders. Independent research on overvalued stocks.</description>
     <language>en-us</language>
-    <lastBuildDate>Fri, 24 Jul 2026 13:46:49 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 24 Jul 2026 13:46:54 GMT</lastBuildDate>
     <atom:link href="https://shortsideresearch.substack.com/feed" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://pbs.twimg.com/profile_images/ShortSideIO/logo.png</url>
       <title>ShortSide Research</title>
       <link>https://x.com/ShortSideIO</link>
     </image>
+    <item>
+      <title>$ADVB +37%</title>
+      <description><![CDATA[📊 $ADVB +37% | Float: 0.56M | SI: 2.75% - Advanced BioMed - medical device micro-cap. Extremely tight float (560K shares). Low SI but high volatility risk due to float rotation. Squeeze Risk: 25% (LOW-MOD)]]></description>
+      <link>https://x.com/ShortSideIO/status/2080650923790008735</link>
+      <guid isPermaLink="true">https://x.com/ShortSideIO/status/2080650923790008735</guid>
+      <pubDate>Fri, 24 Jul 2026 13:46:54 GMT</pubDate>
+    </item>
     <item>
       <title>$SAFT +41%</title>
       <description><![CDATA[📊 $SAFT +41% | Float: 14.36M | SI: 2.24% - Safety Insurance Group - regional P&C insurer. Days to cover 2.85. Low squeeze risk, likely earnings-related move. Squeeze Risk: 20% (LOW)]]></description>
@@ -354,13 +361,6 @@
       <link>https://x.com/ShortSideIO/status/2078087831126233565</link>
       <guid isPermaLink="true">https://x.com/ShortSideIO/status/2078087831126233565</guid>
       <pubDate>Fri, 17 Jul 2026 12:02:27 GMT</pubDate>
-    </item>
-    <item>
-      <title>$CJMB +44.0%</title>
-      <description><![CDATA[📊 $CJMB +44.0% | Callan JMB | MCap: $4.86M (micro) | Squeeze Risk: 60%]]></description>
-      <link>https://x.com/ShortSideIO/status/2078087807331922158</link>
-      <guid isPermaLink="true">https://x.com/ShortSideIO/status/2078087807331922158</guid>
-      <pubDate>Fri, 17 Jul 2026 12:02:26 GMT</pubDate>
     </item>
   </channel>
 </rss>
