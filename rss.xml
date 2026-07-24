@@ -5,13 +5,20 @@
     <link>https://x.com/ShortSideIO</link>
     <description>Daily gapper analysis and short squeeze risk alerts for traders. Independent research on overvalued stocks.</description>
     <language>en-us</language>
-    <lastBuildDate>Fri, 24 Jul 2026 13:46:29 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 24 Jul 2026 13:46:40 GMT</lastBuildDate>
     <atom:link href="https://shortsideresearch.substack.com/feed" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://pbs.twimg.com/profile_images/ShortSideIO/logo.png</url>
       <title>ShortSide Research</title>
       <link>https://x.com/ShortSideIO</link>
     </image>
+    <item>
+      <title>$OMH +45%</title>
+      <description><![CDATA[📊 $OMH +45% | Float: 22.17M | SI: 0.96% - Singapore proptech company. Large float, negligible short interest. Squeeze Risk: 10% (LOW)]]></description>
+      <link>https://x.com/ShortSideIO/status/2080650838406582327</link>
+      <guid isPermaLink="true">https://x.com/ShortSideIO/status/2080650838406582327</guid>
+      <pubDate>Fri, 24 Jul 2026 13:46:40 GMT</pubDate>
+    </item>
     <item>
       <title>$LVWR +64%</title>
       <description><![CDATA[📊 $LVWR +64% | Float: 10.17M | SI: 24.71% - HIGH SQUEEZE RISK - Days to cover 6.49 with nearly 25% short interest. LiveWire (Harley electric bikes spinoff) seeing unusual activity. Squeeze Risk: 75% (HIGH)]]></description>
@@ -354,13 +361,6 @@
       <link>https://x.com/ShortSideIO/status/2078087782820429935</link>
       <guid isPermaLink="true">https://x.com/ShortSideIO/status/2078087782820429935</guid>
       <pubDate>Fri, 17 Jul 2026 12:02:25 GMT</pubDate>
-    </item>
-    <item>
-      <title>recap</title>
-      <description><![CDATA[recap]]></description>
-      <link></link>
-      <guid isPermaLink="false">shortsideresearch-1784232247393</guid>
-      <pubDate>Thu, 16 Jul 2026 20:04:07 GMT</pubDate>
     </item>
   </channel>
 </rss>
