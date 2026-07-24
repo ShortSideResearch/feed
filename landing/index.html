@@ -1537,7 +1537,12 @@
         {"date": "2026-07-14", "gappers": 4, "correct": 3, "tickers": ["NXTC", "SHPH", "VMAR", "PMI"]},
         {"date": "2026-07-15", "gappers": 5, "correct": 4, "tickers": ["JTAI", "KUST", "ERNA", "AEHR", "TGHL"]},
         {"date": "2026-07-16", "gappers": 5, "correct": 4, "tickers": ["CDNA", "ATAI", "TGHL", "VEEE", "ATPC"]},
-        {"date": "2026-07-17", "gappers": 7, "correct": 7, "tickers": ["SDOT", "CJMB", "BIYA", "SLND", "PMAX", "JLHL", "DFNS"]}
+        {"date": "2026-07-17", "gappers": 7, "correct": 7, "tickers": ["SDOT", "CJMB", "BIYA", "SLND", "PMAX", "JLHL", "DFNS"]},
+        {"date": "2026-07-20", "gappers": 4, "correct": 3, "tickers": ["BIYA", "SDOT", "BXBL", "ADVB"]},
+        {"date": "2026-07-21", "gappers": 7, "correct": 6, "tickers": ["KIDZ", "SLGB", "JUNS", "HIHO", "UTZ", "VIVK", "CPHI"]},
+        {"date": "2026-07-22", "gappers": 7, "correct": 6, "tickers": ["KUST", "INM", "INLF", "CHAI", "SXTC", "AEHL", "ZCMD"]},
+        {"date": "2026-07-23", "gappers": 5, "correct": 4, "tickers": ["LGCL", "WBUY", "JEM", "DOMO", "PLAG"]},
+        {"date": "2026-07-24", "gappers": 12, "correct": 10, "tickers": ["LVWR", "SAFT", "BNRG", "ADVB", "WLDS", "PN", "MOBX", "JEM", "VIVK", "OMH", "AKAN", "NDLS"]}
       ]
     };
     
@@ -1750,8 +1755,8 @@
       entries.forEach(entry => {
         if (entry.isIntersecting && !animated) {
           animated = true;
-          animateCount(document.getElementById('animAccuracy'), 82.3, 1500, true);
-          animateCount(document.getElementById('animGappers'), 164, 1500, false);
+          animateCount(document.getElementById('animAccuracy'), 82.4, 1500, true);
+          animateCount(document.getElementById('animGappers'), 199, 1500, false);
         }
       });
     }, { threshold: 0.3 });
