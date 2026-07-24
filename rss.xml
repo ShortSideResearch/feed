@@ -5,13 +5,20 @@
     <link>https://x.com/ShortSideIO</link>
     <description>Daily gapper analysis and short squeeze risk alerts for traders. Independent research on overvalued stocks.</description>
     <language>en-us</language>
-    <lastBuildDate>Fri, 24 Jul 2026 13:46:21 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 24 Jul 2026 13:46:29 GMT</lastBuildDate>
     <atom:link href="https://shortsideresearch.substack.com/feed" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://pbs.twimg.com/profile_images/ShortSideIO/logo.png</url>
       <title>ShortSide Research</title>
       <link>https://x.com/ShortSideIO</link>
     </image>
+    <item>
+      <title>$LVWR +64%</title>
+      <description><![CDATA[📊 $LVWR +64% | Float: 10.17M | SI: 24.71% - HIGH SQUEEZE RISK - Days to cover 6.49 with nearly 25% short interest. LiveWire (Harley electric bikes spinoff) seeing unusual activity. Squeeze Risk: 75% (HIGH)]]></description>
+      <link>https://x.com/ShortSideIO/status/2080650804873121845</link>
+      <guid isPermaLink="true">https://x.com/ShortSideIO/status/2080650804873121845</guid>
+      <pubDate>Fri, 24 Jul 2026 13:46:29 GMT</pubDate>
+    </item>
     <item>
       <title>$VIVK +70%</title>
       <description><![CDATA[📊 $VIVK +70% | Float: 0.67M | SI: 1.37% - Micro-cap gapper with tiny float. Near-zero short interest means low squeeze risk but extreme volatility. Squeeze Risk: 15% (LOW)]]></description>
@@ -354,13 +361,6 @@
       <link></link>
       <guid isPermaLink="false">shortsideresearch-1784232247393</guid>
       <pubDate>Thu, 16 Jul 2026 20:04:07 GMT</pubDate>
-    </item>
-    <item>
-      <title>$TGHL +84%</title>
-      <description><![CDATA[📊 $TGHL +84% | EnChem merger ran all day. Not shortable, no options, tiny float = untouchable. We called this premarket at +60%.]]></description>
-      <link>https://x.com/ShortSideIO/status/2077845989625368977</link>
-      <guid isPermaLink="true">https://x.com/ShortSideIO/status/2077845989625368977</guid>
-      <pubDate>Thu, 16 Jul 2026 20:01:06 GMT</pubDate>
     </item>
   </channel>
 </rss>
