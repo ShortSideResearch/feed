@@ -5,13 +5,20 @@
     <link>https://x.com/ShortSideIO</link>
     <description>Daily gapper analysis and short squeeze risk alerts for traders. Independent research on overvalued stocks.</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 27 Jul 2026 13:46:52 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 27 Jul 2026 13:47:00 GMT</lastBuildDate>
     <atom:link href="https://shortsideresearch.substack.com/feed" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://pbs.twimg.com/profile_images/ShortSideIO/logo.png</url>
       <title>ShortSide Research</title>
       <link>https://x.com/ShortSideIO</link>
     </image>
+    <item>
+      <title>$MTNB +53%</title>
+      <description><![CDATA[📊 $MTNB +53% | 11.43M Float | 4% Short ⚠️ Squeeze Risk: 30% LOW]]></description>
+      <link>https://x.com/ShortSideIO/status/2081738101014020424</link>
+      <guid isPermaLink="true">https://x.com/ShortSideIO/status/2081738101014020424</guid>
+      <pubDate>Mon, 27 Jul 2026 13:47:00 GMT</pubDate>
+    </item>
     <item>
       <title>$DFNS +60%</title>
       <description><![CDATA[📊 $DFNS +60% | 0.70M Float | 15% Short ⚠️ Squeeze Risk: 75% HIGH]]></description>
@@ -354,13 +361,6 @@
       <link>https://x.com/ShortSideIO/status/2079174892457455779</link>
       <guid isPermaLink="true">https://x.com/ShortSideIO/status/2079174892457455779</guid>
       <pubDate>Mon, 20 Jul 2026 12:01:59 GMT</pubDate>
-    </item>
-    <item>
-      <title>$BIYA +76.32%</title>
-      <description><![CDATA[📊 $BIYA +76.32% | Float: 2.67M | Short: 0.42% | Squeeze Risk: LOW 25%]]></description>
-      <link>https://x.com/ShortSideIO/status/2079174869527253410</link>
-      <guid isPermaLink="true">https://x.com/ShortSideIO/status/2079174869527253410</guid>
-      <pubDate>Mon, 20 Jul 2026 12:01:58 GMT</pubDate>
     </item>
   </channel>
 </rss>
