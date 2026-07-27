@@ -5,13 +5,20 @@
     <link>https://x.com/ShortSideIO</link>
     <description>Daily gapper analysis and short squeeze risk alerts for traders. Independent research on overvalued stocks.</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 27 Jul 2026 13:47:11 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 27 Jul 2026 13:47:18 GMT</lastBuildDate>
     <atom:link href="https://shortsideresearch.substack.com/feed" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://pbs.twimg.com/profile_images/ShortSideIO/logo.png</url>
       <title>ShortSide Research</title>
       <link>https://x.com/ShortSideIO</link>
     </image>
+    <item>
+      <title>$FBRX +40%</title>
+      <description><![CDATA[📊 $FBRX +40% | 17.84M Float | 11.5% Short ⚠️ Squeeze Risk: 50% MODERATE]]></description>
+      <link>https://x.com/ShortSideIO/status/2081738180273819724</link>
+      <guid isPermaLink="true">https://x.com/ShortSideIO/status/2081738180273819724</guid>
+      <pubDate>Mon, 27 Jul 2026 13:47:18 GMT</pubDate>
+    </item>
     <item>
       <title>$BIYA +52%</title>
       <description><![CDATA[📊 $BIYA +52% | 2.67M Float | 3% Short ⚠️ Squeeze Risk: 40% MODERATE]]></description>
@@ -354,13 +361,6 @@
       <link>https://x.com/ShortSideIO/status/2079174942482898991</link>
       <guid isPermaLink="true">https://x.com/ShortSideIO/status/2079174942482898991</guid>
       <pubDate>Mon, 20 Jul 2026 12:02:01 GMT</pubDate>
-    </item>
-    <item>
-      <title>$BXBL +27.11%</title>
-      <description><![CDATA[📊 $BXBL +27.11% | Float: 960K | Short: 28.60% | DTC: 1.38 | Squeeze Risk: HIGH 75%]]></description>
-      <link>https://x.com/ShortSideIO/status/2079174916734177691</link>
-      <guid isPermaLink="true">https://x.com/ShortSideIO/status/2079174916734177691</guid>
-      <pubDate>Mon, 20 Jul 2026 12:02:00 GMT</pubDate>
     </item>
   </channel>
 </rss>
