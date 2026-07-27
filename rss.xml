@@ -5,13 +5,20 @@
     <link>https://x.com/ShortSideIO</link>
     <description>Daily gapper analysis and short squeeze risk alerts for traders. Independent research on overvalued stocks.</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 27 Jul 2026 12:02:33 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 27 Jul 2026 12:02:34 GMT</lastBuildDate>
     <atom:link href="https://shortsideresearch.substack.com/feed" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://pbs.twimg.com/profile_images/ShortSideIO/logo.png</url>
       <title>ShortSide Research</title>
       <link>https://x.com/ShortSideIO</link>
     </image>
+    <item>
+      <title>$KIDZ +41.78%</title>
+      <description><![CDATA[📊 $KIDZ +41.78% PM | Float: 2.05M | SI: 2.73% | Squeeze Risk: 38% | AI sympathy play, high dilution risk]]></description>
+      <link>https://x.com/ShortSideIO/status/2081711788031185323</link>
+      <guid isPermaLink="true">https://x.com/ShortSideIO/status/2081711788031185323</guid>
+      <pubDate>Mon, 27 Jul 2026 12:02:34 GMT</pubDate>
+    </item>
     <item>
       <title>$BIYA +44.54%</title>
       <description><![CDATA[📊 $BIYA +44.54% PM | Float: 2.67M | SI: 3.37% | Squeeze Risk: 35% | Small cap momentum, watch for fade]]></description>
@@ -354,13 +361,6 @@
       <link>https://x.com/ShortSideIO/status/2078114091550327198</link>
       <guid isPermaLink="true">https://x.com/ShortSideIO/status/2078114091550327198</guid>
       <pubDate>Fri, 17 Jul 2026 13:46:27 GMT</pubDate>
-    </item>
-    <item>
-      <title>$CJMB +46%</title>
-      <description><![CDATA[📊 $CJMB +46% | DTC: 0.17 - Limited data available on this micro-cap. Very low DTC (0.17 days) means shorts have quick exit options. Without float/SI data, approach with caution. Squeeze Risk: 25% 🟢]]></description>
-      <link>https://x.com/ShortSideIO/status/2078114045710770299</link>
-      <guid isPermaLink="true">https://x.com/ShortSideIO/status/2078114045710770299</guid>
-      <pubDate>Fri, 17 Jul 2026 13:46:21 GMT</pubDate>
     </item>
   </channel>
 </rss>
