@@ -5,13 +5,20 @@
     <link>https://x.com/ShortSideIO</link>
     <description>Daily gapper analysis and short squeeze risk alerts for traders. Independent research on overvalued stocks.</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 27 Jul 2026 13:47:00 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 27 Jul 2026 13:47:11 GMT</lastBuildDate>
     <atom:link href="https://shortsideresearch.substack.com/feed" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://pbs.twimg.com/profile_images/ShortSideIO/logo.png</url>
       <title>ShortSide Research</title>
       <link>https://x.com/ShortSideIO</link>
     </image>
+    <item>
+      <title>$BIYA +52%</title>
+      <description><![CDATA[📊 $BIYA +52% | 2.67M Float | 3% Short ⚠️ Squeeze Risk: 40% MODERATE]]></description>
+      <link>https://x.com/ShortSideIO/status/2081738132026708049</link>
+      <guid isPermaLink="true">https://x.com/ShortSideIO/status/2081738132026708049</guid>
+      <pubDate>Mon, 27 Jul 2026 13:47:11 GMT</pubDate>
+    </item>
     <item>
       <title>$MTNB +53%</title>
       <description><![CDATA[📊 $MTNB +53% | 11.43M Float | 4% Short ⚠️ Squeeze Risk: 30% LOW]]></description>
@@ -354,13 +361,6 @@
       <link>https://x.com/ShortSideIO/status/2079174916734177691</link>
       <guid isPermaLink="true">https://x.com/ShortSideIO/status/2079174916734177691</guid>
       <pubDate>Mon, 20 Jul 2026 12:02:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>$SDOT +31.54%</title>
-      <description><![CDATA[📊 $SDOT +31.54% | Float: 740K | Short: 13.51% | DTC: 0.03 | Squeeze Risk: MODERATE 55%]]></description>
-      <link>https://x.com/ShortSideIO/status/2079174892457455779</link>
-      <guid isPermaLink="true">https://x.com/ShortSideIO/status/2079174892457455779</guid>
-      <pubDate>Mon, 20 Jul 2026 12:01:59 GMT</pubDate>
     </item>
   </channel>
 </rss>
