@@ -5,13 +5,20 @@
     <link>https://x.com/ShortSideIO</link>
     <description>Daily gapper analysis and short squeeze risk alerts for traders. Independent research on overvalued stocks.</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 27 Jul 2026 12:02:32 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 27 Jul 2026 12:02:33 GMT</lastBuildDate>
     <atom:link href="https://shortsideresearch.substack.com/feed" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://pbs.twimg.com/profile_images/ShortSideIO/logo.png</url>
       <title>ShortSide Research</title>
       <link>https://x.com/ShortSideIO</link>
     </image>
+    <item>
+      <title>$BIYA +44.54%</title>
+      <description><![CDATA[📊 $BIYA +44.54% PM | Float: 2.67M | SI: 3.37% | Squeeze Risk: 35% | Small cap momentum, watch for fade]]></description>
+      <link>https://x.com/ShortSideIO/status/2081711764207440345</link>
+      <guid isPermaLink="true">https://x.com/ShortSideIO/status/2081711764207440345</guid>
+      <pubDate>Mon, 27 Jul 2026 12:02:33 GMT</pubDate>
+    </item>
     <item>
       <title>$MTNB +61.47%</title>
       <description><![CDATA[📊 $MTNB +61.47% PM | Float: 11.43M | SI: 4.14% | Squeeze Risk: 40% | Sub-dollar biotech, high dilution risk]]></description>
@@ -354,13 +361,6 @@
       <link>https://x.com/ShortSideIO/status/2078114045710770299</link>
       <guid isPermaLink="true">https://x.com/ShortSideIO/status/2078114045710770299</guid>
       <pubDate>Fri, 17 Jul 2026 13:46:21 GMT</pubDate>
-    </item>
-    <item>
-      <title>$SDOT +54%</title>
-      <description><![CDATA[📊 $SDOT +54% | Float: 740K | SI: 13.5% | DTC: 0.03 - ⚠️ TINY FLOAT ALERT! Under 1M shares available. High short interest (13.5%) but extremely low DTC means shorts can cover in minutes. Violent moves possible. Squeeze Risk: 55% 🟡]]></description>
-      <link>https://x.com/ShortSideIO/status/2078114009581003222</link>
-      <guid isPermaLink="true">https://x.com/ShortSideIO/status/2078114009581003222</guid>
-      <pubDate>Fri, 17 Jul 2026 13:46:10 GMT</pubDate>
     </item>
   </channel>
 </rss>
