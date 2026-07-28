@@ -5,13 +5,20 @@
     <link>https://x.com/ShortSideIO</link>
     <description>Daily gapper analysis and short squeeze risk alerts for traders. Independent research on overvalued stocks.</description>
     <language>en-us</language>
-    <lastBuildDate>Tue, 28 Jul 2026 13:46:48 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 28 Jul 2026 13:46:54 GMT</lastBuildDate>
     <atom:link href="https://shortsideresearch.substack.com/feed" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://pbs.twimg.com/profile_images/ShortSideIO/logo.png</url>
       <title>ShortSide Research</title>
       <link>https://x.com/ShortSideIO</link>
     </image>
+    <item>
+      <title>$ONFO +39%</title>
+      <description><![CDATA[📊 $ONFO +39% | Float: 4.65M | SI: 1.32% ⚠️ SQUEEZE RISK: 30% Micro-cap but very low short interest. Lower risk for shorts.]]></description>
+      <link>https://x.com/ShortSideIO/status/2082100471867507139</link>
+      <guid isPermaLink="true">https://x.com/ShortSideIO/status/2082100471867507139</guid>
+      <pubDate>Tue, 28 Jul 2026 13:46:54 GMT</pubDate>
+    </item>
     <item>
       <title>$GOSS +35%</title>
       <description><![CDATA[📊 $GOSS +35% | Float: 449M | SI: 16.29% | DTC: 3.52 ⚠️ SQUEEZE RISK: 50% Biotech with high SI% but massive float absorbs pressure.]]></description>
@@ -354,13 +361,6 @@
       <link>https://x.com/ShortSideIO/status/2079563478105305575</link>
       <guid isPermaLink="true">https://x.com/ShortSideIO/status/2079563478105305575</guid>
       <pubDate>Tue, 21 Jul 2026 13:45:48 GMT</pubDate>
-    </item>
-    <item>
-      <title>$UTZ +37%</title>
-      <description><![CDATA[📊 $UTZ +37% | Float: 71.92M | SI: 11.1% | DTC: 4.10 | SQUEEZE RISK: 70% (HIGH)]]></description>
-      <link>https://x.com/ShortSideIO/status/2079537367451398307</link>
-      <guid isPermaLink="true">https://x.com/ShortSideIO/status/2079537367451398307</guid>
-      <pubDate>Tue, 21 Jul 2026 12:02:10 GMT</pubDate>
     </item>
   </channel>
 </rss>
