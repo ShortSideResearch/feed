@@ -1025,7 +1025,7 @@
   <section class="track-record" id="track-record">
     <div class="section-title">
       <h2>📊 Verified Track Record</h2>
-      <p>Every small-cap gapper we've analyzed since June 2026. Hover over any day to see the tickers.</p>
+      <p>Every small-cap gapper we've analyzed. Hover over any day to see the tickers.</p>
     </div>
     <div class="track-record-stats">
       <div class="stat">
@@ -1542,7 +1542,8 @@
         {"date": "2026-07-21", "gappers": 7, "correct": 6, "tickers": ["KIDZ", "SLGB", "JUNS", "HIHO", "UTZ", "VIVK", "CPHI"]},
         {"date": "2026-07-22", "gappers": 7, "correct": 6, "tickers": ["KUST", "INM", "INLF", "CHAI", "SXTC", "AEHL", "ZCMD"]},
         {"date": "2026-07-23", "gappers": 5, "correct": 4, "tickers": ["LGCL", "WBUY", "JEM", "DOMO", "PLAG"]},
-        {"date": "2026-07-24", "gappers": 12, "correct": 10, "tickers": ["LVWR", "SAFT", "BNRG", "ADVB", "WLDS", "PN", "MOBX", "JEM", "VIVK", "OMH", "AKAN", "NDLS"]}
+        {"date": "2026-07-24", "gappers": 12, "correct": 10, "tickers": ["LVWR", "SAFT", "BNRG", "ADVB", "WLDS", "PN", "MOBX", "JEM", "VIVK", "OMH", "AKAN", "NDLS"]},
+        {"date": "2026-07-27", "gappers": 13, "correct": 9, "tickers": ["LGHL", "MTNB", "DFNS", "FBRX", "BIYA", "TRAX", "GOSS", "OMH", "SXTC", "VEEE", "EDBL", "ENTX", "AGPU"]}
       ]
     };
     
@@ -1755,8 +1756,8 @@
       entries.forEach(entry => {
         if (entry.isIntersecting && !animated) {
           animated = true;
-          animateCount(document.getElementById('animAccuracy'), 82.4, 1500, true);
-          animateCount(document.getElementById('animGappers'), 199, 1500, false);
+          animateCount(document.getElementById('animAccuracy'), 81.6, 1500, true);
+          animateCount(document.getElementById('animGappers'), 212, 1500, false);
         }
       });
     }, { threshold: 0.3 });
