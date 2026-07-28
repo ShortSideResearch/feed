@@ -5,13 +5,20 @@
     <link>https://x.com/ShortSideIO</link>
     <description>Daily gapper analysis and short squeeze risk alerts for traders. Independent research on overvalued stocks.</description>
     <language>en-us</language>
-    <lastBuildDate>Tue, 28 Jul 2026 13:46:31 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 28 Jul 2026 13:46:40 GMT</lastBuildDate>
     <atom:link href="https://shortsideresearch.substack.com/feed" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://pbs.twimg.com/profile_images/ShortSideIO/logo.png</url>
       <title>ShortSide Research</title>
       <link>https://x.com/ShortSideIO</link>
     </image>
+    <item>
+      <title>$DFNS +56%</title>
+      <description><![CDATA[📊 $DFNS +56% | Float: 0.70M | SI: 15.36% ⚠️ SQUEEZE RISK: 80% Tiny 700K float + 15% short interest = squeeze setup.]]></description>
+      <link>https://x.com/ShortSideIO/status/2082100399595565526</link>
+      <guid isPermaLink="true">https://x.com/ShortSideIO/status/2082100399595565526</guid>
+      <pubDate>Tue, 28 Jul 2026 13:46:40 GMT</pubDate>
+    </item>
     <item>
       <title>$FIRY +67%</title>
       <description><![CDATA[📊 $FIRY +67% | Float: 8M | SI: 16.66% | DTC: 2.52 ⚠️ SQUEEZE RISK: 70% Heavy short interest with 2.5 days to cover.]]></description>
@@ -354,13 +361,6 @@
       <link>https://x.com/ShortSideIO/status/2079537342491054167</link>
       <guid isPermaLink="true">https://x.com/ShortSideIO/status/2079537342491054167</guid>
       <pubDate>Tue, 21 Jul 2026 12:02:09 GMT</pubDate>
-    </item>
-    <item>
-      <title>$JUNS +56%</title>
-      <description><![CDATA[📊 $JUNS +56% | Float: 30.39M | SI: 3.1% | DTC: 0.13 | SQUEEZE RISK: 55% (MODERATE)]]></description>
-      <link>https://x.com/ShortSideIO/status/2079537319166529961</link>
-      <guid isPermaLink="true">https://x.com/ShortSideIO/status/2079537319166529961</guid>
-      <pubDate>Tue, 21 Jul 2026 12:02:08 GMT</pubDate>
     </item>
   </channel>
 </rss>
