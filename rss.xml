@@ -5,13 +5,20 @@
     <link>https://x.com/ShortSideIO</link>
     <description>Daily gapper analysis and short squeeze risk alerts for traders. Independent research on overvalued stocks.</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 29 Jul 2026 13:47:03 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 29 Jul 2026 13:47:13 GMT</lastBuildDate>
     <atom:link href="https://shortsideresearch.substack.com/feed" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://pbs.twimg.com/profile_images/ShortSideIO/logo.png</url>
       <title>ShortSide Research</title>
       <link>https://x.com/ShortSideIO</link>
     </image>
+    <item>
+      <title>$GMM +40%</title>
+      <description><![CDATA[📊 $GMM +40% | Float 1.74M | SI 8.1% | AI company w/ H1 revenue +49%. NVIDIA, AWS, ByteDance partnerships. ⚠️ Squeeze Risk: 45%]]></description>
+      <link>https://x.com/ShortSideIO/status/2082462921209032920</link>
+      <guid isPermaLink="true">https://x.com/ShortSideIO/status/2082462921209032920</guid>
+      <pubDate>Wed, 29 Jul 2026 13:47:13 GMT</pubDate>
+    </item>
     <item>
       <title>$VIVK +43%</title>
       <description><![CDATA[📊 $VIVK +43% | Float 590K | SI 17.4% | Crude oil platform guidance raised to $1.5B. Highest SI on micro-float. ⚠️ Squeeze Risk: 70%]]></description>
@@ -354,13 +361,6 @@
       <link>https://x.com/ShortSideIO/status/2079926078064283806</link>
       <guid isPermaLink="true">https://x.com/ShortSideIO/status/2079926078064283806</guid>
       <pubDate>Wed, 22 Jul 2026 13:46:39 GMT</pubDate>
-    </item>
-    <item>
-      <title>$INM +40%</title>
-      <description><![CDATA[📊 $INM +40% | InMed Pharmaceuticals<br/><br/>Float: 2.49M | Short: 5.69%<br/>Cap: $6.79M | DTC: 0.09<br/><br/>Pharma micro-cap with elevated short interest. Small float + moderate shorts = recipe for volatility.<br/><br/>Squeeze Risk: 55% ⚠️]]></description>
-      <link>https://x.com/ShortSideIO/status/2079926038482571368</link>
-      <guid isPermaLink="true">https://x.com/ShortSideIO/status/2079926038482571368</guid>
-      <pubDate>Wed, 22 Jul 2026 13:46:32 GMT</pubDate>
     </item>
   </channel>
 </rss>
