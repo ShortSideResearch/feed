@@ -5,13 +5,20 @@
     <link>https://x.com/ShortSideIO</link>
     <description>Daily gapper analysis and short squeeze risk alerts for traders. Independent research on overvalued stocks.</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 29 Jul 2026 12:02:00 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 29 Jul 2026 12:02:08 GMT</lastBuildDate>
     <atom:link href="https://shortsideresearch.substack.com/feed" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://pbs.twimg.com/profile_images/ShortSideIO/logo.png</url>
       <title>ShortSide Research</title>
       <link>https://x.com/ShortSideIO</link>
     </image>
+    <item>
+      <title>$GMM +29%</title>
+      <description><![CDATA[📊 $GMM +29% PM | Float: 1.74M | Short: 8.14% | Squeeze Risk: 55%]]></description>
+      <link>https://x.com/ShortSideIO/status/2082436486763303400</link>
+      <guid isPermaLink="true">https://x.com/ShortSideIO/status/2082436486763303400</guid>
+      <pubDate>Wed, 29 Jul 2026 12:02:08 GMT</pubDate>
+    </item>
     <item>
       <title>$STFS +33%</title>
       <description><![CDATA[📊 $STFS +33% PM | Float: 1.12M | Short: 1.35% | Squeeze Risk: 45%]]></description>
@@ -354,13 +361,6 @@
       <link>https://x.com/ShortSideIO/status/2079899769871138893</link>
       <guid isPermaLink="true">https://x.com/ShortSideIO/status/2079899769871138893</guid>
       <pubDate>Wed, 22 Jul 2026 12:02:09 GMT</pubDate>
-    </item>
-    <item>
-      <title>$SXTC +62%</title>
-      <description><![CDATA[📊 $SXTC +62% Pre-Market | Float: 32.22M | Short %: 0.14% | MCap: $138.9M | ⚠️ SQUEEZE RISK: 35% | China pharma with larger float. Lower squeeze risk but watch for news.]]></description>
-      <link>https://x.com/ShortSideIO/status/2079899738648805378</link>
-      <guid isPermaLink="true">https://x.com/ShortSideIO/status/2079899738648805378</guid>
-      <pubDate>Wed, 22 Jul 2026 12:02:00 GMT</pubDate>
     </item>
   </channel>
 </rss>
