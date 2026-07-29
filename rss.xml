@@ -5,13 +5,20 @@
     <link>https://x.com/ShortSideIO</link>
     <description>Daily gapper analysis and short squeeze risk alerts for traders. Independent research on overvalued stocks.</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 29 Jul 2026 12:01:45 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 29 Jul 2026 12:01:53 GMT</lastBuildDate>
     <atom:link href="https://shortsideresearch.substack.com/feed" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://pbs.twimg.com/profile_images/ShortSideIO/logo.png</url>
       <title>ShortSide Research</title>
       <link>https://x.com/ShortSideIO</link>
     </image>
+    <item>
+      <title>$DFNS +50%</title>
+      <description><![CDATA[📊 $DFNS +50% PM | Float: 0.70M | Short: 15.36% | Squeeze Risk: 82%]]></description>
+      <link>https://x.com/ShortSideIO/status/2082436420522639780</link>
+      <guid isPermaLink="true">https://x.com/ShortSideIO/status/2082436420522639780</guid>
+      <pubDate>Wed, 29 Jul 2026 12:01:53 GMT</pubDate>
+    </item>
     <item>
       <title>$AMIX +67%</title>
       <description><![CDATA[📊 $AMIX +67% PM | Float: 0.50M | Short: 12.33% | Squeeze Risk: 78%]]></description>
@@ -354,13 +361,6 @@
       <link>https://x.com/ShortSideIO/status/2079899704922370332</link>
       <guid isPermaLink="true">https://x.com/ShortSideIO/status/2079899704922370332</guid>
       <pubDate>Wed, 22 Jul 2026 12:01:53 GMT</pubDate>
-    </item>
-    <item>
-      <title>$INM +79%</title>
-      <description><![CDATA[📊 $INM +79% Pre-Market | Float: 2.49M (TINY) | Short %: 5.69% | MCap: $9.1M | ⚠️ SQUEEZE RISK: 75% | Pharma micro-cap with dangerous float. Shorts beware.]]></description>
-      <link>https://x.com/ShortSideIO/status/2079899666620076129</link>
-      <guid isPermaLink="true">https://x.com/ShortSideIO/status/2079899666620076129</guid>
-      <pubDate>Wed, 22 Jul 2026 12:01:44 GMT</pubDate>
     </item>
   </channel>
 </rss>
