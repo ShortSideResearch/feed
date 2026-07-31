@@ -5,13 +5,20 @@
     <link>https://x.com/ShortSideIO</link>
     <description>Daily gapper analysis and short squeeze risk alerts for traders. Independent research on overvalued stocks.</description>
     <language>en-us</language>
-    <lastBuildDate>Fri, 31 Jul 2026 12:02:21 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 31 Jul 2026 12:02:22 GMT</lastBuildDate>
     <atom:link href="https://shortsideresearch.substack.com/feed" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://pbs.twimg.com/profile_images/ShortSideIO/logo.png</url>
       <title>ShortSide Research</title>
       <link>https://x.com/ShortSideIO</link>
     </image>
+    <item>
+      <title>$MGRX +135%</title>
+      <description><![CDATA[📊 $MGRX +135% | Float: 14.6M | Short: 1.4% | DTC: 0.08 | Squeeze Risk: 38% Small float momentum.]]></description>
+      <link>https://x.com/ShortSideIO/status/2083161246551941130</link>
+      <guid isPermaLink="true">https://x.com/ShortSideIO/status/2083161246551941130</guid>
+      <pubDate>Fri, 31 Jul 2026 12:02:22 GMT</pubDate>
+    </item>
     <item>
       <title>$REPL +138%</title>
       <description><![CDATA[📊 $REPL +138% | Float: 77.5M | Short: 30.5% | DTC: 4.03 | Squeeze Risk: 78% ⬆️ HIGH SQUEEZE RISK. Biotech catalyst.]]></description>
@@ -354,13 +361,6 @@
       <link>https://x.com/ShortSideIO/status/2080650884015428004</link>
       <guid isPermaLink="true">https://x.com/ShortSideIO/status/2080650884015428004</guid>
       <pubDate>Fri, 24 Jul 2026 13:46:49 GMT</pubDate>
-    </item>
-    <item>
-      <title>$OMH +45%</title>
-      <description><![CDATA[📊 $OMH +45% | Float: 22.17M | SI: 0.96% - Singapore proptech company. Large float, negligible short interest. Squeeze Risk: 10% (LOW)]]></description>
-      <link>https://x.com/ShortSideIO/status/2080650838406582327</link>
-      <guid isPermaLink="true">https://x.com/ShortSideIO/status/2080650838406582327</guid>
-      <pubDate>Fri, 24 Jul 2026 13:46:40 GMT</pubDate>
     </item>
   </channel>
 </rss>
