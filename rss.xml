@@ -5,13 +5,20 @@
     <link>https://x.com/ShortSideIO</link>
     <description>Daily gapper analysis and short squeeze risk alerts for traders. Independent research on overvalued stocks.</description>
     <language>en-us</language>
-    <lastBuildDate>Fri, 31 Jul 2026 12:02:23 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 31 Jul 2026 12:02:24 GMT</lastBuildDate>
     <atom:link href="https://shortsideresearch.substack.com/feed" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://pbs.twimg.com/profile_images/ShortSideIO/logo.png</url>
       <title>ShortSide Research</title>
       <link>https://x.com/ShortSideIO</link>
     </image>
+    <item>
+      <title>$LBGJ +65%</title>
+      <description><![CDATA[📊 $LBGJ +65% | Float: 3.05M | Short: 2.3% | DTC: 0.00 | Squeeze Risk: 48% Micro-cap alert.]]></description>
+      <link>https://x.com/ShortSideIO/status/2083161291959542113</link>
+      <guid isPermaLink="true">https://x.com/ShortSideIO/status/2083161291959542113</guid>
+      <pubDate>Fri, 31 Jul 2026 12:02:24 GMT</pubDate>
+    </item>
     <item>
       <title>$CYCU +70%</title>
       <description><![CDATA[📊 $CYCU +70% | Float: 10.6M | Short: 3.3% | DTC: 0.03 | Squeeze Risk: 42% Cybersecurity play.]]></description>
@@ -354,13 +361,6 @@
       <link>https://x.com/ShortSideIO/status/2080745453046390936</link>
       <guid isPermaLink="true">https://x.com/ShortSideIO/status/2080745453046390936</guid>
       <pubDate>Fri, 24 Jul 2026 20:02:36 GMT</pubDate>
-    </item>
-    <item>
-      <title>$ADVB +37%</title>
-      <description><![CDATA[📊 $ADVB +37% | Float: 0.56M | SI: 2.75% - Advanced BioMed - medical device micro-cap. Extremely tight float (560K shares). Low SI but high volatility risk due to float rotation. Squeeze Risk: 25% (LOW-MOD)]]></description>
-      <link>https://x.com/ShortSideIO/status/2080650923790008735</link>
-      <guid isPermaLink="true">https://x.com/ShortSideIO/status/2080650923790008735</guid>
-      <pubDate>Fri, 24 Jul 2026 13:46:54 GMT</pubDate>
     </item>
   </channel>
 </rss>
