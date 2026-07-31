@@ -5,13 +5,20 @@
     <link>https://x.com/ShortSideIO</link>
     <description>Daily gapper analysis and short squeeze risk alerts for traders. Independent research on overvalued stocks.</description>
     <language>en-us</language>
-    <lastBuildDate>Fri, 31 Jul 2026 13:47:16 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 31 Jul 2026 13:47:24 GMT</lastBuildDate>
     <atom:link href="https://shortsideresearch.substack.com/feed" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://pbs.twimg.com/profile_images/ShortSideIO/logo.png</url>
       <title>ShortSide Research</title>
       <link>https://x.com/ShortSideIO</link>
     </image>
+    <item>
+      <title>$LBGJ +57%</title>
+      <description><![CDATA[📊 $LBGJ +57% | Li Bang International | Float: 3.05M | SI: 2.3% | Squeeze Risk: 25% (LOW-MOD)]]></description>
+      <link>https://x.com/ShortSideIO/status/2083187751126528377</link>
+      <guid isPermaLink="true">https://x.com/ShortSideIO/status/2083187751126528377</guid>
+      <pubDate>Fri, 31 Jul 2026 13:47:24 GMT</pubDate>
+    </item>
     <item>
       <title>$REPL +109%</title>
       <description><![CDATA[📊 $REPL +109% | Replimune Group | Float: 77.5M | SI: 30.5% | DTC: 4.03 | Squeeze Risk: 78% (HIGH)]]></description>
@@ -354,13 +361,6 @@
       <link>https://x.com/ShortSideIO/status/2081711764207440345</link>
       <guid isPermaLink="true">https://x.com/ShortSideIO/status/2081711764207440345</guid>
       <pubDate>Mon, 27 Jul 2026 12:02:33 GMT</pubDate>
-    </item>
-    <item>
-      <title>$MTNB +61.47%</title>
-      <description><![CDATA[📊 $MTNB +61.47% PM | Float: 11.43M | SI: 4.14% | Squeeze Risk: 40% | Sub-dollar biotech, high dilution risk]]></description>
-      <link>https://x.com/ShortSideIO/status/2081711732389556680</link>
-      <guid isPermaLink="true">https://x.com/ShortSideIO/status/2081711732389556680</guid>
-      <pubDate>Mon, 27 Jul 2026 12:02:32 GMT</pubDate>
     </item>
   </channel>
 </rss>
