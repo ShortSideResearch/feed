@@ -1068,6 +1068,11 @@
         <p>Every gapper rated 0-100% based on short interest, float size, days to cover, and borrow availability.</p>
       </div>
       <div class="feature-card">
+        <div class="feature-icon">🔄</div>
+        <h3>Day 2 Play Analysis</h3>
+        <p>Multi-day runners identified with fade risk and continuation potential scores. Know when to fade vs. stay away.</p>
+      </div>
+      <div class="feature-card">
         <div class="feature-icon">🔍</div>
         <h3>Catalyst Analysis</h3>
         <p>We dig into SEC filings, news, and social sentiment to identify real vs. fake catalysts.</p>
@@ -1116,6 +1121,7 @@
       <div class="sample-tabs">
         <button class="sample-tab active" data-tab="gappers">📊 Pre-Market Gappers</button>
         <button class="sample-tab" data-tab="analysis">🎯 Full Analysis</button>
+        <button class="sample-tab" data-tab="day2">🔄 Day 2 Plays</button>
         <button class="sample-tab" data-tab="recap">📈 Risk Recap</button>
         <button class="sample-tab" data-tab="trends">🔥 Sector Trends</button>
         <button class="sample-tab" data-tab="shortreport">📉 Short Report</button>
@@ -1238,6 +1244,73 @@
           </div>
         </div>
           <button class="sample-arrow arrow-right" onclick="navigateSample('analysis', 1)">→</button>
+        </div>
+      </div>
+      
+      <!-- Tab: Day 2 Plays -->
+      <div class="sample-panel" id="panel-day2">
+        <div class="sample-container">
+          <button class="sample-arrow arrow-left" onclick="navigateSample('day2', -1)">←</button>
+          <div class="newsletter-preview">
+          <div class="preview-header">
+            <img src="https://shortsideresearch.github.io/feed/banner.png" alt="ShortSide Research">
+          </div>
+          <div class="preview-body">
+            <div class="preview-date">July 30, 2026 | Pre-Market Newsletter</div>
+            <h3>🔄 Day 2 Plays — Multi-Day Runner Analysis</h3>
+            <p style="color: #666; margin-bottom: 16px;">These tickers ran big yesterday and are gapping again today. Assess fade risk vs. continuation potential.</p>
+            
+            <table class="preview-table" style="margin-bottom: 24px;">
+              <thead>
+                <tr>
+                  <th>Ticker</th>
+                  <th>Day 1</th>
+                  <th>Day 2</th>
+                  <th>Fade Risk</th>
+                  <th>Continuation</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><strong>$DFNS</strong></td>
+                  <td style="color: #28A745;">+201%</td>
+                  <td style="color: #28A745;">+73%</td>
+                  <td><span style="background: #f8d7da; color: #DC3545; padding: 4px 8px; border-radius: 4px; font-weight: bold;">HIGH 80%</span></td>
+                  <td><span style="background: #f8d7da; color: #DC3545; padding: 4px 8px; border-radius: 4px; font-weight: bold;">LIKELY 75%</span></td>
+                </tr>
+                <tr>
+                  <td colspan="5" style="background: #f8f9fa; padding: 12px; font-size: 13px;">
+                    <strong>Float:</strong> 700K | <strong>Short %:</strong> 15.36% | <strong>Catalyst:</strong> Defense sector momentum + 13D filing<br>
+                    ⚠️ <strong>Analysis:</strong> Micro-float with 15% SI on Day 2 of a parabolic squeeze. Extremely dangerous to fade — another squeeze day is likely.
+                  </td>
+                </tr>
+                <tr>
+                  <td><strong>$NUWE</strong></td>
+                  <td style="color: #28A745;">+130%</td>
+                  <td style="color: #28A745;">+88%</td>
+                  <td><span style="background: #fff3cd; color: #856404; padding: 4px 8px; border-radius: 4px; font-weight: bold;">MOD 55%</span></td>
+                  <td><span style="background: #fff3cd; color: #856404; padding: 4px 8px; border-radius: 4px; font-weight: bold;">POSSIBLE 60%</span></td>
+                </tr>
+                <tr>
+                  <td colspan="5" style="background: #f8f9fa; padding: 12px; font-size: 13px;">
+                    <strong>Float:</strong> 360K | <strong>Short %:</strong> 31.72% | <strong>Catalyst:</strong> Biotech momentum<br>
+                    ⚠️ <strong>Analysis:</strong> Ultra-micro float but showing some exhaustion. Day 3 could go either way — use caution.
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            
+            <div class="insight-box" style="background: #e8f4fd; border-left: 4px solid #5B95BE; padding: 16px; border-radius: 4px;">
+              <strong>🔄 Day 2 Guide:</strong>
+              <ul style="margin: 8px 0 0 0; padding-left: 20px; line-height: 1.8;">
+                <li><strong>HIGH Fade Risk</strong> = Dangerous to short. Squeeze likely continues.</li>
+                <li><strong>LIKELY Continuation</strong> = Multi-day momentum — stay away from shorting.</li>
+                <li><strong>MOD/LOW scores</strong> = Potential fade opportunity. Watch for exhaustion signs.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+          <button class="sample-arrow arrow-right" onclick="navigateSample('day2', 1)">→</button>
         </div>
       </div>
       
@@ -1479,7 +1552,7 @@
     });
     
     // Sample tabs functionality
-    const tabOrder = ['gappers', 'analysis', 'recap', 'trends', 'shortreport'];
+    const tabOrder = ['gappers', 'analysis', 'day2', 'recap', 'trends', 'shortreport'];
     
     document.querySelectorAll('.sample-tab').forEach(tab => {
       tab.addEventListener('click', function() {
