@@ -5,13 +5,20 @@
     <link>https://x.com/ShortSideIO</link>
     <description>Daily gapper analysis and short squeeze risk alerts for traders. Independent research on overvalued stocks.</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 03 Aug 2026 13:46:32 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 03 Aug 2026 13:46:41 GMT</lastBuildDate>
     <atom:link href="https://shortsideresearch.substack.com/feed" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://pbs.twimg.com/profile_images/ShortSideIO/logo.png</url>
       <title>ShortSide Research</title>
       <link>https://x.com/ShortSideIO</link>
     </image>
+    <item>
+      <title>$YYAI +67%</title>
+      <description><![CDATA[📊 $YYAI +67% | Float: 0.91M | Short: 4.22% | Squeeze Risk: 45%]]></description>
+      <link>https://x.com/ShortSideIO/status/2084274733374222523</link>
+      <guid isPermaLink="true">https://x.com/ShortSideIO/status/2084274733374222523</guid>
+      <pubDate>Mon, 03 Aug 2026 13:46:41 GMT</pubDate>
+    </item>
     <item>
       <title>$UPC +122%</title>
       <description><![CDATA[📊 $UPC +122% | Float: 0.33M | Short: 4.68% | Squeeze Risk: 70%]]></description>
@@ -354,13 +361,6 @@
       <link>https://x.com/ShortSideIO/status/2082074131059667157</link>
       <guid isPermaLink="true">https://x.com/ShortSideIO/status/2082074131059667157</guid>
       <pubDate>Tue, 28 Jul 2026 12:02:16 GMT</pubDate>
-    </item>
-    <item>
-      <title>$ENLV +63%</title>
-      <description><![CDATA[📊 $ENLV +63% pre-market Float: 2.45M Short %: 1.1% (LOW) MCap: $75M ⚠️ SQUEEZE RISK: 55%]]></description>
-      <link>https://x.com/ShortSideIO/status/2082074094233702898</link>
-      <guid isPermaLink="true">https://x.com/ShortSideIO/status/2082074094233702898</guid>
-      <pubDate>Tue, 28 Jul 2026 12:02:08 GMT</pubDate>
     </item>
   </channel>
 </rss>
