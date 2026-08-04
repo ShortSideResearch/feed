@@ -5,13 +5,20 @@
     <link>https://x.com/ShortSideIO</link>
     <description>Daily gapper analysis and short squeeze risk alerts for traders. Independent research on overvalued stocks.</description>
     <language>en-us</language>
-    <lastBuildDate>Tue, 04 Aug 2026 13:46:54 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 04 Aug 2026 13:46:55 GMT</lastBuildDate>
     <atom:link href="https://shortsideresearch.substack.com/feed" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://pbs.twimg.com/profile_images/ShortSideIO/logo.png</url>
       <title>ShortSide Research</title>
       <link>https://x.com/ShortSideIO</link>
     </image>
+    <item>
+      <title>$ELPW +52%</title>
+      <description><![CDATA[📊 $ELPW +52% | Float 5.31M | Short 26.40% | DTC 0.13 - ⚠️ CAUTION: 26.4% short interest HIGH. Squeeze Risk: 75% 🔴]]></description>
+      <link>https://x.com/ShortSideIO/status/2084637120321167738</link>
+      <guid isPermaLink="true">https://x.com/ShortSideIO/status/2084637120321167738</guid>
+      <pubDate>Tue, 04 Aug 2026 13:46:55 GMT</pubDate>
+    </item>
     <item>
       <title>$ENSC +55%</title>
       <description><![CDATA[📊 $ENSC +55% | Float 15.36M | Short 2.63% | DTC 0.09 - Biotech gap, dilution flags, easy cover. Squeeze Risk: 15% 🟢]]></description>
@@ -354,13 +361,6 @@
       <link>https://x.com/ShortSideIO/status/2082436486763303400</link>
       <guid isPermaLink="true">https://x.com/ShortSideIO/status/2082436486763303400</guid>
       <pubDate>Wed, 29 Jul 2026 12:02:08 GMT</pubDate>
-    </item>
-    <item>
-      <title>$STFS +33%</title>
-      <description><![CDATA[📊 $STFS +33% PM | Float: 1.12M | Short: 1.35% | Squeeze Risk: 45%]]></description>
-      <link>https://x.com/ShortSideIO/status/2082436455150784783</link>
-      <guid isPermaLink="true">https://x.com/ShortSideIO/status/2082436455150784783</guid>
-      <pubDate>Wed, 29 Jul 2026 12:02:00 GMT</pubDate>
     </item>
   </channel>
 </rss>
