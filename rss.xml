@@ -5,13 +5,20 @@
     <link>https://x.com/ShortSideIO</link>
     <description>Daily gapper analysis and short squeeze risk alerts for traders. Independent research on overvalued stocks.</description>
     <language>en-us</language>
-    <lastBuildDate>Tue, 04 Aug 2026 12:02:05 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 04 Aug 2026 12:02:14 GMT</lastBuildDate>
     <atom:link href="https://shortsideresearch.substack.com/feed" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://pbs.twimg.com/profile_images/ShortSideIO/logo.png</url>
       <title>ShortSide Research</title>
       <link>https://x.com/ShortSideIO</link>
     </image>
+    <item>
+      <title>$QNME +121.27%</title>
+      <description><![CDATA[📊 $QNME +121.27% Pre-Market | Float: 25.78M | Short %: 0.31% | SQUEEZE RISK: 25% LOW]]></description>
+      <link>https://x.com/ShortSideIO/status/2084610830218235924</link>
+      <guid isPermaLink="true">https://x.com/ShortSideIO/status/2084610830218235924</guid>
+      <pubDate>Tue, 04 Aug 2026 12:02:14 GMT</pubDate>
+    </item>
     <item>
       <title>$TNMG +127.83%</title>
       <description><![CDATA[📊 $TNMG +127.83% Pre-Market | Float: 2.17M (TINY) | Short %: 7.38% | SQUEEZE RISK: 75% HIGH]]></description>
@@ -354,13 +361,6 @@
       <link>https://x.com/ShortSideIO/status/2082100399595565526</link>
       <guid isPermaLink="true">https://x.com/ShortSideIO/status/2082100399595565526</guid>
       <pubDate>Tue, 28 Jul 2026 13:46:40 GMT</pubDate>
-    </item>
-    <item>
-      <title>$FIRY +67%</title>
-      <description><![CDATA[📊 $FIRY +67% | Float: 8M | SI: 16.66% | DTC: 2.52 ⚠️ SQUEEZE RISK: 70% Heavy short interest with 2.5 days to cover.]]></description>
-      <link>https://x.com/ShortSideIO/status/2082100362392031357</link>
-      <guid isPermaLink="true">https://x.com/ShortSideIO/status/2082100362392031357</guid>
-      <pubDate>Tue, 28 Jul 2026 13:46:31 GMT</pubDate>
     </item>
   </channel>
 </rss>
