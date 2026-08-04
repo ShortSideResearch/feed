@@ -5,13 +5,20 @@
     <link>https://x.com/ShortSideIO</link>
     <description>Daily gapper analysis and short squeeze risk alerts for traders. Independent research on overvalued stocks.</description>
     <language>en-us</language>
-    <lastBuildDate>Tue, 04 Aug 2026 13:46:55 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 04 Aug 2026 13:46:57 GMT</lastBuildDate>
     <atom:link href="https://shortsideresearch.substack.com/feed" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://pbs.twimg.com/profile_images/ShortSideIO/logo.png</url>
       <title>ShortSide Research</title>
       <link>https://x.com/ShortSideIO</link>
     </image>
+    <item>
+      <title>$ADGM +33%</title>
+      <description><![CDATA[📊 $ADGM +33% | Float 21.80M | Short 0.29% | DTC 0.27 - Medical device, strong institutions, minimal squeeze risk. Squeeze Risk: 10% 🟢]]></description>
+      <link>https://x.com/ShortSideIO/status/2084637125618573749</link>
+      <guid isPermaLink="true">https://x.com/ShortSideIO/status/2084637125618573749</guid>
+      <pubDate>Tue, 04 Aug 2026 13:46:57 GMT</pubDate>
+    </item>
     <item>
       <title>$ELPW +52%</title>
       <description><![CDATA[📊 $ELPW +52% | Float 5.31M | Short 26.40% | DTC 0.13 - ⚠️ CAUTION: 26.4% short interest HIGH. Squeeze Risk: 75% 🔴]]></description>
@@ -354,13 +361,6 @@
       <link>https://x.com/ShortSideIO/status/2082436519499853890</link>
       <guid isPermaLink="true">https://x.com/ShortSideIO/status/2082436519499853890</guid>
       <pubDate>Wed, 29 Jul 2026 12:02:14 GMT</pubDate>
-    </item>
-    <item>
-      <title>$GMM +29%</title>
-      <description><![CDATA[📊 $GMM +29% PM | Float: 1.74M | Short: 8.14% | Squeeze Risk: 55%]]></description>
-      <link>https://x.com/ShortSideIO/status/2082436486763303400</link>
-      <guid isPermaLink="true">https://x.com/ShortSideIO/status/2082436486763303400</guid>
-      <pubDate>Wed, 29 Jul 2026 12:02:08 GMT</pubDate>
     </item>
   </channel>
 </rss>
