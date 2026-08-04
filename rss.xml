@@ -5,13 +5,20 @@
     <link>https://x.com/ShortSideIO</link>
     <description>Daily gapper analysis and short squeeze risk alerts for traders. Independent research on overvalued stocks.</description>
     <language>en-us</language>
-    <lastBuildDate>Tue, 04 Aug 2026 12:02:31 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 04 Aug 2026 12:02:37 GMT</lastBuildDate>
     <atom:link href="https://shortsideresearch.substack.com/feed" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://pbs.twimg.com/profile_images/ShortSideIO/logo.png</url>
       <title>ShortSide Research</title>
       <link>https://x.com/ShortSideIO</link>
     </image>
+    <item>
+      <title>$ADGM +38.48%</title>
+      <description><![CDATA[📊 $ADGM +38.48% Pre-Market | Float: 21.80M | Short %: 0.29% | SQUEEZE RISK: 20% LOW]]></description>
+      <link>https://x.com/ShortSideIO/status/2084610943053337033</link>
+      <guid isPermaLink="true">https://x.com/ShortSideIO/status/2084610943053337033</guid>
+      <pubDate>Tue, 04 Aug 2026 12:02:37 GMT</pubDate>
+    </item>
     <item>
       <title>$ELPW +44.04%</title>
       <description><![CDATA[📊 $ELPW +44.04% Pre-Market | Float: 5.31M | Short %: 26.40% EXTREME | SQUEEZE RISK: 85% EXTREME]]></description>
@@ -354,13 +361,6 @@
       <link>https://x.com/ShortSideIO/status/2082194634529272291</link>
       <guid isPermaLink="true">https://x.com/ShortSideIO/status/2082194634529272291</guid>
       <pubDate>Tue, 28 Jul 2026 20:01:04 GMT</pubDate>
-    </item>
-    <item>
-      <title>$ONFO +39%</title>
-      <description><![CDATA[📊 $ONFO +39% | Float: 4.65M | SI: 1.32% ⚠️ SQUEEZE RISK: 30% Micro-cap but very low short interest. Lower risk for shorts.]]></description>
-      <link>https://x.com/ShortSideIO/status/2082100471867507139</link>
-      <guid isPermaLink="true">https://x.com/ShortSideIO/status/2082100471867507139</guid>
-      <pubDate>Tue, 28 Jul 2026 13:46:54 GMT</pubDate>
     </item>
   </channel>
 </rss>
