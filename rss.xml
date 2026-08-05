@@ -5,13 +5,20 @@
     <link>https://x.com/ShortSideIO</link>
     <description>Daily gapper analysis and short squeeze risk alerts for traders. Independent research on overvalued stocks.</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 05 Aug 2026 13:47:04 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 05 Aug 2026 13:47:09 GMT</lastBuildDate>
     <atom:link href="https://shortsideresearch.substack.com/feed" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://pbs.twimg.com/profile_images/ShortSideIO/logo.png</url>
       <title>ShortSide Research</title>
       <link>https://x.com/ShortSideIO</link>
     </image>
+    <item>
+      <title>$OESX +31%</title>
+      <description><![CDATA[📊 $OESX +31% | Float 3.45M | SI 0.64% - Energy efficiency small cap. Squeeze Risk: 30%]]></description>
+      <link>https://x.com/ShortSideIO/status/2084999640181567618</link>
+      <guid isPermaLink="true">https://x.com/ShortSideIO/status/2084999640181567618</guid>
+      <pubDate>Wed, 05 Aug 2026 13:47:09 GMT</pubDate>
+    </item>
     <item>
       <title>$CISS +47%</title>
       <description><![CDATA[📊 $CISS +47% | Float 12.79M | SI 0.48% - Greek shipping micro-cap. Squeeze Risk: 20%]]></description>
@@ -354,13 +361,6 @@
       <link>https://x.com/ShortSideIO/status/2082798923291165076</link>
       <guid isPermaLink="true">https://x.com/ShortSideIO/status/2082798923291165076</guid>
       <pubDate>Thu, 30 Jul 2026 12:02:18 GMT</pubDate>
-    </item>
-    <item>
-      <title>$XRX +28.79%</title>
-      <description><![CDATA[📊 $XRX +28.79% Pre-Market | Float: 110.33M | Short: 33.65% | DTC: 5.82 | SQUEEZE RISK: 65%]]></description>
-      <link>https://x.com/ShortSideIO/status/2082798889552290090</link>
-      <guid isPermaLink="true">https://x.com/ShortSideIO/status/2082798889552290090</guid>
-      <pubDate>Thu, 30 Jul 2026 12:02:12 GMT</pubDate>
     </item>
   </channel>
 </rss>
