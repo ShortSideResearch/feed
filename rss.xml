@@ -5,13 +5,20 @@
     <link>https://x.com/ShortSideIO</link>
     <description>Daily gapper analysis and short squeeze risk alerts for traders. Independent research on overvalued stocks.</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 05 Aug 2026 13:46:56 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 05 Aug 2026 13:47:04 GMT</lastBuildDate>
     <atom:link href="https://shortsideresearch.substack.com/feed" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://pbs.twimg.com/profile_images/ShortSideIO/logo.png</url>
       <title>ShortSide Research</title>
       <link>https://x.com/ShortSideIO</link>
     </image>
+    <item>
+      <title>$CISS +47%</title>
+      <description><![CDATA[📊 $CISS +47% | Float 12.79M | SI 0.48% - Greek shipping micro-cap. Squeeze Risk: 20%]]></description>
+      <link>https://x.com/ShortSideIO/status/2084999607864475723</link>
+      <guid isPermaLink="true">https://x.com/ShortSideIO/status/2084999607864475723</guid>
+      <pubDate>Wed, 05 Aug 2026 13:47:04 GMT</pubDate>
+    </item>
     <item>
       <title>$GTE +46%</title>
       <description><![CDATA[📊 $GTE +46% | Float 34.03M | SI 5.44% - Oil/gas with 5.69 days to cover. Squeeze Risk: 55%]]></description>
@@ -354,13 +361,6 @@
       <link>https://x.com/ShortSideIO/status/2082798889552290090</link>
       <guid isPermaLink="true">https://x.com/ShortSideIO/status/2082798889552290090</guid>
       <pubDate>Thu, 30 Jul 2026 12:02:12 GMT</pubDate>
-    </item>
-    <item>
-      <title>$GCTK +40.88%</title>
-      <description><![CDATA[📊 $GCTK +40.88% Pre-Market | Float: 6.27M | Short: 38.10% | SQUEEZE RISK: 75% HIGH]]></description>
-      <link>https://x.com/ShortSideIO/status/2082798855582617756</link>
-      <guid isPermaLink="true">https://x.com/ShortSideIO/status/2082798855582617756</guid>
-      <pubDate>Thu, 30 Jul 2026 12:02:04 GMT</pubDate>
     </item>
   </channel>
 </rss>
