@@ -5,13 +5,20 @@
     <link>https://x.com/ShortSideIO</link>
     <description>Daily gapper analysis and short squeeze risk alerts for traders. Independent research on overvalued stocks.</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 06 Aug 2026 13:46:38 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 06 Aug 2026 13:46:48 GMT</lastBuildDate>
     <atom:link href="https://shortsideresearch.substack.com/feed" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://pbs.twimg.com/profile_images/ShortSideIO/logo.png</url>
       <title>ShortSide Research</title>
       <link>https://x.com/ShortSideIO</link>
     </image>
+    <item>
+      <title>$WYHG +150%</title>
+      <description><![CDATA[📊 $WYHG +150% | Float: N/A | SI: N/A ⚠️ SQUEEZE RISK: 70% Recent Hong Kong food IPO with unknown float.]]></description>
+      <link>https://x.com/ShortSideIO/status/2085361921763471452</link>
+      <guid isPermaLink="true">https://x.com/ShortSideIO/status/2085361921763471452</guid>
+      <pubDate>Thu, 06 Aug 2026 13:46:48 GMT</pubDate>
+    </item>
     <item>
       <title>$CLRO +218%</title>
       <description><![CDATA[📊 $CLRO +218% | Float: 740K | SI: 19% ⚠️ SQUEEZE RISK: 95% Micro-float + 19% SI + 72% insider = ~200K tradable shares. NOT shortable.]]></description>
@@ -354,13 +361,6 @@
       <link>https://x.com/ShortSideIO/status/2083161220907970911</link>
       <guid isPermaLink="true">https://x.com/ShortSideIO/status/2083161220907970911</guid>
       <pubDate>Fri, 31 Jul 2026 12:02:21 GMT</pubDate>
-    </item>
-    <item>
-      <title>$WETO +342%</title>
-      <description><![CDATA[📊 $WETO +342% | Float: 65.7M | Short: 0.1% | DTC: 0.02 | Squeeze Risk: 15% ⬇️ Chinese robotics play.]]></description>
-      <link>https://x.com/ShortSideIO/status/2083161194576183692</link>
-      <guid isPermaLink="true">https://x.com/ShortSideIO/status/2083161194576183692</guid>
-      <pubDate>Fri, 31 Jul 2026 12:02:20 GMT</pubDate>
     </item>
   </channel>
 </rss>
