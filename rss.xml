@@ -5,13 +5,20 @@
     <link>https://x.com/ShortSideIO</link>
     <description>Daily gapper analysis and short squeeze risk alerts for traders. Independent research on overvalued stocks.</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 06 Aug 2026 13:46:56 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 06 Aug 2026 13:47:05 GMT</lastBuildDate>
     <atom:link href="https://shortsideresearch.substack.com/feed" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://pbs.twimg.com/profile_images/ShortSideIO/logo.png</url>
       <title>ShortSide Research</title>
       <link>https://x.com/ShortSideIO</link>
     </image>
+    <item>
+      <title>$SURG +76%</title>
+      <description><![CDATA[📊 $SURG +76% | Float: 16M | SI: 14.7% ⚠️ SQUEEZE RISK: 65% SurgePays with 15% SI and 36% insider lock.]]></description>
+      <link>https://x.com/ShortSideIO/status/2085361996573127008</link>
+      <guid isPermaLink="true">https://x.com/ShortSideIO/status/2085361996573127008</guid>
+      <pubDate>Thu, 06 Aug 2026 13:47:05 GMT</pubDate>
+    </item>
     <item>
       <title>$PAVS +88%</title>
       <description><![CDATA[📊 $PAVS +88% | Float: 860K | SI: 1.7% ⚠️ SQUEEZE RISK: 45% Micro-float but low SI.]]></description>
@@ -354,13 +361,6 @@
       <link>https://x.com/ShortSideIO/status/2083161268072906952</link>
       <guid isPermaLink="true">https://x.com/ShortSideIO/status/2083161268072906952</guid>
       <pubDate>Fri, 31 Jul 2026 12:02:23 GMT</pubDate>
-    </item>
-    <item>
-      <title>$MGRX +135%</title>
-      <description><![CDATA[📊 $MGRX +135% | Float: 14.6M | Short: 1.4% | DTC: 0.08 | Squeeze Risk: 38% Small float momentum.]]></description>
-      <link>https://x.com/ShortSideIO/status/2083161246551941130</link>
-      <guid isPermaLink="true">https://x.com/ShortSideIO/status/2083161246551941130</guid>
-      <pubDate>Fri, 31 Jul 2026 12:02:22 GMT</pubDate>
     </item>
   </channel>
 </rss>
