@@ -5,13 +5,20 @@
     <link>https://x.com/ShortSideIO</link>
     <description>Daily gapper analysis and short squeeze risk alerts for traders. Independent research on overvalued stocks.</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 06 Aug 2026 13:46:48 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 06 Aug 2026 13:46:56 GMT</lastBuildDate>
     <atom:link href="https://shortsideresearch.substack.com/feed" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://pbs.twimg.com/profile_images/ShortSideIO/logo.png</url>
       <title>ShortSide Research</title>
       <link>https://x.com/ShortSideIO</link>
     </image>
+    <item>
+      <title>$PAVS +88%</title>
+      <description><![CDATA[📊 $PAVS +88% | Float: 860K | SI: 1.7% ⚠️ SQUEEZE RISK: 45% Micro-float but low SI.]]></description>
+      <link>https://x.com/ShortSideIO/status/2085361960598556967</link>
+      <guid isPermaLink="true">https://x.com/ShortSideIO/status/2085361960598556967</guid>
+      <pubDate>Thu, 06 Aug 2026 13:46:56 GMT</pubDate>
+    </item>
     <item>
       <title>$WYHG +150%</title>
       <description><![CDATA[📊 $WYHG +150% | Float: N/A | SI: N/A ⚠️ SQUEEZE RISK: 70% Recent Hong Kong food IPO with unknown float.]]></description>
@@ -354,13 +361,6 @@
       <link>https://x.com/ShortSideIO/status/2083161246551941130</link>
       <guid isPermaLink="true">https://x.com/ShortSideIO/status/2083161246551941130</guid>
       <pubDate>Fri, 31 Jul 2026 12:02:22 GMT</pubDate>
-    </item>
-    <item>
-      <title>$REPL +138%</title>
-      <description><![CDATA[📊 $REPL +138% | Float: 77.5M | Short: 30.5% | DTC: 4.03 | Squeeze Risk: 78% ⬆️ HIGH SQUEEZE RISK. Biotech catalyst.]]></description>
-      <link>https://x.com/ShortSideIO/status/2083161220907970911</link>
-      <guid isPermaLink="true">https://x.com/ShortSideIO/status/2083161220907970911</guid>
-      <pubDate>Fri, 31 Jul 2026 12:02:21 GMT</pubDate>
     </item>
   </channel>
 </rss>
