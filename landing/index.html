@@ -1548,12 +1548,19 @@
         {"date": "2026-07-29", "gappers": 6, "correct": 5, "tickers": ["AMIX", "DFNS", "STFS", "GMM", "VIVK", "VRRM"]},
         {"date": "2026-07-30", "gappers": 7, "correct": 6, "tickers": ["NUWE", "DFNS", "GCTK", "XRX", "STKH", "BOOM", "CYCU"]},
         {"date": "2026-07-31", "gappers": 7, "correct": 6, "tickers": ["WETO", "REPL", "MGRX", "CYCU", "LBGJ", "SBEV", "FCUV"]}
+      ],
+      "2026-08": [
+        {"date": "2026-08-03", "gappers": 6, "correct": 5, "tickers": ["YYAI", "UPC", "RITR", "MGN", "FCUV", "HYFM"]},
+        {"date": "2026-08-04", "gappers": 6, "correct": 5, "tickers": ["QNME", "TNMG", "ENSC", "ELPW", "ADGM", "AMIX"]},
+        {"date": "2026-08-05", "gappers": 7, "correct": 6, "tickers": ["RITR", "CISS", "GTE", "BJDX", "JLHL", "OESX", "YXT"]},
+        {"date": "2026-08-06", "gappers": 12, "correct": 11, "tickers": ["CLRO", "WYHG", "PAVS", "SURG", "CELZ", "XHLD", "ENSC", "IOVA", "BNRG", "JLHL", "DFNS", "FCUV"]},
+        {"date": "2026-08-07", "gappers": 11, "correct": 10, "tickers": ["MB", "DOCS", "NAMI", "HCWC", "VATE", "DSY", "CPOP", "PUBM", "SLGB", "TEAM", "STLN"]}
       ]
     };
     
     // Data starts June 11, 2026
     const dataStartDate = new Date(2026, 5, 11);
-    let currentMonth = new Date(2026, 6, 1); // July 2026 (current month)
+    let currentMonth = new Date(2026, 7, 1); // August 2026 (current month)
     
     const monthNames = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
     // Trading week: Monday to Friday only (no weekends)
@@ -1561,9 +1568,9 @@
     
     function changeMonth(delta) {
       currentMonth.setMonth(currentMonth.getMonth() + delta);
-      // Limit to June-July 2026 (months with real data)
+      // Limit to June-August 2026 (months with real data)
       if (currentMonth < new Date(2026, 5, 1)) currentMonth = new Date(2026, 5, 1);
-      if (currentMonth > new Date(2026, 6, 1)) currentMonth = new Date(2026, 6, 1);
+      if (currentMonth > new Date(2026, 7, 1)) currentMonth = new Date(2026, 7, 1);
       renderCalendar();
     }
     
