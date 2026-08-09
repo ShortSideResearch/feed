@@ -1000,7 +1000,7 @@
         <span>ShortSide<span class="logo-research">Research</span></span>
       </a>
       <nav class="nav-links">
-        <a href="#track-record">Track Record</a>
+        <!-- Track Record hidden - view at /landing/admin-track-record.html -->
         <a href="#features">Features</a>
         <a href="#sample">Sample</a>
         <a href="#pricing">Pricing</a>
@@ -1021,40 +1021,8 @@
     <p style="color: #666; font-size: 13px; margin-top: 12px;">🔒 Secure checkout powered by Stripe</p>
   </section>
 
-  <!-- Track Record Calendar -->
-  <section class="track-record" id="track-record">
-    <div class="section-title">
-      <h2>📊 Verified Track Record</h2>
-      <p>Every small-cap gapper we've analyzed since June 2026. Hover over any day to see the tickers.</p>
-    </div>
-    <div class="track-record-stats">
-      <div class="stat">
-        <div class="stat-value" id="animAccuracy">0%</div>
-        <div class="stat-label">Prediction Accuracy</div>
-      </div>
-      <div class="stat">
-        <div class="stat-value" id="animGappers">0</div>
-        <div class="stat-label">Gappers Analyzed</div>
-      </div>
-    </div>
-    <div class="calendar-container">
-      <div class="calendar-nav">
-        <button class="cal-nav-btn" onclick="changeMonth(-1)">←</button>
-        <span class="cal-month-label" id="calMonthLabel">June 2026</span>
-        <button class="cal-nav-btn" onclick="changeMonth(1)">→</button>
-      </div>
-      <div class="calendar-grid" id="calendarGrid">
-        <!-- Calendar will be populated by JavaScript -->
-      </div>
-      <div class="calendar-legend">
-        <span class="legend-item"><span class="legend-color green"></span> ≥75% Accuracy</span>
-        <span class="legend-item"><span class="legend-color yellow"></span> 60-74% Accuracy</span>
-        <span class="legend-item"><span class="legend-color red"></span> &lt;60% Accuracy</span>
-        <span class="legend-item"><span class="legend-color gray"></span> No Data</span>
-      </div>
-    </div>
-    <div class="ticker-tooltip" id="tickerTooltip"></div>
-  </section>
+  <!-- Track Record Calendar - HIDDEN from public view -->
+  <!-- Admin view: /landing/admin-track-record.html -->
 
   <section class="features" id="features">
     <div class="section-title">

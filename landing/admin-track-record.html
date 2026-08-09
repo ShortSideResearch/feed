@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Track Record (Admin) | ShortSide Research</title>
+  <meta name="robots" content="noindex, nofollow">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: #0a0a14;
+      color: #fff;
+      min-height: 100vh;
+      padding: 40px 20px;
+    }
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+    }
+    .admin-badge {
+      background: #DC3545;
+      color: white;
+      padding: 4px 12px;
+      border-radius: 4px;
+      font-size: 12px;
+      font-weight: 600;
+      display: inline-block;
+      margin-bottom: 20px;
+    }
+    h1 {
+      font-size: 32px;
+      margin-bottom: 8px;
+      color: #fff;
+    }
+    .subtitle {
+      color: #888;
+      margin-bottom: 30px;
+    }
+    .methodology-note {
+      background: #1a1a2e;
+      border: 1px solid #5B95BE;
+      border-radius: 8px;
+      padding: 20px;
+      margin-bottom: 30px;
+    }
+    .methodology-note h3 {
+      color: #5B95BE;
+      margin-bottom: 12px;
+    }
+    .methodology-note p {
+      color: #aaa;
+      line-height: 1.6;
+      font-size: 14px;
+    }
+    .methodology-note ul {
+      color: #aaa;
+      margin-left: 20px;
+      margin-top: 10px;
+      line-height: 1.8;
+    }
+    .methodology-note .correct { color: #28A745; }
+    .methodology-note .wrong { color: #DC3545; }
+    
+    .stats-row {
+      display: flex;
+      gap: 20px;
+      margin-bottom: 30px;
+    }
+    .stat-card {
+      background: #1a1a2e;
+      border-radius: 8px;
+      padding: 24px;
+      flex: 1;
+      text-align: center;
+    }
+    .stat-value {
+      font-size: 36px;
+      font-weight: 700;
+      color: #5B95BE;
+    }
+    .stat-value.warning { color: #FFC107; }
+    .stat-label {
+      color: #888;
+      font-size: 14px;
+      margin-top: 8px;
+    }
+    
+    .calendar-container {
+      background: #1a1a2e;
+      border-radius: 12px;
+      padding: 24px;
+    }
+    .calendar-nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+    .cal-nav-btn {
+      background: #2a2a3e;
+      border: none;
+      color: #fff;
+      width: 40px;
+      height: 40px;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 18px;
+    }
+    .cal-nav-btn:hover { background: #3a3a4e; }
+    .cal-month-label {
+      font-size: 20px;
+      font-weight: 600;
+    }
+    .calendar-grid {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      gap: 8px;
+    }
+    .cal-header {
+      text-align: center;
+      font-weight: 600;
+      color: #888;
+      padding: 8px;
+      font-size: 12px;
+    }
+    .cal-day {
+      aspect-ratio: 1;
+      border-radius: 8px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      font-size: 14px;
+      cursor: pointer;
+      transition: transform 0.2s;
+      position: relative;
+    }
+    .cal-day:hover { transform: scale(1.05); }
+    .cal-day.green { background: #28A745; color: white; }
+    .cal-day.yellow { background: #FFC107; color: #1a1a2e; }
+    .cal-day.red { background: #DC3545; color: white; }
+    .cal-day.gray { background: #2a2a3e; color: #666; cursor: default; }
+    .cal-day.empty { background: transparent; cursor: default; }
+    .day-num { font-weight: 600; }
+    .day-pct { font-size: 11px; opacity: 0.9; }
+    
+    .calendar-legend {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      margin-top: 20px;
+      flex-wrap: wrap;
+    }
+    .legend-item {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 12px;
+      color: #888;
+    }
+    .legend-color {
+      width: 12px;
+      height: 12px;
+      border-radius: 3px;
+    }
+    .legend-color.green { background: #28A745; }
+    .legend-color.yellow { background: #FFC107; }
+    .legend-color.red { background: #DC3545; }
+    .legend-color.gray { background: #2a2a3e; }
+    
+    .ticker-tooltip {
+      display: none;
+      position: absolute;
+      background: #1a1a2e;
+      border: 2px solid #5B95BE;
+      border-radius: 8px;
+      padding: 16px;
+      max-width: 320px;
+      z-index: 9999;
+      box-shadow: 0 10px 40px rgba(0,0,0,0.8);
+    }
+    .ticker-tooltip.visible { display: block; }
+    .tooltip-close {
+      position: absolute;
+      top: 8px;
+      right: 8px;
+      background: none;
+      border: none;
+      color: #888;
+      font-size: 20px;
+      cursor: pointer;
+    }
+    .tooltip-date { font-weight: 700; color: #fff; margin-bottom: 8px; }
+    .tooltip-stats { color: #888; font-size: 13px; margin-bottom: 12px; }
+    .tooltip-tickers { display: flex; flex-wrap: wrap; gap: 6px; }
+    .tooltip-ticker {
+      background: #2a2a3e;
+      color: #5B95BE;
+      padding: 4px 8px;
+      border-radius: 4px;
+      font-size: 12px;
+      font-weight: 600;
+      text-decoration: none;
+    }
+    .tooltip-ticker:hover { background: #5B95BE; color: #fff; }
+    
+    .back-link {
+      display: inline-block;
+      margin-top: 30px;
+      color: #5B95BE;
+      text-decoration: none;
+    }
+    .back-link:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <span class="admin-badge">🔒 ADMIN ONLY</span>
+    <h1>📊 Track Record</h1>
+    <p class="subtitle">Internal view — not shown on public landing page</p>
+    
+    <div class="methodology-note">
+      <h3>⚠️ Methodology Note (Updated Aug 9, 2026)</h3>
+      <p>Prediction accuracy now uses correct logic:</p>
+      <ul>
+        <li><span class="correct">✅ HIGH risk (70%+) + SQUEEZED</span> = Correct (we warned, it squeezed)</li>
+        <li><span class="wrong">❌ HIGH risk (70%+) + FADED</span> = Wrong (we over-estimated risk)</li>
+        <li><span class="correct">✅ LOW risk (&lt;40%) + FADED</span> = Correct (safe to short, it faded)</li>
+        <li><span class="wrong">❌ LOW risk (&lt;40%) + SQUEEZED</span> = Wrong (we missed the squeeze)</li>
+      </ul>
+      <p style="margin-top: 12px;">Historical data before Aug 11 is estimated. True accuracy is ~50%.</p>
+    </div>
+    
+    <div class="stats-row">
+      <div class="stat-card">
+        <div class="stat-value warning" id="animAccuracy">49.5%</div>
+        <div class="stat-label">Prediction Accuracy</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-value">281</div>
+        <div class="stat-label">Gappers Analyzed</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-value">41</div>
+        <div class="stat-label">Trading Days</div>
+      </div>
+    </div>
+    
+    <div class="calendar-container">
+      <div class="calendar-nav">
+        <button class="cal-nav-btn" onclick="changeMonth(-1)">←</button>
+        <span class="cal-month-label" id="calMonthLabel">August 2026</span>
+        <button class="cal-nav-btn" onclick="changeMonth(1)">→</button>
+      </div>
+      <div class="calendar-grid" id="calendarGrid"></div>
+      <div class="calendar-legend">
+        <span class="legend-item"><span class="legend-color green"></span> ≥75% Accuracy</span>
+        <span class="legend-item"><span class="legend-color yellow"></span> 60-74% Accuracy</span>
+        <span class="legend-item"><span class="legend-color red"></span> &lt;60% Accuracy</span>
+        <span class="legend-item"><span class="legend-color gray"></span> No Data</span>
+      </div>
+    </div>
+    <div class="ticker-tooltip" id="tickerTooltip"></div>
+    
+    <a href="/landing/" class="back-link">← Back to Landing Page</a>
+  </div>
+  
+  <script>
+    // Track Record Data (corrected methodology)
+    const trackRecord = {
+      "2026-06": [
+        {"date": "2026-06-11", "gappers": 7, "correct": 3, "tickers": ["JZXN", "INDP", "TMDE", "CAST", "GELS", "WTO", "EHGO"]},
+        {"date": "2026-06-12", "gappers": 7, "correct": 4, "tickers": ["CAST", "DSY", "BYAH", "DFNS", "GMM", "OTLK", "GELS"]},
+        {"date": "2026-06-13", "gappers": 8, "correct": 4, "tickers": ["RGNT", "SDOT", "GLXG", "NIXX", "CTM", "BYAH", "GELS", "VSME"]},
+        {"date": "2026-06-15", "gappers": 11, "correct": 6, "tickers": ["CAST", "VSME", "PAVS", "NIXX", "GELS", "SDOT", "CTM", "GLXG", "AHMA", "BYAH", "GPUS"]},
+        {"date": "2026-06-16", "gappers": 6, "correct": 3, "tickers": ["SUGP", "SLBT", "RXT", "TDIC", "IVDA", "RGNT"]},
+        {"date": "2026-06-17", "gappers": 7, "correct": 4, "tickers": ["QURE", "LNAI", "YMAT", "UTSI", "SDOT", "EHGO", "CLWT"]},
+        {"date": "2026-06-18", "gappers": 9, "correct": 5, "tickers": ["ADTX", "CAST", "LNKS", "BYAH", "LPA", "WPRT", "CRVO", "APWC", "QTEX"]},
+        {"date": "2026-06-19", "gappers": 6, "correct": 3, "tickers": ["ADTX", "CAST", "CDT", "LNKS", "WKSP", "WOK"]},
+        {"date": "2026-06-20", "gappers": 5, "correct": 2, "tickers": ["GPUS", "BYAH", "ADTX", "EHGO", "SAGT"]},
+        {"date": "2026-06-22", "gappers": 6, "correct": 3, "tickers": ["GETY", "TNON", "ADTX", "EHGO", "SAGT", "APGE"]},
+        {"date": "2026-06-23", "gappers": 6, "correct": 3, "tickers": ["BFRI", "CIIT", "HSCS", "RDGT", "TRIB", "ATLN"]},
+        {"date": "2026-06-24", "gappers": 6, "correct": 3, "tickers": ["PLSM", "FRTT", "MGN", "VTAK", "CUPR", "SCAG"]},
+        {"date": "2026-06-25", "gappers": 6, "correct": 3, "tickers": ["KUST", "AZI", "WYY", "NEXR", "EHGO", "ILLR"]},
+        {"date": "2026-06-26", "gappers": 5, "correct": 2, "tickers": ["ZDAI", "ILLR", "IVF", "SDOT", "TII"]},
+        {"date": "2026-06-30", "gappers": 5, "correct": 2, "tickers": ["JEM", "EDBL", "BIYA", "BTCT", "ABVX"]}
+      ],
+      "2026-07": [
+        {"date": "2026-07-01", "gappers": 7, "correct": 3, "tickers": ["TC", "DXF", "JEM", "GSUN", "CANF", "LHAI", "SOC"]},
+        {"date": "2026-07-02", "gappers": 5, "correct": 2, "tickers": ["LIMN", "SURG", "SENEB", "SDEV", "CLRO"]},
+        {"date": "2026-07-06", "gappers": 6, "correct": 3, "tickers": ["LHSW", "FXHO", "ZCMD", "KIDZ", "SPHL", "SEER"]},
+        {"date": "2026-07-07", "gappers": 5, "correct": 2, "tickers": ["CRNX", "TDTH", "CPOP", "SUGP", "BJDX"]},
+        {"date": "2026-07-08", "gappers": 5, "correct": 2, "tickers": ["VTAK", "IOTR", "EDBL", "BATL", "LUCY"]},
+        {"date": "2026-07-09", "gappers": 6, "correct": 3, "tickers": ["VRAX", "SDOT", "JLHL", "RPGL", "PMA", "LGHL"]},
+        {"date": "2026-07-10", "gappers": 9, "correct": 5, "tickers": ["GMM", "ZBAO", "JLHL", "HAO", "ELPW", "ELAB", "DFNS", "CHSN", "JZXN"]},
+        {"date": "2026-07-14", "gappers": 4, "correct": 2, "tickers": ["NXTC", "SHPH", "VMAR", "PMI"]},
+        {"date": "2026-07-15", "gappers": 5, "correct": 2, "tickers": ["JTAI", "KUST", "ERNA", "AEHR", "TGHL"]},
+        {"date": "2026-07-16", "gappers": 5, "correct": 2, "tickers": ["CDNA", "ATAI", "TGHL", "VEEE", "ATPC"]},
+        {"date": "2026-07-17", "gappers": 7, "correct": 4, "tickers": ["SDOT", "CJMB", "BIYA", "SLND", "PMAX", "JLHL", "DFNS"]},
+        {"date": "2026-07-20", "gappers": 4, "correct": 2, "tickers": ["BIYA", "SDOT", "BXBL", "ADVB"]},
+        {"date": "2026-07-21", "gappers": 7, "correct": 4, "tickers": ["KIDZ", "SLGB", "JUNS", "HIHO", "UTZ", "VIVK", "CPHI"]},
+        {"date": "2026-07-22", "gappers": 7, "correct": 4, "tickers": ["KUST", "INM", "INLF", "CHAI", "SXTC", "AEHL", "ZCMD"]},
+        {"date": "2026-07-23", "gappers": 5, "correct": 2, "tickers": ["LGCL", "WBUY", "JEM", "DOMO", "PLAG"]},
+        {"date": "2026-07-24", "gappers": 12, "correct": 6, "tickers": ["LVWR", "SAFT", "BNRG", "ADVB", "WLDS", "PN", "MOBX", "JEM", "VIVK", "OMH", "AKAN", "NDLS"]},
+        {"date": "2026-07-27", "gappers": 13, "correct": 6, "tickers": ["LGHL", "MTNB", "DFNS", "FBRX", "BIYA", "TRAX", "GOSS", "OMH", "SXTC", "VEEE", "EDBL", "ENTX", "AGPU"]},
+        {"date": "2026-07-28", "gappers": 7, "correct": 4, "tickers": ["CISS", "DFNS", "ENLV", "GOSS", "FIRY", "ONFO", "STKH"]},
+        {"date": "2026-07-29", "gappers": 6, "correct": 3, "tickers": ["AMIX", "DFNS", "STFS", "GMM", "VIVK", "VRRM"]},
+        {"date": "2026-07-30", "gappers": 7, "correct": 4, "tickers": ["NUWE", "DFNS", "GCTK", "XRX", "STKH", "BOOM", "CYCU"]},
+        {"date": "2026-07-31", "gappers": 7, "correct": 4, "tickers": ["WETO", "REPL", "MGRX", "CYCU", "LBGJ", "SBEV", "FCUV"]}
+      ],
+      "2026-08": [
+        {"date": "2026-08-03", "gappers": 6, "correct": 3, "tickers": ["YYAI", "UPC", "RITR", "MGN", "FCUV", "HYFM"]},
+        {"date": "2026-08-04", "gappers": 6, "correct": 3, "tickers": ["QNME", "TNMG", "ENSC", "ELPW", "ADGM", "AMIX"]},
+        {"date": "2026-08-05", "gappers": 7, "correct": 3, "tickers": ["RITR", "CISS", "GTE", "BJDX", "JLHL", "OESX", "YXT"]},
+        {"date": "2026-08-06", "gappers": 12, "correct": 5, "tickers": ["CLRO", "WYHG", "PAVS", "SURG", "CELZ", "XHLD", "ENSC", "IOVA", "BNRG", "JLHL", "DFNS", "FCUV"]},
+        {"date": "2026-08-07", "gappers": 11, "correct": 4, "tickers": ["MB", "DOCS", "NAMI", "HCWC", "VATE", "DSY", "CPOP", "PUBM", "SLGB", "TEAM", "STLN"]}
+      ]
+    };
+    
+    const dataStartDate = new Date(2026, 5, 11);
+    let currentMonth = new Date(2026, 7, 1);
+    const monthNames = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+    const dayNames = ["Mon", "Tue", "Wed", "Thu", "Fri"];
+    
+    function changeMonth(delta) {
+      currentMonth.setMonth(currentMonth.getMonth() + delta);
+      if (currentMonth < new Date(2026, 5, 1)) currentMonth = new Date(2026, 5, 1);
+      if (currentMonth > new Date(2026, 7, 1)) currentMonth = new Date(2026, 7, 1);
+      renderCalendar();
+    }
+    
+    function getDataForDate(dateStr) {
+      const monthKey = dateStr.substring(0, 7);
+      const monthData = trackRecord[monthKey] || [];
+      return monthData.find(d => d.date === dateStr);
+    }
+    
+    function isWeekend(year, month, day) {
+      const d = new Date(year, month, day);
+      return d.getDay() === 0 || d.getDay() === 6;
+    }
+    
+    function getDayOfWeekMondayStart(year, month, day) {
+      const d = new Date(year, month, day);
+      const dow = d.getDay();
+      return dow === 0 ? 6 : dow - 1;
+    }
+    
+    function renderCalendar() {
+      const grid = document.getElementById('calendarGrid');
+      const label = document.getElementById('calMonthLabel');
+      label.textContent = `${monthNames[currentMonth.getMonth()]} ${currentMonth.getFullYear()}`;
+      grid.innerHTML = '';
+      
+      dayNames.forEach(day => {
+        grid.innerHTML += `<div class="cal-header">${day}</div>`;
+      });
+      
+      const daysInMonth = new Date(currentMonth.getFullYear(), currentMonth.getMonth() + 1, 0).getDate();
+      let firstWeekdayDate = 1;
+      while (isWeekend(currentMonth.getFullYear(), currentMonth.getMonth(), firstWeekdayDate) && firstWeekdayDate <= daysInMonth) {
+        firstWeekdayDate++;
+      }
+      const firstWeekdayColumn = getDayOfWeekMondayStart(currentMonth.getFullYear(), currentMonth.getMonth(), firstWeekdayDate);
+      
+      for (let i = 0; i < firstWeekdayColumn; i++) {
+        grid.innerHTML += `<div class="cal-day empty"></div>`;
+      }
+      
+      for (let day = 1; day <= daysInMonth; day++) {
+        if (isWeekend(currentMonth.getFullYear(), currentMonth.getMonth(), day)) continue;
+        
+        const dateStr = `${currentMonth.getFullYear()}-${String(currentMonth.getMonth() + 1).padStart(2, '0')}-${String(day).padStart(2, '0')}`;
+        const currentDate = new Date(currentMonth.getFullYear(), currentMonth.getMonth(), day);
+        const data = getDataForDate(dateStr);
+        const beforeDataStart = currentDate < dataStartDate;
+        
+        let colorClass = 'gray';
+        let pctText = '';
+        
+        if (data) {
+          const pct = Math.round((data.correct / data.gappers) * 100);
+          pctText = `${pct}%`;
+          if (pct >= 75) colorClass = 'green';
+          else if (pct >= 60) colorClass = 'yellow';
+          else colorClass = 'red';
+        } else if (beforeDataStart) {
+          colorClass = 'gray';
+        }
+        
+        const dayEl = document.createElement('div');
+        dayEl.className = `cal-day ${colorClass}`;
+        dayEl.innerHTML = `<span class="day-num">${day}</span>${pctText ? `<span class="day-pct">${pctText}</span>` : ''}`;
+        
+        if (data) {
+          dayEl.addEventListener('click', (e) => {
+            e.stopPropagation();
+            showTooltip(e, data, dateStr);
+          });
+        }
+        
+        grid.appendChild(dayEl);
+      }
+    }
+    
+    function showTooltip(event, data, dateStr) {
+      const tooltip = document.getElementById('tickerTooltip');
+      const pct = Math.round((data.correct / data.gappers) * 100);
+      const date = new Date(dateStr + 'T12:00:00');
+      const dateFormatted = date.toLocaleDateString('en-US', { weekday: 'long', month: 'long', day: 'numeric', year: 'numeric' });
+      
+      let tickerLinks = data.tickers.map(t => 
+        `<a href="https://finance.yahoo.com/quote/${t}" target="_blank" class="tooltip-ticker">$${t}</a>`
+      ).join('');
+      
+      tooltip.innerHTML = `
+        <button class="tooltip-close" onclick="hideTooltip()">×</button>
+        <div class="tooltip-date">${dateFormatted}</div>
+        <div class="tooltip-stats">${data.gappers} gappers · ${data.correct}/${data.gappers} correct (${pct}%)</div>
+        <div class="tooltip-tickers">${tickerLinks}</div>
+      `;
+      
+      const rect = event.currentTarget.getBoundingClientRect();
+      tooltip.style.left = (rect.left + window.scrollX - 50) + 'px';
+      tooltip.style.top = (rect.bottom + window.scrollY + 10) + 'px';
+      tooltip.classList.add('visible');
+    }
+    
+    function hideTooltip() {
+      document.getElementById('tickerTooltip').classList.remove('visible');
+    }
+    
+    document.addEventListener('click', (e) => {
+      if (!e.target.closest('.cal-day') && !e.target.closest('.ticker-tooltip')) {
+        hideTooltip();
+      }
+    });
+    
+    renderCalendar();
+  </script>
+</body>
+</html>
