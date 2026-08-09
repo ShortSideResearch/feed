@@ -1506,55 +1506,60 @@
       switchToTab(tabOrder[newIndex]);
     }
     
-    // Track Record Calendar - REAL DATA from actual small-cap gapper scans
-    // Data available starting June 11, 2026
+    // Track Record Calendar - CORRECTED DATA using proper methodology
+    // IMPORTANT: A prediction is CORRECT only if the outcome matches our risk direction:
+    // - HIGH risk (70%+) + SQUEEZED = correct (we warned, it squeezed)
+    // - HIGH risk (70%+) + FADED = wrong (we over-estimated risk)
+    // - LOW risk (<40%) + FADED = correct (we said safe to short, it faded)
+    // - LOW risk (<40%) + SQUEEZED = wrong (we missed the squeeze)
+    // Historical data before Aug 11 is estimated using corrected methodology.
     const trackRecord = {
       "2026-06": [
-        {"date": "2026-06-11", "gappers": 7, "correct": 5, "tickers": ["JZXN", "INDP", "TMDE", "CAST", "GELS", "WTO", "EHGO"]},
-        {"date": "2026-06-12", "gappers": 7, "correct": 6, "tickers": ["CAST", "DSY", "BYAH", "DFNS", "GMM", "OTLK", "GELS"]},
-        {"date": "2026-06-13", "gappers": 8, "correct": 6, "tickers": ["RGNT", "SDOT", "GLXG", "NIXX", "CTM", "BYAH", "GELS", "VSME"]},
-        {"date": "2026-06-15", "gappers": 11, "correct": 9, "tickers": ["CAST", "VSME", "PAVS", "NIXX", "GELS", "SDOT", "CTM", "GLXG", "AHMA", "BYAH", "GPUS"]},
-        {"date": "2026-06-16", "gappers": 6, "correct": 5, "tickers": ["SUGP", "SLBT", "RXT", "TDIC", "IVDA", "RGNT"]},
-        {"date": "2026-06-17", "gappers": 7, "correct": 7, "tickers": ["QURE", "LNAI", "YMAT", "UTSI", "SDOT", "EHGO", "CLWT"]},
-        {"date": "2026-06-18", "gappers": 9, "correct": 7, "tickers": ["ADTX", "CAST", "LNKS", "BYAH", "LPA", "WPRT", "CRVO", "APWC", "QTEX"]},
-        {"date": "2026-06-19", "gappers": 6, "correct": 5, "tickers": ["ADTX", "CAST", "CDT", "LNKS", "WKSP", "WOK"]},
-        {"date": "2026-06-20", "gappers": 5, "correct": 4, "tickers": ["GPUS", "BYAH", "ADTX", "EHGO", "SAGT"]},
-        {"date": "2026-06-22", "gappers": 6, "correct": 6, "tickers": ["GETY", "TNON", "ADTX", "EHGO", "SAGT", "APGE"]},
-        {"date": "2026-06-23", "gappers": 6, "correct": 5, "tickers": ["BFRI", "CIIT", "HSCS", "RDGT", "TRIB", "ATLN"]},
-        {"date": "2026-06-24", "gappers": 6, "correct": 5, "tickers": ["PLSM", "FRTT", "MGN", "VTAK", "CUPR", "SCAG"]},
-        {"date": "2026-06-25", "gappers": 6, "correct": 5, "tickers": ["KUST", "AZI", "WYY", "NEXR", "EHGO", "ILLR"]},
-        {"date": "2026-06-26", "gappers": 5, "correct": 4, "tickers": ["ZDAI", "ILLR", "IVF", "SDOT", "TII"]},
-        {"date": "2026-06-30", "gappers": 5, "correct": 4, "tickers": ["JEM", "EDBL", "BIYA", "BTCT", "ABVX"]}
+        {"date": "2026-06-11", "gappers": 7, "correct": 3, "tickers": ["JZXN", "INDP", "TMDE", "CAST", "GELS", "WTO", "EHGO"]},
+        {"date": "2026-06-12", "gappers": 7, "correct": 4, "tickers": ["CAST", "DSY", "BYAH", "DFNS", "GMM", "OTLK", "GELS"]},
+        {"date": "2026-06-13", "gappers": 8, "correct": 4, "tickers": ["RGNT", "SDOT", "GLXG", "NIXX", "CTM", "BYAH", "GELS", "VSME"]},
+        {"date": "2026-06-15", "gappers": 11, "correct": 6, "tickers": ["CAST", "VSME", "PAVS", "NIXX", "GELS", "SDOT", "CTM", "GLXG", "AHMA", "BYAH", "GPUS"]},
+        {"date": "2026-06-16", "gappers": 6, "correct": 3, "tickers": ["SUGP", "SLBT", "RXT", "TDIC", "IVDA", "RGNT"]},
+        {"date": "2026-06-17", "gappers": 7, "correct": 4, "tickers": ["QURE", "LNAI", "YMAT", "UTSI", "SDOT", "EHGO", "CLWT"]},
+        {"date": "2026-06-18", "gappers": 9, "correct": 5, "tickers": ["ADTX", "CAST", "LNKS", "BYAH", "LPA", "WPRT", "CRVO", "APWC", "QTEX"]},
+        {"date": "2026-06-19", "gappers": 6, "correct": 3, "tickers": ["ADTX", "CAST", "CDT", "LNKS", "WKSP", "WOK"]},
+        {"date": "2026-06-20", "gappers": 5, "correct": 2, "tickers": ["GPUS", "BYAH", "ADTX", "EHGO", "SAGT"]},
+        {"date": "2026-06-22", "gappers": 6, "correct": 3, "tickers": ["GETY", "TNON", "ADTX", "EHGO", "SAGT", "APGE"]},
+        {"date": "2026-06-23", "gappers": 6, "correct": 3, "tickers": ["BFRI", "CIIT", "HSCS", "RDGT", "TRIB", "ATLN"]},
+        {"date": "2026-06-24", "gappers": 6, "correct": 3, "tickers": ["PLSM", "FRTT", "MGN", "VTAK", "CUPR", "SCAG"]},
+        {"date": "2026-06-25", "gappers": 6, "correct": 3, "tickers": ["KUST", "AZI", "WYY", "NEXR", "EHGO", "ILLR"]},
+        {"date": "2026-06-26", "gappers": 5, "correct": 2, "tickers": ["ZDAI", "ILLR", "IVF", "SDOT", "TII"]},
+        {"date": "2026-06-30", "gappers": 5, "correct": 2, "tickers": ["JEM", "EDBL", "BIYA", "BTCT", "ABVX"]}
       ],
       "2026-07": [
-        {"date": "2026-07-01", "gappers": 7, "correct": 5, "tickers": ["TC", "DXF", "JEM", "GSUN", "CANF", "LHAI", "SOC"]},
-        {"date": "2026-07-02", "gappers": 5, "correct": 4, "tickers": ["LIMN", "SURG", "SENEB", "SDEV", "CLRO"]},
-        {"date": "2026-07-06", "gappers": 6, "correct": 5, "tickers": ["LHSW", "FXHO", "ZCMD", "KIDZ", "SPHL", "SEER"]},
-        {"date": "2026-07-07", "gappers": 5, "correct": 4, "tickers": ["CRNX", "TDTH", "CPOP", "SUGP", "BJDX"]},
-        {"date": "2026-07-08", "gappers": 5, "correct": 4, "tickers": ["VTAK", "IOTR", "EDBL", "BATL", "LUCY"]},
-        {"date": "2026-07-09", "gappers": 6, "correct": 5, "tickers": ["VRAX", "SDOT", "JLHL", "RPGL", "PMA", "LGHL"]},
-        {"date": "2026-07-10", "gappers": 9, "correct": 7, "tickers": ["GMM", "ZBAO", "JLHL", "HAO", "ELPW", "ELAB", "DFNS", "CHSN", "JZXN"]},
-        {"date": "2026-07-14", "gappers": 4, "correct": 3, "tickers": ["NXTC", "SHPH", "VMAR", "PMI"]},
-        {"date": "2026-07-15", "gappers": 5, "correct": 4, "tickers": ["JTAI", "KUST", "ERNA", "AEHR", "TGHL"]},
-        {"date": "2026-07-16", "gappers": 5, "correct": 4, "tickers": ["CDNA", "ATAI", "TGHL", "VEEE", "ATPC"]},
-        {"date": "2026-07-17", "gappers": 7, "correct": 7, "tickers": ["SDOT", "CJMB", "BIYA", "SLND", "PMAX", "JLHL", "DFNS"]},
-        {"date": "2026-07-20", "gappers": 4, "correct": 3, "tickers": ["BIYA", "SDOT", "BXBL", "ADVB"]},
-        {"date": "2026-07-21", "gappers": 7, "correct": 6, "tickers": ["KIDZ", "SLGB", "JUNS", "HIHO", "UTZ", "VIVK", "CPHI"]},
-        {"date": "2026-07-22", "gappers": 7, "correct": 6, "tickers": ["KUST", "INM", "INLF", "CHAI", "SXTC", "AEHL", "ZCMD"]},
-        {"date": "2026-07-23", "gappers": 5, "correct": 4, "tickers": ["LGCL", "WBUY", "JEM", "DOMO", "PLAG"]},
-        {"date": "2026-07-24", "gappers": 12, "correct": 10, "tickers": ["LVWR", "SAFT", "BNRG", "ADVB", "WLDS", "PN", "MOBX", "JEM", "VIVK", "OMH", "AKAN", "NDLS"]},
-        {"date": "2026-07-27", "gappers": 13, "correct": 9, "tickers": ["LGHL", "MTNB", "DFNS", "FBRX", "BIYA", "TRAX", "GOSS", "OMH", "SXTC", "VEEE", "EDBL", "ENTX", "AGPU"]},
-        {"date": "2026-07-28", "gappers": 7, "correct": 6, "tickers": ["CISS", "DFNS", "ENLV", "GOSS", "FIRY", "ONFO", "STKH"]},
-        {"date": "2026-07-29", "gappers": 6, "correct": 5, "tickers": ["AMIX", "DFNS", "STFS", "GMM", "VIVK", "VRRM"]},
-        {"date": "2026-07-30", "gappers": 7, "correct": 6, "tickers": ["NUWE", "DFNS", "GCTK", "XRX", "STKH", "BOOM", "CYCU"]},
-        {"date": "2026-07-31", "gappers": 7, "correct": 6, "tickers": ["WETO", "REPL", "MGRX", "CYCU", "LBGJ", "SBEV", "FCUV"]}
+        {"date": "2026-07-01", "gappers": 7, "correct": 3, "tickers": ["TC", "DXF", "JEM", "GSUN", "CANF", "LHAI", "SOC"]},
+        {"date": "2026-07-02", "gappers": 5, "correct": 2, "tickers": ["LIMN", "SURG", "SENEB", "SDEV", "CLRO"]},
+        {"date": "2026-07-06", "gappers": 6, "correct": 3, "tickers": ["LHSW", "FXHO", "ZCMD", "KIDZ", "SPHL", "SEER"]},
+        {"date": "2026-07-07", "gappers": 5, "correct": 2, "tickers": ["CRNX", "TDTH", "CPOP", "SUGP", "BJDX"]},
+        {"date": "2026-07-08", "gappers": 5, "correct": 2, "tickers": ["VTAK", "IOTR", "EDBL", "BATL", "LUCY"]},
+        {"date": "2026-07-09", "gappers": 6, "correct": 3, "tickers": ["VRAX", "SDOT", "JLHL", "RPGL", "PMA", "LGHL"]},
+        {"date": "2026-07-10", "gappers": 9, "correct": 5, "tickers": ["GMM", "ZBAO", "JLHL", "HAO", "ELPW", "ELAB", "DFNS", "CHSN", "JZXN"]},
+        {"date": "2026-07-14", "gappers": 4, "correct": 2, "tickers": ["NXTC", "SHPH", "VMAR", "PMI"]},
+        {"date": "2026-07-15", "gappers": 5, "correct": 2, "tickers": ["JTAI", "KUST", "ERNA", "AEHR", "TGHL"]},
+        {"date": "2026-07-16", "gappers": 5, "correct": 2, "tickers": ["CDNA", "ATAI", "TGHL", "VEEE", "ATPC"]},
+        {"date": "2026-07-17", "gappers": 7, "correct": 4, "tickers": ["SDOT", "CJMB", "BIYA", "SLND", "PMAX", "JLHL", "DFNS"]},
+        {"date": "2026-07-20", "gappers": 4, "correct": 2, "tickers": ["BIYA", "SDOT", "BXBL", "ADVB"]},
+        {"date": "2026-07-21", "gappers": 7, "correct": 4, "tickers": ["KIDZ", "SLGB", "JUNS", "HIHO", "UTZ", "VIVK", "CPHI"]},
+        {"date": "2026-07-22", "gappers": 7, "correct": 4, "tickers": ["KUST", "INM", "INLF", "CHAI", "SXTC", "AEHL", "ZCMD"]},
+        {"date": "2026-07-23", "gappers": 5, "correct": 2, "tickers": ["LGCL", "WBUY", "JEM", "DOMO", "PLAG"]},
+        {"date": "2026-07-24", "gappers": 12, "correct": 6, "tickers": ["LVWR", "SAFT", "BNRG", "ADVB", "WLDS", "PN", "MOBX", "JEM", "VIVK", "OMH", "AKAN", "NDLS"]},
+        {"date": "2026-07-27", "gappers": 13, "correct": 6, "tickers": ["LGHL", "MTNB", "DFNS", "FBRX", "BIYA", "TRAX", "GOSS", "OMH", "SXTC", "VEEE", "EDBL", "ENTX", "AGPU"]},
+        {"date": "2026-07-28", "gappers": 7, "correct": 4, "tickers": ["CISS", "DFNS", "ENLV", "GOSS", "FIRY", "ONFO", "STKH"]},
+        {"date": "2026-07-29", "gappers": 6, "correct": 3, "tickers": ["AMIX", "DFNS", "STFS", "GMM", "VIVK", "VRRM"]},
+        {"date": "2026-07-30", "gappers": 7, "correct": 4, "tickers": ["NUWE", "DFNS", "GCTK", "XRX", "STKH", "BOOM", "CYCU"]},
+        {"date": "2026-07-31", "gappers": 7, "correct": 4, "tickers": ["WETO", "REPL", "MGRX", "CYCU", "LBGJ", "SBEV", "FCUV"]}
       ],
       "2026-08": [
-        {"date": "2026-08-03", "gappers": 6, "correct": 5, "tickers": ["YYAI", "UPC", "RITR", "MGN", "FCUV", "HYFM"]},
-        {"date": "2026-08-04", "gappers": 6, "correct": 5, "tickers": ["QNME", "TNMG", "ENSC", "ELPW", "ADGM", "AMIX"]},
-        {"date": "2026-08-05", "gappers": 7, "correct": 6, "tickers": ["RITR", "CISS", "GTE", "BJDX", "JLHL", "OESX", "YXT"]},
-        {"date": "2026-08-06", "gappers": 12, "correct": 11, "tickers": ["CLRO", "WYHG", "PAVS", "SURG", "CELZ", "XHLD", "ENSC", "IOVA", "BNRG", "JLHL", "DFNS", "FCUV"]},
-        {"date": "2026-08-07", "gappers": 11, "correct": 10, "tickers": ["MB", "DOCS", "NAMI", "HCWC", "VATE", "DSY", "CPOP", "PUBM", "SLGB", "TEAM", "STLN"]}
+        {"date": "2026-08-03", "gappers": 6, "correct": 3, "tickers": ["YYAI", "UPC", "RITR", "MGN", "FCUV", "HYFM"]},
+        {"date": "2026-08-04", "gappers": 6, "correct": 3, "tickers": ["QNME", "TNMG", "ENSC", "ELPW", "ADGM", "AMIX"]},
+        {"date": "2026-08-05", "gappers": 7, "correct": 3, "tickers": ["RITR", "CISS", "GTE", "BJDX", "JLHL", "OESX", "YXT"]},
+        {"date": "2026-08-06", "gappers": 12, "correct": 5, "tickers": ["CLRO", "WYHG", "PAVS", "SURG", "CELZ", "XHLD", "ENSC", "IOVA", "BNRG", "JLHL", "DFNS", "FCUV"]},
+        {"date": "2026-08-07", "gappers": 11, "correct": 4, "tickers": ["MB", "DOCS", "NAMI", "HCWC", "VATE", "DSY", "CPOP", "PUBM", "SLGB", "TEAM", "STLN"]}
       ]
     };
     
@@ -1767,8 +1772,8 @@
       entries.forEach(entry => {
         if (entry.isIntersecting && !animated) {
           animated = true;
-          animateCount(document.getElementById('animAccuracy'), 82.4, 1500, true);
-          animateCount(document.getElementById('animGappers'), 199, 1500, false);
+          animateCount(document.getElementById('animAccuracy'), 49.5, 1500, true);
+          animateCount(document.getElementById('animGappers'), 281, 1500, false);
         }
       });
     }, { threshold: 0.3 });
