@@ -5,13 +5,20 @@
     <link>https://x.com/ShortSideIO</link>
     <description>Daily gapper analysis and short squeeze risk alerts for traders. Independent research on overvalued stocks.</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 12 Aug 2026 13:46:06 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 12 Aug 2026 13:46:07 GMT</lastBuildDate>
     <atom:link href="https://shortsideresearch.substack.com/feed" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://pbs.twimg.com/profile_images/ShortSideIO/logo.png</url>
       <title>ShortSide Research</title>
       <link>https://x.com/ShortSideIO</link>
     </image>
+    <item>
+      <title>$VELO +23.67%</title>
+      <description><![CDATA[📊 $VELO +23.67% | Fade Score: 25% | Float: 13.79M | SI: 35.59% | DTC: 1.39 | Q2 earnings beat, SpaceX supplier. Action: AVOID - High squeeze risk]]></description>
+      <link>https://x.com/ShortSideIO/status/2087536082233544966</link>
+      <guid isPermaLink="true">https://x.com/ShortSideIO/status/2087536082233544966</guid>
+      <pubDate>Wed, 12 Aug 2026 13:46:07 GMT</pubDate>
+    </item>
     <item>
       <title>$DOGZ +25.82%</title>
       <description><![CDATA[📊 $DOGZ +25.82% | Fade Score: 85% | Float: 4.25M | SI: 0.60% | DTC: 0.07 | Chinese ADR with no news catalyst, 71% insider ownership. Action: SHORT]]></description>
@@ -354,13 +361,6 @@
       <link>https://x.com/ShortSideIO/status/2084637110909157503</link>
       <guid isPermaLink="true">https://x.com/ShortSideIO/status/2084637110909157503</guid>
       <pubDate>Tue, 04 Aug 2026 13:46:53 GMT</pubDate>
-    </item>
-    <item>
-      <title>$QNME +253%</title>
-      <description><![CDATA[📊 $QNME +253% | Float 25.78M | Short 0.31% | DTC 0.64 - Monster gap, minimal short interest, zero squeeze risk. Squeeze Risk: 15% 🟢]]></description>
-      <link>https://x.com/ShortSideIO/status/2084637105758589075</link>
-      <guid isPermaLink="true">https://x.com/ShortSideIO/status/2084637105758589075</guid>
-      <pubDate>Tue, 04 Aug 2026 13:46:52 GMT</pubDate>
     </item>
   </channel>
 </rss>
