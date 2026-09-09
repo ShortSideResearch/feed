@@ -5,13 +5,20 @@
     <link>https://x.com/ShortSideIO</link>
     <description>Daily gapper analysis and short squeeze risk alerts for traders. Independent research on overvalued stocks.</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 09 Sep 2026 20:01:32 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 09 Sep 2026 20:04:50 GMT</lastBuildDate>
     <atom:link href="https://shortsideresearch.substack.com/feed" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://pbs.twimg.com/profile_images/ShortSideIO/logo.png</url>
       <title>ShortSide Research</title>
       <link>https://x.com/ShortSideIO</link>
     </image>
+    <item>
+      <title>recap</title>
+      <description><![CDATA[recap]]></description>
+      <link></link>
+      <guid isPermaLink="false">shortsideresearch-1788984290628</guid>
+      <pubDate>Wed, 09 Sep 2026 20:04:50 GMT</pubDate>
+    </item>
     <item>
       <title>$MGN +175%</title>
       <description><![CDATA[📊 $MGN +175% | Low float pump faded from +250% premarket. We called AVOID. We flagged this in our premarket newsletter. Get daily alerts (7-day free): https://shortsideresearch.github.io/feed/subscribe #daytrading]]></description>
@@ -354,13 +361,6 @@
       <link>https://x.com/ShortSideIO/status/2087173805017882704</link>
       <guid isPermaLink="true">https://x.com/ShortSideIO/status/2087173805017882704</guid>
       <pubDate>Tue, 11 Aug 2026 13:46:34 GMT</pubDate>
-    </item>
-    <item>
-      <title>$WXM +168%</title>
-      <description><![CDATA[📊 $WXM +168% | Float 0.58M | SI 14.71% ⚠️ SQUEEZE RISK: 85% Tiny float + double-digit SI = powder keg. AVOID - extreme squeeze setup]]></description>
-      <link>https://x.com/ShortSideIO/status/2087173763028734358</link>
-      <guid isPermaLink="true">https://x.com/ShortSideIO/status/2087173763028734358</guid>
-      <pubDate>Tue, 11 Aug 2026 13:46:25 GMT</pubDate>
     </item>
   </channel>
 </rss>
