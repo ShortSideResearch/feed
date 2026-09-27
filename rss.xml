@@ -5,13 +5,20 @@
     <link>https://x.com/ShortSideIO</link>
     <description>Daily gapper analysis and short squeeze risk alerts for traders. Independent research on overvalued stocks.</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 24 Sep 2026 20:06:33 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 27 Sep 2026 18:12:04 GMT</lastBuildDate>
     <atom:link href="https://shortsideresearch.substack.com/feed" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://pbs.twimg.com/profile_images/ShortSideIO/logo.png</url>
       <title>ShortSide Research</title>
       <link>https://x.com/ShortSideIO</link>
     </image>
+    <item>
+      <title>RSS feed connection test</title>
+      <description><![CDATA[ShortSide Research RSS automation is now live. This test item confirms the feed updates automatically.]]></description>
+      <link>https://shortsideresearch.com</link>
+      <guid isPermaLink="true">https://shortsideresearch.com</guid>
+      <pubDate>Sun, 27 Sep 2026 18:12:04 GMT</pubDate>
+    </item>
     <item>
       <title>recap</title>
       <description><![CDATA[recap]]></description>
@@ -354,13 +361,6 @@
       <link>https://x.com/ShortSideIO/status/2088260955863949400</link>
       <guid isPermaLink="true">https://x.com/ShortSideIO/status/2088260955863949400</guid>
       <pubDate>Fri, 14 Aug 2026 13:46:28 GMT</pubDate>
-    </item>
-    <item>
-      <title>$XHG +348%</title>
-      <description><![CDATA[📊 $XHG +348% | Gapped +555% PM, faded hard. Zero SI = clean fade. We called this in our premarket newsletter.]]></description>
-      <link>https://x.com/ShortSideIO/status/2087992864986829025</link>
-      <guid isPermaLink="true">https://x.com/ShortSideIO/status/2087992864986829025</guid>
-      <pubDate>Thu, 13 Aug 2026 20:01:09 GMT</pubDate>
     </item>
   </channel>
 </rss>
