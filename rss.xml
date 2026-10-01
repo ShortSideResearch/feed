@@ -5,13 +5,24 @@
     <link>https://x.com/ShortSideIO</link>
     <description>Daily gapper analysis and short squeeze risk alerts for traders. Independent research on overvalued stocks.</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 01 Oct 2026 12:00:10 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 01 Oct 2026 12:00:15 GMT</lastBuildDate>
     <atom:link href="https://shortsideresearch.github.io/feed/rss.xml" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://pbs.twimg.com/profile_images/ShortSideIO/logo.png</url>
       <title>ShortSide Research</title>
       <link>https://x.com/ShortSideIO</link>
     </image>
+    <item>
+      <title>$SDEV +30% at $3.37 — featured in today's pre-market research.</title>
+      <description><![CDATA[📊 $SDEV +30% at $3.37 — featured in today's pre-market research.
+
+Squeeze risk 6/10 · Hard-to-borrow · Verdict: CAUTION
+
+Catalyst: No clear catalyst]]></description>
+      <link>https://x.com/ShortSideIO/status/2105628852903141517</link>
+      <guid isPermaLink="true">https://x.com/ShortSideIO/status/2105628852903141517</guid>
+      <pubDate>Thu, 01 Oct 2026 12:00:15 GMT</pubDate>
+    </item>
     <item>
       <title>$MEDS +49% at $4.72 — featured in today's pre-market research.</title>
       <description><![CDATA[📊 $MEDS +49% at $4.72 — featured in today's pre-market research.
@@ -524,13 +535,6 @@ https://shortsideresearch.com/newsletter]]></description>
       <link>https://x.com/ShortSideIO/status/2098381651696832751</link>
       <guid isPermaLink="true">https://x.com/ShortSideIO/status/2098381651696832751</guid>
       <pubDate>Fri, 11 Sep 2026 12:03:01 GMT</pubDate>
-    </item>
-    <item>
-      <title>recap</title>
-      <description><![CDATA[recap]]></description>
-      <link></link>
-      <guid isPermaLink="false">shortsideresearch-1789070836525</guid>
-      <pubDate>Thu, 10 Sep 2026 20:07:16 GMT</pubDate>
     </item>
   </channel>
 </rss>
