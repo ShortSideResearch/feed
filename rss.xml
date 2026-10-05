@@ -5,13 +5,24 @@
     <link>https://x.com/ShortSideIO</link>
     <description>Daily gapper analysis and short squeeze risk alerts for traders. Independent research on overvalued stocks.</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 05 Oct 2026 12:00:05 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 05 Oct 2026 12:00:10 GMT</lastBuildDate>
     <atom:link href="https://shortsideresearch.github.io/feed/rss.xml" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://pbs.twimg.com/profile_images/ShortSideIO/logo.png</url>
       <title>ShortSide Research</title>
       <link>https://x.com/ShortSideIO</link>
     </image>
+    <item>
+      <title>$SDEV +48% at $11.08 — featured in today's pre-market research.</title>
+      <description><![CDATA[📊 $SDEV +48% at $11.08 — featured in today's pre-market research.
+
+Squeeze risk 6/10 · Hard-to-borrow · Verdict: CAUTION
+
+Catalyst: No clear catalyst]]></description>
+      <link>https://x.com/ShortSideIO/status/2107078382169329973</link>
+      <guid isPermaLink="true">https://x.com/ShortSideIO/status/2107078382169329973</guid>
+      <pubDate>Mon, 05 Oct 2026 12:00:10 GMT</pubDate>
+    </item>
     <item>
       <title>$SAIQ +498% at $11.06 — featured in today's pre-market research.</title>
       <description><![CDATA[📊 $SAIQ +498% at $11.06 — featured in today's pre-market research.
@@ -550,17 +561,6 @@ Catalyst: No clear catalyst]]></description>
       <link>https://x.com/ShortSideIO/status/2104690221774262636</link>
       <guid isPermaLink="true">https://x.com/ShortSideIO/status/2104690221774262636</guid>
       <pubDate>Mon, 28 Sep 2026 21:50:27 GMT</pubDate>
-    </item>
-    <item>
-      <title>$VWAV +17% at $5.71 — featured in today's pre-market research.</title>
-      <description><![CDATA[📊 $VWAV +17% at $5.71 — featured in today's pre-market research.
-
-Squeeze risk 6/10 · Verdict: AVOID
-
-Catalyst: VisionWave's STRATUM platform update is the likely catalyst, reinforced by its earlier announcement of a ]]></description>
-      <link>https://x.com/ShortSideIO/status/2104690202216157273</link>
-      <guid isPermaLink="true">https://x.com/ShortSideIO/status/2104690202216157273</guid>
-      <pubDate>Mon, 28 Sep 2026 21:50:23 GMT</pubDate>
     </item>
   </channel>
 </rss>
