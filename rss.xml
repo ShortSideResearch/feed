@@ -5,13 +5,24 @@
     <link>https://x.com/ShortSideIO</link>
     <description>Daily gapper analysis and short squeeze risk alerts for traders. Independent research on overvalued stocks.</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 08 Oct 2026 12:00:41 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 08 Oct 2026 14:00:06 GMT</lastBuildDate>
     <atom:link href="https://shortsideresearch.github.io/feed/rss.xml" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://pbs.twimg.com/profile_images/ShortSideIO/logo.png</url>
       <title>ShortSide Research</title>
       <link>https://x.com/ShortSideIO</link>
     </image>
+    <item>
+      <title>$PCRX +44% at $36.34</title>
+      <description><![CDATA[$PCRX +44% at $36.34
+Pre-market watch.
+Squeeze 3/10 · ETB · CAUTION
+
+Recent commentary on Pacira's Molteni commercialization agreement is the nearest identifiable driver, but no fresh announcement clearly explains the 44% gap.]]></description>
+      <link>https://x.com/ShortSideIO/status/2108195731991601245</link>
+      <guid isPermaLink="true">https://x.com/ShortSideIO/status/2108195731991601245</guid>
+      <pubDate>Thu, 08 Oct 2026 14:00:06 GMT</pubDate>
+    </item>
     <item>
       <title>$OLB +14% at $0.44</title>
       <description><![CDATA[$OLB +14% at $0.44
@@ -554,17 +565,6 @@ Catalyst: A rebound after the reported sharp selloff tied to Zcash privacy-bug c
       <link>https://x.com/ShortSideIO/status/2106021458707370418</link>
       <guid isPermaLink="true">https://x.com/ShortSideIO/status/2106021458707370418</guid>
       <pubDate>Fri, 02 Oct 2026 14:00:19 GMT</pubDate>
-    </item>
-    <item>
-      <title>$FLUX +12% at $0.45 — featured in today's pre-market research.</title>
-      <description><![CDATA[📊 $FLUX +12% at $0.45 — featured in today's pre-market research.
-
-Squeeze risk 5/10 · Hard-to-borrow · Verdict: CAUTION
-
-Catalyst: Flux Power's company announcement rejecting Solidion Technology's unsolicited proposal is the likely even]]></description>
-      <link>https://x.com/ShortSideIO/status/2106021439623336382</link>
-      <guid isPermaLink="true">https://x.com/ShortSideIO/status/2106021439623336382</guid>
-      <pubDate>Fri, 02 Oct 2026 14:00:14 GMT</pubDate>
     </item>
   </channel>
 </rss>
