@@ -5,13 +5,24 @@
     <link>https://x.com/ShortSideIO</link>
     <description>Daily gapper analysis and short squeeze risk alerts for traders. Independent research on overvalued stocks.</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 12 Oct 2026 12:00:33 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 12 Oct 2026 12:00:37 GMT</lastBuildDate>
     <atom:link href="https://shortsideresearch.github.io/feed/rss.xml" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://pbs.twimg.com/profile_images/ShortSideIO/logo.png</url>
       <title>ShortSide Research</title>
       <link>https://x.com/ShortSideIO</link>
     </image>
+    <item>
+      <title>$SKYA +13% at $2.06</title>
+      <description><![CDATA[$SKYA +13% at $2.06
+Pre-market watch.
+Squeeze 4/10 · ETB · FADE
+
+No clear fresh catalyst; Bastion Trading's September 15 call for board changes is the only listed headline and does not establish the reason for this gap.]]></description>
+      <link>https://x.com/ShortSideIO/status/2109615212760650007</link>
+      <guid isPermaLink="true">https://x.com/ShortSideIO/status/2109615212760650007</guid>
+      <pubDate>Mon, 12 Oct 2026 12:00:37 GMT</pubDate>
+    </item>
     <item>
       <title>$CTNM +28% at $17.06</title>
       <description><![CDATA[$CTNM +28% at $17.06
@@ -558,17 +569,6 @@ QTREX's company-reported independent cryogenic interconnect testing is a plausib
       <link>https://x.com/ShortSideIO/status/2107440859138637843</link>
       <guid isPermaLink="true">https://x.com/ShortSideIO/status/2107440859138637843</guid>
       <pubDate>Tue, 06 Oct 2026 12:00:30 GMT</pubDate>
-    </item>
-    <item>
-      <title>$RUBI +32% at $0.93</title>
-      <description><![CDATA[$RUBI +32% at $0.93
-Pre-market watch.
-Squeeze 8/10 · HTB · AVOID · Delist risk
-
-Rubico's company-announced 0.50-share-per-share stock dividend is going ex-dividend, making corporate-action adjustments central to interpreting the quoted gap.]]></description>
-      <link>https://x.com/ShortSideIO/status/2107440840650142174</link>
-      <guid isPermaLink="true">https://x.com/ShortSideIO/status/2107440840650142174</guid>
-      <pubDate>Tue, 06 Oct 2026 12:00:26 GMT</pubDate>
     </item>
   </channel>
 </rss>
