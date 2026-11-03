@@ -5,13 +5,24 @@
     <link>https://x.com/ShortSideIO</link>
     <description>Daily gapper analysis and short squeeze risk alerts for traders. Independent research on overvalued stocks.</description>
     <language>en-us</language>
-    <lastBuildDate>Tue, 03 Nov 2026 13:00:15 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 03 Nov 2026 13:00:20 GMT</lastBuildDate>
     <atom:link href="https://shortsideresearch.github.io/feed/rss.xml" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://pbs.twimg.com/profile_images/ShortSideIO/logo.png</url>
       <title>ShortSide Research</title>
       <link>https://x.com/ShortSideIO</link>
     </image>
+    <item>
+      <title>$BLZE +33% at $9.81</title>
+      <description><![CDATA[$BLZE +33% at $9.81
+Pre-market watch.
+Squeeze 2/10 · ETB · WAIT FOR FAILURE
+
+Backblaze's Q3 earnings-call highlights report 47% B2 Cloud Storage growth, giving the gap operating support and requiring a confirmed price failure before a short.]]></description>
+      <link>https://x.com/ShortSideIO/status/2117602771893690540</link>
+      <guid isPermaLink="true">https://x.com/ShortSideIO/status/2117602771893690540</guid>
+      <pubDate>Tue, 03 Nov 2026 13:00:20 GMT</pubDate>
+    </item>
     <item>
       <title>$INLF +40% at $0.41</title>
       <description><![CDATA[$INLF +40% at $0.41
@@ -560,17 +571,6 @@ https://shortsideresearch.com/newsletter]]></description>
       <link>https://x.com/ShortSideIO/status/2115171936225624279</link>
       <guid isPermaLink="true">https://x.com/ShortSideIO/status/2115171936225624279</guid>
       <pubDate>Tue, 27 Oct 2026 20:01:03 GMT</pubDate>
-    </item>
-    <item>
-      <title>$POM +20% at $1.36</title>
-      <description><![CDATA[$POM +20% at $1.36
-Pre-market watch.
-Squeeze 8/10 · HTB · AVOID · China risk · Delist risk
-
-Pomdoctor's ADR-program termination and Nasdaq delisting-determination announcements frame the move, but China small-cap squeeze activity is the overriding short-side risk.]]></description>
-      <link>https://x.com/ShortSideIO/status/2115081125697831274</link>
-      <guid isPermaLink="true">https://x.com/ShortSideIO/status/2115081125697831274</guid>
-      <pubDate>Tue, 27 Oct 2026 14:00:12 GMT</pubDate>
     </item>
   </channel>
 </rss>
