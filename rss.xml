@@ -5,13 +5,24 @@
     <link>https://x.com/ShortSideIO</link>
     <description>Daily gapper analysis and short squeeze risk alerts for traders. Independent research on overvalued stocks.</description>
     <language>en-us</language>
-    <lastBuildDate>Tue, 10 Nov 2026 13:00:16 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 10 Nov 2026 13:00:20 GMT</lastBuildDate>
     <atom:link href="https://shortsideresearch.github.io/feed/rss.xml" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://pbs.twimg.com/profile_images/ShortSideIO/logo.png</url>
       <title>ShortSide Research</title>
       <link>https://x.com/ShortSideIO</link>
     </image>
+    <item>
+      <title>$CODX +18% at $0.38</title>
+      <description><![CDATA[$CODX +18% at $0.38
+Pre-market watch.
+Squeeze 5/10 · ETB · SHORT READY · Delist risk
+
+No clear catalyst for the current gap: Co-Diagnostics' latest announcement updates its earnings-release schedule rather than results.]]></description>
+      <link>https://x.com/ShortSideIO/status/2120139490719351165</link>
+      <guid isPermaLink="true">https://x.com/ShortSideIO/status/2120139490719351165</guid>
+      <pubDate>Tue, 10 Nov 2026 13:00:20 GMT</pubDate>
+    </item>
     <item>
       <title>$WFF +20% at $1.30</title>
       <description><![CDATA[$WFF +20% at $1.30
@@ -558,19 +569,6 @@ Squeeze 7/10 · HTB · WAIT FOR FAILURE · Delist risk
       <link>https://x.com/ShortSideIO/status/2117965111877071199</link>
       <guid isPermaLink="true">https://x.com/ShortSideIO/status/2117965111877071199</guid>
       <pubDate>Wed, 04 Nov 2026 13:00:08 GMT</pubDate>
-    </item>
-    <item>
-      <title>Closing bell: $CHSN +240% at $3.37.</title>
-      <description><![CDATA[Closing bell: $CHSN +240% at $3.37.
-Mkt cap 7.8M. Foreign risk.
-
-CHSN’s 240% surge to 3.37 flags volatility in a 7.8M foreign issuer, with no recent dilutive filings.
-
-Subscribe for pre-market opportunities:
-https://shortsideresearch.com/newsletter]]></description>
-      <link>https://x.com/ShortSideIO/status/2117723776779792414</link>
-      <guid isPermaLink="true">https://x.com/ShortSideIO/status/2117723776779792414</guid>
-      <pubDate>Tue, 03 Nov 2026 21:01:09 GMT</pubDate>
     </item>
   </channel>
 </rss>
